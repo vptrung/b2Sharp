@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Box2DCS", "Box2DCS\Box2DCS.csproj", "{53A0CC98-E85F-4F30-9487-B029E2738A47}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "b2Sharp", "Box2DCS\b2Sharp.csproj", "{53A0CC98-E85F-4F30-9487-B029E2738A47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,5 +13,22 @@ Global
 		{53A0CC98-E85F-4F30-9487-B029E2738A47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53A0CC98-E85F-4F30-9487-B029E2738A47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53A0CC98-E85F-4F30-9487-B029E2738A47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		BaseDirectory = ../build/src
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.TextStylePolicy = $2
+		$2.inheritsSet = null
+		$2.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $3
+		$3.scope = text/x-csharp
+		$0.TextStylePolicy = $4
+		$4.FileWidth = 80
+		$4.TabsToSpaces = True
+		$4.scope = text/plain
+		$0.StandardHeader = $5
+		outputpath = ../build/src
 	EndGlobalSection
 EndGlobal

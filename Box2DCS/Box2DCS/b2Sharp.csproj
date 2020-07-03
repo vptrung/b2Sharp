@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{53A0CC98-E85F-4F30-9487-B029E2738A47}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>b2Sharp</RootNamespace>
+    <AssemblyName>b2Sharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <BaseDirectory>..\..\build\src</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\build\src</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\build\src</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="..\..\swig\b2AABB.cs">
+      <Link>CSBridge\b2AABB.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2BlockAllocator.cs">
+      <Link>CSBridge\b2BlockAllocator.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2Body.cs">
+      <Link>CSBridge\b2Body.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2BodyDef.cs">
+      <Link>CSBridge\b2BodyDef.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2BodyType.cs">
+      <Link>CSBridge\b2BodyType.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2BroadPhase.cs">
+      <Link>CSBridge\b2BroadPhase.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2ChainShape.cs">
+      <Link>CSBridge\b2ChainShape.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2CircleShape.cs">
+      <Link>CSBridge\b2CircleShape.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2ClipVertex.cs">
+      <Link>CSBridge\b2ClipVertex.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2Color.cs">
+      <Link>CSBridge\b2Color.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2Contact.cs">
+      <Link>CSBridge\b2Contact.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2ContactEdge.cs">
+      <Link>CSBridge\b2ContactEdge.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2ContactFeature.cs">
+      <Link>CSBridge\b2ContactFeature.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2ContactFilter.cs">
+      <Link>CSBridge\b2ContactFilter.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2ContactID.cs">
+      <Link>CSBridge\b2ContactID.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2ContactImpulse.cs">
+      <Link>CSBridge\b2ContactImpulse.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2ContactListener.cs">
+      <Link>CSBridge\b2ContactListener.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2ContactManager.cs">
+      <Link>CSBridge\b2ContactManager.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2ContactRegister.cs">
+      <Link>CSBridge\b2ContactRegister.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2DestructionListener.cs">
+      <Link>CSBridge\b2DestructionListener.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2DistanceJoint.cs">
+      <Link>CSBridge\b2DistanceJoint.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2DistanceJointDef.cs">
+      <Link>CSBridge\b2DistanceJointDef.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2Draw.cs">
+      <Link>CSBridge\b2Draw.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2DynamicTree.cs">
+      <Link>CSBridge\b2DynamicTree.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2EdgeShape.cs">
+      <Link>CSBridge\b2EdgeShape.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2Filter.cs">
+      <Link>CSBridge\b2Filter.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2Fixture.cs">
+      <Link>CSBridge\b2Fixture.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2FixtureDef.cs">
+      <Link>CSBridge\b2FixtureDef.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2FixtureProxy.cs">
+      <Link>CSBridge\b2FixtureProxy.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2FrictionJoint.cs">
+      <Link>CSBridge\b2FrictionJoint.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2FrictionJointDef.cs">
+      <Link>CSBridge\b2FrictionJointDef.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2GearJoint.cs">
+      <Link>CSBridge\b2GearJoint.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2GearJointDef.cs">
+      <Link>CSBridge\b2GearJointDef.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2Jacobian.cs">
+      <Link>CSBridge\b2Jacobian.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2Joint.cs">
+      <Link>CSBridge\b2Joint.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2JointDef.cs">
+      <Link>CSBridge\b2JointDef.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2JointEdge.cs">
+      <Link>CSBridge\b2JointEdge.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2JointType.cs">
+      <Link>CSBridge\b2JointType.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2LimitState.cs">
+      <Link>CSBridge\b2LimitState.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2Manifold.cs">
+      <Link>CSBridge\b2Manifold.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2ManifoldPoint.cs">
+      <Link>CSBridge\b2ManifoldPoint.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2MassData.cs">
+      <Link>CSBridge\b2MassData.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2Mat22.cs">
+      <Link>CSBridge\b2Mat22.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2Mat33.cs">
+      <Link>CSBridge\b2Mat33.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2MotorJoint.cs">
+      <Link>CSBridge\b2MotorJoint.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2MotorJointDef.cs">
+      <Link>CSBridge\b2MotorJointDef.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2MouseJoint.cs">
+      <Link>CSBridge\b2MouseJoint.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2MouseJointDef.cs">
+      <Link>CSBridge\b2MouseJointDef.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2Pair.cs">
+      <Link>CSBridge\b2Pair.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2PointState.cs">
+      <Link>CSBridge\b2PointState.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2PolygonShape.cs">
+      <Link>CSBridge\b2PolygonShape.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2Position.cs">
+      <Link>CSBridge\b2Position.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2PrismaticJoint.cs">
+      <Link>CSBridge\b2PrismaticJoint.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2PrismaticJointDef.cs">
+      <Link>CSBridge\b2PrismaticJointDef.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2Profile.cs">
+      <Link>CSBridge\b2Profile.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2PulleyJoint.cs">
+      <Link>CSBridge\b2PulleyJoint.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2PulleyJointDef.cs">
+      <Link>CSBridge\b2PulleyJointDef.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2QueryCallback.cs">
+      <Link>CSBridge\b2QueryCallback.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2RayCastCallback.cs">
+      <Link>CSBridge\b2RayCastCallback.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2RayCastInput.cs">
+      <Link>CSBridge\b2RayCastInput.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2RayCastOutput.cs">
+      <Link>CSBridge\b2RayCastOutput.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2RevoluteJoint.cs">
+      <Link>CSBridge\b2RevoluteJoint.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2RevoluteJointDef.cs">
+      <Link>CSBridge\b2RevoluteJointDef.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2RopeJoint.cs">
+      <Link>CSBridge\b2RopeJoint.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2RopeJointDef.cs">
+      <Link>CSBridge\b2RopeJointDef.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2Rot.cs">
+      <Link>CSBridge\b2Rot.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2Shape.cs">
+      <Link>CSBridge\b2Shape.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2SolverData.cs">
+      <Link>CSBridge\b2SolverData.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2StackAllocator.cs">
+      <Link>CSBridge\b2StackAllocator.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2StackEntry.cs">
+      <Link>CSBridge\b2StackEntry.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2Sweep.cs">
+      <Link>CSBridge\b2Sweep.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2Timer.cs">
+      <Link>CSBridge\b2Timer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2TimeStep.cs">
+      <Link>CSBridge\b2TimeStep.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2Transform.cs">
+      <Link>CSBridge\b2Transform.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2TreeNode.cs">
+      <Link>CSBridge\b2TreeNode.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2Vec2.cs">
+      <Link>CSBridge\b2Vec2.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2Vec3.cs">
+      <Link>CSBridge\b2Vec3.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2Velocity.cs">
+      <Link>CSBridge\b2Velocity.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2Version.cs">
+      <Link>CSBridge\b2Version.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2WeldJoint.cs">
+      <Link>CSBridge\b2WeldJoint.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2WeldJointDef.cs">
+      <Link>CSBridge\b2WeldJointDef.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2WheelJoint.cs">
+      <Link>CSBridge\b2WheelJoint.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2WheelJointDef.cs">
+      <Link>CSBridge\b2WheelJointDef.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2World.cs">
+      <Link>CSBridge\b2World.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\b2WorldManifold.cs">
+      <Link>CSBridge\b2WorldManifold.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\Box2D.cs">
+      <Link>CSBridge\Box2D.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\Box2DPINVOKE.cs">
+      <Link>CSBridge\Box2DPINVOKE.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\SWIGTYPE_p_b2PointState.cs">
+      <Link>CSBridge\SWIGTYPE_p_b2PointState.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\SWIGTYPE_p_f_p_b2Contact_p_b2BlockAllocator__void.cs">
+      <Link>CSBridge\SWIGTYPE_p_f_p_b2Contact_p_b2BlockAllocator__void.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\SWIGTYPE_p_f_p_b2Fixture_int32_p_b2Fixture_int32_p_b2BlockAllocator__p_b2Contact.cs">
+      <Link>CSBridge\SWIGTYPE_p_f_p_b2Fixture_int32_p_b2Fixture_int32_p_b2BlockAllocator__p_b2Contact.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\SWIGTYPE_p_float.cs">
+      <Link>CSBridge\SWIGTYPE_p_float.cs</Link>
+    </Compile>
+    <Compile Include="..\..\swig\SWIGTYPE_p_void.cs">
+      <Link>CSBridge\SWIGTYPE_p_void.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="..\..\build\src\CSBridge\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
