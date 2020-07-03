@@ -5,7 +5,7 @@
 
 # Box2D in CSharp
 
-Box2DCS is a 2D physics engine for games in C#.
+b2dsharp is Box2D physics engine native wrapper for C#.
 
 ## Contributing
 
@@ -47,6 +47,10 @@ Please do not submit pull requests with new features or core library changes. In
 - Extensible test framework
 - Support for loading world dumps
 
+## Generate SWIG
+
+        swig -csharp -c++ -includeall -ignoremissing -namespace b2Sharp -outdir swig ./src/box2d.i
+
 ## Building
 - Install [CMake](https://cmake.org/)
 - Ensure CMake is in the user `PATH`
@@ -54,7 +58,7 @@ Please do not submit pull requests with new features or core library changes. In
 - Otherwise: run `build.sh` from a bash shell
 - Results are in the build sub-folder
 - On Windows you can open box2d.sln
-- Box2D-CS : continue building the C# Project after wrapper/library is done.
+- Box2DCS: continue building the C# Project after wrapper/library is done.
 
 ## Usage 
 - The result Wrapper/Native Dylib Path :
