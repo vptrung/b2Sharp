@@ -3,9 +3,9 @@
 # Build Status
 [![Build Status](https://travis-ci.org/erincatto/box2d.svg?branch=master)](https://travis-ci.org/erincatto/box2d)
 
-# Box2D in CSharp
+# b2Sharp
 
-b2dsharp is Box2D physics engine native wrapper for C#.
+b2Sharp is Box2D physics engine native wrapper for C#.
 
 ## Contributing
 
