@@ -3,15 +3,16 @@
 # Build Status
 [![Build Status](https://travis-ci.org/erincatto/box2d.svg?branch=master)](https://travis-ci.org/erincatto/box2d)
 
-# Box2D 
+# Box2D in CSharp
 
-Box2D is a 2D physics engine for games.
+Box2DCS is a 2D physics engine for games in C#.
 
 ## Contributing
 
 Please do not submit pull requests with new features or core library changes. Instead, please file an issue first for discussion. For bugs, I prefer detailed bug reports over pull requests.
 
-## Features
+## Features 
+( as with latest Box2D version 2.3.1 )
 
 ### Collision
 - Continuous collision detection
@@ -53,18 +54,18 @@ Please do not submit pull requests with new features or core library changes. In
 - Otherwise: run `build.sh` from a bash shell
 - Results are in the build sub-folder
 - On Windows you can open box2d.sln
+- Box2D-CS : continue building the C# Project after wrapper/library is done.
 
-## Building for Xcode
-- Install [CMake](https://cmake.org)
-- Add Cmake to the path in .zprofile (the default Terminal shell is zsh)
-    - export PATH="/Applications/CMake.app/Contents/bin:$PATH"
-- mkdir build
-- cd build
-- cmake -G Xcode ..
-- open box2d.xcodeproj
-- Select the testbed scheme
-- Edit the scheme to set a custom working directory, make this be in box2d/testbed
-- You can now build and run the testbed
+## Usage 
+- The result Wrapper/Native Dylib Path :
+
+        /build/src/libbox2d.dylib
+
+- The dotNET DLL is inside `/Bin/Debug` folder.
+
+- Unity Usage : put into unity `/Assets` folder then in script :
+
+        import Box2DCS;
 
 ## Documentation
 - [Manual](https://box2d.org/documentation/)
