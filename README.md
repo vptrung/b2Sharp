@@ -61,15 +61,14 @@ Please do not submit pull requests with new features or core library changes. In
 - Box2DCS: continue building the C# Project after wrapper/library is done.
 
 ## Usage 
-- The result Wrapper/Native Dylib Path :
+- The result path of `Wrapper/Native Dylib` & `dotNET DLL` :
 
         /build/src/libbox2d.dylib
-
-- The dotNET DLL is inside `/Bin/Debug` folder.
+        /build/src/b2Sharp.dll
 
 - Unity Usage : put into unity `/Assets` folder then in script :
 
-        import Box2DCS;
+        import b2Sharp;
 
 ## Documentation
 - [Manual](https://box2d.org/documentation/)
