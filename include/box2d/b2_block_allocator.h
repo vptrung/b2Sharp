@@ -23,7 +23,7 @@
 #ifndef B2_BLOCK_ALLOCATOR_H
 #define B2_BLOCK_ALLOCATOR_H
 
-#include "box2d/b2_settings.h"
+#include "b2_settings.h"
 
 const int32 b2_blockSizeCount = 14;
 

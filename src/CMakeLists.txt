@@ -53,7 +53,8 @@ set(BOX2D_SOURCE_FILES
 	dynamics/b2_wheel_joint.cpp
 	dynamics/b2_world.cpp
 	dynamics/b2_world_callbacks.cpp
-	rope/b2_rope.cpp)
+	rope/b2_rope.cpp
+	../src/box2d_wrap.cxx)
 
 set(BOX2D_HEADER_FILES
 	../include/box2d/b2_block_allocator.h
@@ -95,13 +96,14 @@ set(BOX2D_HEADER_FILES
 	../include/box2d/b2_world_callbacks.h
 	../include/box2d/box2d.h)
 
-add_library(box2d STATIC ${BOX2D_SOURCE_FILES} ${BOX2D_HEADER_FILES})
+add_library(box2d SHARED ${BOX2D_SOURCE_FILES} ${BOX2D_HEADER_FILES})
+
 target_include_directories(box2d PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/../include)
 target_include_directories(box2d PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
 set_target_properties(box2d PROPERTIES
 	CXX_STANDARD 11
+    CXX_EXTENSIONS YES
     CXX_STANDARD_REQUIRED YES
-    CXX_EXTENSIONS NO
 )
 
 source_group(TREE "${CMAKE_CURRENT_SOURCE_DIR}" PREFIX "src" FILES ${BOX2D_SOURCE_FILES})
