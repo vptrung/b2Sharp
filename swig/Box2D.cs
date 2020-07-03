@@ -8,7 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
-namespace Box2DCS {
+namespace b2Sharp {
 
 public class Box2D {
   public static SWIGTYPE_p_void b2Alloc(int size) {

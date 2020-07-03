@@ -8,7 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
-namespace Box2DCS {
+namespace b2Sharp {
 
 public class b2DistanceJoint : b2Joint {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;

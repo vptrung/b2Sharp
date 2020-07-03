@@ -306,7 +306,7 @@ SWIGEXPORT void SWIGSTDCALL SWIGRegisterStringCallback_Box2D(SWIG_CSharpStringHe
 extern "C" {
 #endif
 
-SWIGEXPORT double SWIGSTDCALL CSharp_Box2DCS_b2_pi_get() {
+SWIGEXPORT double SWIGSTDCALL CSharp_b2Sharp_b2_pi_get() {
   double jresult ;
   double result;
   
@@ -316,7 +316,7 @@ SWIGEXPORT double SWIGSTDCALL CSharp_Box2DCS_b2_pi_get() {
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2_maxManifoldPoints_get() {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2_maxManifoldPoints_get() {
   int jresult ;
   int result;
   
@@ -326,7 +326,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2_maxManifoldPoints_get() {
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2_maxPolygonVertices_get() {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2_maxPolygonVertices_get() {
   int jresult ;
   int result;
   
@@ -336,7 +336,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2_maxPolygonVertices_get() {
 }
 
 
-SWIGEXPORT double SWIGSTDCALL CSharp_Box2DCS_b2_aabbExtension_get() {
+SWIGEXPORT double SWIGSTDCALL CSharp_b2Sharp_b2_aabbExtension_get() {
   double jresult ;
   double result;
   
@@ -346,7 +346,7 @@ SWIGEXPORT double SWIGSTDCALL CSharp_Box2DCS_b2_aabbExtension_get() {
 }
 
 
-SWIGEXPORT double SWIGSTDCALL CSharp_Box2DCS_b2_aabbMultiplier_get() {
+SWIGEXPORT double SWIGSTDCALL CSharp_b2Sharp_b2_aabbMultiplier_get() {
   double jresult ;
   double result;
   
@@ -356,7 +356,7 @@ SWIGEXPORT double SWIGSTDCALL CSharp_Box2DCS_b2_aabbMultiplier_get() {
 }
 
 
-SWIGEXPORT double SWIGSTDCALL CSharp_Box2DCS_b2_linearSlop_get() {
+SWIGEXPORT double SWIGSTDCALL CSharp_b2Sharp_b2_linearSlop_get() {
   double jresult ;
   double result;
   
@@ -366,7 +366,7 @@ SWIGEXPORT double SWIGSTDCALL CSharp_Box2DCS_b2_linearSlop_get() {
 }
 
 
-SWIGEXPORT double SWIGSTDCALL CSharp_Box2DCS_b2_angularSlop_get() {
+SWIGEXPORT double SWIGSTDCALL CSharp_b2Sharp_b2_angularSlop_get() {
   double jresult ;
   double result;
   
@@ -376,7 +376,7 @@ SWIGEXPORT double SWIGSTDCALL CSharp_Box2DCS_b2_angularSlop_get() {
 }
 
 
-SWIGEXPORT double SWIGSTDCALL CSharp_Box2DCS_b2_polygonRadius_get() {
+SWIGEXPORT double SWIGSTDCALL CSharp_b2Sharp_b2_polygonRadius_get() {
   double jresult ;
   double result;
   
@@ -386,7 +386,7 @@ SWIGEXPORT double SWIGSTDCALL CSharp_Box2DCS_b2_polygonRadius_get() {
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2_maxSubSteps_get() {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2_maxSubSteps_get() {
   int jresult ;
   int result;
   
@@ -396,7 +396,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2_maxSubSteps_get() {
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2_maxTOIContacts_get() {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2_maxTOIContacts_get() {
   int jresult ;
   int result;
   
@@ -406,7 +406,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2_maxTOIContacts_get() {
 }
 
 
-SWIGEXPORT double SWIGSTDCALL CSharp_Box2DCS_b2_velocityThreshold_get() {
+SWIGEXPORT double SWIGSTDCALL CSharp_b2Sharp_b2_velocityThreshold_get() {
   double jresult ;
   double result;
   
@@ -416,7 +416,7 @@ SWIGEXPORT double SWIGSTDCALL CSharp_Box2DCS_b2_velocityThreshold_get() {
 }
 
 
-SWIGEXPORT double SWIGSTDCALL CSharp_Box2DCS_b2_maxLinearCorrection_get() {
+SWIGEXPORT double SWIGSTDCALL CSharp_b2Sharp_b2_maxLinearCorrection_get() {
   double jresult ;
   double result;
   
@@ -426,7 +426,7 @@ SWIGEXPORT double SWIGSTDCALL CSharp_Box2DCS_b2_maxLinearCorrection_get() {
 }
 
 
-SWIGEXPORT double SWIGSTDCALL CSharp_Box2DCS_b2_maxAngularCorrection_get() {
+SWIGEXPORT double SWIGSTDCALL CSharp_b2Sharp_b2_maxAngularCorrection_get() {
   double jresult ;
   double result;
   
@@ -436,7 +436,7 @@ SWIGEXPORT double SWIGSTDCALL CSharp_Box2DCS_b2_maxAngularCorrection_get() {
 }
 
 
-SWIGEXPORT double SWIGSTDCALL CSharp_Box2DCS_b2_maxTranslation_get() {
+SWIGEXPORT double SWIGSTDCALL CSharp_b2Sharp_b2_maxTranslation_get() {
   double jresult ;
   double result;
   
@@ -446,7 +446,7 @@ SWIGEXPORT double SWIGSTDCALL CSharp_Box2DCS_b2_maxTranslation_get() {
 }
 
 
-SWIGEXPORT double SWIGSTDCALL CSharp_Box2DCS_b2_maxTranslationSquared_get() {
+SWIGEXPORT double SWIGSTDCALL CSharp_b2Sharp_b2_maxTranslationSquared_get() {
   double jresult ;
   double result;
   
@@ -456,7 +456,7 @@ SWIGEXPORT double SWIGSTDCALL CSharp_Box2DCS_b2_maxTranslationSquared_get() {
 }
 
 
-SWIGEXPORT double SWIGSTDCALL CSharp_Box2DCS_b2_maxRotation_get() {
+SWIGEXPORT double SWIGSTDCALL CSharp_b2Sharp_b2_maxRotation_get() {
   double jresult ;
   double result;
   
@@ -466,7 +466,7 @@ SWIGEXPORT double SWIGSTDCALL CSharp_Box2DCS_b2_maxRotation_get() {
 }
 
 
-SWIGEXPORT double SWIGSTDCALL CSharp_Box2DCS_b2_maxRotationSquared_get() {
+SWIGEXPORT double SWIGSTDCALL CSharp_b2Sharp_b2_maxRotationSquared_get() {
   double jresult ;
   double result;
   
@@ -476,7 +476,7 @@ SWIGEXPORT double SWIGSTDCALL CSharp_Box2DCS_b2_maxRotationSquared_get() {
 }
 
 
-SWIGEXPORT double SWIGSTDCALL CSharp_Box2DCS_b2_baumgarte_get() {
+SWIGEXPORT double SWIGSTDCALL CSharp_b2Sharp_b2_baumgarte_get() {
   double jresult ;
   double result;
   
@@ -486,7 +486,7 @@ SWIGEXPORT double SWIGSTDCALL CSharp_Box2DCS_b2_baumgarte_get() {
 }
 
 
-SWIGEXPORT double SWIGSTDCALL CSharp_Box2DCS_b2_toiBaumgarte_get() {
+SWIGEXPORT double SWIGSTDCALL CSharp_b2Sharp_b2_toiBaumgarte_get() {
   double jresult ;
   double result;
   
@@ -496,7 +496,7 @@ SWIGEXPORT double SWIGSTDCALL CSharp_Box2DCS_b2_toiBaumgarte_get() {
 }
 
 
-SWIGEXPORT double SWIGSTDCALL CSharp_Box2DCS_b2_timeToSleep_get() {
+SWIGEXPORT double SWIGSTDCALL CSharp_b2Sharp_b2_timeToSleep_get() {
   double jresult ;
   double result;
   
@@ -506,7 +506,7 @@ SWIGEXPORT double SWIGSTDCALL CSharp_Box2DCS_b2_timeToSleep_get() {
 }
 
 
-SWIGEXPORT double SWIGSTDCALL CSharp_Box2DCS_b2_linearSleepTolerance_get() {
+SWIGEXPORT double SWIGSTDCALL CSharp_b2Sharp_b2_linearSleepTolerance_get() {
   double jresult ;
   double result;
   
@@ -516,7 +516,7 @@ SWIGEXPORT double SWIGSTDCALL CSharp_Box2DCS_b2_linearSleepTolerance_get() {
 }
 
 
-SWIGEXPORT double SWIGSTDCALL CSharp_Box2DCS_b2_angularSleepTolerance_get() {
+SWIGEXPORT double SWIGSTDCALL CSharp_b2Sharp_b2_angularSleepTolerance_get() {
   double jresult ;
   double result;
   
@@ -526,7 +526,7 @@ SWIGEXPORT double SWIGSTDCALL CSharp_Box2DCS_b2_angularSleepTolerance_get() {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Alloc(int jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Alloc(int jarg1) {
   void * jresult ;
   int32 arg1 ;
   void *result = 0 ;
@@ -538,7 +538,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Alloc(int jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Free(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Free(void * jarg1) {
   void *arg1 = (void *) 0 ;
   
   arg1 = (void *)jarg1; 
@@ -546,7 +546,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Free(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Log(char * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Log(char * jarg1) {
   char *arg1 = (char *) 0 ;
   void *arg2 = 0 ;
   
@@ -555,7 +555,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Log(char * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2OpenDump(char * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2OpenDump(char * jarg1) {
   char *arg1 = (char *) 0 ;
   
   arg1 = (char *)jarg1; 
@@ -563,7 +563,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2OpenDump(char * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Dump(char * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Dump(char * jarg1) {
   char *arg1 = (char *) 0 ;
   void *arg2 = 0 ;
   
@@ -572,12 +572,12 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Dump(char * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2CloseDump() {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2CloseDump() {
   b2CloseDump();
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Version_major_set(void * jarg1, int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Version_major_set(void * jarg1, int jarg2) {
   b2Version *arg1 = (b2Version *) 0 ;
   int32 arg2 ;
   
@@ -587,7 +587,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Version_major_set(void * jarg1, int
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Version_major_get(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2Version_major_get(void * jarg1) {
   int jresult ;
   b2Version *arg1 = (b2Version *) 0 ;
   int32 result;
@@ -599,7 +599,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Version_major_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Version_minor_set(void * jarg1, int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Version_minor_set(void * jarg1, int jarg2) {
   b2Version *arg1 = (b2Version *) 0 ;
   int32 arg2 ;
   
@@ -609,7 +609,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Version_minor_set(void * jarg1, int
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Version_minor_get(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2Version_minor_get(void * jarg1) {
   int jresult ;
   b2Version *arg1 = (b2Version *) 0 ;
   int32 result;
@@ -621,7 +621,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Version_minor_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Version_revision_set(void * jarg1, int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Version_revision_set(void * jarg1, int jarg2) {
   b2Version *arg1 = (b2Version *) 0 ;
   int32 arg2 ;
   
@@ -631,7 +631,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Version_revision_set(void * jarg1, 
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Version_revision_get(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2Version_revision_get(void * jarg1) {
   int jresult ;
   b2Version *arg1 = (b2Version *) 0 ;
   int32 result;
@@ -643,7 +643,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Version_revision_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Version() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2Version() {
   void * jresult ;
   b2Version *result = 0 ;
   
@@ -653,7 +653,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Version() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Version(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2Version(void * jarg1) {
   b2Version *arg1 = (b2Version *) 0 ;
   
   arg1 = (b2Version *)jarg1; 
@@ -661,7 +661,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Version(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2_version_set(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2_version_set(void * jarg1) {
   b2Version *arg1 = (b2Version *) 0 ;
   
   arg1 = (b2Version *)jarg1; 
@@ -669,7 +669,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2_version_set(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2_version_get() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2_version_get() {
   void * jresult ;
   b2Version *result = 0 ;
   
@@ -679,7 +679,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2_version_get() {
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2IsValid(float jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2IsValid(float jarg1) {
   unsigned int jresult ;
   float arg1 ;
   bool result;
@@ -691,7 +691,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2IsValid(float jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Vec2__SWIG_0() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2Vec2__SWIG_0() {
   void * jresult ;
   b2Vec2 *result = 0 ;
   
@@ -701,7 +701,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Vec2__SWIG_0() {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Vec2__SWIG_1(float jarg1, float jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2Vec2__SWIG_1(float jarg1, float jarg2) {
   void * jresult ;
   float arg1 ;
   float arg2 ;
@@ -715,7 +715,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Vec2__SWIG_1(float jarg1, flo
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Vec2_SetZero(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Vec2_SetZero(void * jarg1) {
   b2Vec2 *arg1 = (b2Vec2 *) 0 ;
   
   arg1 = (b2Vec2 *)jarg1; 
@@ -723,7 +723,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Vec2_SetZero(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Vec2_Set(void * jarg1, float jarg2, float jarg3) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Vec2_Set(void * jarg1, float jarg2, float jarg3) {
   b2Vec2 *arg1 = (b2Vec2 *) 0 ;
   float arg2 ;
   float arg3 ;
@@ -735,7 +735,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Vec2_Set(void * jarg1, float jarg2,
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Vec2_Length(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Vec2_Length(void * jarg1) {
   float jresult ;
   b2Vec2 *arg1 = (b2Vec2 *) 0 ;
   float result;
@@ -747,7 +747,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Vec2_Length(void * jarg1) {
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Vec2_LengthSquared(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Vec2_LengthSquared(void * jarg1) {
   float jresult ;
   b2Vec2 *arg1 = (b2Vec2 *) 0 ;
   float result;
@@ -759,7 +759,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Vec2_LengthSquared(void * jarg1) {
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Vec2_Normalize(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Vec2_Normalize(void * jarg1) {
   float jresult ;
   b2Vec2 *arg1 = (b2Vec2 *) 0 ;
   float result;
@@ -771,7 +771,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Vec2_Normalize(void * jarg1) {
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2Vec2_IsValid(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2Vec2_IsValid(void * jarg1) {
   unsigned int jresult ;
   b2Vec2 *arg1 = (b2Vec2 *) 0 ;
   bool result;
@@ -783,7 +783,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2Vec2_IsValid(void * jarg1) 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Vec2_Skew(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Vec2_Skew(void * jarg1) {
   void * jresult ;
   b2Vec2 *arg1 = (b2Vec2 *) 0 ;
   b2Vec2 result;
@@ -795,7 +795,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Vec2_Skew(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Vec2_x_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Vec2_x_set(void * jarg1, float jarg2) {
   b2Vec2 *arg1 = (b2Vec2 *) 0 ;
   float arg2 ;
   
@@ -805,7 +805,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Vec2_x_set(void * jarg1, float jarg
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Vec2_x_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Vec2_x_get(void * jarg1) {
   float jresult ;
   b2Vec2 *arg1 = (b2Vec2 *) 0 ;
   float result;
@@ -817,7 +817,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Vec2_x_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Vec2_y_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Vec2_y_set(void * jarg1, float jarg2) {
   b2Vec2 *arg1 = (b2Vec2 *) 0 ;
   float arg2 ;
   
@@ -827,7 +827,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Vec2_y_set(void * jarg1, float jarg
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Vec2_y_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Vec2_y_get(void * jarg1) {
   float jresult ;
   b2Vec2 *arg1 = (b2Vec2 *) 0 ;
   float result;
@@ -839,7 +839,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Vec2_y_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Vec2(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2Vec2(void * jarg1) {
   b2Vec2 *arg1 = (b2Vec2 *) 0 ;
   
   arg1 = (b2Vec2 *)jarg1; 
@@ -847,7 +847,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Vec2(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Vec3__SWIG_0() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2Vec3__SWIG_0() {
   void * jresult ;
   b2Vec3 *result = 0 ;
   
@@ -857,7 +857,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Vec3__SWIG_0() {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Vec3__SWIG_1(float jarg1, float jarg2, float jarg3) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2Vec3__SWIG_1(float jarg1, float jarg2, float jarg3) {
   void * jresult ;
   float arg1 ;
   float arg2 ;
@@ -873,7 +873,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Vec3__SWIG_1(float jarg1, flo
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Vec3_SetZero(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Vec3_SetZero(void * jarg1) {
   b2Vec3 *arg1 = (b2Vec3 *) 0 ;
   
   arg1 = (b2Vec3 *)jarg1; 
@@ -881,7 +881,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Vec3_SetZero(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Vec3_Set(void * jarg1, float jarg2, float jarg3, float jarg4) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Vec3_Set(void * jarg1, float jarg2, float jarg3, float jarg4) {
   b2Vec3 *arg1 = (b2Vec3 *) 0 ;
   float arg2 ;
   float arg3 ;
@@ -895,7 +895,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Vec3_Set(void * jarg1, float jarg2,
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Vec3_x_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Vec3_x_set(void * jarg1, float jarg2) {
   b2Vec3 *arg1 = (b2Vec3 *) 0 ;
   float arg2 ;
   
@@ -905,7 +905,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Vec3_x_set(void * jarg1, float jarg
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Vec3_x_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Vec3_x_get(void * jarg1) {
   float jresult ;
   b2Vec3 *arg1 = (b2Vec3 *) 0 ;
   float result;
@@ -917,7 +917,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Vec3_x_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Vec3_y_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Vec3_y_set(void * jarg1, float jarg2) {
   b2Vec3 *arg1 = (b2Vec3 *) 0 ;
   float arg2 ;
   
@@ -927,7 +927,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Vec3_y_set(void * jarg1, float jarg
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Vec3_y_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Vec3_y_get(void * jarg1) {
   float jresult ;
   b2Vec3 *arg1 = (b2Vec3 *) 0 ;
   float result;
@@ -939,7 +939,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Vec3_y_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Vec3_z_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Vec3_z_set(void * jarg1, float jarg2) {
   b2Vec3 *arg1 = (b2Vec3 *) 0 ;
   float arg2 ;
   
@@ -949,7 +949,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Vec3_z_set(void * jarg1, float jarg
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Vec3_z_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Vec3_z_get(void * jarg1) {
   float jresult ;
   b2Vec3 *arg1 = (b2Vec3 *) 0 ;
   float result;
@@ -961,7 +961,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Vec3_z_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Vec3(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2Vec3(void * jarg1) {
   b2Vec3 *arg1 = (b2Vec3 *) 0 ;
   
   arg1 = (b2Vec3 *)jarg1; 
@@ -969,7 +969,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Vec3(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Mat22__SWIG_0() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2Mat22__SWIG_0() {
   void * jresult ;
   b2Mat22 *result = 0 ;
   
@@ -979,7 +979,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Mat22__SWIG_0() {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Mat22__SWIG_1(void * jarg1, void * jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2Mat22__SWIG_1(void * jarg1, void * jarg2) {
   void * jresult ;
   b2Vec2 *arg1 = 0 ;
   b2Vec2 *arg2 = 0 ;
@@ -1001,7 +1001,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Mat22__SWIG_1(void * jarg1, v
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Mat22__SWIG_2(float jarg1, float jarg2, float jarg3, float jarg4) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2Mat22__SWIG_2(float jarg1, float jarg2, float jarg3, float jarg4) {
   void * jresult ;
   float arg1 ;
   float arg2 ;
@@ -1019,7 +1019,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Mat22__SWIG_2(float jarg1, fl
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Mat22_Set(void * jarg1, void * jarg2, void * jarg3) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Mat22_Set(void * jarg1, void * jarg2, void * jarg3) {
   b2Mat22 *arg1 = (b2Mat22 *) 0 ;
   b2Vec2 *arg2 = 0 ;
   b2Vec2 *arg3 = 0 ;
@@ -1039,7 +1039,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Mat22_Set(void * jarg1, void * jarg
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Mat22_SetIdentity(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Mat22_SetIdentity(void * jarg1) {
   b2Mat22 *arg1 = (b2Mat22 *) 0 ;
   
   arg1 = (b2Mat22 *)jarg1; 
@@ -1047,7 +1047,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Mat22_SetIdentity(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Mat22_SetZero(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Mat22_SetZero(void * jarg1) {
   b2Mat22 *arg1 = (b2Mat22 *) 0 ;
   
   arg1 = (b2Mat22 *)jarg1; 
@@ -1055,7 +1055,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Mat22_SetZero(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Mat22_GetInverse(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Mat22_GetInverse(void * jarg1) {
   void * jresult ;
   b2Mat22 *arg1 = (b2Mat22 *) 0 ;
   b2Mat22 result;
@@ -1067,7 +1067,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Mat22_GetInverse(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Mat22_Solve(void * jarg1, void * jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Mat22_Solve(void * jarg1, void * jarg2) {
   void * jresult ;
   b2Mat22 *arg1 = (b2Mat22 *) 0 ;
   b2Vec2 *arg2 = 0 ;
@@ -1085,7 +1085,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Mat22_Solve(void * jarg1, void * 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Mat22_ex_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Mat22_ex_set(void * jarg1, void * jarg2) {
   b2Mat22 *arg1 = (b2Mat22 *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -1095,7 +1095,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Mat22_ex_set(void * jarg1, void * j
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Mat22_ex_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Mat22_ex_get(void * jarg1) {
   void * jresult ;
   b2Mat22 *arg1 = (b2Mat22 *) 0 ;
   b2Vec2 *result = 0 ;
@@ -1107,7 +1107,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Mat22_ex_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Mat22_ey_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Mat22_ey_set(void * jarg1, void * jarg2) {
   b2Mat22 *arg1 = (b2Mat22 *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -1117,7 +1117,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Mat22_ey_set(void * jarg1, void * j
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Mat22_ey_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Mat22_ey_get(void * jarg1) {
   void * jresult ;
   b2Mat22 *arg1 = (b2Mat22 *) 0 ;
   b2Vec2 *result = 0 ;
@@ -1129,7 +1129,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Mat22_ey_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Mat22(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2Mat22(void * jarg1) {
   b2Mat22 *arg1 = (b2Mat22 *) 0 ;
   
   arg1 = (b2Mat22 *)jarg1; 
@@ -1137,7 +1137,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Mat22(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Mat33__SWIG_0() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2Mat33__SWIG_0() {
   void * jresult ;
   b2Mat33 *result = 0 ;
   
@@ -1147,7 +1147,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Mat33__SWIG_0() {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Mat33__SWIG_1(void * jarg1, void * jarg2, void * jarg3) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2Mat33__SWIG_1(void * jarg1, void * jarg2, void * jarg3) {
   void * jresult ;
   b2Vec3 *arg1 = 0 ;
   b2Vec3 *arg2 = 0 ;
@@ -1175,7 +1175,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Mat33__SWIG_1(void * jarg1, v
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Mat33_SetZero(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Mat33_SetZero(void * jarg1) {
   b2Mat33 *arg1 = (b2Mat33 *) 0 ;
   
   arg1 = (b2Mat33 *)jarg1; 
@@ -1183,7 +1183,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Mat33_SetZero(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Mat33_Solve33(void * jarg1, void * jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Mat33_Solve33(void * jarg1, void * jarg2) {
   void * jresult ;
   b2Mat33 *arg1 = (b2Mat33 *) 0 ;
   b2Vec3 *arg2 = 0 ;
@@ -1201,7 +1201,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Mat33_Solve33(void * jarg1, void 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Mat33_Solve22(void * jarg1, void * jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Mat33_Solve22(void * jarg1, void * jarg2) {
   void * jresult ;
   b2Mat33 *arg1 = (b2Mat33 *) 0 ;
   b2Vec2 *arg2 = 0 ;
@@ -1219,7 +1219,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Mat33_Solve22(void * jarg1, void 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Mat33_GetInverse22(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Mat33_GetInverse22(void * jarg1, void * jarg2) {
   b2Mat33 *arg1 = (b2Mat33 *) 0 ;
   b2Mat33 *arg2 = (b2Mat33 *) 0 ;
   
@@ -1229,7 +1229,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Mat33_GetInverse22(void * jarg1, vo
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Mat33_GetSymInverse33(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Mat33_GetSymInverse33(void * jarg1, void * jarg2) {
   b2Mat33 *arg1 = (b2Mat33 *) 0 ;
   b2Mat33 *arg2 = (b2Mat33 *) 0 ;
   
@@ -1239,7 +1239,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Mat33_GetSymInverse33(void * jarg1,
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Mat33_ex_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Mat33_ex_set(void * jarg1, void * jarg2) {
   b2Mat33 *arg1 = (b2Mat33 *) 0 ;
   b2Vec3 *arg2 = (b2Vec3 *) 0 ;
   
@@ -1249,7 +1249,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Mat33_ex_set(void * jarg1, void * j
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Mat33_ex_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Mat33_ex_get(void * jarg1) {
   void * jresult ;
   b2Mat33 *arg1 = (b2Mat33 *) 0 ;
   b2Vec3 *result = 0 ;
@@ -1261,7 +1261,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Mat33_ex_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Mat33_ey_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Mat33_ey_set(void * jarg1, void * jarg2) {
   b2Mat33 *arg1 = (b2Mat33 *) 0 ;
   b2Vec3 *arg2 = (b2Vec3 *) 0 ;
   
@@ -1271,7 +1271,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Mat33_ey_set(void * jarg1, void * j
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Mat33_ey_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Mat33_ey_get(void * jarg1) {
   void * jresult ;
   b2Mat33 *arg1 = (b2Mat33 *) 0 ;
   b2Vec3 *result = 0 ;
@@ -1283,7 +1283,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Mat33_ey_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Mat33_ez_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Mat33_ez_set(void * jarg1, void * jarg2) {
   b2Mat33 *arg1 = (b2Mat33 *) 0 ;
   b2Vec3 *arg2 = (b2Vec3 *) 0 ;
   
@@ -1293,7 +1293,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Mat33_ez_set(void * jarg1, void * j
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Mat33_ez_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Mat33_ez_get(void * jarg1) {
   void * jresult ;
   b2Mat33 *arg1 = (b2Mat33 *) 0 ;
   b2Vec3 *result = 0 ;
@@ -1305,7 +1305,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Mat33_ez_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Mat33(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2Mat33(void * jarg1) {
   b2Mat33 *arg1 = (b2Mat33 *) 0 ;
   
   arg1 = (b2Mat33 *)jarg1; 
@@ -1313,7 +1313,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Mat33(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Rot__SWIG_0() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2Rot__SWIG_0() {
   void * jresult ;
   b2Rot *result = 0 ;
   
@@ -1323,7 +1323,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Rot__SWIG_0() {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Rot__SWIG_1(float jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2Rot__SWIG_1(float jarg1) {
   void * jresult ;
   float arg1 ;
   b2Rot *result = 0 ;
@@ -1335,7 +1335,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Rot__SWIG_1(float jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Rot_Set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Rot_Set(void * jarg1, float jarg2) {
   b2Rot *arg1 = (b2Rot *) 0 ;
   float arg2 ;
   
@@ -1345,7 +1345,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Rot_Set(void * jarg1, float jarg2) 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Rot_SetIdentity(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Rot_SetIdentity(void * jarg1) {
   b2Rot *arg1 = (b2Rot *) 0 ;
   
   arg1 = (b2Rot *)jarg1; 
@@ -1353,7 +1353,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Rot_SetIdentity(void * jarg1) {
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Rot_GetAngle(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Rot_GetAngle(void * jarg1) {
   float jresult ;
   b2Rot *arg1 = (b2Rot *) 0 ;
   float result;
@@ -1365,7 +1365,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Rot_GetAngle(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Rot_GetXAxis(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Rot_GetXAxis(void * jarg1) {
   void * jresult ;
   b2Rot *arg1 = (b2Rot *) 0 ;
   b2Vec2 result;
@@ -1377,7 +1377,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Rot_GetXAxis(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Rot_GetYAxis(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Rot_GetYAxis(void * jarg1) {
   void * jresult ;
   b2Rot *arg1 = (b2Rot *) 0 ;
   b2Vec2 result;
@@ -1389,7 +1389,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Rot_GetYAxis(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Rot_s_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Rot_s_set(void * jarg1, float jarg2) {
   b2Rot *arg1 = (b2Rot *) 0 ;
   float arg2 ;
   
@@ -1399,7 +1399,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Rot_s_set(void * jarg1, float jarg2
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Rot_s_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Rot_s_get(void * jarg1) {
   float jresult ;
   b2Rot *arg1 = (b2Rot *) 0 ;
   float result;
@@ -1411,7 +1411,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Rot_s_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Rot_c_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Rot_c_set(void * jarg1, float jarg2) {
   b2Rot *arg1 = (b2Rot *) 0 ;
   float arg2 ;
   
@@ -1421,7 +1421,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Rot_c_set(void * jarg1, float jarg2
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Rot_c_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Rot_c_get(void * jarg1) {
   float jresult ;
   b2Rot *arg1 = (b2Rot *) 0 ;
   float result;
@@ -1433,7 +1433,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Rot_c_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Rot(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2Rot(void * jarg1) {
   b2Rot *arg1 = (b2Rot *) 0 ;
   
   arg1 = (b2Rot *)jarg1; 
@@ -1441,7 +1441,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Rot(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Transform__SWIG_0() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2Transform__SWIG_0() {
   void * jresult ;
   b2Transform *result = 0 ;
   
@@ -1451,7 +1451,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Transform__SWIG_0() {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Transform__SWIG_1(void * jarg1, void * jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2Transform__SWIG_1(void * jarg1, void * jarg2) {
   void * jresult ;
   b2Vec2 *arg1 = 0 ;
   b2Rot *arg2 = 0 ;
@@ -1473,7 +1473,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Transform__SWIG_1(void * jarg
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Transform_SetIdentity(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Transform_SetIdentity(void * jarg1) {
   b2Transform *arg1 = (b2Transform *) 0 ;
   
   arg1 = (b2Transform *)jarg1; 
@@ -1481,7 +1481,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Transform_SetIdentity(void * jarg1)
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Transform_Set(void * jarg1, void * jarg2, float jarg3) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Transform_Set(void * jarg1, void * jarg2, float jarg3) {
   b2Transform *arg1 = (b2Transform *) 0 ;
   b2Vec2 *arg2 = 0 ;
   float arg3 ;
@@ -1497,7 +1497,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Transform_Set(void * jarg1, void * 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Transform_p_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Transform_p_set(void * jarg1, void * jarg2) {
   b2Transform *arg1 = (b2Transform *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -1507,7 +1507,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Transform_p_set(void * jarg1, void 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Transform_p_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Transform_p_get(void * jarg1) {
   void * jresult ;
   b2Transform *arg1 = (b2Transform *) 0 ;
   b2Vec2 *result = 0 ;
@@ -1519,7 +1519,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Transform_p_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Transform_q_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Transform_q_set(void * jarg1, void * jarg2) {
   b2Transform *arg1 = (b2Transform *) 0 ;
   b2Rot *arg2 = (b2Rot *) 0 ;
   
@@ -1529,7 +1529,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Transform_q_set(void * jarg1, void 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Transform_q_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Transform_q_get(void * jarg1) {
   void * jresult ;
   b2Transform *arg1 = (b2Transform *) 0 ;
   b2Rot *result = 0 ;
@@ -1541,7 +1541,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Transform_q_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Transform(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2Transform(void * jarg1) {
   b2Transform *arg1 = (b2Transform *) 0 ;
   
   arg1 = (b2Transform *)jarg1; 
@@ -1549,7 +1549,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Transform(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Sweep_GetTransform(void * jarg1, void * jarg2, float jarg3) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Sweep_GetTransform(void * jarg1, void * jarg2, float jarg3) {
   b2Sweep *arg1 = (b2Sweep *) 0 ;
   b2Transform *arg2 = (b2Transform *) 0 ;
   float arg3 ;
@@ -1561,7 +1561,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Sweep_GetTransform(void * jarg1, vo
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Sweep_Advance(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Sweep_Advance(void * jarg1, float jarg2) {
   b2Sweep *arg1 = (b2Sweep *) 0 ;
   float arg2 ;
   
@@ -1571,7 +1571,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Sweep_Advance(void * jarg1, float j
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Sweep_Normalize(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Sweep_Normalize(void * jarg1) {
   b2Sweep *arg1 = (b2Sweep *) 0 ;
   
   arg1 = (b2Sweep *)jarg1; 
@@ -1579,7 +1579,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Sweep_Normalize(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Sweep_localCenter_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Sweep_localCenter_set(void * jarg1, void * jarg2) {
   b2Sweep *arg1 = (b2Sweep *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -1589,7 +1589,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Sweep_localCenter_set(void * jarg1,
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Sweep_localCenter_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Sweep_localCenter_get(void * jarg1) {
   void * jresult ;
   b2Sweep *arg1 = (b2Sweep *) 0 ;
   b2Vec2 *result = 0 ;
@@ -1601,7 +1601,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Sweep_localCenter_get(void * jarg
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Sweep_c0_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Sweep_c0_set(void * jarg1, void * jarg2) {
   b2Sweep *arg1 = (b2Sweep *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -1611,7 +1611,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Sweep_c0_set(void * jarg1, void * j
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Sweep_c0_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Sweep_c0_get(void * jarg1) {
   void * jresult ;
   b2Sweep *arg1 = (b2Sweep *) 0 ;
   b2Vec2 *result = 0 ;
@@ -1623,7 +1623,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Sweep_c0_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Sweep_c_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Sweep_c_set(void * jarg1, void * jarg2) {
   b2Sweep *arg1 = (b2Sweep *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -1633,7 +1633,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Sweep_c_set(void * jarg1, void * ja
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Sweep_c_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Sweep_c_get(void * jarg1) {
   void * jresult ;
   b2Sweep *arg1 = (b2Sweep *) 0 ;
   b2Vec2 *result = 0 ;
@@ -1645,7 +1645,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Sweep_c_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Sweep_a0_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Sweep_a0_set(void * jarg1, float jarg2) {
   b2Sweep *arg1 = (b2Sweep *) 0 ;
   float arg2 ;
   
@@ -1655,7 +1655,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Sweep_a0_set(void * jarg1, float ja
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Sweep_a0_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Sweep_a0_get(void * jarg1) {
   float jresult ;
   b2Sweep *arg1 = (b2Sweep *) 0 ;
   float result;
@@ -1667,7 +1667,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Sweep_a0_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Sweep_a_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Sweep_a_set(void * jarg1, float jarg2) {
   b2Sweep *arg1 = (b2Sweep *) 0 ;
   float arg2 ;
   
@@ -1677,7 +1677,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Sweep_a_set(void * jarg1, float jar
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Sweep_a_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Sweep_a_get(void * jarg1) {
   float jresult ;
   b2Sweep *arg1 = (b2Sweep *) 0 ;
   float result;
@@ -1689,7 +1689,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Sweep_a_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Sweep_alpha0_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Sweep_alpha0_set(void * jarg1, float jarg2) {
   b2Sweep *arg1 = (b2Sweep *) 0 ;
   float arg2 ;
   
@@ -1699,7 +1699,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Sweep_alpha0_set(void * jarg1, floa
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Sweep_alpha0_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Sweep_alpha0_get(void * jarg1) {
   float jresult ;
   b2Sweep *arg1 = (b2Sweep *) 0 ;
   float result;
@@ -1711,7 +1711,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Sweep_alpha0_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Sweep() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2Sweep() {
   void * jresult ;
   b2Sweep *result = 0 ;
   
@@ -1721,7 +1721,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Sweep() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Sweep(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2Sweep(void * jarg1) {
   b2Sweep *arg1 = (b2Sweep *) 0 ;
   
   arg1 = (b2Sweep *)jarg1; 
@@ -1729,7 +1729,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Sweep(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Vec2_zero_get() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Vec2_zero_get() {
   void * jresult ;
   b2Vec2 *result = 0 ;
   
@@ -1739,7 +1739,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Vec2_zero_get() {
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Dot__SWIG_0(void * jarg1, void * jarg2) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Dot__SWIG_0(void * jarg1, void * jarg2) {
   float jresult ;
   b2Vec2 *arg1 = 0 ;
   b2Vec2 *arg2 = 0 ;
@@ -1761,7 +1761,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Dot__SWIG_0(void * jarg1, void * j
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Cross__SWIG_0(void * jarg1, void * jarg2) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Cross__SWIG_0(void * jarg1, void * jarg2) {
   float jresult ;
   b2Vec2 *arg1 = 0 ;
   b2Vec2 *arg2 = 0 ;
@@ -1783,7 +1783,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Cross__SWIG_0(void * jarg1, void *
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Cross__SWIG_1(void * jarg1, float jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Cross__SWIG_1(void * jarg1, float jarg2) {
   void * jresult ;
   b2Vec2 *arg1 = 0 ;
   float arg2 ;
@@ -1801,7 +1801,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Cross__SWIG_1(void * jarg1, float
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Cross__SWIG_2(float jarg1, void * jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Cross__SWIG_2(float jarg1, void * jarg2) {
   void * jresult ;
   float arg1 ;
   b2Vec2 *arg2 = 0 ;
@@ -1819,7 +1819,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Cross__SWIG_2(float jarg1, void *
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Mul__SWIG_0(void * jarg1, void * jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Mul__SWIG_0(void * jarg1, void * jarg2) {
   void * jresult ;
   b2Mat22 *arg1 = 0 ;
   b2Vec2 *arg2 = 0 ;
@@ -1841,7 +1841,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Mul__SWIG_0(void * jarg1, void * 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2MulT__SWIG_0(void * jarg1, void * jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2MulT__SWIG_0(void * jarg1, void * jarg2) {
   void * jresult ;
   b2Mat22 *arg1 = 0 ;
   b2Vec2 *arg2 = 0 ;
@@ -1863,7 +1863,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2MulT__SWIG_0(void * jarg1, void *
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Distance(void * jarg1, void * jarg2) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Distance(void * jarg1, void * jarg2) {
   float jresult ;
   b2Vec2 *arg1 = 0 ;
   b2Vec2 *arg2 = 0 ;
@@ -1885,7 +1885,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Distance(void * jarg1, void * jarg
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2DistanceSquared(void * jarg1, void * jarg2) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2DistanceSquared(void * jarg1, void * jarg2) {
   float jresult ;
   b2Vec2 *arg1 = 0 ;
   b2Vec2 *arg2 = 0 ;
@@ -1907,7 +1907,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2DistanceSquared(void * jarg1, void
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Dot__SWIG_1(void * jarg1, void * jarg2) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Dot__SWIG_1(void * jarg1, void * jarg2) {
   float jresult ;
   b2Vec3 *arg1 = 0 ;
   b2Vec3 *arg2 = 0 ;
@@ -1929,7 +1929,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Dot__SWIG_1(void * jarg1, void * j
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Cross__SWIG_3(void * jarg1, void * jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Cross__SWIG_3(void * jarg1, void * jarg2) {
   void * jresult ;
   b2Vec3 *arg1 = 0 ;
   b2Vec3 *arg2 = 0 ;
@@ -1951,7 +1951,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Cross__SWIG_3(void * jarg1, void 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Mul__SWIG_1(void * jarg1, void * jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Mul__SWIG_1(void * jarg1, void * jarg2) {
   void * jresult ;
   b2Mat22 *arg1 = 0 ;
   b2Mat22 *arg2 = 0 ;
@@ -1973,7 +1973,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Mul__SWIG_1(void * jarg1, void * 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2MulT__SWIG_1(void * jarg1, void * jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2MulT__SWIG_1(void * jarg1, void * jarg2) {
   void * jresult ;
   b2Mat22 *arg1 = 0 ;
   b2Mat22 *arg2 = 0 ;
@@ -1995,7 +1995,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2MulT__SWIG_1(void * jarg1, void *
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Mul__SWIG_2(void * jarg1, void * jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Mul__SWIG_2(void * jarg1, void * jarg2) {
   void * jresult ;
   b2Mat33 *arg1 = 0 ;
   b2Vec3 *arg2 = 0 ;
@@ -2017,7 +2017,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Mul__SWIG_2(void * jarg1, void * 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Mul22(void * jarg1, void * jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Mul22(void * jarg1, void * jarg2) {
   void * jresult ;
   b2Mat33 *arg1 = 0 ;
   b2Vec2 *arg2 = 0 ;
@@ -2039,7 +2039,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Mul22(void * jarg1, void * jarg2)
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Mul__SWIG_3(void * jarg1, void * jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Mul__SWIG_3(void * jarg1, void * jarg2) {
   void * jresult ;
   b2Rot *arg1 = 0 ;
   b2Rot *arg2 = 0 ;
@@ -2061,7 +2061,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Mul__SWIG_3(void * jarg1, void * 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2MulT__SWIG_2(void * jarg1, void * jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2MulT__SWIG_2(void * jarg1, void * jarg2) {
   void * jresult ;
   b2Rot *arg1 = 0 ;
   b2Rot *arg2 = 0 ;
@@ -2083,7 +2083,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2MulT__SWIG_2(void * jarg1, void *
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Mul__SWIG_4(void * jarg1, void * jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Mul__SWIG_4(void * jarg1, void * jarg2) {
   void * jresult ;
   b2Rot *arg1 = 0 ;
   b2Vec2 *arg2 = 0 ;
@@ -2105,7 +2105,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Mul__SWIG_4(void * jarg1, void * 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2MulT__SWIG_3(void * jarg1, void * jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2MulT__SWIG_3(void * jarg1, void * jarg2) {
   void * jresult ;
   b2Rot *arg1 = 0 ;
   b2Vec2 *arg2 = 0 ;
@@ -2127,7 +2127,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2MulT__SWIG_3(void * jarg1, void *
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Mul__SWIG_5(void * jarg1, void * jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Mul__SWIG_5(void * jarg1, void * jarg2) {
   void * jresult ;
   b2Transform *arg1 = 0 ;
   b2Vec2 *arg2 = 0 ;
@@ -2149,7 +2149,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Mul__SWIG_5(void * jarg1, void * 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2MulT__SWIG_4(void * jarg1, void * jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2MulT__SWIG_4(void * jarg1, void * jarg2) {
   void * jresult ;
   b2Transform *arg1 = 0 ;
   b2Vec2 *arg2 = 0 ;
@@ -2171,7 +2171,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2MulT__SWIG_4(void * jarg1, void *
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Mul__SWIG_6(void * jarg1, void * jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Mul__SWIG_6(void * jarg1, void * jarg2) {
   void * jresult ;
   b2Transform *arg1 = 0 ;
   b2Transform *arg2 = 0 ;
@@ -2193,7 +2193,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Mul__SWIG_6(void * jarg1, void * 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2MulT__SWIG_5(void * jarg1, void * jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2MulT__SWIG_5(void * jarg1, void * jarg2) {
   void * jresult ;
   b2Transform *arg1 = 0 ;
   b2Transform *arg2 = 0 ;
@@ -2215,7 +2215,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2MulT__SWIG_5(void * jarg1, void *
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Abs__SWIG_1(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Abs__SWIG_1(void * jarg1) {
   void * jresult ;
   b2Vec2 *arg1 = 0 ;
   b2Vec2 result;
@@ -2231,7 +2231,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Abs__SWIG_1(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Abs__SWIG_2(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Abs__SWIG_2(void * jarg1) {
   void * jresult ;
   b2Mat22 *arg1 = 0 ;
   b2Mat22 result;
@@ -2247,7 +2247,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Abs__SWIG_2(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Min(void * jarg1, void * jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Min(void * jarg1, void * jarg2) {
   void * jresult ;
   b2Vec2 *arg1 = 0 ;
   b2Vec2 *arg2 = 0 ;
@@ -2269,7 +2269,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Min(void * jarg1, void * jarg2) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Max(void * jarg1, void * jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Max(void * jarg1, void * jarg2) {
   void * jresult ;
   b2Vec2 *arg1 = 0 ;
   b2Vec2 *arg2 = 0 ;
@@ -2291,7 +2291,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Max(void * jarg1, void * jarg2) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Clamp(void * jarg1, void * jarg2, void * jarg3) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Clamp(void * jarg1, void * jarg2, void * jarg3) {
   void * jresult ;
   b2Vec2 *arg1 = 0 ;
   b2Vec2 *arg2 = 0 ;
@@ -2319,7 +2319,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Clamp(void * jarg1, void * jarg2,
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2NextPowerOfTwo(unsigned int jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2NextPowerOfTwo(unsigned int jarg1) {
   unsigned int jresult ;
   uint32 arg1 ;
   uint32 result;
@@ -2331,7 +2331,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2NextPowerOfTwo(unsigned int
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2IsPowerOfTwo(unsigned int jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2IsPowerOfTwo(unsigned int jarg1) {
   unsigned int jresult ;
   uint32 arg1 ;
   bool result;
@@ -2343,7 +2343,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2IsPowerOfTwo(unsigned int j
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Color__SWIG_0() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2Color__SWIG_0() {
   void * jresult ;
   b2Color *result = 0 ;
   
@@ -2353,7 +2353,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Color__SWIG_0() {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Color__SWIG_1(float jarg1, float jarg2, float jarg3, float jarg4) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2Color__SWIG_1(float jarg1, float jarg2, float jarg3, float jarg4) {
   void * jresult ;
   float arg1 ;
   float arg2 ;
@@ -2371,7 +2371,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Color__SWIG_1(float jarg1, fl
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Color__SWIG_2(float jarg1, float jarg2, float jarg3) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2Color__SWIG_2(float jarg1, float jarg2, float jarg3) {
   void * jresult ;
   float arg1 ;
   float arg2 ;
@@ -2387,7 +2387,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Color__SWIG_2(float jarg1, fl
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Color_Set__SWIG_0(void * jarg1, float jarg2, float jarg3, float jarg4, float jarg5) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Color_Set__SWIG_0(void * jarg1, float jarg2, float jarg3, float jarg4, float jarg5) {
   b2Color *arg1 = (b2Color *) 0 ;
   float arg2 ;
   float arg3 ;
@@ -2403,7 +2403,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Color_Set__SWIG_0(void * jarg1, flo
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Color_Set__SWIG_1(void * jarg1, float jarg2, float jarg3, float jarg4) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Color_Set__SWIG_1(void * jarg1, float jarg2, float jarg3, float jarg4) {
   b2Color *arg1 = (b2Color *) 0 ;
   float arg2 ;
   float arg3 ;
@@ -2417,7 +2417,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Color_Set__SWIG_1(void * jarg1, flo
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Color_r_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Color_r_set(void * jarg1, float jarg2) {
   b2Color *arg1 = (b2Color *) 0 ;
   float arg2 ;
   
@@ -2427,7 +2427,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Color_r_set(void * jarg1, float jar
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Color_r_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Color_r_get(void * jarg1) {
   float jresult ;
   b2Color *arg1 = (b2Color *) 0 ;
   float result;
@@ -2439,7 +2439,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Color_r_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Color_g_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Color_g_set(void * jarg1, float jarg2) {
   b2Color *arg1 = (b2Color *) 0 ;
   float arg2 ;
   
@@ -2449,7 +2449,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Color_g_set(void * jarg1, float jar
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Color_g_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Color_g_get(void * jarg1) {
   float jresult ;
   b2Color *arg1 = (b2Color *) 0 ;
   float result;
@@ -2461,7 +2461,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Color_g_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Color_b_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Color_b_set(void * jarg1, float jarg2) {
   b2Color *arg1 = (b2Color *) 0 ;
   float arg2 ;
   
@@ -2471,7 +2471,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Color_b_set(void * jarg1, float jar
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Color_b_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Color_b_get(void * jarg1) {
   float jresult ;
   b2Color *arg1 = (b2Color *) 0 ;
   float result;
@@ -2483,7 +2483,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Color_b_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Color_a_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Color_a_set(void * jarg1, float jarg2) {
   b2Color *arg1 = (b2Color *) 0 ;
   float arg2 ;
   
@@ -2493,7 +2493,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Color_a_set(void * jarg1, float jar
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Color_a_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Color_a_get(void * jarg1) {
   float jresult ;
   b2Color *arg1 = (b2Color *) 0 ;
   float result;
@@ -2505,7 +2505,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Color_a_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Color(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2Color(void * jarg1) {
   b2Color *arg1 = (b2Color *) 0 ;
   
   arg1 = (b2Color *)jarg1; 
@@ -2513,7 +2513,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Color(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Draw(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2Draw(void * jarg1) {
   b2Draw *arg1 = (b2Draw *) 0 ;
   
   arg1 = (b2Draw *)jarg1; 
@@ -2521,7 +2521,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Draw(void * jarg1) {
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Draw_e_shapeBit_get() {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2Draw_e_shapeBit_get() {
   int jresult ;
   int result;
   
@@ -2531,7 +2531,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Draw_e_shapeBit_get() {
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Draw_e_jointBit_get() {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2Draw_e_jointBit_get() {
   int jresult ;
   int result;
   
@@ -2541,7 +2541,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Draw_e_jointBit_get() {
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Draw_e_aabbBit_get() {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2Draw_e_aabbBit_get() {
   int jresult ;
   int result;
   
@@ -2551,7 +2551,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Draw_e_aabbBit_get() {
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Draw_e_pairBit_get() {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2Draw_e_pairBit_get() {
   int jresult ;
   int result;
   
@@ -2561,7 +2561,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Draw_e_pairBit_get() {
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Draw_e_centerOfMassBit_get() {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2Draw_e_centerOfMassBit_get() {
   int jresult ;
   int result;
   
@@ -2571,7 +2571,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Draw_e_centerOfMassBit_get() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Draw_SetFlags(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Draw_SetFlags(void * jarg1, unsigned int jarg2) {
   b2Draw *arg1 = (b2Draw *) 0 ;
   uint32 arg2 ;
   
@@ -2581,7 +2581,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Draw_SetFlags(void * jarg1, unsigne
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2Draw_GetFlags(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2Draw_GetFlags(void * jarg1) {
   unsigned int jresult ;
   b2Draw *arg1 = (b2Draw *) 0 ;
   uint32 result;
@@ -2593,7 +2593,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2Draw_GetFlags(void * jarg1)
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Draw_AppendFlags(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Draw_AppendFlags(void * jarg1, unsigned int jarg2) {
   b2Draw *arg1 = (b2Draw *) 0 ;
   uint32 arg2 ;
   
@@ -2603,7 +2603,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Draw_AppendFlags(void * jarg1, unsi
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Draw_ClearFlags(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Draw_ClearFlags(void * jarg1, unsigned int jarg2) {
   b2Draw *arg1 = (b2Draw *) 0 ;
   uint32 arg2 ;
   
@@ -2613,7 +2613,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Draw_ClearFlags(void * jarg1, unsig
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Draw_DrawPolygon(void * jarg1, void * jarg2, int jarg3, void * jarg4) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Draw_DrawPolygon(void * jarg1, void * jarg2, int jarg3, void * jarg4) {
   b2Draw *arg1 = (b2Draw *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   int32 arg3 ;
@@ -2631,7 +2631,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Draw_DrawPolygon(void * jarg1, void
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Draw_DrawSolidPolygon(void * jarg1, void * jarg2, int jarg3, void * jarg4) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Draw_DrawSolidPolygon(void * jarg1, void * jarg2, int jarg3, void * jarg4) {
   b2Draw *arg1 = (b2Draw *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   int32 arg3 ;
@@ -2649,7 +2649,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Draw_DrawSolidPolygon(void * jarg1,
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Draw_DrawCircle(void * jarg1, void * jarg2, float jarg3, void * jarg4) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Draw_DrawCircle(void * jarg1, void * jarg2, float jarg3, void * jarg4) {
   b2Draw *arg1 = (b2Draw *) 0 ;
   b2Vec2 *arg2 = 0 ;
   float arg3 ;
@@ -2671,7 +2671,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Draw_DrawCircle(void * jarg1, void 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Draw_DrawSolidCircle(void * jarg1, void * jarg2, float jarg3, void * jarg4, void * jarg5) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Draw_DrawSolidCircle(void * jarg1, void * jarg2, float jarg3, void * jarg4, void * jarg5) {
   b2Draw *arg1 = (b2Draw *) 0 ;
   b2Vec2 *arg2 = 0 ;
   float arg3 ;
@@ -2699,7 +2699,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Draw_DrawSolidCircle(void * jarg1, 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Draw_DrawSegment(void * jarg1, void * jarg2, void * jarg3, void * jarg4) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Draw_DrawSegment(void * jarg1, void * jarg2, void * jarg3, void * jarg4) {
   b2Draw *arg1 = (b2Draw *) 0 ;
   b2Vec2 *arg2 = 0 ;
   b2Vec2 *arg3 = 0 ;
@@ -2725,7 +2725,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Draw_DrawSegment(void * jarg1, void
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Draw_DrawTransform(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Draw_DrawTransform(void * jarg1, void * jarg2) {
   b2Draw *arg1 = (b2Draw *) 0 ;
   b2Transform *arg2 = 0 ;
   
@@ -2739,7 +2739,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Draw_DrawTransform(void * jarg1, vo
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Draw_DrawPoint(void * jarg1, void * jarg2, float jarg3, void * jarg4) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Draw_DrawPoint(void * jarg1, void * jarg2, float jarg3, void * jarg4) {
   b2Draw *arg1 = (b2Draw *) 0 ;
   b2Vec2 *arg2 = 0 ;
   float arg3 ;
@@ -2761,7 +2761,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Draw_DrawPoint(void * jarg1, void *
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Timer() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2Timer() {
   void * jresult ;
   b2Timer *result = 0 ;
   
@@ -2771,7 +2771,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Timer() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Timer_Reset(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Timer_Reset(void * jarg1) {
   b2Timer *arg1 = (b2Timer *) 0 ;
   
   arg1 = (b2Timer *)jarg1; 
@@ -2779,7 +2779,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Timer_Reset(void * jarg1) {
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Timer_GetMilliseconds(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Timer_GetMilliseconds(void * jarg1) {
   float jresult ;
   b2Timer *arg1 = (b2Timer *) 0 ;
   float result;
@@ -2791,7 +2791,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Timer_GetMilliseconds(void * jarg1
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Timer(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2Timer(void * jarg1) {
   b2Timer *arg1 = (b2Timer *) 0 ;
   
   arg1 = (b2Timer *)jarg1; 
@@ -2799,7 +2799,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Timer(void * jarg1) {
 }
 
 
-SWIGEXPORT unsigned char SWIGSTDCALL CSharp_Box2DCS_b2_nullFeature_get() {
+SWIGEXPORT unsigned char SWIGSTDCALL CSharp_b2Sharp_b2_nullFeature_get() {
   unsigned char jresult ;
   uint8 result;
   
@@ -2809,7 +2809,7 @@ SWIGEXPORT unsigned char SWIGSTDCALL CSharp_Box2DCS_b2_nullFeature_get() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactFeature_indexA_set(void * jarg1, unsigned char jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ContactFeature_indexA_set(void * jarg1, unsigned char jarg2) {
   b2ContactFeature *arg1 = (b2ContactFeature *) 0 ;
   uint8 arg2 ;
   
@@ -2819,7 +2819,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactFeature_indexA_set(void * ja
 }
 
 
-SWIGEXPORT unsigned char SWIGSTDCALL CSharp_Box2DCS_b2ContactFeature_indexA_get(void * jarg1) {
+SWIGEXPORT unsigned char SWIGSTDCALL CSharp_b2Sharp_b2ContactFeature_indexA_get(void * jarg1) {
   unsigned char jresult ;
   b2ContactFeature *arg1 = (b2ContactFeature *) 0 ;
   uint8 result;
@@ -2831,7 +2831,7 @@ SWIGEXPORT unsigned char SWIGSTDCALL CSharp_Box2DCS_b2ContactFeature_indexA_get(
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactFeature_indexB_set(void * jarg1, unsigned char jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ContactFeature_indexB_set(void * jarg1, unsigned char jarg2) {
   b2ContactFeature *arg1 = (b2ContactFeature *) 0 ;
   uint8 arg2 ;
   
@@ -2841,7 +2841,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactFeature_indexB_set(void * ja
 }
 
 
-SWIGEXPORT unsigned char SWIGSTDCALL CSharp_Box2DCS_b2ContactFeature_indexB_get(void * jarg1) {
+SWIGEXPORT unsigned char SWIGSTDCALL CSharp_b2Sharp_b2ContactFeature_indexB_get(void * jarg1) {
   unsigned char jresult ;
   b2ContactFeature *arg1 = (b2ContactFeature *) 0 ;
   uint8 result;
@@ -2853,7 +2853,7 @@ SWIGEXPORT unsigned char SWIGSTDCALL CSharp_Box2DCS_b2ContactFeature_indexB_get(
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactFeature_typeA_set(void * jarg1, unsigned char jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ContactFeature_typeA_set(void * jarg1, unsigned char jarg2) {
   b2ContactFeature *arg1 = (b2ContactFeature *) 0 ;
   uint8 arg2 ;
   
@@ -2863,7 +2863,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactFeature_typeA_set(void * jar
 }
 
 
-SWIGEXPORT unsigned char SWIGSTDCALL CSharp_Box2DCS_b2ContactFeature_typeA_get(void * jarg1) {
+SWIGEXPORT unsigned char SWIGSTDCALL CSharp_b2Sharp_b2ContactFeature_typeA_get(void * jarg1) {
   unsigned char jresult ;
   b2ContactFeature *arg1 = (b2ContactFeature *) 0 ;
   uint8 result;
@@ -2875,7 +2875,7 @@ SWIGEXPORT unsigned char SWIGSTDCALL CSharp_Box2DCS_b2ContactFeature_typeA_get(v
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactFeature_typeB_set(void * jarg1, unsigned char jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ContactFeature_typeB_set(void * jarg1, unsigned char jarg2) {
   b2ContactFeature *arg1 = (b2ContactFeature *) 0 ;
   uint8 arg2 ;
   
@@ -2885,7 +2885,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactFeature_typeB_set(void * jar
 }
 
 
-SWIGEXPORT unsigned char SWIGSTDCALL CSharp_Box2DCS_b2ContactFeature_typeB_get(void * jarg1) {
+SWIGEXPORT unsigned char SWIGSTDCALL CSharp_b2Sharp_b2ContactFeature_typeB_get(void * jarg1) {
   unsigned char jresult ;
   b2ContactFeature *arg1 = (b2ContactFeature *) 0 ;
   uint8 result;
@@ -2897,7 +2897,7 @@ SWIGEXPORT unsigned char SWIGSTDCALL CSharp_Box2DCS_b2ContactFeature_typeB_get(v
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2ContactFeature() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2ContactFeature() {
   void * jresult ;
   b2ContactFeature *result = 0 ;
   
@@ -2907,7 +2907,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2ContactFeature() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2ContactFeature(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2ContactFeature(void * jarg1) {
   b2ContactFeature *arg1 = (b2ContactFeature *) 0 ;
   
   arg1 = (b2ContactFeature *)jarg1; 
@@ -2915,7 +2915,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2ContactFeature(void * jarg1)
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactID_cf_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ContactID_cf_set(void * jarg1, void * jarg2) {
   b2ContactID *arg1 = (b2ContactID *) 0 ;
   b2ContactFeature *arg2 = (b2ContactFeature *) 0 ;
   
@@ -2925,7 +2925,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactID_cf_set(void * jarg1, void
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ContactID_cf_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2ContactID_cf_get(void * jarg1) {
   void * jresult ;
   b2ContactID *arg1 = (b2ContactID *) 0 ;
   b2ContactFeature *result = 0 ;
@@ -2937,7 +2937,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ContactID_cf_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactID_key_set(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ContactID_key_set(void * jarg1, unsigned int jarg2) {
   b2ContactID *arg1 = (b2ContactID *) 0 ;
   uint32 arg2 ;
   
@@ -2947,7 +2947,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactID_key_set(void * jarg1, uns
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2ContactID_key_get(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2ContactID_key_get(void * jarg1) {
   unsigned int jresult ;
   b2ContactID *arg1 = (b2ContactID *) 0 ;
   uint32 result;
@@ -2959,7 +2959,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2ContactID_key_get(void * ja
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2ContactID() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2ContactID() {
   void * jresult ;
   b2ContactID *result = 0 ;
   
@@ -2969,7 +2969,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2ContactID() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2ContactID(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2ContactID(void * jarg1) {
   b2ContactID *arg1 = (b2ContactID *) 0 ;
   
   arg1 = (b2ContactID *)jarg1; 
@@ -2977,7 +2977,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2ContactID(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ManifoldPoint_localPoint_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ManifoldPoint_localPoint_set(void * jarg1, void * jarg2) {
   b2ManifoldPoint *arg1 = (b2ManifoldPoint *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -2987,7 +2987,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ManifoldPoint_localPoint_set(void *
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ManifoldPoint_localPoint_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2ManifoldPoint_localPoint_get(void * jarg1) {
   void * jresult ;
   b2ManifoldPoint *arg1 = (b2ManifoldPoint *) 0 ;
   b2Vec2 *result = 0 ;
@@ -2999,7 +2999,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ManifoldPoint_localPoint_get(void
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ManifoldPoint_normalImpulse_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ManifoldPoint_normalImpulse_set(void * jarg1, float jarg2) {
   b2ManifoldPoint *arg1 = (b2ManifoldPoint *) 0 ;
   float arg2 ;
   
@@ -3009,7 +3009,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ManifoldPoint_normalImpulse_set(voi
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2ManifoldPoint_normalImpulse_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2ManifoldPoint_normalImpulse_get(void * jarg1) {
   float jresult ;
   b2ManifoldPoint *arg1 = (b2ManifoldPoint *) 0 ;
   float result;
@@ -3021,7 +3021,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2ManifoldPoint_normalImpulse_get(vo
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ManifoldPoint_tangentImpulse_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ManifoldPoint_tangentImpulse_set(void * jarg1, float jarg2) {
   b2ManifoldPoint *arg1 = (b2ManifoldPoint *) 0 ;
   float arg2 ;
   
@@ -3031,7 +3031,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ManifoldPoint_tangentImpulse_set(vo
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2ManifoldPoint_tangentImpulse_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2ManifoldPoint_tangentImpulse_get(void * jarg1) {
   float jresult ;
   b2ManifoldPoint *arg1 = (b2ManifoldPoint *) 0 ;
   float result;
@@ -3043,7 +3043,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2ManifoldPoint_tangentImpulse_get(v
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ManifoldPoint_id_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ManifoldPoint_id_set(void * jarg1, void * jarg2) {
   b2ManifoldPoint *arg1 = (b2ManifoldPoint *) 0 ;
   b2ContactID *arg2 = (b2ContactID *) 0 ;
   
@@ -3053,7 +3053,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ManifoldPoint_id_set(void * jarg1, 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ManifoldPoint_id_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2ManifoldPoint_id_get(void * jarg1) {
   void * jresult ;
   b2ManifoldPoint *arg1 = (b2ManifoldPoint *) 0 ;
   b2ContactID *result = 0 ;
@@ -3065,7 +3065,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ManifoldPoint_id_get(void * jarg1
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2ManifoldPoint() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2ManifoldPoint() {
   void * jresult ;
   b2ManifoldPoint *result = 0 ;
   
@@ -3075,7 +3075,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2ManifoldPoint() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2ManifoldPoint(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2ManifoldPoint(void * jarg1) {
   b2ManifoldPoint *arg1 = (b2ManifoldPoint *) 0 ;
   
   arg1 = (b2ManifoldPoint *)jarg1; 
@@ -3083,7 +3083,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2ManifoldPoint(void * jarg1) 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Manifold_points_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Manifold_points_set(void * jarg1, void * jarg2) {
   b2Manifold *arg1 = (b2Manifold *) 0 ;
   b2ManifoldPoint *arg2 ;
   
@@ -3097,7 +3097,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Manifold_points_set(void * jarg1, v
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Manifold_points_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Manifold_points_get(void * jarg1) {
   void * jresult ;
   b2Manifold *arg1 = (b2Manifold *) 0 ;
   b2ManifoldPoint *result = 0 ;
@@ -3109,7 +3109,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Manifold_points_get(void * jarg1)
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Manifold_localNormal_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Manifold_localNormal_set(void * jarg1, void * jarg2) {
   b2Manifold *arg1 = (b2Manifold *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -3119,7 +3119,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Manifold_localNormal_set(void * jar
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Manifold_localNormal_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Manifold_localNormal_get(void * jarg1) {
   void * jresult ;
   b2Manifold *arg1 = (b2Manifold *) 0 ;
   b2Vec2 *result = 0 ;
@@ -3131,7 +3131,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Manifold_localNormal_get(void * j
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Manifold_localPoint_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Manifold_localPoint_set(void * jarg1, void * jarg2) {
   b2Manifold *arg1 = (b2Manifold *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -3141,7 +3141,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Manifold_localPoint_set(void * jarg
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Manifold_localPoint_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Manifold_localPoint_get(void * jarg1) {
   void * jresult ;
   b2Manifold *arg1 = (b2Manifold *) 0 ;
   b2Vec2 *result = 0 ;
@@ -3153,7 +3153,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Manifold_localPoint_get(void * ja
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Manifold_type_set(void * jarg1, int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Manifold_type_set(void * jarg1, int jarg2) {
   b2Manifold *arg1 = (b2Manifold *) 0 ;
   b2Manifold::Type arg2 ;
   
@@ -3163,7 +3163,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Manifold_type_set(void * jarg1, int
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Manifold_type_get(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2Manifold_type_get(void * jarg1) {
   int jresult ;
   b2Manifold *arg1 = (b2Manifold *) 0 ;
   b2Manifold::Type result;
@@ -3175,7 +3175,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Manifold_type_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Manifold_pointCount_set(void * jarg1, int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Manifold_pointCount_set(void * jarg1, int jarg2) {
   b2Manifold *arg1 = (b2Manifold *) 0 ;
   int32 arg2 ;
   
@@ -3185,7 +3185,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Manifold_pointCount_set(void * jarg
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Manifold_pointCount_get(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2Manifold_pointCount_get(void * jarg1) {
   int jresult ;
   b2Manifold *arg1 = (b2Manifold *) 0 ;
   int32 result;
@@ -3197,7 +3197,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Manifold_pointCount_get(void * jarg1
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Manifold() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2Manifold() {
   void * jresult ;
   b2Manifold *result = 0 ;
   
@@ -3207,7 +3207,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Manifold() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Manifold(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2Manifold(void * jarg1) {
   b2Manifold *arg1 = (b2Manifold *) 0 ;
   
   arg1 = (b2Manifold *)jarg1; 
@@ -3215,7 +3215,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Manifold(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WorldManifold_Initialize(void * jarg1, void * jarg2, void * jarg3, float jarg4, void * jarg5, float jarg6) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2WorldManifold_Initialize(void * jarg1, void * jarg2, void * jarg3, float jarg4, void * jarg5, float jarg6) {
   b2WorldManifold *arg1 = (b2WorldManifold *) 0 ;
   b2Manifold *arg2 = (b2Manifold *) 0 ;
   b2Transform *arg3 = 0 ;
@@ -3241,7 +3241,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WorldManifold_Initialize(void * jar
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WorldManifold_normal_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2WorldManifold_normal_set(void * jarg1, void * jarg2) {
   b2WorldManifold *arg1 = (b2WorldManifold *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -3251,7 +3251,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WorldManifold_normal_set(void * jar
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2WorldManifold_normal_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2WorldManifold_normal_get(void * jarg1) {
   void * jresult ;
   b2WorldManifold *arg1 = (b2WorldManifold *) 0 ;
   b2Vec2 *result = 0 ;
@@ -3263,7 +3263,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2WorldManifold_normal_get(void * j
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WorldManifold_points_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2WorldManifold_points_set(void * jarg1, void * jarg2) {
   b2WorldManifold *arg1 = (b2WorldManifold *) 0 ;
   b2Vec2 *arg2 ;
   
@@ -3277,7 +3277,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WorldManifold_points_set(void * jar
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2WorldManifold_points_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2WorldManifold_points_get(void * jarg1) {
   void * jresult ;
   b2WorldManifold *arg1 = (b2WorldManifold *) 0 ;
   b2Vec2 *result = 0 ;
@@ -3289,7 +3289,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2WorldManifold_points_get(void * j
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WorldManifold_separations_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2WorldManifold_separations_set(void * jarg1, void * jarg2) {
   b2WorldManifold *arg1 = (b2WorldManifold *) 0 ;
   float *arg2 ;
   
@@ -3303,7 +3303,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WorldManifold_separations_set(void 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2WorldManifold_separations_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2WorldManifold_separations_get(void * jarg1) {
   void * jresult ;
   b2WorldManifold *arg1 = (b2WorldManifold *) 0 ;
   float *result = 0 ;
@@ -3315,7 +3315,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2WorldManifold_separations_get(voi
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2WorldManifold() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2WorldManifold() {
   void * jresult ;
   b2WorldManifold *result = 0 ;
   
@@ -3325,7 +3325,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2WorldManifold() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2WorldManifold(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2WorldManifold(void * jarg1) {
   b2WorldManifold *arg1 = (b2WorldManifold *) 0 ;
   
   arg1 = (b2WorldManifold *)jarg1; 
@@ -3333,7 +3333,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2WorldManifold(void * jarg1) 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2GetPointStates(void * jarg1, void * jarg2, void * jarg3, void * jarg4) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2GetPointStates(void * jarg1, void * jarg2, void * jarg3, void * jarg4) {
   b2PointState *arg1 ;
   b2PointState *arg2 ;
   b2Manifold *arg3 = (b2Manifold *) 0 ;
@@ -3347,7 +3347,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2GetPointStates(void * jarg1, void *
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ClipVertex_v_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ClipVertex_v_set(void * jarg1, void * jarg2) {
   b2ClipVertex *arg1 = (b2ClipVertex *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -3357,7 +3357,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ClipVertex_v_set(void * jarg1, void
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ClipVertex_v_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2ClipVertex_v_get(void * jarg1) {
   void * jresult ;
   b2ClipVertex *arg1 = (b2ClipVertex *) 0 ;
   b2Vec2 *result = 0 ;
@@ -3369,7 +3369,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ClipVertex_v_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ClipVertex_id_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ClipVertex_id_set(void * jarg1, void * jarg2) {
   b2ClipVertex *arg1 = (b2ClipVertex *) 0 ;
   b2ContactID *arg2 = (b2ContactID *) 0 ;
   
@@ -3379,7 +3379,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ClipVertex_id_set(void * jarg1, voi
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ClipVertex_id_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2ClipVertex_id_get(void * jarg1) {
   void * jresult ;
   b2ClipVertex *arg1 = (b2ClipVertex *) 0 ;
   b2ContactID *result = 0 ;
@@ -3391,7 +3391,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ClipVertex_id_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2ClipVertex() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2ClipVertex() {
   void * jresult ;
   b2ClipVertex *result = 0 ;
   
@@ -3401,7 +3401,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2ClipVertex() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2ClipVertex(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2ClipVertex(void * jarg1) {
   b2ClipVertex *arg1 = (b2ClipVertex *) 0 ;
   
   arg1 = (b2ClipVertex *)jarg1; 
@@ -3409,7 +3409,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2ClipVertex(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RayCastInput_p1_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2RayCastInput_p1_set(void * jarg1, void * jarg2) {
   b2RayCastInput *arg1 = (b2RayCastInput *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -3419,7 +3419,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RayCastInput_p1_set(void * jarg1, v
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2RayCastInput_p1_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2RayCastInput_p1_get(void * jarg1) {
   void * jresult ;
   b2RayCastInput *arg1 = (b2RayCastInput *) 0 ;
   b2Vec2 *result = 0 ;
@@ -3431,7 +3431,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2RayCastInput_p1_get(void * jarg1)
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RayCastInput_p2_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2RayCastInput_p2_set(void * jarg1, void * jarg2) {
   b2RayCastInput *arg1 = (b2RayCastInput *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -3441,7 +3441,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RayCastInput_p2_set(void * jarg1, v
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2RayCastInput_p2_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2RayCastInput_p2_get(void * jarg1) {
   void * jresult ;
   b2RayCastInput *arg1 = (b2RayCastInput *) 0 ;
   b2Vec2 *result = 0 ;
@@ -3453,7 +3453,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2RayCastInput_p2_get(void * jarg1)
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RayCastInput_maxFraction_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2RayCastInput_maxFraction_set(void * jarg1, float jarg2) {
   b2RayCastInput *arg1 = (b2RayCastInput *) 0 ;
   float arg2 ;
   
@@ -3463,7 +3463,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RayCastInput_maxFraction_set(void *
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RayCastInput_maxFraction_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2RayCastInput_maxFraction_get(void * jarg1) {
   float jresult ;
   b2RayCastInput *arg1 = (b2RayCastInput *) 0 ;
   float result;
@@ -3475,7 +3475,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RayCastInput_maxFraction_get(void 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2RayCastInput() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2RayCastInput() {
   void * jresult ;
   b2RayCastInput *result = 0 ;
   
@@ -3485,7 +3485,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2RayCastInput() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2RayCastInput(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2RayCastInput(void * jarg1) {
   b2RayCastInput *arg1 = (b2RayCastInput *) 0 ;
   
   arg1 = (b2RayCastInput *)jarg1; 
@@ -3493,7 +3493,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2RayCastInput(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RayCastOutput_normal_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2RayCastOutput_normal_set(void * jarg1, void * jarg2) {
   b2RayCastOutput *arg1 = (b2RayCastOutput *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -3503,7 +3503,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RayCastOutput_normal_set(void * jar
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2RayCastOutput_normal_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2RayCastOutput_normal_get(void * jarg1) {
   void * jresult ;
   b2RayCastOutput *arg1 = (b2RayCastOutput *) 0 ;
   b2Vec2 *result = 0 ;
@@ -3515,7 +3515,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2RayCastOutput_normal_get(void * j
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RayCastOutput_fraction_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2RayCastOutput_fraction_set(void * jarg1, float jarg2) {
   b2RayCastOutput *arg1 = (b2RayCastOutput *) 0 ;
   float arg2 ;
   
@@ -3525,7 +3525,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RayCastOutput_fraction_set(void * j
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RayCastOutput_fraction_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2RayCastOutput_fraction_get(void * jarg1) {
   float jresult ;
   b2RayCastOutput *arg1 = (b2RayCastOutput *) 0 ;
   float result;
@@ -3537,7 +3537,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RayCastOutput_fraction_get(void * 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2RayCastOutput() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2RayCastOutput() {
   void * jresult ;
   b2RayCastOutput *result = 0 ;
   
@@ -3547,7 +3547,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2RayCastOutput() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2RayCastOutput(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2RayCastOutput(void * jarg1) {
   b2RayCastOutput *arg1 = (b2RayCastOutput *) 0 ;
   
   arg1 = (b2RayCastOutput *)jarg1; 
@@ -3555,7 +3555,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2RayCastOutput(void * jarg1) 
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2AABB_IsValid(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2AABB_IsValid(void * jarg1) {
   unsigned int jresult ;
   b2AABB *arg1 = (b2AABB *) 0 ;
   bool result;
@@ -3567,7 +3567,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2AABB_IsValid(void * jarg1) 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2AABB_GetCenter(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2AABB_GetCenter(void * jarg1) {
   void * jresult ;
   b2AABB *arg1 = (b2AABB *) 0 ;
   b2Vec2 result;
@@ -3579,7 +3579,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2AABB_GetCenter(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2AABB_GetExtents(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2AABB_GetExtents(void * jarg1) {
   void * jresult ;
   b2AABB *arg1 = (b2AABB *) 0 ;
   b2Vec2 result;
@@ -3591,7 +3591,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2AABB_GetExtents(void * jarg1) {
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2AABB_GetPerimeter(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2AABB_GetPerimeter(void * jarg1) {
   float jresult ;
   b2AABB *arg1 = (b2AABB *) 0 ;
   float result;
@@ -3603,7 +3603,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2AABB_GetPerimeter(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2AABB_Combine__SWIG_0(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2AABB_Combine__SWIG_0(void * jarg1, void * jarg2) {
   b2AABB *arg1 = (b2AABB *) 0 ;
   b2AABB *arg2 = 0 ;
   
@@ -3617,7 +3617,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2AABB_Combine__SWIG_0(void * jarg1, 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2AABB_Combine__SWIG_1(void * jarg1, void * jarg2, void * jarg3) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2AABB_Combine__SWIG_1(void * jarg1, void * jarg2, void * jarg3) {
   b2AABB *arg1 = (b2AABB *) 0 ;
   b2AABB *arg2 = 0 ;
   b2AABB *arg3 = 0 ;
@@ -3637,7 +3637,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2AABB_Combine__SWIG_1(void * jarg1, 
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2AABB_Contains(void * jarg1, void * jarg2) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2AABB_Contains(void * jarg1, void * jarg2) {
   unsigned int jresult ;
   b2AABB *arg1 = (b2AABB *) 0 ;
   b2AABB *arg2 = 0 ;
@@ -3655,7 +3655,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2AABB_Contains(void * jarg1,
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2AABB_RayCast(void * jarg1, void * jarg2, void * jarg3) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2AABB_RayCast(void * jarg1, void * jarg2, void * jarg3) {
   unsigned int jresult ;
   b2AABB *arg1 = (b2AABB *) 0 ;
   b2RayCastOutput *arg2 = (b2RayCastOutput *) 0 ;
@@ -3675,7 +3675,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2AABB_RayCast(void * jarg1, 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2AABB_lowerBound_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2AABB_lowerBound_set(void * jarg1, void * jarg2) {
   b2AABB *arg1 = (b2AABB *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -3685,7 +3685,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2AABB_lowerBound_set(void * jarg1, v
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2AABB_lowerBound_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2AABB_lowerBound_get(void * jarg1) {
   void * jresult ;
   b2AABB *arg1 = (b2AABB *) 0 ;
   b2Vec2 *result = 0 ;
@@ -3697,7 +3697,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2AABB_lowerBound_get(void * jarg1)
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2AABB_upperBound_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2AABB_upperBound_set(void * jarg1, void * jarg2) {
   b2AABB *arg1 = (b2AABB *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -3707,7 +3707,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2AABB_upperBound_set(void * jarg1, v
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2AABB_upperBound_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2AABB_upperBound_get(void * jarg1) {
   void * jresult ;
   b2AABB *arg1 = (b2AABB *) 0 ;
   b2Vec2 *result = 0 ;
@@ -3719,7 +3719,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2AABB_upperBound_get(void * jarg1)
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2AABB() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2AABB() {
   void * jresult ;
   b2AABB *result = 0 ;
   
@@ -3729,7 +3729,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2AABB() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2AABB(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2AABB(void * jarg1) {
   b2AABB *arg1 = (b2AABB *) 0 ;
   
   arg1 = (b2AABB *)jarg1; 
@@ -3737,7 +3737,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2AABB(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2CollideCircles(void * jarg1, void * jarg2, void * jarg3, void * jarg4, void * jarg5) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2CollideCircles(void * jarg1, void * jarg2, void * jarg3, void * jarg4, void * jarg5) {
   b2Manifold *arg1 = (b2Manifold *) 0 ;
   b2CircleShape *arg2 = (b2CircleShape *) 0 ;
   b2Transform *arg3 = 0 ;
@@ -3761,7 +3761,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2CollideCircles(void * jarg1, void *
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2CollidePolygonAndCircle(void * jarg1, void * jarg2, void * jarg3, void * jarg4, void * jarg5) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2CollidePolygonAndCircle(void * jarg1, void * jarg2, void * jarg3, void * jarg4, void * jarg5) {
   b2Manifold *arg1 = (b2Manifold *) 0 ;
   b2PolygonShape *arg2 = (b2PolygonShape *) 0 ;
   b2Transform *arg3 = 0 ;
@@ -3785,7 +3785,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2CollidePolygonAndCircle(void * jarg
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2CollidePolygons(void * jarg1, void * jarg2, void * jarg3, void * jarg4, void * jarg5) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2CollidePolygons(void * jarg1, void * jarg2, void * jarg3, void * jarg4, void * jarg5) {
   b2Manifold *arg1 = (b2Manifold *) 0 ;
   b2PolygonShape *arg2 = (b2PolygonShape *) 0 ;
   b2Transform *arg3 = 0 ;
@@ -3809,7 +3809,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2CollidePolygons(void * jarg1, void 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2CollideEdgeAndCircle(void * jarg1, void * jarg2, void * jarg3, void * jarg4, void * jarg5) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2CollideEdgeAndCircle(void * jarg1, void * jarg2, void * jarg3, void * jarg4, void * jarg5) {
   b2Manifold *arg1 = (b2Manifold *) 0 ;
   b2EdgeShape *arg2 = (b2EdgeShape *) 0 ;
   b2Transform *arg3 = 0 ;
@@ -3833,7 +3833,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2CollideEdgeAndCircle(void * jarg1, 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2CollideEdgeAndPolygon(void * jarg1, void * jarg2, void * jarg3, void * jarg4, void * jarg5) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2CollideEdgeAndPolygon(void * jarg1, void * jarg2, void * jarg3, void * jarg4, void * jarg5) {
   b2Manifold *arg1 = (b2Manifold *) 0 ;
   b2EdgeShape *arg2 = (b2EdgeShape *) 0 ;
   b2Transform *arg3 = 0 ;
@@ -3857,7 +3857,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2CollideEdgeAndPolygon(void * jarg1,
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2ClipSegmentToLine(void * jarg1, void * jarg2, void * jarg3, float jarg4, int jarg5) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2ClipSegmentToLine(void * jarg1, void * jarg2, void * jarg3, float jarg4, int jarg5) {
   int jresult ;
   b2ClipVertex *arg1 ;
   b2ClipVertex *arg2 ;
@@ -3881,7 +3881,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2ClipSegmentToLine(void * jarg1, void
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2TestOverlap__SWIG_0(void * jarg1, int jarg2, void * jarg3, int jarg4, void * jarg5, void * jarg6) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2TestOverlap__SWIG_0(void * jarg1, int jarg2, void * jarg3, int jarg4, void * jarg5, void * jarg6) {
   unsigned int jresult ;
   b2Shape *arg1 = (b2Shape *) 0 ;
   int32 arg2 ;
@@ -3911,7 +3911,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2TestOverlap__SWIG_0(void * 
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2TestOverlap__SWIG_1(void * jarg1, void * jarg2) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2TestOverlap__SWIG_1(void * jarg1, void * jarg2) {
   unsigned int jresult ;
   b2AABB *arg1 = 0 ;
   b2AABB *arg2 = 0 ;
@@ -3933,7 +3933,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2TestOverlap__SWIG_1(void * 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MassData_mass_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2MassData_mass_set(void * jarg1, float jarg2) {
   b2MassData *arg1 = (b2MassData *) 0 ;
   float arg2 ;
   
@@ -3943,7 +3943,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MassData_mass_set(void * jarg1, flo
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MassData_mass_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2MassData_mass_get(void * jarg1) {
   float jresult ;
   b2MassData *arg1 = (b2MassData *) 0 ;
   float result;
@@ -3955,7 +3955,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MassData_mass_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MassData_center_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2MassData_center_set(void * jarg1, void * jarg2) {
   b2MassData *arg1 = (b2MassData *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -3965,7 +3965,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MassData_center_set(void * jarg1, v
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2MassData_center_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2MassData_center_get(void * jarg1) {
   void * jresult ;
   b2MassData *arg1 = (b2MassData *) 0 ;
   b2Vec2 *result = 0 ;
@@ -3977,7 +3977,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2MassData_center_get(void * jarg1)
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MassData_I_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2MassData_I_set(void * jarg1, float jarg2) {
   b2MassData *arg1 = (b2MassData *) 0 ;
   float arg2 ;
   
@@ -3987,7 +3987,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MassData_I_set(void * jarg1, float 
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MassData_I_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2MassData_I_get(void * jarg1) {
   float jresult ;
   b2MassData *arg1 = (b2MassData *) 0 ;
   float result;
@@ -3999,7 +3999,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MassData_I_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2MassData() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2MassData() {
   void * jresult ;
   b2MassData *result = 0 ;
   
@@ -4009,7 +4009,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2MassData() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2MassData(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2MassData(void * jarg1) {
   b2MassData *arg1 = (b2MassData *) 0 ;
   
   arg1 = (b2MassData *)jarg1; 
@@ -4017,7 +4017,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2MassData(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Shape(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2Shape(void * jarg1) {
   b2Shape *arg1 = (b2Shape *) 0 ;
   
   arg1 = (b2Shape *)jarg1; 
@@ -4025,7 +4025,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Shape(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Shape_Clone(void * jarg1, void * jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Shape_Clone(void * jarg1, void * jarg2) {
   void * jresult ;
   b2Shape *arg1 = (b2Shape *) 0 ;
   b2BlockAllocator *arg2 = (b2BlockAllocator *) 0 ;
@@ -4039,7 +4039,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Shape_Clone(void * jarg1, void * 
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Shape_GetType(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2Shape_GetType(void * jarg1) {
   int jresult ;
   b2Shape *arg1 = (b2Shape *) 0 ;
   b2Shape::Type result;
@@ -4051,7 +4051,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Shape_GetType(void * jarg1) {
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Shape_GetChildCount(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2Shape_GetChildCount(void * jarg1) {
   int jresult ;
   b2Shape *arg1 = (b2Shape *) 0 ;
   int32 result;
@@ -4063,7 +4063,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Shape_GetChildCount(void * jarg1) {
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2Shape_TestPoint(void * jarg1, void * jarg2, void * jarg3) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2Shape_TestPoint(void * jarg1, void * jarg2, void * jarg3) {
   unsigned int jresult ;
   b2Shape *arg1 = (b2Shape *) 0 ;
   b2Transform *arg2 = 0 ;
@@ -4087,7 +4087,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2Shape_TestPoint(void * jarg
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2Shape_RayCast(void * jarg1, void * jarg2, void * jarg3, void * jarg4, int jarg5) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2Shape_RayCast(void * jarg1, void * jarg2, void * jarg3, void * jarg4, int jarg5) {
   unsigned int jresult ;
   b2Shape *arg1 = (b2Shape *) 0 ;
   b2RayCastOutput *arg2 = (b2RayCastOutput *) 0 ;
@@ -4115,7 +4115,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2Shape_RayCast(void * jarg1,
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Shape_ComputeAABB(void * jarg1, void * jarg2, void * jarg3, int jarg4) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Shape_ComputeAABB(void * jarg1, void * jarg2, void * jarg3, int jarg4) {
   b2Shape *arg1 = (b2Shape *) 0 ;
   b2AABB *arg2 = (b2AABB *) 0 ;
   b2Transform *arg3 = 0 ;
@@ -4133,7 +4133,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Shape_ComputeAABB(void * jarg1, voi
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Shape_ComputeMass(void * jarg1, void * jarg2, float jarg3) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Shape_ComputeMass(void * jarg1, void * jarg2, float jarg3) {
   b2Shape *arg1 = (b2Shape *) 0 ;
   b2MassData *arg2 = (b2MassData *) 0 ;
   float arg3 ;
@@ -4145,7 +4145,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Shape_ComputeMass(void * jarg1, voi
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Shape_m_type_set(void * jarg1, int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Shape_m_type_set(void * jarg1, int jarg2) {
   b2Shape *arg1 = (b2Shape *) 0 ;
   b2Shape::Type arg2 ;
   
@@ -4155,7 +4155,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Shape_m_type_set(void * jarg1, int 
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Shape_m_type_get(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2Shape_m_type_get(void * jarg1) {
   int jresult ;
   b2Shape *arg1 = (b2Shape *) 0 ;
   b2Shape::Type result;
@@ -4167,7 +4167,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Shape_m_type_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Shape_m_radius_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Shape_m_radius_set(void * jarg1, float jarg2) {
   b2Shape *arg1 = (b2Shape *) 0 ;
   float arg2 ;
   
@@ -4177,7 +4177,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Shape_m_radius_set(void * jarg1, fl
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Shape_m_radius_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Shape_m_radius_get(void * jarg1) {
   float jresult ;
   b2Shape *arg1 = (b2Shape *) 0 ;
   float result;
@@ -4189,7 +4189,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Shape_m_radius_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2ChainShape() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2ChainShape() {
   void * jresult ;
   b2ChainShape *result = 0 ;
   
@@ -4199,7 +4199,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2ChainShape() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2ChainShape(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2ChainShape(void * jarg1) {
   b2ChainShape *arg1 = (b2ChainShape *) 0 ;
   
   arg1 = (b2ChainShape *)jarg1; 
@@ -4207,7 +4207,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2ChainShape(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_Clear(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ChainShape_Clear(void * jarg1) {
   b2ChainShape *arg1 = (b2ChainShape *) 0 ;
   
   arg1 = (b2ChainShape *)jarg1; 
@@ -4215,7 +4215,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_Clear(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_CreateLoop(void * jarg1, void * jarg2, int jarg3) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ChainShape_CreateLoop(void * jarg1, void * jarg2, int jarg3) {
   b2ChainShape *arg1 = (b2ChainShape *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   int32 arg3 ;
@@ -4227,7 +4227,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_CreateLoop(void * jarg1,
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_CreateChain(void * jarg1, void * jarg2, int jarg3) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ChainShape_CreateChain(void * jarg1, void * jarg2, int jarg3) {
   b2ChainShape *arg1 = (b2ChainShape *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   int32 arg3 ;
@@ -4239,7 +4239,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_CreateChain(void * jarg1
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_SetPrevVertex(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ChainShape_SetPrevVertex(void * jarg1, void * jarg2) {
   b2ChainShape *arg1 = (b2ChainShape *) 0 ;
   b2Vec2 *arg2 = 0 ;
   
@@ -4253,7 +4253,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_SetPrevVertex(void * jar
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_SetNextVertex(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ChainShape_SetNextVertex(void * jarg1, void * jarg2) {
   b2ChainShape *arg1 = (b2ChainShape *) 0 ;
   b2Vec2 *arg2 = 0 ;
   
@@ -4267,7 +4267,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_SetNextVertex(void * jar
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_Clone(void * jarg1, void * jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2ChainShape_Clone(void * jarg1, void * jarg2) {
   void * jresult ;
   b2ChainShape *arg1 = (b2ChainShape *) 0 ;
   b2BlockAllocator *arg2 = (b2BlockAllocator *) 0 ;
@@ -4281,7 +4281,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_Clone(void * jarg1, vo
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_GetChildCount(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2ChainShape_GetChildCount(void * jarg1) {
   int jresult ;
   b2ChainShape *arg1 = (b2ChainShape *) 0 ;
   int32 result;
@@ -4293,7 +4293,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_GetChildCount(void * jarg
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_GetChildEdge(void * jarg1, void * jarg2, int jarg3) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ChainShape_GetChildEdge(void * jarg1, void * jarg2, int jarg3) {
   b2ChainShape *arg1 = (b2ChainShape *) 0 ;
   b2EdgeShape *arg2 = (b2EdgeShape *) 0 ;
   int32 arg3 ;
@@ -4305,7 +4305,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_GetChildEdge(void * jarg
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_TestPoint(void * jarg1, void * jarg2, void * jarg3) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2ChainShape_TestPoint(void * jarg1, void * jarg2, void * jarg3) {
   unsigned int jresult ;
   b2ChainShape *arg1 = (b2ChainShape *) 0 ;
   b2Transform *arg2 = 0 ;
@@ -4329,7 +4329,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_TestPoint(void *
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_RayCast(void * jarg1, void * jarg2, void * jarg3, void * jarg4, int jarg5) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2ChainShape_RayCast(void * jarg1, void * jarg2, void * jarg3, void * jarg4, int jarg5) {
   unsigned int jresult ;
   b2ChainShape *arg1 = (b2ChainShape *) 0 ;
   b2RayCastOutput *arg2 = (b2RayCastOutput *) 0 ;
@@ -4357,7 +4357,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_RayCast(void * j
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_ComputeAABB(void * jarg1, void * jarg2, void * jarg3, int jarg4) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ChainShape_ComputeAABB(void * jarg1, void * jarg2, void * jarg3, int jarg4) {
   b2ChainShape *arg1 = (b2ChainShape *) 0 ;
   b2AABB *arg2 = (b2AABB *) 0 ;
   b2Transform *arg3 = 0 ;
@@ -4375,7 +4375,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_ComputeAABB(void * jarg1
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_ComputeMass(void * jarg1, void * jarg2, float jarg3) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ChainShape_ComputeMass(void * jarg1, void * jarg2, float jarg3) {
   b2ChainShape *arg1 = (b2ChainShape *) 0 ;
   b2MassData *arg2 = (b2MassData *) 0 ;
   float arg3 ;
@@ -4387,7 +4387,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_ComputeMass(void * jarg1
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_m_vertices_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ChainShape_m_vertices_set(void * jarg1, void * jarg2) {
   b2ChainShape *arg1 = (b2ChainShape *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -4397,7 +4397,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_m_vertices_set(void * ja
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_m_vertices_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2ChainShape_m_vertices_get(void * jarg1) {
   void * jresult ;
   b2ChainShape *arg1 = (b2ChainShape *) 0 ;
   b2Vec2 *result = 0 ;
@@ -4409,7 +4409,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_m_vertices_get(void * 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_m_count_set(void * jarg1, int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ChainShape_m_count_set(void * jarg1, int jarg2) {
   b2ChainShape *arg1 = (b2ChainShape *) 0 ;
   int32 arg2 ;
   
@@ -4419,7 +4419,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_m_count_set(void * jarg1
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_m_count_get(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2ChainShape_m_count_get(void * jarg1) {
   int jresult ;
   b2ChainShape *arg1 = (b2ChainShape *) 0 ;
   int32 result;
@@ -4431,7 +4431,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_m_count_get(void * jarg1)
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_m_prevVertex_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ChainShape_m_prevVertex_set(void * jarg1, void * jarg2) {
   b2ChainShape *arg1 = (b2ChainShape *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -4441,7 +4441,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_m_prevVertex_set(void * 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_m_prevVertex_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2ChainShape_m_prevVertex_get(void * jarg1) {
   void * jresult ;
   b2ChainShape *arg1 = (b2ChainShape *) 0 ;
   b2Vec2 *result = 0 ;
@@ -4453,7 +4453,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_m_prevVertex_get(void 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_m_nextVertex_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ChainShape_m_nextVertex_set(void * jarg1, void * jarg2) {
   b2ChainShape *arg1 = (b2ChainShape *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -4463,7 +4463,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_m_nextVertex_set(void * 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_m_nextVertex_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2ChainShape_m_nextVertex_get(void * jarg1) {
   void * jresult ;
   b2ChainShape *arg1 = (b2ChainShape *) 0 ;
   b2Vec2 *result = 0 ;
@@ -4475,7 +4475,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_m_nextVertex_get(void 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_m_hasPrevVertex_set(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ChainShape_m_hasPrevVertex_set(void * jarg1, unsigned int jarg2) {
   b2ChainShape *arg1 = (b2ChainShape *) 0 ;
   bool arg2 ;
   
@@ -4485,7 +4485,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_m_hasPrevVertex_set(void
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_m_hasPrevVertex_get(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2ChainShape_m_hasPrevVertex_get(void * jarg1) {
   unsigned int jresult ;
   b2ChainShape *arg1 = (b2ChainShape *) 0 ;
   bool result;
@@ -4497,7 +4497,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_m_hasPrevVertex_
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_m_hasNextVertex_set(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ChainShape_m_hasNextVertex_set(void * jarg1, unsigned int jarg2) {
   b2ChainShape *arg1 = (b2ChainShape *) 0 ;
   bool arg2 ;
   
@@ -4507,7 +4507,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_m_hasNextVertex_set(void
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_m_hasNextVertex_get(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2ChainShape_m_hasNextVertex_get(void * jarg1) {
   unsigned int jresult ;
   b2ChainShape *arg1 = (b2ChainShape *) 0 ;
   bool result;
@@ -4519,7 +4519,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_m_hasNextVertex_
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2CircleShape() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2CircleShape() {
   void * jresult ;
   b2CircleShape *result = 0 ;
   
@@ -4529,7 +4529,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2CircleShape() {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2CircleShape_Clone(void * jarg1, void * jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2CircleShape_Clone(void * jarg1, void * jarg2) {
   void * jresult ;
   b2CircleShape *arg1 = (b2CircleShape *) 0 ;
   b2BlockAllocator *arg2 = (b2BlockAllocator *) 0 ;
@@ -4543,7 +4543,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2CircleShape_Clone(void * jarg1, v
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2CircleShape_GetChildCount(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2CircleShape_GetChildCount(void * jarg1) {
   int jresult ;
   b2CircleShape *arg1 = (b2CircleShape *) 0 ;
   int32 result;
@@ -4555,7 +4555,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2CircleShape_GetChildCount(void * jar
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2CircleShape_TestPoint(void * jarg1, void * jarg2, void * jarg3) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2CircleShape_TestPoint(void * jarg1, void * jarg2, void * jarg3) {
   unsigned int jresult ;
   b2CircleShape *arg1 = (b2CircleShape *) 0 ;
   b2Transform *arg2 = 0 ;
@@ -4579,7 +4579,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2CircleShape_TestPoint(void 
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2CircleShape_RayCast(void * jarg1, void * jarg2, void * jarg3, void * jarg4, int jarg5) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2CircleShape_RayCast(void * jarg1, void * jarg2, void * jarg3, void * jarg4, int jarg5) {
   unsigned int jresult ;
   b2CircleShape *arg1 = (b2CircleShape *) 0 ;
   b2RayCastOutput *arg2 = (b2RayCastOutput *) 0 ;
@@ -4607,7 +4607,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2CircleShape_RayCast(void * 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2CircleShape_ComputeAABB(void * jarg1, void * jarg2, void * jarg3, int jarg4) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2CircleShape_ComputeAABB(void * jarg1, void * jarg2, void * jarg3, int jarg4) {
   b2CircleShape *arg1 = (b2CircleShape *) 0 ;
   b2AABB *arg2 = (b2AABB *) 0 ;
   b2Transform *arg3 = 0 ;
@@ -4625,7 +4625,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2CircleShape_ComputeAABB(void * jarg
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2CircleShape_ComputeMass(void * jarg1, void * jarg2, float jarg3) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2CircleShape_ComputeMass(void * jarg1, void * jarg2, float jarg3) {
   b2CircleShape *arg1 = (b2CircleShape *) 0 ;
   b2MassData *arg2 = (b2MassData *) 0 ;
   float arg3 ;
@@ -4637,7 +4637,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2CircleShape_ComputeMass(void * jarg
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2CircleShape_m_p_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2CircleShape_m_p_set(void * jarg1, void * jarg2) {
   b2CircleShape *arg1 = (b2CircleShape *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -4647,7 +4647,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2CircleShape_m_p_set(void * jarg1, v
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2CircleShape_m_p_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2CircleShape_m_p_get(void * jarg1) {
   void * jresult ;
   b2CircleShape *arg1 = (b2CircleShape *) 0 ;
   b2Vec2 *result = 0 ;
@@ -4659,7 +4659,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2CircleShape_m_p_get(void * jarg1)
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2CircleShape(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2CircleShape(void * jarg1) {
   b2CircleShape *arg1 = (b2CircleShape *) 0 ;
   
   arg1 = (b2CircleShape *)jarg1; 
@@ -4667,7 +4667,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2CircleShape(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2EdgeShape() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2EdgeShape() {
   void * jresult ;
   b2EdgeShape *result = 0 ;
   
@@ -4677,7 +4677,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2EdgeShape() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_Set(void * jarg1, void * jarg2, void * jarg3) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2EdgeShape_Set(void * jarg1, void * jarg2, void * jarg3) {
   b2EdgeShape *arg1 = (b2EdgeShape *) 0 ;
   b2Vec2 *arg2 = 0 ;
   b2Vec2 *arg3 = 0 ;
@@ -4697,7 +4697,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_Set(void * jarg1, void * 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_Clone(void * jarg1, void * jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2EdgeShape_Clone(void * jarg1, void * jarg2) {
   void * jresult ;
   b2EdgeShape *arg1 = (b2EdgeShape *) 0 ;
   b2BlockAllocator *arg2 = (b2BlockAllocator *) 0 ;
@@ -4711,7 +4711,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_Clone(void * jarg1, voi
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_GetChildCount(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2EdgeShape_GetChildCount(void * jarg1) {
   int jresult ;
   b2EdgeShape *arg1 = (b2EdgeShape *) 0 ;
   int32 result;
@@ -4723,7 +4723,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_GetChildCount(void * jarg1
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_TestPoint(void * jarg1, void * jarg2, void * jarg3) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2EdgeShape_TestPoint(void * jarg1, void * jarg2, void * jarg3) {
   unsigned int jresult ;
   b2EdgeShape *arg1 = (b2EdgeShape *) 0 ;
   b2Transform *arg2 = 0 ;
@@ -4747,7 +4747,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_TestPoint(void * 
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_RayCast(void * jarg1, void * jarg2, void * jarg3, void * jarg4, int jarg5) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2EdgeShape_RayCast(void * jarg1, void * jarg2, void * jarg3, void * jarg4, int jarg5) {
   unsigned int jresult ;
   b2EdgeShape *arg1 = (b2EdgeShape *) 0 ;
   b2RayCastOutput *arg2 = (b2RayCastOutput *) 0 ;
@@ -4775,7 +4775,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_RayCast(void * ja
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_ComputeAABB(void * jarg1, void * jarg2, void * jarg3, int jarg4) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2EdgeShape_ComputeAABB(void * jarg1, void * jarg2, void * jarg3, int jarg4) {
   b2EdgeShape *arg1 = (b2EdgeShape *) 0 ;
   b2AABB *arg2 = (b2AABB *) 0 ;
   b2Transform *arg3 = 0 ;
@@ -4793,7 +4793,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_ComputeAABB(void * jarg1,
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_ComputeMass(void * jarg1, void * jarg2, float jarg3) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2EdgeShape_ComputeMass(void * jarg1, void * jarg2, float jarg3) {
   b2EdgeShape *arg1 = (b2EdgeShape *) 0 ;
   b2MassData *arg2 = (b2MassData *) 0 ;
   float arg3 ;
@@ -4805,7 +4805,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_ComputeMass(void * jarg1,
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_m_vertex1_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2EdgeShape_m_vertex1_set(void * jarg1, void * jarg2) {
   b2EdgeShape *arg1 = (b2EdgeShape *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -4815,7 +4815,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_m_vertex1_set(void * jarg
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_m_vertex1_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2EdgeShape_m_vertex1_get(void * jarg1) {
   void * jresult ;
   b2EdgeShape *arg1 = (b2EdgeShape *) 0 ;
   b2Vec2 *result = 0 ;
@@ -4827,7 +4827,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_m_vertex1_get(void * ja
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_m_vertex2_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2EdgeShape_m_vertex2_set(void * jarg1, void * jarg2) {
   b2EdgeShape *arg1 = (b2EdgeShape *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -4837,7 +4837,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_m_vertex2_set(void * jarg
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_m_vertex2_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2EdgeShape_m_vertex2_get(void * jarg1) {
   void * jresult ;
   b2EdgeShape *arg1 = (b2EdgeShape *) 0 ;
   b2Vec2 *result = 0 ;
@@ -4849,7 +4849,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_m_vertex2_get(void * ja
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_m_vertex0_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2EdgeShape_m_vertex0_set(void * jarg1, void * jarg2) {
   b2EdgeShape *arg1 = (b2EdgeShape *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -4859,7 +4859,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_m_vertex0_set(void * jarg
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_m_vertex0_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2EdgeShape_m_vertex0_get(void * jarg1) {
   void * jresult ;
   b2EdgeShape *arg1 = (b2EdgeShape *) 0 ;
   b2Vec2 *result = 0 ;
@@ -4871,7 +4871,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_m_vertex0_get(void * ja
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_m_vertex3_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2EdgeShape_m_vertex3_set(void * jarg1, void * jarg2) {
   b2EdgeShape *arg1 = (b2EdgeShape *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -4881,7 +4881,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_m_vertex3_set(void * jarg
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_m_vertex3_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2EdgeShape_m_vertex3_get(void * jarg1) {
   void * jresult ;
   b2EdgeShape *arg1 = (b2EdgeShape *) 0 ;
   b2Vec2 *result = 0 ;
@@ -4893,7 +4893,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_m_vertex3_get(void * ja
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_m_hasVertex0_set(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2EdgeShape_m_hasVertex0_set(void * jarg1, unsigned int jarg2) {
   b2EdgeShape *arg1 = (b2EdgeShape *) 0 ;
   bool arg2 ;
   
@@ -4903,7 +4903,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_m_hasVertex0_set(void * j
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_m_hasVertex0_get(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2EdgeShape_m_hasVertex0_get(void * jarg1) {
   unsigned int jresult ;
   b2EdgeShape *arg1 = (b2EdgeShape *) 0 ;
   bool result;
@@ -4915,7 +4915,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_m_hasVertex0_get(
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_m_hasVertex3_set(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2EdgeShape_m_hasVertex3_set(void * jarg1, unsigned int jarg2) {
   b2EdgeShape *arg1 = (b2EdgeShape *) 0 ;
   bool arg2 ;
   
@@ -4925,7 +4925,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_m_hasVertex3_set(void * j
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_m_hasVertex3_get(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2EdgeShape_m_hasVertex3_get(void * jarg1) {
   unsigned int jresult ;
   b2EdgeShape *arg1 = (b2EdgeShape *) 0 ;
   bool result;
@@ -4937,7 +4937,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_m_hasVertex3_get(
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2EdgeShape(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2EdgeShape(void * jarg1) {
   b2EdgeShape *arg1 = (b2EdgeShape *) 0 ;
   
   arg1 = (b2EdgeShape *)jarg1; 
@@ -4945,7 +4945,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2EdgeShape(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2PolygonShape() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2PolygonShape() {
   void * jresult ;
   b2PolygonShape *result = 0 ;
   
@@ -4955,7 +4955,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2PolygonShape() {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PolygonShape_Clone(void * jarg1, void * jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2PolygonShape_Clone(void * jarg1, void * jarg2) {
   void * jresult ;
   b2PolygonShape *arg1 = (b2PolygonShape *) 0 ;
   b2BlockAllocator *arg2 = (b2BlockAllocator *) 0 ;
@@ -4969,7 +4969,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PolygonShape_Clone(void * jarg1, 
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2PolygonShape_GetChildCount(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2PolygonShape_GetChildCount(void * jarg1) {
   int jresult ;
   b2PolygonShape *arg1 = (b2PolygonShape *) 0 ;
   int32 result;
@@ -4981,7 +4981,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2PolygonShape_GetChildCount(void * ja
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PolygonShape_Set(void * jarg1, void * jarg2, int jarg3) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2PolygonShape_Set(void * jarg1, void * jarg2, int jarg3) {
   b2PolygonShape *arg1 = (b2PolygonShape *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   int32 arg3 ;
@@ -4993,7 +4993,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PolygonShape_Set(void * jarg1, void
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PolygonShape_SetAsBox__SWIG_0(void * jarg1, float jarg2, float jarg3) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2PolygonShape_SetAsBox__SWIG_0(void * jarg1, float jarg2, float jarg3) {
   b2PolygonShape *arg1 = (b2PolygonShape *) 0 ;
   float arg2 ;
   float arg3 ;
@@ -5005,7 +5005,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PolygonShape_SetAsBox__SWIG_0(void 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PolygonShape_SetAsBox__SWIG_1(void * jarg1, float jarg2, float jarg3, void * jarg4, float jarg5) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2PolygonShape_SetAsBox__SWIG_1(void * jarg1, float jarg2, float jarg3, void * jarg4, float jarg5) {
   b2PolygonShape *arg1 = (b2PolygonShape *) 0 ;
   float arg2 ;
   float arg3 ;
@@ -5025,7 +5025,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PolygonShape_SetAsBox__SWIG_1(void 
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2PolygonShape_TestPoint(void * jarg1, void * jarg2, void * jarg3) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2PolygonShape_TestPoint(void * jarg1, void * jarg2, void * jarg3) {
   unsigned int jresult ;
   b2PolygonShape *arg1 = (b2PolygonShape *) 0 ;
   b2Transform *arg2 = 0 ;
@@ -5049,7 +5049,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2PolygonShape_TestPoint(void
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2PolygonShape_RayCast(void * jarg1, void * jarg2, void * jarg3, void * jarg4, int jarg5) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2PolygonShape_RayCast(void * jarg1, void * jarg2, void * jarg3, void * jarg4, int jarg5) {
   unsigned int jresult ;
   b2PolygonShape *arg1 = (b2PolygonShape *) 0 ;
   b2RayCastOutput *arg2 = (b2RayCastOutput *) 0 ;
@@ -5077,7 +5077,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2PolygonShape_RayCast(void *
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PolygonShape_ComputeAABB(void * jarg1, void * jarg2, void * jarg3, int jarg4) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2PolygonShape_ComputeAABB(void * jarg1, void * jarg2, void * jarg3, int jarg4) {
   b2PolygonShape *arg1 = (b2PolygonShape *) 0 ;
   b2AABB *arg2 = (b2AABB *) 0 ;
   b2Transform *arg3 = 0 ;
@@ -5095,7 +5095,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PolygonShape_ComputeAABB(void * jar
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PolygonShape_ComputeMass(void * jarg1, void * jarg2, float jarg3) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2PolygonShape_ComputeMass(void * jarg1, void * jarg2, float jarg3) {
   b2PolygonShape *arg1 = (b2PolygonShape *) 0 ;
   b2MassData *arg2 = (b2MassData *) 0 ;
   float arg3 ;
@@ -5107,7 +5107,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PolygonShape_ComputeMass(void * jar
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2PolygonShape_Validate(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2PolygonShape_Validate(void * jarg1) {
   unsigned int jresult ;
   b2PolygonShape *arg1 = (b2PolygonShape *) 0 ;
   bool result;
@@ -5119,7 +5119,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2PolygonShape_Validate(void 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PolygonShape_m_centroid_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2PolygonShape_m_centroid_set(void * jarg1, void * jarg2) {
   b2PolygonShape *arg1 = (b2PolygonShape *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -5129,7 +5129,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PolygonShape_m_centroid_set(void * 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PolygonShape_m_centroid_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2PolygonShape_m_centroid_get(void * jarg1) {
   void * jresult ;
   b2PolygonShape *arg1 = (b2PolygonShape *) 0 ;
   b2Vec2 *result = 0 ;
@@ -5141,7 +5141,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PolygonShape_m_centroid_get(void 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PolygonShape_m_vertices_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2PolygonShape_m_vertices_set(void * jarg1, void * jarg2) {
   b2PolygonShape *arg1 = (b2PolygonShape *) 0 ;
   b2Vec2 *arg2 ;
   
@@ -5155,7 +5155,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PolygonShape_m_vertices_set(void * 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PolygonShape_m_vertices_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2PolygonShape_m_vertices_get(void * jarg1) {
   void * jresult ;
   b2PolygonShape *arg1 = (b2PolygonShape *) 0 ;
   b2Vec2 *result = 0 ;
@@ -5167,7 +5167,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PolygonShape_m_vertices_get(void 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PolygonShape_m_normals_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2PolygonShape_m_normals_set(void * jarg1, void * jarg2) {
   b2PolygonShape *arg1 = (b2PolygonShape *) 0 ;
   b2Vec2 *arg2 ;
   
@@ -5181,7 +5181,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PolygonShape_m_normals_set(void * j
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PolygonShape_m_normals_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2PolygonShape_m_normals_get(void * jarg1) {
   void * jresult ;
   b2PolygonShape *arg1 = (b2PolygonShape *) 0 ;
   b2Vec2 *result = 0 ;
@@ -5193,7 +5193,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PolygonShape_m_normals_get(void *
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PolygonShape_m_count_set(void * jarg1, int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2PolygonShape_m_count_set(void * jarg1, int jarg2) {
   b2PolygonShape *arg1 = (b2PolygonShape *) 0 ;
   int32 arg2 ;
   
@@ -5203,7 +5203,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PolygonShape_m_count_set(void * jar
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2PolygonShape_m_count_get(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2PolygonShape_m_count_get(void * jarg1) {
   int jresult ;
   b2PolygonShape *arg1 = (b2PolygonShape *) 0 ;
   int32 result;
@@ -5215,7 +5215,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2PolygonShape_m_count_get(void * jarg
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2PolygonShape(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2PolygonShape(void * jarg1) {
   b2PolygonShape *arg1 = (b2PolygonShape *) 0 ;
   
   arg1 = (b2PolygonShape *)jarg1; 
@@ -5223,7 +5223,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2PolygonShape(void * jarg1) {
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2_nullNode_get() {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2_nullNode_get() {
   int jresult ;
   int result;
   
@@ -5233,7 +5233,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2_nullNode_get() {
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2TreeNode_IsLeaf(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2TreeNode_IsLeaf(void * jarg1) {
   unsigned int jresult ;
   b2TreeNode *arg1 = (b2TreeNode *) 0 ;
   bool result;
@@ -5245,7 +5245,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2TreeNode_IsLeaf(void * jarg
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2TreeNode_aabb_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2TreeNode_aabb_set(void * jarg1, void * jarg2) {
   b2TreeNode *arg1 = (b2TreeNode *) 0 ;
   b2AABB *arg2 = (b2AABB *) 0 ;
   
@@ -5255,7 +5255,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2TreeNode_aabb_set(void * jarg1, voi
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2TreeNode_aabb_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2TreeNode_aabb_get(void * jarg1) {
   void * jresult ;
   b2TreeNode *arg1 = (b2TreeNode *) 0 ;
   b2AABB *result = 0 ;
@@ -5267,7 +5267,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2TreeNode_aabb_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2TreeNode_userData_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2TreeNode_userData_set(void * jarg1, void * jarg2) {
   b2TreeNode *arg1 = (b2TreeNode *) 0 ;
   void *arg2 = (void *) 0 ;
   
@@ -5277,7 +5277,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2TreeNode_userData_set(void * jarg1,
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2TreeNode_userData_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2TreeNode_userData_get(void * jarg1) {
   void * jresult ;
   b2TreeNode *arg1 = (b2TreeNode *) 0 ;
   void *result = 0 ;
@@ -5289,7 +5289,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2TreeNode_userData_get(void * jarg
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2TreeNode_parent_set(void * jarg1, int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2TreeNode_parent_set(void * jarg1, int jarg2) {
   b2TreeNode *arg1 = (b2TreeNode *) 0 ;
   int32 arg2 ;
   
@@ -5299,7 +5299,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2TreeNode_parent_set(void * jarg1, i
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2TreeNode_parent_get(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2TreeNode_parent_get(void * jarg1) {
   int jresult ;
   b2TreeNode *arg1 = (b2TreeNode *) 0 ;
   int32 result;
@@ -5311,7 +5311,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2TreeNode_parent_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2TreeNode_next_set(void * jarg1, int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2TreeNode_next_set(void * jarg1, int jarg2) {
   b2TreeNode *arg1 = (b2TreeNode *) 0 ;
   int32 arg2 ;
   
@@ -5321,7 +5321,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2TreeNode_next_set(void * jarg1, int
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2TreeNode_next_get(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2TreeNode_next_get(void * jarg1) {
   int jresult ;
   b2TreeNode *arg1 = (b2TreeNode *) 0 ;
   int32 result;
@@ -5333,7 +5333,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2TreeNode_next_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2TreeNode_child1_set(void * jarg1, int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2TreeNode_child1_set(void * jarg1, int jarg2) {
   b2TreeNode *arg1 = (b2TreeNode *) 0 ;
   int32 arg2 ;
   
@@ -5343,7 +5343,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2TreeNode_child1_set(void * jarg1, i
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2TreeNode_child1_get(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2TreeNode_child1_get(void * jarg1) {
   int jresult ;
   b2TreeNode *arg1 = (b2TreeNode *) 0 ;
   int32 result;
@@ -5355,7 +5355,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2TreeNode_child1_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2TreeNode_child2_set(void * jarg1, int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2TreeNode_child2_set(void * jarg1, int jarg2) {
   b2TreeNode *arg1 = (b2TreeNode *) 0 ;
   int32 arg2 ;
   
@@ -5365,7 +5365,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2TreeNode_child2_set(void * jarg1, i
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2TreeNode_child2_get(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2TreeNode_child2_get(void * jarg1) {
   int jresult ;
   b2TreeNode *arg1 = (b2TreeNode *) 0 ;
   int32 result;
@@ -5377,7 +5377,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2TreeNode_child2_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2TreeNode_height_set(void * jarg1, int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2TreeNode_height_set(void * jarg1, int jarg2) {
   b2TreeNode *arg1 = (b2TreeNode *) 0 ;
   int32 arg2 ;
   
@@ -5387,7 +5387,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2TreeNode_height_set(void * jarg1, i
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2TreeNode_height_get(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2TreeNode_height_get(void * jarg1) {
   int jresult ;
   b2TreeNode *arg1 = (b2TreeNode *) 0 ;
   int32 result;
@@ -5399,7 +5399,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2TreeNode_height_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2TreeNode_moved_set(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2TreeNode_moved_set(void * jarg1, unsigned int jarg2) {
   b2TreeNode *arg1 = (b2TreeNode *) 0 ;
   bool arg2 ;
   
@@ -5409,7 +5409,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2TreeNode_moved_set(void * jarg1, un
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2TreeNode_moved_get(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2TreeNode_moved_get(void * jarg1) {
   unsigned int jresult ;
   b2TreeNode *arg1 = (b2TreeNode *) 0 ;
   bool result;
@@ -5421,7 +5421,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2TreeNode_moved_get(void * j
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2TreeNode() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2TreeNode() {
   void * jresult ;
   b2TreeNode *result = 0 ;
   
@@ -5431,7 +5431,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2TreeNode() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2TreeNode(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2TreeNode(void * jarg1) {
   b2TreeNode *arg1 = (b2TreeNode *) 0 ;
   
   arg1 = (b2TreeNode *)jarg1; 
@@ -5439,7 +5439,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2TreeNode(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2DynamicTree() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2DynamicTree() {
   void * jresult ;
   b2DynamicTree *result = 0 ;
   
@@ -5449,7 +5449,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2DynamicTree() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2DynamicTree(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2DynamicTree(void * jarg1) {
   b2DynamicTree *arg1 = (b2DynamicTree *) 0 ;
   
   arg1 = (b2DynamicTree *)jarg1; 
@@ -5457,7 +5457,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2DynamicTree(void * jarg1) {
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2DynamicTree_CreateProxy(void * jarg1, void * jarg2, void * jarg3) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2DynamicTree_CreateProxy(void * jarg1, void * jarg2, void * jarg3) {
   int jresult ;
   b2DynamicTree *arg1 = (b2DynamicTree *) 0 ;
   b2AABB *arg2 = 0 ;
@@ -5477,7 +5477,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2DynamicTree_CreateProxy(void * jarg1
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2DynamicTree_DestroyProxy(void * jarg1, int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2DynamicTree_DestroyProxy(void * jarg1, int jarg2) {
   b2DynamicTree *arg1 = (b2DynamicTree *) 0 ;
   int32 arg2 ;
   
@@ -5487,7 +5487,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2DynamicTree_DestroyProxy(void * jar
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2DynamicTree_MoveProxy(void * jarg1, int jarg2, void * jarg3, void * jarg4) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2DynamicTree_MoveProxy(void * jarg1, int jarg2, void * jarg3, void * jarg4) {
   unsigned int jresult ;
   b2DynamicTree *arg1 = (b2DynamicTree *) 0 ;
   int32 arg2 ;
@@ -5513,7 +5513,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2DynamicTree_MoveProxy(void 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2DynamicTree_GetUserData(void * jarg1, int jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2DynamicTree_GetUserData(void * jarg1, int jarg2) {
   void * jresult ;
   b2DynamicTree *arg1 = (b2DynamicTree *) 0 ;
   int32 arg2 ;
@@ -5527,7 +5527,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2DynamicTree_GetUserData(void * ja
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2DynamicTree_WasMoved(void * jarg1, int jarg2) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2DynamicTree_WasMoved(void * jarg1, int jarg2) {
   unsigned int jresult ;
   b2DynamicTree *arg1 = (b2DynamicTree *) 0 ;
   int32 arg2 ;
@@ -5541,7 +5541,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2DynamicTree_WasMoved(void *
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2DynamicTree_ClearMoved(void * jarg1, int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2DynamicTree_ClearMoved(void * jarg1, int jarg2) {
   b2DynamicTree *arg1 = (b2DynamicTree *) 0 ;
   int32 arg2 ;
   
@@ -5551,7 +5551,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2DynamicTree_ClearMoved(void * jarg1
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2DynamicTree_GetFatAABB(void * jarg1, int jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2DynamicTree_GetFatAABB(void * jarg1, int jarg2) {
   void * jresult ;
   b2DynamicTree *arg1 = (b2DynamicTree *) 0 ;
   int32 arg2 ;
@@ -5565,7 +5565,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2DynamicTree_GetFatAABB(void * jar
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2DynamicTree_Validate(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2DynamicTree_Validate(void * jarg1) {
   b2DynamicTree *arg1 = (b2DynamicTree *) 0 ;
   
   arg1 = (b2DynamicTree *)jarg1; 
@@ -5573,7 +5573,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2DynamicTree_Validate(void * jarg1) 
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2DynamicTree_GetHeight(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2DynamicTree_GetHeight(void * jarg1) {
   int jresult ;
   b2DynamicTree *arg1 = (b2DynamicTree *) 0 ;
   int32 result;
@@ -5585,7 +5585,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2DynamicTree_GetHeight(void * jarg1) 
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2DynamicTree_GetMaxBalance(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2DynamicTree_GetMaxBalance(void * jarg1) {
   int jresult ;
   b2DynamicTree *arg1 = (b2DynamicTree *) 0 ;
   int32 result;
@@ -5597,7 +5597,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2DynamicTree_GetMaxBalance(void * jar
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2DynamicTree_GetAreaRatio(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2DynamicTree_GetAreaRatio(void * jarg1) {
   float jresult ;
   b2DynamicTree *arg1 = (b2DynamicTree *) 0 ;
   float result;
@@ -5609,7 +5609,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2DynamicTree_GetAreaRatio(void * ja
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2DynamicTree_RebuildBottomUp(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2DynamicTree_RebuildBottomUp(void * jarg1) {
   b2DynamicTree *arg1 = (b2DynamicTree *) 0 ;
   
   arg1 = (b2DynamicTree *)jarg1; 
@@ -5617,7 +5617,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2DynamicTree_RebuildBottomUp(void * 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2DynamicTree_ShiftOrigin(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2DynamicTree_ShiftOrigin(void * jarg1, void * jarg2) {
   b2DynamicTree *arg1 = (b2DynamicTree *) 0 ;
   b2Vec2 *arg2 = 0 ;
   
@@ -5631,7 +5631,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2DynamicTree_ShiftOrigin(void * jarg
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Pair_proxyIdA_set(void * jarg1, int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Pair_proxyIdA_set(void * jarg1, int jarg2) {
   b2Pair *arg1 = (b2Pair *) 0 ;
   int32 arg2 ;
   
@@ -5641,7 +5641,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Pair_proxyIdA_set(void * jarg1, int
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Pair_proxyIdA_get(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2Pair_proxyIdA_get(void * jarg1) {
   int jresult ;
   b2Pair *arg1 = (b2Pair *) 0 ;
   int32 result;
@@ -5653,7 +5653,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Pair_proxyIdA_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Pair_proxyIdB_set(void * jarg1, int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Pair_proxyIdB_set(void * jarg1, int jarg2) {
   b2Pair *arg1 = (b2Pair *) 0 ;
   int32 arg2 ;
   
@@ -5663,7 +5663,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Pair_proxyIdB_set(void * jarg1, int
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Pair_proxyIdB_get(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2Pair_proxyIdB_get(void * jarg1) {
   int jresult ;
   b2Pair *arg1 = (b2Pair *) 0 ;
   int32 result;
@@ -5675,7 +5675,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Pair_proxyIdB_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Pair() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2Pair() {
   void * jresult ;
   b2Pair *result = 0 ;
   
@@ -5685,7 +5685,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Pair() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Pair(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2Pair(void * jarg1) {
   b2Pair *arg1 = (b2Pair *) 0 ;
   
   arg1 = (b2Pair *)jarg1; 
@@ -5693,7 +5693,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Pair(void * jarg1) {
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2BroadPhase_e_nullProxy_get() {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2BroadPhase_e_nullProxy_get() {
   int jresult ;
   int result;
   
@@ -5703,7 +5703,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2BroadPhase_e_nullProxy_get() {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2BroadPhase() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2BroadPhase() {
   void * jresult ;
   b2BroadPhase *result = 0 ;
   
@@ -5713,7 +5713,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2BroadPhase() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2BroadPhase(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2BroadPhase(void * jarg1) {
   b2BroadPhase *arg1 = (b2BroadPhase *) 0 ;
   
   arg1 = (b2BroadPhase *)jarg1; 
@@ -5721,7 +5721,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2BroadPhase(void * jarg1) {
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2BroadPhase_CreateProxy(void * jarg1, void * jarg2, void * jarg3) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2BroadPhase_CreateProxy(void * jarg1, void * jarg2, void * jarg3) {
   int jresult ;
   b2BroadPhase *arg1 = (b2BroadPhase *) 0 ;
   b2AABB *arg2 = 0 ;
@@ -5741,7 +5741,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2BroadPhase_CreateProxy(void * jarg1,
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BroadPhase_DestroyProxy(void * jarg1, int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2BroadPhase_DestroyProxy(void * jarg1, int jarg2) {
   b2BroadPhase *arg1 = (b2BroadPhase *) 0 ;
   int32 arg2 ;
   
@@ -5751,7 +5751,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BroadPhase_DestroyProxy(void * jarg
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BroadPhase_MoveProxy(void * jarg1, int jarg2, void * jarg3, void * jarg4) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2BroadPhase_MoveProxy(void * jarg1, int jarg2, void * jarg3, void * jarg4) {
   b2BroadPhase *arg1 = (b2BroadPhase *) 0 ;
   int32 arg2 ;
   b2AABB *arg3 = 0 ;
@@ -5773,7 +5773,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BroadPhase_MoveProxy(void * jarg1, 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BroadPhase_TouchProxy(void * jarg1, int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2BroadPhase_TouchProxy(void * jarg1, int jarg2) {
   b2BroadPhase *arg1 = (b2BroadPhase *) 0 ;
   int32 arg2 ;
   
@@ -5783,7 +5783,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BroadPhase_TouchProxy(void * jarg1,
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2BroadPhase_GetFatAABB(void * jarg1, int jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2BroadPhase_GetFatAABB(void * jarg1, int jarg2) {
   void * jresult ;
   b2BroadPhase *arg1 = (b2BroadPhase *) 0 ;
   int32 arg2 ;
@@ -5797,7 +5797,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2BroadPhase_GetFatAABB(void * jarg
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2BroadPhase_GetUserData(void * jarg1, int jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2BroadPhase_GetUserData(void * jarg1, int jarg2) {
   void * jresult ;
   b2BroadPhase *arg1 = (b2BroadPhase *) 0 ;
   int32 arg2 ;
@@ -5811,7 +5811,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2BroadPhase_GetUserData(void * jar
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2BroadPhase_TestOverlap(void * jarg1, int jarg2, int jarg3) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2BroadPhase_TestOverlap(void * jarg1, int jarg2, int jarg3) {
   unsigned int jresult ;
   b2BroadPhase *arg1 = (b2BroadPhase *) 0 ;
   int32 arg2 ;
@@ -5827,7 +5827,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2BroadPhase_TestOverlap(void
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2BroadPhase_GetProxyCount(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2BroadPhase_GetProxyCount(void * jarg1) {
   int jresult ;
   b2BroadPhase *arg1 = (b2BroadPhase *) 0 ;
   int32 result;
@@ -5839,7 +5839,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2BroadPhase_GetProxyCount(void * jarg
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2BroadPhase_GetTreeHeight(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2BroadPhase_GetTreeHeight(void * jarg1) {
   int jresult ;
   b2BroadPhase *arg1 = (b2BroadPhase *) 0 ;
   int32 result;
@@ -5851,7 +5851,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2BroadPhase_GetTreeHeight(void * jarg
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2BroadPhase_GetTreeBalance(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2BroadPhase_GetTreeBalance(void * jarg1) {
   int jresult ;
   b2BroadPhase *arg1 = (b2BroadPhase *) 0 ;
   int32 result;
@@ -5863,7 +5863,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2BroadPhase_GetTreeBalance(void * jar
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2BroadPhase_GetTreeQuality(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2BroadPhase_GetTreeQuality(void * jarg1) {
   float jresult ;
   b2BroadPhase *arg1 = (b2BroadPhase *) 0 ;
   float result;
@@ -5875,7 +5875,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2BroadPhase_GetTreeQuality(void * j
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BroadPhase_ShiftOrigin(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2BroadPhase_ShiftOrigin(void * jarg1, void * jarg2) {
   b2BroadPhase *arg1 = (b2BroadPhase *) 0 ;
   b2Vec2 *arg2 = 0 ;
   
@@ -5889,7 +5889,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BroadPhase_ShiftOrigin(void * jarg1
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2BodyDef() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2BodyDef() {
   void * jresult ;
   b2BodyDef *result = 0 ;
   
@@ -5899,7 +5899,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2BodyDef() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_type_set(void * jarg1, int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2BodyDef_type_set(void * jarg1, int jarg2) {
   b2BodyDef *arg1 = (b2BodyDef *) 0 ;
   b2BodyType arg2 ;
   
@@ -5909,7 +5909,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_type_set(void * jarg1, int 
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_type_get(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2BodyDef_type_get(void * jarg1) {
   int jresult ;
   b2BodyDef *arg1 = (b2BodyDef *) 0 ;
   b2BodyType result;
@@ -5921,7 +5921,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_type_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_position_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2BodyDef_position_set(void * jarg1, void * jarg2) {
   b2BodyDef *arg1 = (b2BodyDef *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -5931,7 +5931,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_position_set(void * jarg1, 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_position_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2BodyDef_position_get(void * jarg1) {
   void * jresult ;
   b2BodyDef *arg1 = (b2BodyDef *) 0 ;
   b2Vec2 *result = 0 ;
@@ -5943,7 +5943,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_position_get(void * jarg1
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_angle_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2BodyDef_angle_set(void * jarg1, float jarg2) {
   b2BodyDef *arg1 = (b2BodyDef *) 0 ;
   float arg2 ;
   
@@ -5953,7 +5953,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_angle_set(void * jarg1, flo
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_angle_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2BodyDef_angle_get(void * jarg1) {
   float jresult ;
   b2BodyDef *arg1 = (b2BodyDef *) 0 ;
   float result;
@@ -5965,7 +5965,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_angle_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_linearVelocity_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2BodyDef_linearVelocity_set(void * jarg1, void * jarg2) {
   b2BodyDef *arg1 = (b2BodyDef *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -5975,7 +5975,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_linearVelocity_set(void * j
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_linearVelocity_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2BodyDef_linearVelocity_get(void * jarg1) {
   void * jresult ;
   b2BodyDef *arg1 = (b2BodyDef *) 0 ;
   b2Vec2 *result = 0 ;
@@ -5987,7 +5987,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_linearVelocity_get(void *
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_angularVelocity_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2BodyDef_angularVelocity_set(void * jarg1, float jarg2) {
   b2BodyDef *arg1 = (b2BodyDef *) 0 ;
   float arg2 ;
   
@@ -5997,7 +5997,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_angularVelocity_set(void * 
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_angularVelocity_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2BodyDef_angularVelocity_get(void * jarg1) {
   float jresult ;
   b2BodyDef *arg1 = (b2BodyDef *) 0 ;
   float result;
@@ -6009,7 +6009,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_angularVelocity_get(void *
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_linearDamping_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2BodyDef_linearDamping_set(void * jarg1, float jarg2) {
   b2BodyDef *arg1 = (b2BodyDef *) 0 ;
   float arg2 ;
   
@@ -6019,7 +6019,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_linearDamping_set(void * ja
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_linearDamping_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2BodyDef_linearDamping_get(void * jarg1) {
   float jresult ;
   b2BodyDef *arg1 = (b2BodyDef *) 0 ;
   float result;
@@ -6031,7 +6031,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_linearDamping_get(void * j
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_angularDamping_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2BodyDef_angularDamping_set(void * jarg1, float jarg2) {
   b2BodyDef *arg1 = (b2BodyDef *) 0 ;
   float arg2 ;
   
@@ -6041,7 +6041,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_angularDamping_set(void * j
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_angularDamping_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2BodyDef_angularDamping_get(void * jarg1) {
   float jresult ;
   b2BodyDef *arg1 = (b2BodyDef *) 0 ;
   float result;
@@ -6053,7 +6053,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_angularDamping_get(void * 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_allowSleep_set(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2BodyDef_allowSleep_set(void * jarg1, unsigned int jarg2) {
   b2BodyDef *arg1 = (b2BodyDef *) 0 ;
   bool arg2 ;
   
@@ -6063,7 +6063,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_allowSleep_set(void * jarg1
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_allowSleep_get(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2BodyDef_allowSleep_get(void * jarg1) {
   unsigned int jresult ;
   b2BodyDef *arg1 = (b2BodyDef *) 0 ;
   bool result;
@@ -6075,7 +6075,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_allowSleep_get(void
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_awake_set(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2BodyDef_awake_set(void * jarg1, unsigned int jarg2) {
   b2BodyDef *arg1 = (b2BodyDef *) 0 ;
   bool arg2 ;
   
@@ -6085,7 +6085,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_awake_set(void * jarg1, uns
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_awake_get(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2BodyDef_awake_get(void * jarg1) {
   unsigned int jresult ;
   b2BodyDef *arg1 = (b2BodyDef *) 0 ;
   bool result;
@@ -6097,7 +6097,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_awake_get(void * ja
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_fixedRotation_set(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2BodyDef_fixedRotation_set(void * jarg1, unsigned int jarg2) {
   b2BodyDef *arg1 = (b2BodyDef *) 0 ;
   bool arg2 ;
   
@@ -6107,7 +6107,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_fixedRotation_set(void * ja
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_fixedRotation_get(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2BodyDef_fixedRotation_get(void * jarg1) {
   unsigned int jresult ;
   b2BodyDef *arg1 = (b2BodyDef *) 0 ;
   bool result;
@@ -6119,7 +6119,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_fixedRotation_get(v
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_bullet_set(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2BodyDef_bullet_set(void * jarg1, unsigned int jarg2) {
   b2BodyDef *arg1 = (b2BodyDef *) 0 ;
   bool arg2 ;
   
@@ -6129,7 +6129,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_bullet_set(void * jarg1, un
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_bullet_get(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2BodyDef_bullet_get(void * jarg1) {
   unsigned int jresult ;
   b2BodyDef *arg1 = (b2BodyDef *) 0 ;
   bool result;
@@ -6141,7 +6141,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_bullet_get(void * j
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_enabled_set(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2BodyDef_enabled_set(void * jarg1, unsigned int jarg2) {
   b2BodyDef *arg1 = (b2BodyDef *) 0 ;
   bool arg2 ;
   
@@ -6151,7 +6151,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_enabled_set(void * jarg1, u
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_enabled_get(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2BodyDef_enabled_get(void * jarg1) {
   unsigned int jresult ;
   b2BodyDef *arg1 = (b2BodyDef *) 0 ;
   bool result;
@@ -6163,7 +6163,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_enabled_get(void * 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_userData_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2BodyDef_userData_set(void * jarg1, void * jarg2) {
   b2BodyDef *arg1 = (b2BodyDef *) 0 ;
   void *arg2 = (void *) 0 ;
   
@@ -6173,7 +6173,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_userData_set(void * jarg1, 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_userData_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2BodyDef_userData_get(void * jarg1) {
   void * jresult ;
   b2BodyDef *arg1 = (b2BodyDef *) 0 ;
   void *result = 0 ;
@@ -6185,7 +6185,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_userData_get(void * jarg1
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_gravityScale_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2BodyDef_gravityScale_set(void * jarg1, float jarg2) {
   b2BodyDef *arg1 = (b2BodyDef *) 0 ;
   float arg2 ;
   
@@ -6195,7 +6195,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_gravityScale_set(void * jar
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_gravityScale_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2BodyDef_gravityScale_get(void * jarg1) {
   float jresult ;
   b2BodyDef *arg1 = (b2BodyDef *) 0 ;
   float result;
@@ -6207,7 +6207,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2BodyDef_gravityScale_get(void * ja
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2BodyDef(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2BodyDef(void * jarg1) {
   b2BodyDef *arg1 = (b2BodyDef *) 0 ;
   
   arg1 = (b2BodyDef *)jarg1; 
@@ -6215,7 +6215,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2BodyDef(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Body_CreateFixture__SWIG_0(void * jarg1, void * jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Body_CreateFixture__SWIG_0(void * jarg1, void * jarg2) {
   void * jresult ;
   b2Body *arg1 = (b2Body *) 0 ;
   b2FixtureDef *arg2 = (b2FixtureDef *) 0 ;
@@ -6229,7 +6229,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Body_CreateFixture__SWIG_0(void *
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Body_CreateFixture__SWIG_1(void * jarg1, void * jarg2, float jarg3) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Body_CreateFixture__SWIG_1(void * jarg1, void * jarg2, float jarg3) {
   void * jresult ;
   b2Body *arg1 = (b2Body *) 0 ;
   b2Shape *arg2 = (b2Shape *) 0 ;
@@ -6245,7 +6245,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Body_CreateFixture__SWIG_1(void *
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_DestroyFixture(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Body_DestroyFixture(void * jarg1, void * jarg2) {
   b2Body *arg1 = (b2Body *) 0 ;
   b2Fixture *arg2 = (b2Fixture *) 0 ;
   
@@ -6255,7 +6255,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_DestroyFixture(void * jarg1, v
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_SetTransform(void * jarg1, void * jarg2, float jarg3) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Body_SetTransform(void * jarg1, void * jarg2, float jarg3) {
   b2Body *arg1 = (b2Body *) 0 ;
   b2Vec2 *arg2 = 0 ;
   float arg3 ;
@@ -6271,7 +6271,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_SetTransform(void * jarg1, voi
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Body_GetTransform(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Body_GetTransform(void * jarg1) {
   void * jresult ;
   b2Body *arg1 = (b2Body *) 0 ;
   b2Transform *result = 0 ;
@@ -6283,7 +6283,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Body_GetTransform(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Body_GetPosition(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Body_GetPosition(void * jarg1) {
   void * jresult ;
   b2Body *arg1 = (b2Body *) 0 ;
   b2Vec2 *result = 0 ;
@@ -6295,7 +6295,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Body_GetPosition(void * jarg1) {
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Body_GetAngle(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Body_GetAngle(void * jarg1) {
   float jresult ;
   b2Body *arg1 = (b2Body *) 0 ;
   float result;
@@ -6307,7 +6307,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Body_GetAngle(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Body_GetWorldCenter(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Body_GetWorldCenter(void * jarg1) {
   void * jresult ;
   b2Body *arg1 = (b2Body *) 0 ;
   b2Vec2 *result = 0 ;
@@ -6319,7 +6319,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Body_GetWorldCenter(void * jarg1)
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Body_GetLocalCenter(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Body_GetLocalCenter(void * jarg1) {
   void * jresult ;
   b2Body *arg1 = (b2Body *) 0 ;
   b2Vec2 *result = 0 ;
@@ -6331,7 +6331,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Body_GetLocalCenter(void * jarg1)
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_SetLinearVelocity(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Body_SetLinearVelocity(void * jarg1, void * jarg2) {
   b2Body *arg1 = (b2Body *) 0 ;
   b2Vec2 *arg2 = 0 ;
   
@@ -6345,7 +6345,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_SetLinearVelocity(void * jarg1
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Body_GetLinearVelocity(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Body_GetLinearVelocity(void * jarg1) {
   void * jresult ;
   b2Body *arg1 = (b2Body *) 0 ;
   b2Vec2 *result = 0 ;
@@ -6357,7 +6357,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Body_GetLinearVelocity(void * jar
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_SetAngularVelocity(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Body_SetAngularVelocity(void * jarg1, float jarg2) {
   b2Body *arg1 = (b2Body *) 0 ;
   float arg2 ;
   
@@ -6367,7 +6367,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_SetAngularVelocity(void * jarg
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Body_GetAngularVelocity(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Body_GetAngularVelocity(void * jarg1) {
   float jresult ;
   b2Body *arg1 = (b2Body *) 0 ;
   float result;
@@ -6379,7 +6379,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Body_GetAngularVelocity(void * jar
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_ApplyForce(void * jarg1, void * jarg2, void * jarg3, unsigned int jarg4) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Body_ApplyForce(void * jarg1, void * jarg2, void * jarg3, unsigned int jarg4) {
   b2Body *arg1 = (b2Body *) 0 ;
   b2Vec2 *arg2 = 0 ;
   b2Vec2 *arg3 = 0 ;
@@ -6401,7 +6401,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_ApplyForce(void * jarg1, void 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_ApplyForceToCenter(void * jarg1, void * jarg2, unsigned int jarg3) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Body_ApplyForceToCenter(void * jarg1, void * jarg2, unsigned int jarg3) {
   b2Body *arg1 = (b2Body *) 0 ;
   b2Vec2 *arg2 = 0 ;
   bool arg3 ;
@@ -6417,7 +6417,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_ApplyForceToCenter(void * jarg
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_ApplyTorque(void * jarg1, float jarg2, unsigned int jarg3) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Body_ApplyTorque(void * jarg1, float jarg2, unsigned int jarg3) {
   b2Body *arg1 = (b2Body *) 0 ;
   float arg2 ;
   bool arg3 ;
@@ -6429,7 +6429,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_ApplyTorque(void * jarg1, floa
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_ApplyLinearImpulse(void * jarg1, void * jarg2, void * jarg3, unsigned int jarg4) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Body_ApplyLinearImpulse(void * jarg1, void * jarg2, void * jarg3, unsigned int jarg4) {
   b2Body *arg1 = (b2Body *) 0 ;
   b2Vec2 *arg2 = 0 ;
   b2Vec2 *arg3 = 0 ;
@@ -6451,7 +6451,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_ApplyLinearImpulse(void * jarg
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_ApplyLinearImpulseToCenter(void * jarg1, void * jarg2, unsigned int jarg3) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Body_ApplyLinearImpulseToCenter(void * jarg1, void * jarg2, unsigned int jarg3) {
   b2Body *arg1 = (b2Body *) 0 ;
   b2Vec2 *arg2 = 0 ;
   bool arg3 ;
@@ -6467,7 +6467,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_ApplyLinearImpulseToCenter(voi
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_ApplyAngularImpulse(void * jarg1, float jarg2, unsigned int jarg3) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Body_ApplyAngularImpulse(void * jarg1, float jarg2, unsigned int jarg3) {
   b2Body *arg1 = (b2Body *) 0 ;
   float arg2 ;
   bool arg3 ;
@@ -6479,7 +6479,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_ApplyAngularImpulse(void * jar
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Body_GetMass(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Body_GetMass(void * jarg1) {
   float jresult ;
   b2Body *arg1 = (b2Body *) 0 ;
   float result;
@@ -6491,7 +6491,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Body_GetMass(void * jarg1) {
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Body_GetInertia(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Body_GetInertia(void * jarg1) {
   float jresult ;
   b2Body *arg1 = (b2Body *) 0 ;
   float result;
@@ -6503,7 +6503,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Body_GetInertia(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_GetMassData(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Body_GetMassData(void * jarg1, void * jarg2) {
   b2Body *arg1 = (b2Body *) 0 ;
   b2MassData *arg2 = (b2MassData *) 0 ;
   
@@ -6513,7 +6513,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_GetMassData(void * jarg1, void
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_SetMassData(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Body_SetMassData(void * jarg1, void * jarg2) {
   b2Body *arg1 = (b2Body *) 0 ;
   b2MassData *arg2 = (b2MassData *) 0 ;
   
@@ -6523,7 +6523,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_SetMassData(void * jarg1, void
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_ResetMassData(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Body_ResetMassData(void * jarg1) {
   b2Body *arg1 = (b2Body *) 0 ;
   
   arg1 = (b2Body *)jarg1; 
@@ -6531,7 +6531,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_ResetMassData(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Body_GetWorldPoint(void * jarg1, void * jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Body_GetWorldPoint(void * jarg1, void * jarg2) {
   void * jresult ;
   b2Body *arg1 = (b2Body *) 0 ;
   b2Vec2 *arg2 = 0 ;
@@ -6549,7 +6549,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Body_GetWorldPoint(void * jarg1, 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Body_GetWorldVector(void * jarg1, void * jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Body_GetWorldVector(void * jarg1, void * jarg2) {
   void * jresult ;
   b2Body *arg1 = (b2Body *) 0 ;
   b2Vec2 *arg2 = 0 ;
@@ -6567,7 +6567,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Body_GetWorldVector(void * jarg1,
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Body_GetLocalPoint(void * jarg1, void * jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Body_GetLocalPoint(void * jarg1, void * jarg2) {
   void * jresult ;
   b2Body *arg1 = (b2Body *) 0 ;
   b2Vec2 *arg2 = 0 ;
@@ -6585,7 +6585,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Body_GetLocalPoint(void * jarg1, 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Body_GetLocalVector(void * jarg1, void * jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Body_GetLocalVector(void * jarg1, void * jarg2) {
   void * jresult ;
   b2Body *arg1 = (b2Body *) 0 ;
   b2Vec2 *arg2 = 0 ;
@@ -6603,7 +6603,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Body_GetLocalVector(void * jarg1,
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Body_GetLinearVelocityFromWorldPoint(void * jarg1, void * jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Body_GetLinearVelocityFromWorldPoint(void * jarg1, void * jarg2) {
   void * jresult ;
   b2Body *arg1 = (b2Body *) 0 ;
   b2Vec2 *arg2 = 0 ;
@@ -6621,7 +6621,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Body_GetLinearVelocityFromWorldPo
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Body_GetLinearVelocityFromLocalPoint(void * jarg1, void * jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Body_GetLinearVelocityFromLocalPoint(void * jarg1, void * jarg2) {
   void * jresult ;
   b2Body *arg1 = (b2Body *) 0 ;
   b2Vec2 *arg2 = 0 ;
@@ -6639,7 +6639,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Body_GetLinearVelocityFromLocalPo
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Body_GetLinearDamping(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Body_GetLinearDamping(void * jarg1) {
   float jresult ;
   b2Body *arg1 = (b2Body *) 0 ;
   float result;
@@ -6651,7 +6651,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Body_GetLinearDamping(void * jarg1
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_SetLinearDamping(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Body_SetLinearDamping(void * jarg1, float jarg2) {
   b2Body *arg1 = (b2Body *) 0 ;
   float arg2 ;
   
@@ -6661,7 +6661,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_SetLinearDamping(void * jarg1,
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Body_GetAngularDamping(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Body_GetAngularDamping(void * jarg1) {
   float jresult ;
   b2Body *arg1 = (b2Body *) 0 ;
   float result;
@@ -6673,7 +6673,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Body_GetAngularDamping(void * jarg
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_SetAngularDamping(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Body_SetAngularDamping(void * jarg1, float jarg2) {
   b2Body *arg1 = (b2Body *) 0 ;
   float arg2 ;
   
@@ -6683,7 +6683,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_SetAngularDamping(void * jarg1
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Body_GetGravityScale(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Body_GetGravityScale(void * jarg1) {
   float jresult ;
   b2Body *arg1 = (b2Body *) 0 ;
   float result;
@@ -6695,7 +6695,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Body_GetGravityScale(void * jarg1)
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_SetGravityScale(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Body_SetGravityScale(void * jarg1, float jarg2) {
   b2Body *arg1 = (b2Body *) 0 ;
   float arg2 ;
   
@@ -6705,7 +6705,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_SetGravityScale(void * jarg1, 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_SetType(void * jarg1, int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Body_SetType(void * jarg1, int jarg2) {
   b2Body *arg1 = (b2Body *) 0 ;
   b2BodyType arg2 ;
   
@@ -6715,7 +6715,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_SetType(void * jarg1, int jarg
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Body_GetType(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2Body_GetType(void * jarg1) {
   int jresult ;
   b2Body *arg1 = (b2Body *) 0 ;
   b2BodyType result;
@@ -6727,7 +6727,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Body_GetType(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_SetBullet(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Body_SetBullet(void * jarg1, unsigned int jarg2) {
   b2Body *arg1 = (b2Body *) 0 ;
   bool arg2 ;
   
@@ -6737,7 +6737,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_SetBullet(void * jarg1, unsign
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2Body_IsBullet(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2Body_IsBullet(void * jarg1) {
   unsigned int jresult ;
   b2Body *arg1 = (b2Body *) 0 ;
   bool result;
@@ -6749,7 +6749,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2Body_IsBullet(void * jarg1)
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_SetSleepingAllowed(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Body_SetSleepingAllowed(void * jarg1, unsigned int jarg2) {
   b2Body *arg1 = (b2Body *) 0 ;
   bool arg2 ;
   
@@ -6759,7 +6759,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_SetSleepingAllowed(void * jarg
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2Body_IsSleepingAllowed(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2Body_IsSleepingAllowed(void * jarg1) {
   unsigned int jresult ;
   b2Body *arg1 = (b2Body *) 0 ;
   bool result;
@@ -6771,7 +6771,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2Body_IsSleepingAllowed(void
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_SetAwake(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Body_SetAwake(void * jarg1, unsigned int jarg2) {
   b2Body *arg1 = (b2Body *) 0 ;
   bool arg2 ;
   
@@ -6781,7 +6781,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_SetAwake(void * jarg1, unsigne
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2Body_IsAwake(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2Body_IsAwake(void * jarg1) {
   unsigned int jresult ;
   b2Body *arg1 = (b2Body *) 0 ;
   bool result;
@@ -6793,7 +6793,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2Body_IsAwake(void * jarg1) 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_SetEnabled(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Body_SetEnabled(void * jarg1, unsigned int jarg2) {
   b2Body *arg1 = (b2Body *) 0 ;
   bool arg2 ;
   
@@ -6803,7 +6803,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_SetEnabled(void * jarg1, unsig
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2Body_IsEnabled(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2Body_IsEnabled(void * jarg1) {
   unsigned int jresult ;
   b2Body *arg1 = (b2Body *) 0 ;
   bool result;
@@ -6815,7 +6815,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2Body_IsEnabled(void * jarg1
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_SetFixedRotation(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Body_SetFixedRotation(void * jarg1, unsigned int jarg2) {
   b2Body *arg1 = (b2Body *) 0 ;
   bool arg2 ;
   
@@ -6825,7 +6825,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_SetFixedRotation(void * jarg1,
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2Body_IsFixedRotation(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2Body_IsFixedRotation(void * jarg1) {
   unsigned int jresult ;
   b2Body *arg1 = (b2Body *) 0 ;
   bool result;
@@ -6837,7 +6837,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2Body_IsFixedRotation(void *
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Body_GetFixtureList__SWIG_0(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Body_GetFixtureList__SWIG_0(void * jarg1) {
   void * jresult ;
   b2Body *arg1 = (b2Body *) 0 ;
   b2Fixture *result = 0 ;
@@ -6849,7 +6849,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Body_GetFixtureList__SWIG_0(void 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Body_GetJointList__SWIG_0(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Body_GetJointList__SWIG_0(void * jarg1) {
   void * jresult ;
   b2Body *arg1 = (b2Body *) 0 ;
   b2JointEdge *result = 0 ;
@@ -6861,7 +6861,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Body_GetJointList__SWIG_0(void * 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Body_GetContactList__SWIG_0(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Body_GetContactList__SWIG_0(void * jarg1) {
   void * jresult ;
   b2Body *arg1 = (b2Body *) 0 ;
   b2ContactEdge *result = 0 ;
@@ -6873,7 +6873,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Body_GetContactList__SWIG_0(void 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Body_GetNext__SWIG_0(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Body_GetNext__SWIG_0(void * jarg1) {
   void * jresult ;
   b2Body *arg1 = (b2Body *) 0 ;
   b2Body *result = 0 ;
@@ -6885,7 +6885,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Body_GetNext__SWIG_0(void * jarg1
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Body_GetUserData(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Body_GetUserData(void * jarg1) {
   void * jresult ;
   b2Body *arg1 = (b2Body *) 0 ;
   void *result = 0 ;
@@ -6897,7 +6897,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Body_GetUserData(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_SetUserData(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Body_SetUserData(void * jarg1, void * jarg2) {
   b2Body *arg1 = (b2Body *) 0 ;
   void *arg2 = (void *) 0 ;
   
@@ -6907,7 +6907,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_SetUserData(void * jarg1, void
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Body_GetWorld__SWIG_0(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Body_GetWorld__SWIG_0(void * jarg1) {
   void * jresult ;
   b2Body *arg1 = (b2Body *) 0 ;
   b2World *result = 0 ;
@@ -6919,7 +6919,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Body_GetWorld__SWIG_0(void * jarg
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_Dump(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Body_Dump(void * jarg1) {
   b2Body *arg1 = (b2Body *) 0 ;
   
   arg1 = (b2Body *)jarg1; 
@@ -6927,7 +6927,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Body_Dump(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Filter() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2Filter() {
   void * jresult ;
   b2Filter *result = 0 ;
   
@@ -6937,7 +6937,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Filter() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Filter_categoryBits_set(void * jarg1, unsigned short jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Filter_categoryBits_set(void * jarg1, unsigned short jarg2) {
   b2Filter *arg1 = (b2Filter *) 0 ;
   uint16 arg2 ;
   
@@ -6947,7 +6947,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Filter_categoryBits_set(void * jarg
 }
 
 
-SWIGEXPORT unsigned short SWIGSTDCALL CSharp_Box2DCS_b2Filter_categoryBits_get(void * jarg1) {
+SWIGEXPORT unsigned short SWIGSTDCALL CSharp_b2Sharp_b2Filter_categoryBits_get(void * jarg1) {
   unsigned short jresult ;
   b2Filter *arg1 = (b2Filter *) 0 ;
   uint16 result;
@@ -6959,7 +6959,7 @@ SWIGEXPORT unsigned short SWIGSTDCALL CSharp_Box2DCS_b2Filter_categoryBits_get(v
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Filter_maskBits_set(void * jarg1, unsigned short jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Filter_maskBits_set(void * jarg1, unsigned short jarg2) {
   b2Filter *arg1 = (b2Filter *) 0 ;
   uint16 arg2 ;
   
@@ -6969,7 +6969,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Filter_maskBits_set(void * jarg1, u
 }
 
 
-SWIGEXPORT unsigned short SWIGSTDCALL CSharp_Box2DCS_b2Filter_maskBits_get(void * jarg1) {
+SWIGEXPORT unsigned short SWIGSTDCALL CSharp_b2Sharp_b2Filter_maskBits_get(void * jarg1) {
   unsigned short jresult ;
   b2Filter *arg1 = (b2Filter *) 0 ;
   uint16 result;
@@ -6981,7 +6981,7 @@ SWIGEXPORT unsigned short SWIGSTDCALL CSharp_Box2DCS_b2Filter_maskBits_get(void 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Filter_groupIndex_set(void * jarg1, short jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Filter_groupIndex_set(void * jarg1, short jarg2) {
   b2Filter *arg1 = (b2Filter *) 0 ;
   int16 arg2 ;
   
@@ -6991,7 +6991,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Filter_groupIndex_set(void * jarg1,
 }
 
 
-SWIGEXPORT short SWIGSTDCALL CSharp_Box2DCS_b2Filter_groupIndex_get(void * jarg1) {
+SWIGEXPORT short SWIGSTDCALL CSharp_b2Sharp_b2Filter_groupIndex_get(void * jarg1) {
   short jresult ;
   b2Filter *arg1 = (b2Filter *) 0 ;
   int16 result;
@@ -7003,7 +7003,7 @@ SWIGEXPORT short SWIGSTDCALL CSharp_Box2DCS_b2Filter_groupIndex_get(void * jarg1
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Filter(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2Filter(void * jarg1) {
   b2Filter *arg1 = (b2Filter *) 0 ;
   
   arg1 = (b2Filter *)jarg1; 
@@ -7011,7 +7011,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Filter(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2FixtureDef() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2FixtureDef() {
   void * jresult ;
   b2FixtureDef *result = 0 ;
   
@@ -7021,7 +7021,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2FixtureDef() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2FixtureDef_shape_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2FixtureDef_shape_set(void * jarg1, void * jarg2) {
   b2FixtureDef *arg1 = (b2FixtureDef *) 0 ;
   b2Shape *arg2 = (b2Shape *) 0 ;
   
@@ -7031,7 +7031,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2FixtureDef_shape_set(void * jarg1, 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2FixtureDef_shape_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2FixtureDef_shape_get(void * jarg1) {
   void * jresult ;
   b2FixtureDef *arg1 = (b2FixtureDef *) 0 ;
   b2Shape *result = 0 ;
@@ -7043,7 +7043,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2FixtureDef_shape_get(void * jarg1
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2FixtureDef_userData_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2FixtureDef_userData_set(void * jarg1, void * jarg2) {
   b2FixtureDef *arg1 = (b2FixtureDef *) 0 ;
   void *arg2 = (void *) 0 ;
   
@@ -7053,7 +7053,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2FixtureDef_userData_set(void * jarg
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2FixtureDef_userData_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2FixtureDef_userData_get(void * jarg1) {
   void * jresult ;
   b2FixtureDef *arg1 = (b2FixtureDef *) 0 ;
   void *result = 0 ;
@@ -7065,7 +7065,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2FixtureDef_userData_get(void * ja
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2FixtureDef_friction_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2FixtureDef_friction_set(void * jarg1, float jarg2) {
   b2FixtureDef *arg1 = (b2FixtureDef *) 0 ;
   float arg2 ;
   
@@ -7075,7 +7075,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2FixtureDef_friction_set(void * jarg
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2FixtureDef_friction_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2FixtureDef_friction_get(void * jarg1) {
   float jresult ;
   b2FixtureDef *arg1 = (b2FixtureDef *) 0 ;
   float result;
@@ -7087,7 +7087,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2FixtureDef_friction_get(void * jar
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2FixtureDef_restitution_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2FixtureDef_restitution_set(void * jarg1, float jarg2) {
   b2FixtureDef *arg1 = (b2FixtureDef *) 0 ;
   float arg2 ;
   
@@ -7097,7 +7097,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2FixtureDef_restitution_set(void * j
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2FixtureDef_restitution_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2FixtureDef_restitution_get(void * jarg1) {
   float jresult ;
   b2FixtureDef *arg1 = (b2FixtureDef *) 0 ;
   float result;
@@ -7109,7 +7109,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2FixtureDef_restitution_get(void * 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2FixtureDef_density_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2FixtureDef_density_set(void * jarg1, float jarg2) {
   b2FixtureDef *arg1 = (b2FixtureDef *) 0 ;
   float arg2 ;
   
@@ -7119,7 +7119,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2FixtureDef_density_set(void * jarg1
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2FixtureDef_density_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2FixtureDef_density_get(void * jarg1) {
   float jresult ;
   b2FixtureDef *arg1 = (b2FixtureDef *) 0 ;
   float result;
@@ -7131,7 +7131,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2FixtureDef_density_get(void * jarg
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2FixtureDef_isSensor_set(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2FixtureDef_isSensor_set(void * jarg1, unsigned int jarg2) {
   b2FixtureDef *arg1 = (b2FixtureDef *) 0 ;
   bool arg2 ;
   
@@ -7141,7 +7141,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2FixtureDef_isSensor_set(void * jarg
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2FixtureDef_isSensor_get(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2FixtureDef_isSensor_get(void * jarg1) {
   unsigned int jresult ;
   b2FixtureDef *arg1 = (b2FixtureDef *) 0 ;
   bool result;
@@ -7153,7 +7153,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2FixtureDef_isSensor_get(voi
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2FixtureDef_filter_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2FixtureDef_filter_set(void * jarg1, void * jarg2) {
   b2FixtureDef *arg1 = (b2FixtureDef *) 0 ;
   b2Filter *arg2 = (b2Filter *) 0 ;
   
@@ -7163,7 +7163,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2FixtureDef_filter_set(void * jarg1,
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2FixtureDef_filter_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2FixtureDef_filter_get(void * jarg1) {
   void * jresult ;
   b2FixtureDef *arg1 = (b2FixtureDef *) 0 ;
   b2Filter *result = 0 ;
@@ -7175,7 +7175,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2FixtureDef_filter_get(void * jarg
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2FixtureDef(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2FixtureDef(void * jarg1) {
   b2FixtureDef *arg1 = (b2FixtureDef *) 0 ;
   
   arg1 = (b2FixtureDef *)jarg1; 
@@ -7183,7 +7183,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2FixtureDef(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2FixtureProxy_aabb_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2FixtureProxy_aabb_set(void * jarg1, void * jarg2) {
   b2FixtureProxy *arg1 = (b2FixtureProxy *) 0 ;
   b2AABB *arg2 = (b2AABB *) 0 ;
   
@@ -7193,7 +7193,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2FixtureProxy_aabb_set(void * jarg1,
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2FixtureProxy_aabb_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2FixtureProxy_aabb_get(void * jarg1) {
   void * jresult ;
   b2FixtureProxy *arg1 = (b2FixtureProxy *) 0 ;
   b2AABB *result = 0 ;
@@ -7205,7 +7205,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2FixtureProxy_aabb_get(void * jarg
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2FixtureProxy_fixture_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2FixtureProxy_fixture_set(void * jarg1, void * jarg2) {
   b2FixtureProxy *arg1 = (b2FixtureProxy *) 0 ;
   b2Fixture *arg2 = (b2Fixture *) 0 ;
   
@@ -7215,7 +7215,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2FixtureProxy_fixture_set(void * jar
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2FixtureProxy_fixture_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2FixtureProxy_fixture_get(void * jarg1) {
   void * jresult ;
   b2FixtureProxy *arg1 = (b2FixtureProxy *) 0 ;
   b2Fixture *result = 0 ;
@@ -7227,7 +7227,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2FixtureProxy_fixture_get(void * j
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2FixtureProxy_childIndex_set(void * jarg1, int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2FixtureProxy_childIndex_set(void * jarg1, int jarg2) {
   b2FixtureProxy *arg1 = (b2FixtureProxy *) 0 ;
   int32 arg2 ;
   
@@ -7237,7 +7237,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2FixtureProxy_childIndex_set(void * 
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2FixtureProxy_childIndex_get(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2FixtureProxy_childIndex_get(void * jarg1) {
   int jresult ;
   b2FixtureProxy *arg1 = (b2FixtureProxy *) 0 ;
   int32 result;
@@ -7249,7 +7249,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2FixtureProxy_childIndex_get(void * j
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2FixtureProxy_proxyId_set(void * jarg1, int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2FixtureProxy_proxyId_set(void * jarg1, int jarg2) {
   b2FixtureProxy *arg1 = (b2FixtureProxy *) 0 ;
   int32 arg2 ;
   
@@ -7259,7 +7259,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2FixtureProxy_proxyId_set(void * jar
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2FixtureProxy_proxyId_get(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2FixtureProxy_proxyId_get(void * jarg1) {
   int jresult ;
   b2FixtureProxy *arg1 = (b2FixtureProxy *) 0 ;
   int32 result;
@@ -7271,7 +7271,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2FixtureProxy_proxyId_get(void * jarg
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2FixtureProxy() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2FixtureProxy() {
   void * jresult ;
   b2FixtureProxy *result = 0 ;
   
@@ -7281,7 +7281,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2FixtureProxy() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2FixtureProxy(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2FixtureProxy(void * jarg1) {
   b2FixtureProxy *arg1 = (b2FixtureProxy *) 0 ;
   
   arg1 = (b2FixtureProxy *)jarg1; 
@@ -7289,7 +7289,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2FixtureProxy(void * jarg1) {
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Fixture_GetType(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2Fixture_GetType(void * jarg1) {
   int jresult ;
   b2Fixture *arg1 = (b2Fixture *) 0 ;
   b2Shape::Type result;
@@ -7301,7 +7301,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Fixture_GetType(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Fixture_GetShape__SWIG_0(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Fixture_GetShape__SWIG_0(void * jarg1) {
   void * jresult ;
   b2Fixture *arg1 = (b2Fixture *) 0 ;
   b2Shape *result = 0 ;
@@ -7313,7 +7313,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Fixture_GetShape__SWIG_0(void * j
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Fixture_SetSensor(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Fixture_SetSensor(void * jarg1, unsigned int jarg2) {
   b2Fixture *arg1 = (b2Fixture *) 0 ;
   bool arg2 ;
   
@@ -7323,7 +7323,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Fixture_SetSensor(void * jarg1, uns
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2Fixture_IsSensor(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2Fixture_IsSensor(void * jarg1) {
   unsigned int jresult ;
   b2Fixture *arg1 = (b2Fixture *) 0 ;
   bool result;
@@ -7335,7 +7335,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2Fixture_IsSensor(void * jar
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Fixture_SetFilterData(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Fixture_SetFilterData(void * jarg1, void * jarg2) {
   b2Fixture *arg1 = (b2Fixture *) 0 ;
   b2Filter *arg2 = 0 ;
   
@@ -7349,7 +7349,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Fixture_SetFilterData(void * jarg1,
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Fixture_GetFilterData(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Fixture_GetFilterData(void * jarg1) {
   void * jresult ;
   b2Fixture *arg1 = (b2Fixture *) 0 ;
   b2Filter *result = 0 ;
@@ -7361,7 +7361,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Fixture_GetFilterData(void * jarg
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Fixture_Refilter(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Fixture_Refilter(void * jarg1) {
   b2Fixture *arg1 = (b2Fixture *) 0 ;
   
   arg1 = (b2Fixture *)jarg1; 
@@ -7369,7 +7369,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Fixture_Refilter(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Fixture_GetBody__SWIG_0(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Fixture_GetBody__SWIG_0(void * jarg1) {
   void * jresult ;
   b2Fixture *arg1 = (b2Fixture *) 0 ;
   b2Body *result = 0 ;
@@ -7381,7 +7381,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Fixture_GetBody__SWIG_0(void * ja
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Fixture_GetNext__SWIG_0(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Fixture_GetNext__SWIG_0(void * jarg1) {
   void * jresult ;
   b2Fixture *arg1 = (b2Fixture *) 0 ;
   b2Fixture *result = 0 ;
@@ -7393,7 +7393,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Fixture_GetNext__SWIG_0(void * ja
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Fixture_GetUserData(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Fixture_GetUserData(void * jarg1) {
   void * jresult ;
   b2Fixture *arg1 = (b2Fixture *) 0 ;
   void *result = 0 ;
@@ -7405,7 +7405,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Fixture_GetUserData(void * jarg1)
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Fixture_SetUserData(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Fixture_SetUserData(void * jarg1, void * jarg2) {
   b2Fixture *arg1 = (b2Fixture *) 0 ;
   void *arg2 = (void *) 0 ;
   
@@ -7415,7 +7415,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Fixture_SetUserData(void * jarg1, v
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2Fixture_TestPoint(void * jarg1, void * jarg2) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2Fixture_TestPoint(void * jarg1, void * jarg2) {
   unsigned int jresult ;
   b2Fixture *arg1 = (b2Fixture *) 0 ;
   b2Vec2 *arg2 = 0 ;
@@ -7433,7 +7433,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2Fixture_TestPoint(void * ja
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2Fixture_RayCast(void * jarg1, void * jarg2, void * jarg3, int jarg4) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2Fixture_RayCast(void * jarg1, void * jarg2, void * jarg3, int jarg4) {
   unsigned int jresult ;
   b2Fixture *arg1 = (b2Fixture *) 0 ;
   b2RayCastOutput *arg2 = (b2RayCastOutput *) 0 ;
@@ -7455,7 +7455,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2Fixture_RayCast(void * jarg
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Fixture_GetMassData(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Fixture_GetMassData(void * jarg1, void * jarg2) {
   b2Fixture *arg1 = (b2Fixture *) 0 ;
   b2MassData *arg2 = (b2MassData *) 0 ;
   
@@ -7465,7 +7465,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Fixture_GetMassData(void * jarg1, v
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Fixture_SetDensity(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Fixture_SetDensity(void * jarg1, float jarg2) {
   b2Fixture *arg1 = (b2Fixture *) 0 ;
   float arg2 ;
   
@@ -7475,7 +7475,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Fixture_SetDensity(void * jarg1, fl
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Fixture_GetDensity(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Fixture_GetDensity(void * jarg1) {
   float jresult ;
   b2Fixture *arg1 = (b2Fixture *) 0 ;
   float result;
@@ -7487,7 +7487,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Fixture_GetDensity(void * jarg1) {
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Fixture_GetFriction(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Fixture_GetFriction(void * jarg1) {
   float jresult ;
   b2Fixture *arg1 = (b2Fixture *) 0 ;
   float result;
@@ -7499,7 +7499,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Fixture_GetFriction(void * jarg1) 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Fixture_SetFriction(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Fixture_SetFriction(void * jarg1, float jarg2) {
   b2Fixture *arg1 = (b2Fixture *) 0 ;
   float arg2 ;
   
@@ -7509,7 +7509,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Fixture_SetFriction(void * jarg1, f
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Fixture_GetRestitution(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Fixture_GetRestitution(void * jarg1) {
   float jresult ;
   b2Fixture *arg1 = (b2Fixture *) 0 ;
   float result;
@@ -7521,7 +7521,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Fixture_GetRestitution(void * jarg
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Fixture_SetRestitution(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Fixture_SetRestitution(void * jarg1, float jarg2) {
   b2Fixture *arg1 = (b2Fixture *) 0 ;
   float arg2 ;
   
@@ -7531,7 +7531,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Fixture_SetRestitution(void * jarg1
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Fixture_GetAABB(void * jarg1, int jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Fixture_GetAABB(void * jarg1, int jarg2) {
   void * jresult ;
   b2Fixture *arg1 = (b2Fixture *) 0 ;
   int32 arg2 ;
@@ -7545,7 +7545,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Fixture_GetAABB(void * jarg1, int
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Fixture_Dump(void * jarg1, int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Fixture_Dump(void * jarg1, int jarg2) {
   b2Fixture *arg1 = (b2Fixture *) 0 ;
   int32 arg2 ;
   
@@ -7555,7 +7555,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Fixture_Dump(void * jarg1, int jarg
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Fixture(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2Fixture(void * jarg1) {
   b2Fixture *arg1 = (b2Fixture *) 0 ;
   
   arg1 = (b2Fixture *)jarg1; 
@@ -7563,7 +7563,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Fixture(void * jarg1) {
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MixFriction(float jarg1, float jarg2) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2MixFriction(float jarg1, float jarg2) {
   float jresult ;
   float arg1 ;
   float arg2 ;
@@ -7577,7 +7577,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MixFriction(float jarg1, float jar
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MixRestitution(float jarg1, float jarg2) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2MixRestitution(float jarg1, float jarg2) {
   float jresult ;
   float arg1 ;
   float arg2 ;
@@ -7591,7 +7591,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MixRestitution(float jarg1, float 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactRegister_createFcn_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ContactRegister_createFcn_set(void * jarg1, void * jarg2) {
   b2ContactRegister *arg1 = (b2ContactRegister *) 0 ;
   b2ContactCreateFcn *arg2 = (b2ContactCreateFcn *) 0 ;
   
@@ -7601,7 +7601,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactRegister_createFcn_set(void 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ContactRegister_createFcn_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2ContactRegister_createFcn_get(void * jarg1) {
   void * jresult ;
   b2ContactRegister *arg1 = (b2ContactRegister *) 0 ;
   b2ContactCreateFcn *result = 0 ;
@@ -7613,7 +7613,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ContactRegister_createFcn_get(voi
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactRegister_destroyFcn_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ContactRegister_destroyFcn_set(void * jarg1, void * jarg2) {
   b2ContactRegister *arg1 = (b2ContactRegister *) 0 ;
   b2ContactDestroyFcn *arg2 = (b2ContactDestroyFcn *) 0 ;
   
@@ -7623,7 +7623,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactRegister_destroyFcn_set(void
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ContactRegister_destroyFcn_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2ContactRegister_destroyFcn_get(void * jarg1) {
   void * jresult ;
   b2ContactRegister *arg1 = (b2ContactRegister *) 0 ;
   b2ContactDestroyFcn *result = 0 ;
@@ -7635,7 +7635,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ContactRegister_destroyFcn_get(vo
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactRegister_primary_set(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ContactRegister_primary_set(void * jarg1, unsigned int jarg2) {
   b2ContactRegister *arg1 = (b2ContactRegister *) 0 ;
   bool arg2 ;
   
@@ -7645,7 +7645,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactRegister_primary_set(void * 
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2ContactRegister_primary_get(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2ContactRegister_primary_get(void * jarg1) {
   unsigned int jresult ;
   b2ContactRegister *arg1 = (b2ContactRegister *) 0 ;
   bool result;
@@ -7657,7 +7657,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2ContactRegister_primary_get
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2ContactRegister() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2ContactRegister() {
   void * jresult ;
   b2ContactRegister *result = 0 ;
   
@@ -7667,7 +7667,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2ContactRegister() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2ContactRegister(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2ContactRegister(void * jarg1) {
   b2ContactRegister *arg1 = (b2ContactRegister *) 0 ;
   
   arg1 = (b2ContactRegister *)jarg1; 
@@ -7675,7 +7675,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2ContactRegister(void * jarg1
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactEdge_other_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ContactEdge_other_set(void * jarg1, void * jarg2) {
   b2ContactEdge *arg1 = (b2ContactEdge *) 0 ;
   b2Body *arg2 = (b2Body *) 0 ;
   
@@ -7685,7 +7685,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactEdge_other_set(void * jarg1,
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ContactEdge_other_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2ContactEdge_other_get(void * jarg1) {
   void * jresult ;
   b2ContactEdge *arg1 = (b2ContactEdge *) 0 ;
   b2Body *result = 0 ;
@@ -7697,7 +7697,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ContactEdge_other_get(void * jarg
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactEdge_contact_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ContactEdge_contact_set(void * jarg1, void * jarg2) {
   b2ContactEdge *arg1 = (b2ContactEdge *) 0 ;
   b2Contact *arg2 = (b2Contact *) 0 ;
   
@@ -7707,7 +7707,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactEdge_contact_set(void * jarg
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ContactEdge_contact_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2ContactEdge_contact_get(void * jarg1) {
   void * jresult ;
   b2ContactEdge *arg1 = (b2ContactEdge *) 0 ;
   b2Contact *result = 0 ;
@@ -7719,7 +7719,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ContactEdge_contact_get(void * ja
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactEdge_prev_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ContactEdge_prev_set(void * jarg1, void * jarg2) {
   b2ContactEdge *arg1 = (b2ContactEdge *) 0 ;
   b2ContactEdge *arg2 = (b2ContactEdge *) 0 ;
   
@@ -7729,7 +7729,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactEdge_prev_set(void * jarg1, 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ContactEdge_prev_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2ContactEdge_prev_get(void * jarg1) {
   void * jresult ;
   b2ContactEdge *arg1 = (b2ContactEdge *) 0 ;
   b2ContactEdge *result = 0 ;
@@ -7741,7 +7741,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ContactEdge_prev_get(void * jarg1
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactEdge_next_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ContactEdge_next_set(void * jarg1, void * jarg2) {
   b2ContactEdge *arg1 = (b2ContactEdge *) 0 ;
   b2ContactEdge *arg2 = (b2ContactEdge *) 0 ;
   
@@ -7751,7 +7751,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactEdge_next_set(void * jarg1, 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ContactEdge_next_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2ContactEdge_next_get(void * jarg1) {
   void * jresult ;
   b2ContactEdge *arg1 = (b2ContactEdge *) 0 ;
   b2ContactEdge *result = 0 ;
@@ -7763,7 +7763,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ContactEdge_next_get(void * jarg1
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2ContactEdge() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2ContactEdge() {
   void * jresult ;
   b2ContactEdge *result = 0 ;
   
@@ -7773,7 +7773,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2ContactEdge() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2ContactEdge(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2ContactEdge(void * jarg1) {
   b2ContactEdge *arg1 = (b2ContactEdge *) 0 ;
   
   arg1 = (b2ContactEdge *)jarg1; 
@@ -7781,7 +7781,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2ContactEdge(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Contact_GetManifold__SWIG_0(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Contact_GetManifold__SWIG_0(void * jarg1) {
   void * jresult ;
   b2Contact *arg1 = (b2Contact *) 0 ;
   b2Manifold *result = 0 ;
@@ -7793,7 +7793,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Contact_GetManifold__SWIG_0(void 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Contact_GetWorldManifold(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Contact_GetWorldManifold(void * jarg1, void * jarg2) {
   b2Contact *arg1 = (b2Contact *) 0 ;
   b2WorldManifold *arg2 = (b2WorldManifold *) 0 ;
   
@@ -7803,7 +7803,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Contact_GetWorldManifold(void * jar
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2Contact_IsTouching(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2Contact_IsTouching(void * jarg1) {
   unsigned int jresult ;
   b2Contact *arg1 = (b2Contact *) 0 ;
   bool result;
@@ -7815,7 +7815,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2Contact_IsTouching(void * j
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Contact_SetEnabled(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Contact_SetEnabled(void * jarg1, unsigned int jarg2) {
   b2Contact *arg1 = (b2Contact *) 0 ;
   bool arg2 ;
   
@@ -7825,7 +7825,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Contact_SetEnabled(void * jarg1, un
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2Contact_IsEnabled(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2Contact_IsEnabled(void * jarg1) {
   unsigned int jresult ;
   b2Contact *arg1 = (b2Contact *) 0 ;
   bool result;
@@ -7837,7 +7837,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2Contact_IsEnabled(void * ja
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Contact_GetNext__SWIG_0(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Contact_GetNext__SWIG_0(void * jarg1) {
   void * jresult ;
   b2Contact *arg1 = (b2Contact *) 0 ;
   b2Contact *result = 0 ;
@@ -7849,7 +7849,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Contact_GetNext__SWIG_0(void * ja
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Contact_GetFixtureA__SWIG_0(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Contact_GetFixtureA__SWIG_0(void * jarg1) {
   void * jresult ;
   b2Contact *arg1 = (b2Contact *) 0 ;
   b2Fixture *result = 0 ;
@@ -7861,7 +7861,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Contact_GetFixtureA__SWIG_0(void 
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Contact_GetChildIndexA(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2Contact_GetChildIndexA(void * jarg1) {
   int jresult ;
   b2Contact *arg1 = (b2Contact *) 0 ;
   int32 result;
@@ -7873,7 +7873,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Contact_GetChildIndexA(void * jarg1)
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Contact_GetFixtureB__SWIG_0(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Contact_GetFixtureB__SWIG_0(void * jarg1) {
   void * jresult ;
   b2Contact *arg1 = (b2Contact *) 0 ;
   b2Fixture *result = 0 ;
@@ -7885,7 +7885,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Contact_GetFixtureB__SWIG_0(void 
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Contact_GetChildIndexB(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2Contact_GetChildIndexB(void * jarg1) {
   int jresult ;
   b2Contact *arg1 = (b2Contact *) 0 ;
   int32 result;
@@ -7897,7 +7897,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Contact_GetChildIndexB(void * jarg1)
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Contact_SetFriction(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Contact_SetFriction(void * jarg1, float jarg2) {
   b2Contact *arg1 = (b2Contact *) 0 ;
   float arg2 ;
   
@@ -7907,7 +7907,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Contact_SetFriction(void * jarg1, f
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Contact_GetFriction(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Contact_GetFriction(void * jarg1) {
   float jresult ;
   b2Contact *arg1 = (b2Contact *) 0 ;
   float result;
@@ -7919,7 +7919,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Contact_GetFriction(void * jarg1) 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Contact_ResetFriction(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Contact_ResetFriction(void * jarg1) {
   b2Contact *arg1 = (b2Contact *) 0 ;
   
   arg1 = (b2Contact *)jarg1; 
@@ -7927,7 +7927,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Contact_ResetFriction(void * jarg1)
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Contact_SetRestitution(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Contact_SetRestitution(void * jarg1, float jarg2) {
   b2Contact *arg1 = (b2Contact *) 0 ;
   float arg2 ;
   
@@ -7937,7 +7937,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Contact_SetRestitution(void * jarg1
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Contact_GetRestitution(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Contact_GetRestitution(void * jarg1) {
   float jresult ;
   b2Contact *arg1 = (b2Contact *) 0 ;
   float result;
@@ -7949,7 +7949,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Contact_GetRestitution(void * jarg
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Contact_ResetRestitution(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Contact_ResetRestitution(void * jarg1) {
   b2Contact *arg1 = (b2Contact *) 0 ;
   
   arg1 = (b2Contact *)jarg1; 
@@ -7957,7 +7957,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Contact_ResetRestitution(void * jar
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Contact_SetTangentSpeed(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Contact_SetTangentSpeed(void * jarg1, float jarg2) {
   b2Contact *arg1 = (b2Contact *) 0 ;
   float arg2 ;
   
@@ -7967,7 +7967,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Contact_SetTangentSpeed(void * jarg
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Contact_GetTangentSpeed(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Contact_GetTangentSpeed(void * jarg1) {
   float jresult ;
   b2Contact *arg1 = (b2Contact *) 0 ;
   float result;
@@ -7979,7 +7979,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Contact_GetTangentSpeed(void * jar
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Contact_Evaluate(void * jarg1, void * jarg2, void * jarg3, void * jarg4) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Contact_Evaluate(void * jarg1, void * jarg2, void * jarg3, void * jarg4) {
   b2Contact *arg1 = (b2Contact *) 0 ;
   b2Manifold *arg2 = (b2Manifold *) 0 ;
   b2Transform *arg3 = 0 ;
@@ -8001,7 +8001,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Contact_Evaluate(void * jarg1, void
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Profile_step_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Profile_step_set(void * jarg1, float jarg2) {
   b2Profile *arg1 = (b2Profile *) 0 ;
   float arg2 ;
   
@@ -8011,7 +8011,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Profile_step_set(void * jarg1, floa
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Profile_step_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Profile_step_get(void * jarg1) {
   float jresult ;
   b2Profile *arg1 = (b2Profile *) 0 ;
   float result;
@@ -8023,7 +8023,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Profile_step_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Profile_collide_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Profile_collide_set(void * jarg1, float jarg2) {
   b2Profile *arg1 = (b2Profile *) 0 ;
   float arg2 ;
   
@@ -8033,7 +8033,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Profile_collide_set(void * jarg1, f
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Profile_collide_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Profile_collide_get(void * jarg1) {
   float jresult ;
   b2Profile *arg1 = (b2Profile *) 0 ;
   float result;
@@ -8045,7 +8045,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Profile_collide_get(void * jarg1) 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Profile_solve_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Profile_solve_set(void * jarg1, float jarg2) {
   b2Profile *arg1 = (b2Profile *) 0 ;
   float arg2 ;
   
@@ -8055,7 +8055,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Profile_solve_set(void * jarg1, flo
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Profile_solve_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Profile_solve_get(void * jarg1) {
   float jresult ;
   b2Profile *arg1 = (b2Profile *) 0 ;
   float result;
@@ -8067,7 +8067,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Profile_solve_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Profile_solveInit_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Profile_solveInit_set(void * jarg1, float jarg2) {
   b2Profile *arg1 = (b2Profile *) 0 ;
   float arg2 ;
   
@@ -8077,7 +8077,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Profile_solveInit_set(void * jarg1,
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Profile_solveInit_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Profile_solveInit_get(void * jarg1) {
   float jresult ;
   b2Profile *arg1 = (b2Profile *) 0 ;
   float result;
@@ -8089,7 +8089,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Profile_solveInit_get(void * jarg1
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Profile_solveVelocity_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Profile_solveVelocity_set(void * jarg1, float jarg2) {
   b2Profile *arg1 = (b2Profile *) 0 ;
   float arg2 ;
   
@@ -8099,7 +8099,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Profile_solveVelocity_set(void * ja
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Profile_solveVelocity_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Profile_solveVelocity_get(void * jarg1) {
   float jresult ;
   b2Profile *arg1 = (b2Profile *) 0 ;
   float result;
@@ -8111,7 +8111,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Profile_solveVelocity_get(void * j
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Profile_solvePosition_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Profile_solvePosition_set(void * jarg1, float jarg2) {
   b2Profile *arg1 = (b2Profile *) 0 ;
   float arg2 ;
   
@@ -8121,7 +8121,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Profile_solvePosition_set(void * ja
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Profile_solvePosition_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Profile_solvePosition_get(void * jarg1) {
   float jresult ;
   b2Profile *arg1 = (b2Profile *) 0 ;
   float result;
@@ -8133,7 +8133,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Profile_solvePosition_get(void * j
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Profile_broadphase_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Profile_broadphase_set(void * jarg1, float jarg2) {
   b2Profile *arg1 = (b2Profile *) 0 ;
   float arg2 ;
   
@@ -8143,7 +8143,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Profile_broadphase_set(void * jarg1
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Profile_broadphase_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Profile_broadphase_get(void * jarg1) {
   float jresult ;
   b2Profile *arg1 = (b2Profile *) 0 ;
   float result;
@@ -8155,7 +8155,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Profile_broadphase_get(void * jarg
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Profile_solveTOI_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Profile_solveTOI_set(void * jarg1, float jarg2) {
   b2Profile *arg1 = (b2Profile *) 0 ;
   float arg2 ;
   
@@ -8165,7 +8165,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Profile_solveTOI_set(void * jarg1, 
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Profile_solveTOI_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Profile_solveTOI_get(void * jarg1) {
   float jresult ;
   b2Profile *arg1 = (b2Profile *) 0 ;
   float result;
@@ -8177,7 +8177,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Profile_solveTOI_get(void * jarg1)
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Profile() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2Profile() {
   void * jresult ;
   b2Profile *result = 0 ;
   
@@ -8187,7 +8187,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Profile() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Profile(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2Profile(void * jarg1) {
   b2Profile *arg1 = (b2Profile *) 0 ;
   
   arg1 = (b2Profile *)jarg1; 
@@ -8195,7 +8195,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Profile(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2TimeStep_dt_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2TimeStep_dt_set(void * jarg1, float jarg2) {
   b2TimeStep *arg1 = (b2TimeStep *) 0 ;
   float arg2 ;
   
@@ -8205,7 +8205,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2TimeStep_dt_set(void * jarg1, float
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2TimeStep_dt_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2TimeStep_dt_get(void * jarg1) {
   float jresult ;
   b2TimeStep *arg1 = (b2TimeStep *) 0 ;
   float result;
@@ -8217,7 +8217,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2TimeStep_dt_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2TimeStep_inv_dt_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2TimeStep_inv_dt_set(void * jarg1, float jarg2) {
   b2TimeStep *arg1 = (b2TimeStep *) 0 ;
   float arg2 ;
   
@@ -8227,7 +8227,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2TimeStep_inv_dt_set(void * jarg1, f
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2TimeStep_inv_dt_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2TimeStep_inv_dt_get(void * jarg1) {
   float jresult ;
   b2TimeStep *arg1 = (b2TimeStep *) 0 ;
   float result;
@@ -8239,7 +8239,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2TimeStep_inv_dt_get(void * jarg1) 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2TimeStep_dtRatio_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2TimeStep_dtRatio_set(void * jarg1, float jarg2) {
   b2TimeStep *arg1 = (b2TimeStep *) 0 ;
   float arg2 ;
   
@@ -8249,7 +8249,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2TimeStep_dtRatio_set(void * jarg1, 
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2TimeStep_dtRatio_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2TimeStep_dtRatio_get(void * jarg1) {
   float jresult ;
   b2TimeStep *arg1 = (b2TimeStep *) 0 ;
   float result;
@@ -8261,7 +8261,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2TimeStep_dtRatio_get(void * jarg1)
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2TimeStep_velocityIterations_set(void * jarg1, int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2TimeStep_velocityIterations_set(void * jarg1, int jarg2) {
   b2TimeStep *arg1 = (b2TimeStep *) 0 ;
   int32 arg2 ;
   
@@ -8271,7 +8271,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2TimeStep_velocityIterations_set(voi
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2TimeStep_velocityIterations_get(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2TimeStep_velocityIterations_get(void * jarg1) {
   int jresult ;
   b2TimeStep *arg1 = (b2TimeStep *) 0 ;
   int32 result;
@@ -8283,7 +8283,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2TimeStep_velocityIterations_get(void
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2TimeStep_positionIterations_set(void * jarg1, int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2TimeStep_positionIterations_set(void * jarg1, int jarg2) {
   b2TimeStep *arg1 = (b2TimeStep *) 0 ;
   int32 arg2 ;
   
@@ -8293,7 +8293,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2TimeStep_positionIterations_set(voi
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2TimeStep_positionIterations_get(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2TimeStep_positionIterations_get(void * jarg1) {
   int jresult ;
   b2TimeStep *arg1 = (b2TimeStep *) 0 ;
   int32 result;
@@ -8305,7 +8305,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2TimeStep_positionIterations_get(void
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2TimeStep_warmStarting_set(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2TimeStep_warmStarting_set(void * jarg1, unsigned int jarg2) {
   b2TimeStep *arg1 = (b2TimeStep *) 0 ;
   bool arg2 ;
   
@@ -8315,7 +8315,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2TimeStep_warmStarting_set(void * ja
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2TimeStep_warmStarting_get(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2TimeStep_warmStarting_get(void * jarg1) {
   unsigned int jresult ;
   b2TimeStep *arg1 = (b2TimeStep *) 0 ;
   bool result;
@@ -8327,7 +8327,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2TimeStep_warmStarting_get(v
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2TimeStep() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2TimeStep() {
   void * jresult ;
   b2TimeStep *result = 0 ;
   
@@ -8337,7 +8337,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2TimeStep() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2TimeStep(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2TimeStep(void * jarg1) {
   b2TimeStep *arg1 = (b2TimeStep *) 0 ;
   
   arg1 = (b2TimeStep *)jarg1; 
@@ -8345,7 +8345,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2TimeStep(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Position_c_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Position_c_set(void * jarg1, void * jarg2) {
   b2Position *arg1 = (b2Position *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -8355,7 +8355,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Position_c_set(void * jarg1, void *
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Position_c_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Position_c_get(void * jarg1) {
   void * jresult ;
   b2Position *arg1 = (b2Position *) 0 ;
   b2Vec2 *result = 0 ;
@@ -8367,7 +8367,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Position_c_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Position_a_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Position_a_set(void * jarg1, float jarg2) {
   b2Position *arg1 = (b2Position *) 0 ;
   float arg2 ;
   
@@ -8377,7 +8377,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Position_a_set(void * jarg1, float 
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Position_a_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Position_a_get(void * jarg1) {
   float jresult ;
   b2Position *arg1 = (b2Position *) 0 ;
   float result;
@@ -8389,7 +8389,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Position_a_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Position() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2Position() {
   void * jresult ;
   b2Position *result = 0 ;
   
@@ -8399,7 +8399,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Position() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Position(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2Position(void * jarg1) {
   b2Position *arg1 = (b2Position *) 0 ;
   
   arg1 = (b2Position *)jarg1; 
@@ -8407,7 +8407,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Position(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Velocity_v_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Velocity_v_set(void * jarg1, void * jarg2) {
   b2Velocity *arg1 = (b2Velocity *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -8417,7 +8417,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Velocity_v_set(void * jarg1, void *
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Velocity_v_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Velocity_v_get(void * jarg1) {
   void * jresult ;
   b2Velocity *arg1 = (b2Velocity *) 0 ;
   b2Vec2 *result = 0 ;
@@ -8429,7 +8429,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Velocity_v_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Velocity_w_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Velocity_w_set(void * jarg1, float jarg2) {
   b2Velocity *arg1 = (b2Velocity *) 0 ;
   float arg2 ;
   
@@ -8439,7 +8439,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Velocity_w_set(void * jarg1, float 
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Velocity_w_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Velocity_w_get(void * jarg1) {
   float jresult ;
   b2Velocity *arg1 = (b2Velocity *) 0 ;
   float result;
@@ -8451,7 +8451,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Velocity_w_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Velocity() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2Velocity() {
   void * jresult ;
   b2Velocity *result = 0 ;
   
@@ -8461,7 +8461,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Velocity() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Velocity(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2Velocity(void * jarg1) {
   b2Velocity *arg1 = (b2Velocity *) 0 ;
   
   arg1 = (b2Velocity *)jarg1; 
@@ -8469,7 +8469,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Velocity(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2SolverData_step_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2SolverData_step_set(void * jarg1, void * jarg2) {
   b2SolverData *arg1 = (b2SolverData *) 0 ;
   b2TimeStep *arg2 = (b2TimeStep *) 0 ;
   
@@ -8479,7 +8479,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2SolverData_step_set(void * jarg1, v
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2SolverData_step_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2SolverData_step_get(void * jarg1) {
   void * jresult ;
   b2SolverData *arg1 = (b2SolverData *) 0 ;
   b2TimeStep *result = 0 ;
@@ -8491,7 +8491,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2SolverData_step_get(void * jarg1)
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2SolverData_positions_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2SolverData_positions_set(void * jarg1, void * jarg2) {
   b2SolverData *arg1 = (b2SolverData *) 0 ;
   b2Position *arg2 = (b2Position *) 0 ;
   
@@ -8501,7 +8501,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2SolverData_positions_set(void * jar
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2SolverData_positions_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2SolverData_positions_get(void * jarg1) {
   void * jresult ;
   b2SolverData *arg1 = (b2SolverData *) 0 ;
   b2Position *result = 0 ;
@@ -8513,7 +8513,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2SolverData_positions_get(void * j
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2SolverData_velocities_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2SolverData_velocities_set(void * jarg1, void * jarg2) {
   b2SolverData *arg1 = (b2SolverData *) 0 ;
   b2Velocity *arg2 = (b2Velocity *) 0 ;
   
@@ -8523,7 +8523,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2SolverData_velocities_set(void * ja
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2SolverData_velocities_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2SolverData_velocities_get(void * jarg1) {
   void * jresult ;
   b2SolverData *arg1 = (b2SolverData *) 0 ;
   b2Velocity *result = 0 ;
@@ -8535,7 +8535,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2SolverData_velocities_get(void * 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2SolverData() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2SolverData() {
   void * jresult ;
   b2SolverData *result = 0 ;
   
@@ -8545,7 +8545,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2SolverData() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2SolverData(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2SolverData(void * jarg1) {
   b2SolverData *arg1 = (b2SolverData *) 0 ;
   
   arg1 = (b2SolverData *)jarg1; 
@@ -8553,7 +8553,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2SolverData(void * jarg1) {
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2_blockSizeCount_get() {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2_blockSizeCount_get() {
   int jresult ;
   int32 result;
   
@@ -8563,7 +8563,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2_blockSizeCount_get() {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2BlockAllocator() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2BlockAllocator() {
   void * jresult ;
   b2BlockAllocator *result = 0 ;
   
@@ -8573,7 +8573,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2BlockAllocator() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2BlockAllocator(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2BlockAllocator(void * jarg1) {
   b2BlockAllocator *arg1 = (b2BlockAllocator *) 0 ;
   
   arg1 = (b2BlockAllocator *)jarg1; 
@@ -8581,7 +8581,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2BlockAllocator(void * jarg1)
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2BlockAllocator_Allocate(void * jarg1, int jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2BlockAllocator_Allocate(void * jarg1, int jarg2) {
   void * jresult ;
   b2BlockAllocator *arg1 = (b2BlockAllocator *) 0 ;
   int32 arg2 ;
@@ -8595,7 +8595,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2BlockAllocator_Allocate(void * ja
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BlockAllocator_Free(void * jarg1, void * jarg2, int jarg3) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2BlockAllocator_Free(void * jarg1, void * jarg2, int jarg3) {
   b2BlockAllocator *arg1 = (b2BlockAllocator *) 0 ;
   void *arg2 = (void *) 0 ;
   int32 arg3 ;
@@ -8607,7 +8607,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BlockAllocator_Free(void * jarg1, v
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BlockAllocator_Clear(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2BlockAllocator_Clear(void * jarg1) {
   b2BlockAllocator *arg1 = (b2BlockAllocator *) 0 ;
   
   arg1 = (b2BlockAllocator *)jarg1; 
@@ -8615,7 +8615,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2BlockAllocator_Clear(void * jarg1) 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2ContactManager() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2ContactManager() {
   void * jresult ;
   b2ContactManager *result = 0 ;
   
@@ -8625,7 +8625,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2ContactManager() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactManager_AddPair(void * jarg1, void * jarg2, void * jarg3) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ContactManager_AddPair(void * jarg1, void * jarg2, void * jarg3) {
   b2ContactManager *arg1 = (b2ContactManager *) 0 ;
   void *arg2 = (void *) 0 ;
   void *arg3 = (void *) 0 ;
@@ -8637,7 +8637,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactManager_AddPair(void * jarg1
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactManager_FindNewContacts(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ContactManager_FindNewContacts(void * jarg1) {
   b2ContactManager *arg1 = (b2ContactManager *) 0 ;
   
   arg1 = (b2ContactManager *)jarg1; 
@@ -8645,7 +8645,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactManager_FindNewContacts(void
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactManager_Destroy(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ContactManager_Destroy(void * jarg1, void * jarg2) {
   b2ContactManager *arg1 = (b2ContactManager *) 0 ;
   b2Contact *arg2 = (b2Contact *) 0 ;
   
@@ -8655,7 +8655,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactManager_Destroy(void * jarg1
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactManager_Collide(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ContactManager_Collide(void * jarg1) {
   b2ContactManager *arg1 = (b2ContactManager *) 0 ;
   
   arg1 = (b2ContactManager *)jarg1; 
@@ -8663,7 +8663,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactManager_Collide(void * jarg1
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactManager_m_broadPhase_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ContactManager_m_broadPhase_set(void * jarg1, void * jarg2) {
   b2ContactManager *arg1 = (b2ContactManager *) 0 ;
   b2BroadPhase *arg2 = (b2BroadPhase *) 0 ;
   
@@ -8673,7 +8673,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactManager_m_broadPhase_set(voi
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ContactManager_m_broadPhase_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2ContactManager_m_broadPhase_get(void * jarg1) {
   void * jresult ;
   b2ContactManager *arg1 = (b2ContactManager *) 0 ;
   b2BroadPhase *result = 0 ;
@@ -8685,7 +8685,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ContactManager_m_broadPhase_get(v
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactManager_m_contactList_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ContactManager_m_contactList_set(void * jarg1, void * jarg2) {
   b2ContactManager *arg1 = (b2ContactManager *) 0 ;
   b2Contact *arg2 = (b2Contact *) 0 ;
   
@@ -8695,7 +8695,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactManager_m_contactList_set(vo
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ContactManager_m_contactList_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2ContactManager_m_contactList_get(void * jarg1) {
   void * jresult ;
   b2ContactManager *arg1 = (b2ContactManager *) 0 ;
   b2Contact *result = 0 ;
@@ -8707,7 +8707,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ContactManager_m_contactList_get(
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactManager_m_contactCount_set(void * jarg1, int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ContactManager_m_contactCount_set(void * jarg1, int jarg2) {
   b2ContactManager *arg1 = (b2ContactManager *) 0 ;
   int32 arg2 ;
   
@@ -8717,7 +8717,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactManager_m_contactCount_set(v
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2ContactManager_m_contactCount_get(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2ContactManager_m_contactCount_get(void * jarg1) {
   int jresult ;
   b2ContactManager *arg1 = (b2ContactManager *) 0 ;
   int32 result;
@@ -8729,7 +8729,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2ContactManager_m_contactCount_get(vo
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactManager_m_contactFilter_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ContactManager_m_contactFilter_set(void * jarg1, void * jarg2) {
   b2ContactManager *arg1 = (b2ContactManager *) 0 ;
   b2ContactFilter *arg2 = (b2ContactFilter *) 0 ;
   
@@ -8739,7 +8739,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactManager_m_contactFilter_set(
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ContactManager_m_contactFilter_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2ContactManager_m_contactFilter_get(void * jarg1) {
   void * jresult ;
   b2ContactManager *arg1 = (b2ContactManager *) 0 ;
   b2ContactFilter *result = 0 ;
@@ -8751,7 +8751,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ContactManager_m_contactFilter_ge
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactManager_m_contactListener_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ContactManager_m_contactListener_set(void * jarg1, void * jarg2) {
   b2ContactManager *arg1 = (b2ContactManager *) 0 ;
   b2ContactListener *arg2 = (b2ContactListener *) 0 ;
   
@@ -8761,7 +8761,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactManager_m_contactListener_se
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ContactManager_m_contactListener_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2ContactManager_m_contactListener_get(void * jarg1) {
   void * jresult ;
   b2ContactManager *arg1 = (b2ContactManager *) 0 ;
   b2ContactListener *result = 0 ;
@@ -8773,7 +8773,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ContactManager_m_contactListener_
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactManager_m_allocator_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ContactManager_m_allocator_set(void * jarg1, void * jarg2) {
   b2ContactManager *arg1 = (b2ContactManager *) 0 ;
   b2BlockAllocator *arg2 = (b2BlockAllocator *) 0 ;
   
@@ -8783,7 +8783,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactManager_m_allocator_set(void
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ContactManager_m_allocator_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2ContactManager_m_allocator_get(void * jarg1) {
   void * jresult ;
   b2ContactManager *arg1 = (b2ContactManager *) 0 ;
   b2BlockAllocator *result = 0 ;
@@ -8795,7 +8795,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ContactManager_m_allocator_get(vo
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2ContactManager(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2ContactManager(void * jarg1) {
   b2ContactManager *arg1 = (b2ContactManager *) 0 ;
   
   arg1 = (b2ContactManager *)jarg1; 
@@ -8803,7 +8803,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2ContactManager(void * jarg1)
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2_stackSize_get() {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2_stackSize_get() {
   int jresult ;
   int32 result;
   
@@ -8813,7 +8813,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2_stackSize_get() {
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2_maxStackEntries_get() {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2_maxStackEntries_get() {
   int jresult ;
   int32 result;
   
@@ -8823,7 +8823,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2_maxStackEntries_get() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2StackEntry_data_set(void * jarg1, char * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2StackEntry_data_set(void * jarg1, char * jarg2) {
   b2StackEntry *arg1 = (b2StackEntry *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -8841,7 +8841,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2StackEntry_data_set(void * jarg1, c
 }
 
 
-SWIGEXPORT char * SWIGSTDCALL CSharp_Box2DCS_b2StackEntry_data_get(void * jarg1) {
+SWIGEXPORT char * SWIGSTDCALL CSharp_b2Sharp_b2StackEntry_data_get(void * jarg1) {
   char * jresult ;
   b2StackEntry *arg1 = (b2StackEntry *) 0 ;
   char *result = 0 ;
@@ -8853,7 +8853,7 @@ SWIGEXPORT char * SWIGSTDCALL CSharp_Box2DCS_b2StackEntry_data_get(void * jarg1)
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2StackEntry_size_set(void * jarg1, int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2StackEntry_size_set(void * jarg1, int jarg2) {
   b2StackEntry *arg1 = (b2StackEntry *) 0 ;
   int32 arg2 ;
   
@@ -8863,7 +8863,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2StackEntry_size_set(void * jarg1, i
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2StackEntry_size_get(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2StackEntry_size_get(void * jarg1) {
   int jresult ;
   b2StackEntry *arg1 = (b2StackEntry *) 0 ;
   int32 result;
@@ -8875,7 +8875,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2StackEntry_size_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2StackEntry_usedMalloc_set(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2StackEntry_usedMalloc_set(void * jarg1, unsigned int jarg2) {
   b2StackEntry *arg1 = (b2StackEntry *) 0 ;
   bool arg2 ;
   
@@ -8885,7 +8885,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2StackEntry_usedMalloc_set(void * ja
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2StackEntry_usedMalloc_get(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2StackEntry_usedMalloc_get(void * jarg1) {
   unsigned int jresult ;
   b2StackEntry *arg1 = (b2StackEntry *) 0 ;
   bool result;
@@ -8897,7 +8897,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2StackEntry_usedMalloc_get(v
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2StackEntry() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2StackEntry() {
   void * jresult ;
   b2StackEntry *result = 0 ;
   
@@ -8907,7 +8907,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2StackEntry() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2StackEntry(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2StackEntry(void * jarg1) {
   b2StackEntry *arg1 = (b2StackEntry *) 0 ;
   
   arg1 = (b2StackEntry *)jarg1; 
@@ -8915,7 +8915,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2StackEntry(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2StackAllocator() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2StackAllocator() {
   void * jresult ;
   b2StackAllocator *result = 0 ;
   
@@ -8925,7 +8925,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2StackAllocator() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2StackAllocator(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2StackAllocator(void * jarg1) {
   b2StackAllocator *arg1 = (b2StackAllocator *) 0 ;
   
   arg1 = (b2StackAllocator *)jarg1; 
@@ -8933,7 +8933,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2StackAllocator(void * jarg1)
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2StackAllocator_Allocate(void * jarg1, int jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2StackAllocator_Allocate(void * jarg1, int jarg2) {
   void * jresult ;
   b2StackAllocator *arg1 = (b2StackAllocator *) 0 ;
   int32 arg2 ;
@@ -8947,7 +8947,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2StackAllocator_Allocate(void * ja
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2StackAllocator_Free(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2StackAllocator_Free(void * jarg1, void * jarg2) {
   b2StackAllocator *arg1 = (b2StackAllocator *) 0 ;
   void *arg2 = (void *) 0 ;
   
@@ -8957,7 +8957,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2StackAllocator_Free(void * jarg1, v
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2StackAllocator_GetMaxAllocation(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2StackAllocator_GetMaxAllocation(void * jarg1) {
   int jresult ;
   b2StackAllocator *arg1 = (b2StackAllocator *) 0 ;
   int32 result;
@@ -8969,7 +8969,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2StackAllocator_GetMaxAllocation(void
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2DestructionListener(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2DestructionListener(void * jarg1) {
   b2DestructionListener *arg1 = (b2DestructionListener *) 0 ;
   
   arg1 = (b2DestructionListener *)jarg1; 
@@ -8977,7 +8977,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2DestructionListener(void * j
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2DestructionListener_SayGoodbye__SWIG_0(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2DestructionListener_SayGoodbye__SWIG_0(void * jarg1, void * jarg2) {
   b2DestructionListener *arg1 = (b2DestructionListener *) 0 ;
   b2Joint *arg2 = (b2Joint *) 0 ;
   
@@ -8987,7 +8987,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2DestructionListener_SayGoodbye__SWI
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2DestructionListener_SayGoodbye__SWIG_1(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2DestructionListener_SayGoodbye__SWIG_1(void * jarg1, void * jarg2) {
   b2DestructionListener *arg1 = (b2DestructionListener *) 0 ;
   b2Fixture *arg2 = (b2Fixture *) 0 ;
   
@@ -8997,7 +8997,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2DestructionListener_SayGoodbye__SWI
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2ContactFilter(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2ContactFilter(void * jarg1) {
   b2ContactFilter *arg1 = (b2ContactFilter *) 0 ;
   
   arg1 = (b2ContactFilter *)jarg1; 
@@ -9005,7 +9005,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2ContactFilter(void * jarg1) 
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2ContactFilter_ShouldCollide(void * jarg1, void * jarg2, void * jarg3) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2ContactFilter_ShouldCollide(void * jarg1, void * jarg2, void * jarg3) {
   unsigned int jresult ;
   b2ContactFilter *arg1 = (b2ContactFilter *) 0 ;
   b2Fixture *arg2 = (b2Fixture *) 0 ;
@@ -9021,7 +9021,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2ContactFilter_ShouldCollide
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2ContactFilter() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2ContactFilter() {
   void * jresult ;
   b2ContactFilter *result = 0 ;
   
@@ -9031,7 +9031,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2ContactFilter() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactImpulse_normalImpulses_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ContactImpulse_normalImpulses_set(void * jarg1, void * jarg2) {
   b2ContactImpulse *arg1 = (b2ContactImpulse *) 0 ;
   float *arg2 ;
   
@@ -9045,7 +9045,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactImpulse_normalImpulses_set(v
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ContactImpulse_normalImpulses_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2ContactImpulse_normalImpulses_get(void * jarg1) {
   void * jresult ;
   b2ContactImpulse *arg1 = (b2ContactImpulse *) 0 ;
   float *result = 0 ;
@@ -9057,7 +9057,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ContactImpulse_normalImpulses_get
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactImpulse_tangentImpulses_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ContactImpulse_tangentImpulses_set(void * jarg1, void * jarg2) {
   b2ContactImpulse *arg1 = (b2ContactImpulse *) 0 ;
   float *arg2 ;
   
@@ -9071,7 +9071,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactImpulse_tangentImpulses_set(
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ContactImpulse_tangentImpulses_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2ContactImpulse_tangentImpulses_get(void * jarg1) {
   void * jresult ;
   b2ContactImpulse *arg1 = (b2ContactImpulse *) 0 ;
   float *result = 0 ;
@@ -9083,7 +9083,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2ContactImpulse_tangentImpulses_ge
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactImpulse_count_set(void * jarg1, int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ContactImpulse_count_set(void * jarg1, int jarg2) {
   b2ContactImpulse *arg1 = (b2ContactImpulse *) 0 ;
   int32 arg2 ;
   
@@ -9093,7 +9093,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactImpulse_count_set(void * jar
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2ContactImpulse_count_get(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2ContactImpulse_count_get(void * jarg1) {
   int jresult ;
   b2ContactImpulse *arg1 = (b2ContactImpulse *) 0 ;
   int32 result;
@@ -9105,7 +9105,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2ContactImpulse_count_get(void * jarg
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2ContactImpulse() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2ContactImpulse() {
   void * jresult ;
   b2ContactImpulse *result = 0 ;
   
@@ -9115,7 +9115,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2ContactImpulse() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2ContactImpulse(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2ContactImpulse(void * jarg1) {
   b2ContactImpulse *arg1 = (b2ContactImpulse *) 0 ;
   
   arg1 = (b2ContactImpulse *)jarg1; 
@@ -9123,7 +9123,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2ContactImpulse(void * jarg1)
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2ContactListener(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2ContactListener(void * jarg1) {
   b2ContactListener *arg1 = (b2ContactListener *) 0 ;
   
   arg1 = (b2ContactListener *)jarg1; 
@@ -9131,7 +9131,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2ContactListener(void * jarg1
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactListener_BeginContact(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ContactListener_BeginContact(void * jarg1, void * jarg2) {
   b2ContactListener *arg1 = (b2ContactListener *) 0 ;
   b2Contact *arg2 = (b2Contact *) 0 ;
   
@@ -9141,7 +9141,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactListener_BeginContact(void *
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactListener_EndContact(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ContactListener_EndContact(void * jarg1, void * jarg2) {
   b2ContactListener *arg1 = (b2ContactListener *) 0 ;
   b2Contact *arg2 = (b2Contact *) 0 ;
   
@@ -9151,7 +9151,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactListener_EndContact(void * j
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactListener_PreSolve(void * jarg1, void * jarg2, void * jarg3) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ContactListener_PreSolve(void * jarg1, void * jarg2, void * jarg3) {
   b2ContactListener *arg1 = (b2ContactListener *) 0 ;
   b2Contact *arg2 = (b2Contact *) 0 ;
   b2Manifold *arg3 = (b2Manifold *) 0 ;
@@ -9163,7 +9163,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactListener_PreSolve(void * jar
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactListener_PostSolve(void * jarg1, void * jarg2, void * jarg3) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2ContactListener_PostSolve(void * jarg1, void * jarg2, void * jarg3) {
   b2ContactListener *arg1 = (b2ContactListener *) 0 ;
   b2Contact *arg2 = (b2Contact *) 0 ;
   b2ContactImpulse *arg3 = (b2ContactImpulse *) 0 ;
@@ -9175,7 +9175,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2ContactListener_PostSolve(void * ja
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2ContactListener() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2ContactListener() {
   void * jresult ;
   b2ContactListener *result = 0 ;
   
@@ -9185,7 +9185,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2ContactListener() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2QueryCallback(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2QueryCallback(void * jarg1) {
   b2QueryCallback *arg1 = (b2QueryCallback *) 0 ;
   
   arg1 = (b2QueryCallback *)jarg1; 
@@ -9193,7 +9193,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2QueryCallback(void * jarg1) 
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2QueryCallback_ReportFixture(void * jarg1, void * jarg2) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2QueryCallback_ReportFixture(void * jarg1, void * jarg2) {
   unsigned int jresult ;
   b2QueryCallback *arg1 = (b2QueryCallback *) 0 ;
   b2Fixture *arg2 = (b2Fixture *) 0 ;
@@ -9207,7 +9207,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2QueryCallback_ReportFixture
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2RayCastCallback(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2RayCastCallback(void * jarg1) {
   b2RayCastCallback *arg1 = (b2RayCastCallback *) 0 ;
   
   arg1 = (b2RayCastCallback *)jarg1; 
@@ -9215,7 +9215,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2RayCastCallback(void * jarg1
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RayCastCallback_ReportFixture(void * jarg1, void * jarg2, void * jarg3, void * jarg4, float jarg5) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2RayCastCallback_ReportFixture(void * jarg1, void * jarg2, void * jarg3, void * jarg4, float jarg5) {
   float jresult ;
   b2RayCastCallback *arg1 = (b2RayCastCallback *) 0 ;
   b2Fixture *arg2 = (b2Fixture *) 0 ;
@@ -9243,7 +9243,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RayCastCallback_ReportFixture(void
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2World(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2World(void * jarg1) {
   void * jresult ;
   b2Vec2 *arg1 = 0 ;
   b2World *result = 0 ;
@@ -9259,7 +9259,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2World(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2World(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2World(void * jarg1) {
   b2World *arg1 = (b2World *) 0 ;
   
   arg1 = (b2World *)jarg1; 
@@ -9267,7 +9267,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2World(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2World_SetDestructionListener(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2World_SetDestructionListener(void * jarg1, void * jarg2) {
   b2World *arg1 = (b2World *) 0 ;
   b2DestructionListener *arg2 = (b2DestructionListener *) 0 ;
   
@@ -9277,7 +9277,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2World_SetDestructionListener(void *
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2World_SetContactFilter(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2World_SetContactFilter(void * jarg1, void * jarg2) {
   b2World *arg1 = (b2World *) 0 ;
   b2ContactFilter *arg2 = (b2ContactFilter *) 0 ;
   
@@ -9287,7 +9287,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2World_SetContactFilter(void * jarg1
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2World_SetContactListener(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2World_SetContactListener(void * jarg1, void * jarg2) {
   b2World *arg1 = (b2World *) 0 ;
   b2ContactListener *arg2 = (b2ContactListener *) 0 ;
   
@@ -9297,7 +9297,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2World_SetContactListener(void * jar
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2World_SetDebugDraw(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2World_SetDebugDraw(void * jarg1, void * jarg2) {
   b2World *arg1 = (b2World *) 0 ;
   b2Draw *arg2 = (b2Draw *) 0 ;
   
@@ -9307,7 +9307,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2World_SetDebugDraw(void * jarg1, vo
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2World_CreateBody(void * jarg1, void * jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2World_CreateBody(void * jarg1, void * jarg2) {
   void * jresult ;
   b2World *arg1 = (b2World *) 0 ;
   b2BodyDef *arg2 = (b2BodyDef *) 0 ;
@@ -9321,7 +9321,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2World_CreateBody(void * jarg1, vo
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2World_DestroyBody(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2World_DestroyBody(void * jarg1, void * jarg2) {
   b2World *arg1 = (b2World *) 0 ;
   b2Body *arg2 = (b2Body *) 0 ;
   
@@ -9331,7 +9331,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2World_DestroyBody(void * jarg1, voi
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2World_CreateJoint(void * jarg1, void * jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2World_CreateJoint(void * jarg1, void * jarg2) {
   void * jresult ;
   b2World *arg1 = (b2World *) 0 ;
   b2JointDef *arg2 = (b2JointDef *) 0 ;
@@ -9345,7 +9345,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2World_CreateJoint(void * jarg1, v
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2World_DestroyJoint(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2World_DestroyJoint(void * jarg1, void * jarg2) {
   b2World *arg1 = (b2World *) 0 ;
   b2Joint *arg2 = (b2Joint *) 0 ;
   
@@ -9355,7 +9355,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2World_DestroyJoint(void * jarg1, vo
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2World_Step(void * jarg1, float jarg2, int jarg3, int jarg4) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2World_Step(void * jarg1, float jarg2, int jarg3, int jarg4) {
   b2World *arg1 = (b2World *) 0 ;
   float arg2 ;
   int32 arg3 ;
@@ -9369,7 +9369,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2World_Step(void * jarg1, float jarg
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2World_ClearForces(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2World_ClearForces(void * jarg1) {
   b2World *arg1 = (b2World *) 0 ;
   
   arg1 = (b2World *)jarg1; 
@@ -9377,7 +9377,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2World_ClearForces(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2World_DebugDraw(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2World_DebugDraw(void * jarg1) {
   b2World *arg1 = (b2World *) 0 ;
   
   arg1 = (b2World *)jarg1; 
@@ -9385,7 +9385,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2World_DebugDraw(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2World_QueryAABB(void * jarg1, void * jarg2, void * jarg3) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2World_QueryAABB(void * jarg1, void * jarg2, void * jarg3) {
   b2World *arg1 = (b2World *) 0 ;
   b2QueryCallback *arg2 = (b2QueryCallback *) 0 ;
   b2AABB *arg3 = 0 ;
@@ -9401,7 +9401,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2World_QueryAABB(void * jarg1, void 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2World_RayCast(void * jarg1, void * jarg2, void * jarg3, void * jarg4) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2World_RayCast(void * jarg1, void * jarg2, void * jarg3, void * jarg4) {
   b2World *arg1 = (b2World *) 0 ;
   b2RayCastCallback *arg2 = (b2RayCastCallback *) 0 ;
   b2Vec2 *arg3 = 0 ;
@@ -9423,7 +9423,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2World_RayCast(void * jarg1, void * 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2World_GetBodyList__SWIG_0(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2World_GetBodyList__SWIG_0(void * jarg1) {
   void * jresult ;
   b2World *arg1 = (b2World *) 0 ;
   b2Body *result = 0 ;
@@ -9435,7 +9435,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2World_GetBodyList__SWIG_0(void * 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2World_GetJointList__SWIG_0(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2World_GetJointList__SWIG_0(void * jarg1) {
   void * jresult ;
   b2World *arg1 = (b2World *) 0 ;
   b2Joint *result = 0 ;
@@ -9447,7 +9447,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2World_GetJointList__SWIG_0(void *
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2World_GetContactList__SWIG_0(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2World_GetContactList__SWIG_0(void * jarg1) {
   void * jresult ;
   b2World *arg1 = (b2World *) 0 ;
   b2Contact *result = 0 ;
@@ -9459,7 +9459,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2World_GetContactList__SWIG_0(void
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2World_SetAllowSleeping(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2World_SetAllowSleeping(void * jarg1, unsigned int jarg2) {
   b2World *arg1 = (b2World *) 0 ;
   bool arg2 ;
   
@@ -9469,7 +9469,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2World_SetAllowSleeping(void * jarg1
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2World_GetAllowSleeping(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2World_GetAllowSleeping(void * jarg1) {
   unsigned int jresult ;
   b2World *arg1 = (b2World *) 0 ;
   bool result;
@@ -9481,7 +9481,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2World_GetAllowSleeping(void
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2World_SetWarmStarting(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2World_SetWarmStarting(void * jarg1, unsigned int jarg2) {
   b2World *arg1 = (b2World *) 0 ;
   bool arg2 ;
   
@@ -9491,7 +9491,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2World_SetWarmStarting(void * jarg1,
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2World_GetWarmStarting(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2World_GetWarmStarting(void * jarg1) {
   unsigned int jresult ;
   b2World *arg1 = (b2World *) 0 ;
   bool result;
@@ -9503,7 +9503,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2World_GetWarmStarting(void 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2World_SetContinuousPhysics(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2World_SetContinuousPhysics(void * jarg1, unsigned int jarg2) {
   b2World *arg1 = (b2World *) 0 ;
   bool arg2 ;
   
@@ -9513,7 +9513,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2World_SetContinuousPhysics(void * j
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2World_GetContinuousPhysics(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2World_GetContinuousPhysics(void * jarg1) {
   unsigned int jresult ;
   b2World *arg1 = (b2World *) 0 ;
   bool result;
@@ -9525,7 +9525,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2World_GetContinuousPhysics(
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2World_SetSubStepping(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2World_SetSubStepping(void * jarg1, unsigned int jarg2) {
   b2World *arg1 = (b2World *) 0 ;
   bool arg2 ;
   
@@ -9535,7 +9535,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2World_SetSubStepping(void * jarg1, 
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2World_GetSubStepping(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2World_GetSubStepping(void * jarg1) {
   unsigned int jresult ;
   b2World *arg1 = (b2World *) 0 ;
   bool result;
@@ -9547,7 +9547,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2World_GetSubStepping(void *
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2World_GetProxyCount(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2World_GetProxyCount(void * jarg1) {
   int jresult ;
   b2World *arg1 = (b2World *) 0 ;
   int32 result;
@@ -9559,7 +9559,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2World_GetProxyCount(void * jarg1) {
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2World_GetBodyCount(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2World_GetBodyCount(void * jarg1) {
   int jresult ;
   b2World *arg1 = (b2World *) 0 ;
   int32 result;
@@ -9571,7 +9571,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2World_GetBodyCount(void * jarg1) {
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2World_GetJointCount(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2World_GetJointCount(void * jarg1) {
   int jresult ;
   b2World *arg1 = (b2World *) 0 ;
   int32 result;
@@ -9583,7 +9583,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2World_GetJointCount(void * jarg1) {
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2World_GetContactCount(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2World_GetContactCount(void * jarg1) {
   int jresult ;
   b2World *arg1 = (b2World *) 0 ;
   int32 result;
@@ -9595,7 +9595,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2World_GetContactCount(void * jarg1) 
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2World_GetTreeHeight(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2World_GetTreeHeight(void * jarg1) {
   int jresult ;
   b2World *arg1 = (b2World *) 0 ;
   int32 result;
@@ -9607,7 +9607,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2World_GetTreeHeight(void * jarg1) {
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2World_GetTreeBalance(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2World_GetTreeBalance(void * jarg1) {
   int jresult ;
   b2World *arg1 = (b2World *) 0 ;
   int32 result;
@@ -9619,7 +9619,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2World_GetTreeBalance(void * jarg1) {
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2World_GetTreeQuality(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2World_GetTreeQuality(void * jarg1) {
   float jresult ;
   b2World *arg1 = (b2World *) 0 ;
   float result;
@@ -9631,7 +9631,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2World_GetTreeQuality(void * jarg1)
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2World_SetGravity(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2World_SetGravity(void * jarg1, void * jarg2) {
   b2World *arg1 = (b2World *) 0 ;
   b2Vec2 *arg2 = 0 ;
   
@@ -9645,7 +9645,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2World_SetGravity(void * jarg1, void
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2World_GetGravity(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2World_GetGravity(void * jarg1) {
   void * jresult ;
   b2World *arg1 = (b2World *) 0 ;
   b2Vec2 result;
@@ -9657,7 +9657,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2World_GetGravity(void * jarg1) {
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2World_IsLocked(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2World_IsLocked(void * jarg1) {
   unsigned int jresult ;
   b2World *arg1 = (b2World *) 0 ;
   bool result;
@@ -9669,7 +9669,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2World_IsLocked(void * jarg1
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2World_SetAutoClearForces(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2World_SetAutoClearForces(void * jarg1, unsigned int jarg2) {
   b2World *arg1 = (b2World *) 0 ;
   bool arg2 ;
   
@@ -9679,7 +9679,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2World_SetAutoClearForces(void * jar
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2World_GetAutoClearForces(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2World_GetAutoClearForces(void * jarg1) {
   unsigned int jresult ;
   b2World *arg1 = (b2World *) 0 ;
   bool result;
@@ -9691,7 +9691,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2World_GetAutoClearForces(vo
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2World_ShiftOrigin(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2World_ShiftOrigin(void * jarg1, void * jarg2) {
   b2World *arg1 = (b2World *) 0 ;
   b2Vec2 *arg2 = 0 ;
   
@@ -9705,7 +9705,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2World_ShiftOrigin(void * jarg1, voi
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2World_GetContactManager(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2World_GetContactManager(void * jarg1) {
   void * jresult ;
   b2World *arg1 = (b2World *) 0 ;
   b2ContactManager *result = 0 ;
@@ -9717,7 +9717,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2World_GetContactManager(void * ja
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2World_GetProfile(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2World_GetProfile(void * jarg1) {
   void * jresult ;
   b2World *arg1 = (b2World *) 0 ;
   b2Profile *result = 0 ;
@@ -9729,7 +9729,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2World_GetProfile(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2World_Dump(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2World_Dump(void * jarg1) {
   b2World *arg1 = (b2World *) 0 ;
   
   arg1 = (b2World *)jarg1; 
@@ -9737,7 +9737,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2World_Dump(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Jacobian_linear_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Jacobian_linear_set(void * jarg1, void * jarg2) {
   b2Jacobian *arg1 = (b2Jacobian *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -9747,7 +9747,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Jacobian_linear_set(void * jarg1, v
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Jacobian_linear_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Jacobian_linear_get(void * jarg1) {
   void * jresult ;
   b2Jacobian *arg1 = (b2Jacobian *) 0 ;
   b2Vec2 *result = 0 ;
@@ -9759,7 +9759,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Jacobian_linear_get(void * jarg1)
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Jacobian_angularA_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Jacobian_angularA_set(void * jarg1, float jarg2) {
   b2Jacobian *arg1 = (b2Jacobian *) 0 ;
   float arg2 ;
   
@@ -9769,7 +9769,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Jacobian_angularA_set(void * jarg1,
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Jacobian_angularA_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Jacobian_angularA_get(void * jarg1) {
   float jresult ;
   b2Jacobian *arg1 = (b2Jacobian *) 0 ;
   float result;
@@ -9781,7 +9781,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Jacobian_angularA_get(void * jarg1
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Jacobian_angularB_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Jacobian_angularB_set(void * jarg1, float jarg2) {
   b2Jacobian *arg1 = (b2Jacobian *) 0 ;
   float arg2 ;
   
@@ -9791,7 +9791,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Jacobian_angularB_set(void * jarg1,
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Jacobian_angularB_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Jacobian_angularB_get(void * jarg1) {
   float jresult ;
   b2Jacobian *arg1 = (b2Jacobian *) 0 ;
   float result;
@@ -9803,7 +9803,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Jacobian_angularB_get(void * jarg1
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Jacobian() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2Jacobian() {
   void * jresult ;
   b2Jacobian *result = 0 ;
   
@@ -9813,7 +9813,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2Jacobian() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Jacobian(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2Jacobian(void * jarg1) {
   b2Jacobian *arg1 = (b2Jacobian *) 0 ;
   
   arg1 = (b2Jacobian *)jarg1; 
@@ -9821,7 +9821,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2Jacobian(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2JointEdge_other_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2JointEdge_other_set(void * jarg1, void * jarg2) {
   b2JointEdge *arg1 = (b2JointEdge *) 0 ;
   b2Body *arg2 = (b2Body *) 0 ;
   
@@ -9831,7 +9831,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2JointEdge_other_set(void * jarg1, v
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2JointEdge_other_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2JointEdge_other_get(void * jarg1) {
   void * jresult ;
   b2JointEdge *arg1 = (b2JointEdge *) 0 ;
   b2Body *result = 0 ;
@@ -9843,7 +9843,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2JointEdge_other_get(void * jarg1)
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2JointEdge_joint_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2JointEdge_joint_set(void * jarg1, void * jarg2) {
   b2JointEdge *arg1 = (b2JointEdge *) 0 ;
   b2Joint *arg2 = (b2Joint *) 0 ;
   
@@ -9853,7 +9853,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2JointEdge_joint_set(void * jarg1, v
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2JointEdge_joint_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2JointEdge_joint_get(void * jarg1) {
   void * jresult ;
   b2JointEdge *arg1 = (b2JointEdge *) 0 ;
   b2Joint *result = 0 ;
@@ -9865,7 +9865,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2JointEdge_joint_get(void * jarg1)
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2JointEdge_prev_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2JointEdge_prev_set(void * jarg1, void * jarg2) {
   b2JointEdge *arg1 = (b2JointEdge *) 0 ;
   b2JointEdge *arg2 = (b2JointEdge *) 0 ;
   
@@ -9875,7 +9875,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2JointEdge_prev_set(void * jarg1, vo
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2JointEdge_prev_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2JointEdge_prev_get(void * jarg1) {
   void * jresult ;
   b2JointEdge *arg1 = (b2JointEdge *) 0 ;
   b2JointEdge *result = 0 ;
@@ -9887,7 +9887,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2JointEdge_prev_get(void * jarg1) 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2JointEdge_next_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2JointEdge_next_set(void * jarg1, void * jarg2) {
   b2JointEdge *arg1 = (b2JointEdge *) 0 ;
   b2JointEdge *arg2 = (b2JointEdge *) 0 ;
   
@@ -9897,7 +9897,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2JointEdge_next_set(void * jarg1, vo
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2JointEdge_next_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2JointEdge_next_get(void * jarg1) {
   void * jresult ;
   b2JointEdge *arg1 = (b2JointEdge *) 0 ;
   b2JointEdge *result = 0 ;
@@ -9909,7 +9909,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2JointEdge_next_get(void * jarg1) 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2JointEdge() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2JointEdge() {
   void * jresult ;
   b2JointEdge *result = 0 ;
   
@@ -9919,7 +9919,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2JointEdge() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2JointEdge(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2JointEdge(void * jarg1) {
   b2JointEdge *arg1 = (b2JointEdge *) 0 ;
   
   arg1 = (b2JointEdge *)jarg1; 
@@ -9927,7 +9927,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2JointEdge(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2JointDef() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2JointDef() {
   void * jresult ;
   b2JointDef *result = 0 ;
   
@@ -9937,7 +9937,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2JointDef() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2JointDef_type_set(void * jarg1, int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2JointDef_type_set(void * jarg1, int jarg2) {
   b2JointDef *arg1 = (b2JointDef *) 0 ;
   b2JointType arg2 ;
   
@@ -9947,7 +9947,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2JointDef_type_set(void * jarg1, int
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2JointDef_type_get(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2JointDef_type_get(void * jarg1) {
   int jresult ;
   b2JointDef *arg1 = (b2JointDef *) 0 ;
   b2JointType result;
@@ -9959,7 +9959,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2JointDef_type_get(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2JointDef_userData_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2JointDef_userData_set(void * jarg1, void * jarg2) {
   b2JointDef *arg1 = (b2JointDef *) 0 ;
   void *arg2 = (void *) 0 ;
   
@@ -9969,7 +9969,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2JointDef_userData_set(void * jarg1,
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2JointDef_userData_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2JointDef_userData_get(void * jarg1) {
   void * jresult ;
   b2JointDef *arg1 = (b2JointDef *) 0 ;
   void *result = 0 ;
@@ -9981,7 +9981,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2JointDef_userData_get(void * jarg
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2JointDef_bodyA_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2JointDef_bodyA_set(void * jarg1, void * jarg2) {
   b2JointDef *arg1 = (b2JointDef *) 0 ;
   b2Body *arg2 = (b2Body *) 0 ;
   
@@ -9991,7 +9991,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2JointDef_bodyA_set(void * jarg1, vo
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2JointDef_bodyA_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2JointDef_bodyA_get(void * jarg1) {
   void * jresult ;
   b2JointDef *arg1 = (b2JointDef *) 0 ;
   b2Body *result = 0 ;
@@ -10003,7 +10003,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2JointDef_bodyA_get(void * jarg1) 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2JointDef_bodyB_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2JointDef_bodyB_set(void * jarg1, void * jarg2) {
   b2JointDef *arg1 = (b2JointDef *) 0 ;
   b2Body *arg2 = (b2Body *) 0 ;
   
@@ -10013,7 +10013,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2JointDef_bodyB_set(void * jarg1, vo
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2JointDef_bodyB_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2JointDef_bodyB_get(void * jarg1) {
   void * jresult ;
   b2JointDef *arg1 = (b2JointDef *) 0 ;
   b2Body *result = 0 ;
@@ -10025,7 +10025,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2JointDef_bodyB_get(void * jarg1) 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2JointDef_collideConnected_set(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2JointDef_collideConnected_set(void * jarg1, unsigned int jarg2) {
   b2JointDef *arg1 = (b2JointDef *) 0 ;
   bool arg2 ;
   
@@ -10035,7 +10035,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2JointDef_collideConnected_set(void 
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2JointDef_collideConnected_get(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2JointDef_collideConnected_get(void * jarg1) {
   unsigned int jresult ;
   b2JointDef *arg1 = (b2JointDef *) 0 ;
   bool result;
@@ -10047,7 +10047,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2JointDef_collideConnected_g
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2JointDef(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2JointDef(void * jarg1) {
   b2JointDef *arg1 = (b2JointDef *) 0 ;
   
   arg1 = (b2JointDef *)jarg1; 
@@ -10055,7 +10055,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2JointDef(void * jarg1) {
 }
 
 
-SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Joint_GetType(void * jarg1) {
+SWIGEXPORT int SWIGSTDCALL CSharp_b2Sharp_b2Joint_GetType(void * jarg1) {
   int jresult ;
   b2Joint *arg1 = (b2Joint *) 0 ;
   b2JointType result;
@@ -10067,7 +10067,7 @@ SWIGEXPORT int SWIGSTDCALL CSharp_Box2DCS_b2Joint_GetType(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Joint_GetBodyA(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Joint_GetBodyA(void * jarg1) {
   void * jresult ;
   b2Joint *arg1 = (b2Joint *) 0 ;
   b2Body *result = 0 ;
@@ -10079,7 +10079,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Joint_GetBodyA(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Joint_GetBodyB(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Joint_GetBodyB(void * jarg1) {
   void * jresult ;
   b2Joint *arg1 = (b2Joint *) 0 ;
   b2Body *result = 0 ;
@@ -10091,7 +10091,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Joint_GetBodyB(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Joint_GetAnchorA(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Joint_GetAnchorA(void * jarg1) {
   void * jresult ;
   b2Joint *arg1 = (b2Joint *) 0 ;
   b2Vec2 result;
@@ -10103,7 +10103,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Joint_GetAnchorA(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Joint_GetAnchorB(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Joint_GetAnchorB(void * jarg1) {
   void * jresult ;
   b2Joint *arg1 = (b2Joint *) 0 ;
   b2Vec2 result;
@@ -10115,7 +10115,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Joint_GetAnchorB(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Joint_GetReactionForce(void * jarg1, float jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Joint_GetReactionForce(void * jarg1, float jarg2) {
   void * jresult ;
   b2Joint *arg1 = (b2Joint *) 0 ;
   float arg2 ;
@@ -10129,7 +10129,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Joint_GetReactionForce(void * jar
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Joint_GetReactionTorque(void * jarg1, float jarg2) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2Joint_GetReactionTorque(void * jarg1, float jarg2) {
   float jresult ;
   b2Joint *arg1 = (b2Joint *) 0 ;
   float arg2 ;
@@ -10143,7 +10143,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2Joint_GetReactionTorque(void * jar
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Joint_GetNext__SWIG_0(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Joint_GetNext__SWIG_0(void * jarg1) {
   void * jresult ;
   b2Joint *arg1 = (b2Joint *) 0 ;
   b2Joint *result = 0 ;
@@ -10155,7 +10155,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Joint_GetNext__SWIG_0(void * jarg
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Joint_GetUserData(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2Joint_GetUserData(void * jarg1) {
   void * jresult ;
   b2Joint *arg1 = (b2Joint *) 0 ;
   void *result = 0 ;
@@ -10167,7 +10167,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2Joint_GetUserData(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Joint_SetUserData(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Joint_SetUserData(void * jarg1, void * jarg2) {
   b2Joint *arg1 = (b2Joint *) 0 ;
   void *arg2 = (void *) 0 ;
   
@@ -10177,7 +10177,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Joint_SetUserData(void * jarg1, voi
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2Joint_IsEnabled(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2Joint_IsEnabled(void * jarg1) {
   unsigned int jresult ;
   b2Joint *arg1 = (b2Joint *) 0 ;
   bool result;
@@ -10189,7 +10189,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2Joint_IsEnabled(void * jarg
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2Joint_GetCollideConnected(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2Joint_GetCollideConnected(void * jarg1) {
   unsigned int jresult ;
   b2Joint *arg1 = (b2Joint *) 0 ;
   bool result;
@@ -10201,7 +10201,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2Joint_GetCollideConnected(v
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Joint_Dump(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Joint_Dump(void * jarg1) {
   b2Joint *arg1 = (b2Joint *) 0 ;
   
   arg1 = (b2Joint *)jarg1; 
@@ -10209,7 +10209,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Joint_Dump(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Joint_ShiftOrigin(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Joint_ShiftOrigin(void * jarg1, void * jarg2) {
   b2Joint *arg1 = (b2Joint *) 0 ;
   b2Vec2 *arg2 = 0 ;
   
@@ -10223,7 +10223,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Joint_ShiftOrigin(void * jarg1, voi
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Joint_Draw(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2Joint_Draw(void * jarg1, void * jarg2) {
   b2Joint *arg1 = (b2Joint *) 0 ;
   b2Draw *arg2 = (b2Draw *) 0 ;
   
@@ -10233,7 +10233,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2Joint_Draw(void * jarg1, void * jar
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2DistanceJointDef() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2DistanceJointDef() {
   void * jresult ;
   b2DistanceJointDef *result = 0 ;
   
@@ -10243,7 +10243,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2DistanceJointDef() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2DistanceJointDef_Initialize(void * jarg1, void * jarg2, void * jarg3, void * jarg4, void * jarg5) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2DistanceJointDef_Initialize(void * jarg1, void * jarg2, void * jarg3, void * jarg4, void * jarg5) {
   b2DistanceJointDef *arg1 = (b2DistanceJointDef *) 0 ;
   b2Body *arg2 = (b2Body *) 0 ;
   b2Body *arg3 = (b2Body *) 0 ;
@@ -10267,7 +10267,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2DistanceJointDef_Initialize(void * 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2DistanceJointDef_localAnchorA_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2DistanceJointDef_localAnchorA_set(void * jarg1, void * jarg2) {
   b2DistanceJointDef *arg1 = (b2DistanceJointDef *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -10277,7 +10277,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2DistanceJointDef_localAnchorA_set(v
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2DistanceJointDef_localAnchorA_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2DistanceJointDef_localAnchorA_get(void * jarg1) {
   void * jresult ;
   b2DistanceJointDef *arg1 = (b2DistanceJointDef *) 0 ;
   b2Vec2 *result = 0 ;
@@ -10289,7 +10289,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2DistanceJointDef_localAnchorA_get
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2DistanceJointDef_localAnchorB_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2DistanceJointDef_localAnchorB_set(void * jarg1, void * jarg2) {
   b2DistanceJointDef *arg1 = (b2DistanceJointDef *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -10299,7 +10299,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2DistanceJointDef_localAnchorB_set(v
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2DistanceJointDef_localAnchorB_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2DistanceJointDef_localAnchorB_get(void * jarg1) {
   void * jresult ;
   b2DistanceJointDef *arg1 = (b2DistanceJointDef *) 0 ;
   b2Vec2 *result = 0 ;
@@ -10311,7 +10311,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2DistanceJointDef_localAnchorB_get
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2DistanceJointDef_length_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2DistanceJointDef_length_set(void * jarg1, float jarg2) {
   b2DistanceJointDef *arg1 = (b2DistanceJointDef *) 0 ;
   float arg2 ;
   
@@ -10321,7 +10321,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2DistanceJointDef_length_set(void * 
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2DistanceJointDef_length_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2DistanceJointDef_length_get(void * jarg1) {
   float jresult ;
   b2DistanceJointDef *arg1 = (b2DistanceJointDef *) 0 ;
   float result;
@@ -10333,7 +10333,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2DistanceJointDef_length_get(void *
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2DistanceJointDef_frequencyHz_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2DistanceJointDef_frequencyHz_set(void * jarg1, float jarg2) {
   b2DistanceJointDef *arg1 = (b2DistanceJointDef *) 0 ;
   float arg2 ;
   
@@ -10343,7 +10343,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2DistanceJointDef_frequencyHz_set(vo
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2DistanceJointDef_frequencyHz_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2DistanceJointDef_frequencyHz_get(void * jarg1) {
   float jresult ;
   b2DistanceJointDef *arg1 = (b2DistanceJointDef *) 0 ;
   float result;
@@ -10355,7 +10355,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2DistanceJointDef_frequencyHz_get(v
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2DistanceJointDef_dampingRatio_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2DistanceJointDef_dampingRatio_set(void * jarg1, float jarg2) {
   b2DistanceJointDef *arg1 = (b2DistanceJointDef *) 0 ;
   float arg2 ;
   
@@ -10365,7 +10365,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2DistanceJointDef_dampingRatio_set(v
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2DistanceJointDef_dampingRatio_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2DistanceJointDef_dampingRatio_get(void * jarg1) {
   float jresult ;
   b2DistanceJointDef *arg1 = (b2DistanceJointDef *) 0 ;
   float result;
@@ -10377,7 +10377,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2DistanceJointDef_dampingRatio_get(
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2DistanceJointDef(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2DistanceJointDef(void * jarg1) {
   b2DistanceJointDef *arg1 = (b2DistanceJointDef *) 0 ;
   
   arg1 = (b2DistanceJointDef *)jarg1; 
@@ -10385,7 +10385,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2DistanceJointDef(void * jarg
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2DistanceJoint_GetAnchorA(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2DistanceJoint_GetAnchorA(void * jarg1) {
   void * jresult ;
   b2DistanceJoint *arg1 = (b2DistanceJoint *) 0 ;
   b2Vec2 result;
@@ -10397,7 +10397,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2DistanceJoint_GetAnchorA(void * j
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2DistanceJoint_GetAnchorB(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2DistanceJoint_GetAnchorB(void * jarg1) {
   void * jresult ;
   b2DistanceJoint *arg1 = (b2DistanceJoint *) 0 ;
   b2Vec2 result;
@@ -10409,7 +10409,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2DistanceJoint_GetAnchorB(void * j
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2DistanceJoint_GetReactionForce(void * jarg1, float jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2DistanceJoint_GetReactionForce(void * jarg1, float jarg2) {
   void * jresult ;
   b2DistanceJoint *arg1 = (b2DistanceJoint *) 0 ;
   float arg2 ;
@@ -10423,7 +10423,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2DistanceJoint_GetReactionForce(vo
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2DistanceJoint_GetReactionTorque(void * jarg1, float jarg2) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2DistanceJoint_GetReactionTorque(void * jarg1, float jarg2) {
   float jresult ;
   b2DistanceJoint *arg1 = (b2DistanceJoint *) 0 ;
   float arg2 ;
@@ -10437,7 +10437,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2DistanceJoint_GetReactionTorque(vo
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2DistanceJoint_GetLocalAnchorA(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2DistanceJoint_GetLocalAnchorA(void * jarg1) {
   void * jresult ;
   b2DistanceJoint *arg1 = (b2DistanceJoint *) 0 ;
   b2Vec2 *result = 0 ;
@@ -10449,7 +10449,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2DistanceJoint_GetLocalAnchorA(voi
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2DistanceJoint_GetLocalAnchorB(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2DistanceJoint_GetLocalAnchorB(void * jarg1) {
   void * jresult ;
   b2DistanceJoint *arg1 = (b2DistanceJoint *) 0 ;
   b2Vec2 *result = 0 ;
@@ -10461,7 +10461,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2DistanceJoint_GetLocalAnchorB(voi
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2DistanceJoint_SetLength(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2DistanceJoint_SetLength(void * jarg1, float jarg2) {
   b2DistanceJoint *arg1 = (b2DistanceJoint *) 0 ;
   float arg2 ;
   
@@ -10471,7 +10471,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2DistanceJoint_SetLength(void * jarg
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2DistanceJoint_GetLength(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2DistanceJoint_GetLength(void * jarg1) {
   float jresult ;
   b2DistanceJoint *arg1 = (b2DistanceJoint *) 0 ;
   float result;
@@ -10483,7 +10483,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2DistanceJoint_GetLength(void * jar
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2DistanceJoint_SetFrequency(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2DistanceJoint_SetFrequency(void * jarg1, float jarg2) {
   b2DistanceJoint *arg1 = (b2DistanceJoint *) 0 ;
   float arg2 ;
   
@@ -10493,7 +10493,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2DistanceJoint_SetFrequency(void * j
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2DistanceJoint_GetFrequency(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2DistanceJoint_GetFrequency(void * jarg1) {
   float jresult ;
   b2DistanceJoint *arg1 = (b2DistanceJoint *) 0 ;
   float result;
@@ -10505,7 +10505,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2DistanceJoint_GetFrequency(void * 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2DistanceJoint_SetDampingRatio(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2DistanceJoint_SetDampingRatio(void * jarg1, float jarg2) {
   b2DistanceJoint *arg1 = (b2DistanceJoint *) 0 ;
   float arg2 ;
   
@@ -10515,7 +10515,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2DistanceJoint_SetDampingRatio(void 
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2DistanceJoint_GetDampingRatio(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2DistanceJoint_GetDampingRatio(void * jarg1) {
   float jresult ;
   b2DistanceJoint *arg1 = (b2DistanceJoint *) 0 ;
   float result;
@@ -10527,7 +10527,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2DistanceJoint_GetDampingRatio(void
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2DistanceJoint_Dump(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2DistanceJoint_Dump(void * jarg1) {
   b2DistanceJoint *arg1 = (b2DistanceJoint *) 0 ;
   
   arg1 = (b2DistanceJoint *)jarg1; 
@@ -10535,7 +10535,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2DistanceJoint_Dump(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2DistanceJoint(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2DistanceJoint(void * jarg1) {
   b2DistanceJoint *arg1 = (b2DistanceJoint *) 0 ;
   
   arg1 = (b2DistanceJoint *)jarg1; 
@@ -10543,7 +10543,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2DistanceJoint(void * jarg1) 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2FrictionJointDef() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2FrictionJointDef() {
   void * jresult ;
   b2FrictionJointDef *result = 0 ;
   
@@ -10553,7 +10553,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2FrictionJointDef() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2FrictionJointDef_Initialize(void * jarg1, void * jarg2, void * jarg3, void * jarg4) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2FrictionJointDef_Initialize(void * jarg1, void * jarg2, void * jarg3, void * jarg4) {
   b2FrictionJointDef *arg1 = (b2FrictionJointDef *) 0 ;
   b2Body *arg2 = (b2Body *) 0 ;
   b2Body *arg3 = (b2Body *) 0 ;
@@ -10571,7 +10571,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2FrictionJointDef_Initialize(void * 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2FrictionJointDef_localAnchorA_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2FrictionJointDef_localAnchorA_set(void * jarg1, void * jarg2) {
   b2FrictionJointDef *arg1 = (b2FrictionJointDef *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -10581,7 +10581,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2FrictionJointDef_localAnchorA_set(v
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2FrictionJointDef_localAnchorA_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2FrictionJointDef_localAnchorA_get(void * jarg1) {
   void * jresult ;
   b2FrictionJointDef *arg1 = (b2FrictionJointDef *) 0 ;
   b2Vec2 *result = 0 ;
@@ -10593,7 +10593,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2FrictionJointDef_localAnchorA_get
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2FrictionJointDef_localAnchorB_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2FrictionJointDef_localAnchorB_set(void * jarg1, void * jarg2) {
   b2FrictionJointDef *arg1 = (b2FrictionJointDef *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -10603,7 +10603,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2FrictionJointDef_localAnchorB_set(v
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2FrictionJointDef_localAnchorB_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2FrictionJointDef_localAnchorB_get(void * jarg1) {
   void * jresult ;
   b2FrictionJointDef *arg1 = (b2FrictionJointDef *) 0 ;
   b2Vec2 *result = 0 ;
@@ -10615,7 +10615,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2FrictionJointDef_localAnchorB_get
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2FrictionJointDef_maxForce_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2FrictionJointDef_maxForce_set(void * jarg1, float jarg2) {
   b2FrictionJointDef *arg1 = (b2FrictionJointDef *) 0 ;
   float arg2 ;
   
@@ -10625,7 +10625,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2FrictionJointDef_maxForce_set(void 
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2FrictionJointDef_maxForce_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2FrictionJointDef_maxForce_get(void * jarg1) {
   float jresult ;
   b2FrictionJointDef *arg1 = (b2FrictionJointDef *) 0 ;
   float result;
@@ -10637,7 +10637,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2FrictionJointDef_maxForce_get(void
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2FrictionJointDef_maxTorque_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2FrictionJointDef_maxTorque_set(void * jarg1, float jarg2) {
   b2FrictionJointDef *arg1 = (b2FrictionJointDef *) 0 ;
   float arg2 ;
   
@@ -10647,7 +10647,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2FrictionJointDef_maxTorque_set(void
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2FrictionJointDef_maxTorque_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2FrictionJointDef_maxTorque_get(void * jarg1) {
   float jresult ;
   b2FrictionJointDef *arg1 = (b2FrictionJointDef *) 0 ;
   float result;
@@ -10659,7 +10659,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2FrictionJointDef_maxTorque_get(voi
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2FrictionJointDef(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2FrictionJointDef(void * jarg1) {
   b2FrictionJointDef *arg1 = (b2FrictionJointDef *) 0 ;
   
   arg1 = (b2FrictionJointDef *)jarg1; 
@@ -10667,7 +10667,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2FrictionJointDef(void * jarg
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2FrictionJoint_GetAnchorA(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2FrictionJoint_GetAnchorA(void * jarg1) {
   void * jresult ;
   b2FrictionJoint *arg1 = (b2FrictionJoint *) 0 ;
   b2Vec2 result;
@@ -10679,7 +10679,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2FrictionJoint_GetAnchorA(void * j
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2FrictionJoint_GetAnchorB(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2FrictionJoint_GetAnchorB(void * jarg1) {
   void * jresult ;
   b2FrictionJoint *arg1 = (b2FrictionJoint *) 0 ;
   b2Vec2 result;
@@ -10691,7 +10691,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2FrictionJoint_GetAnchorB(void * j
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2FrictionJoint_GetReactionForce(void * jarg1, float jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2FrictionJoint_GetReactionForce(void * jarg1, float jarg2) {
   void * jresult ;
   b2FrictionJoint *arg1 = (b2FrictionJoint *) 0 ;
   float arg2 ;
@@ -10705,7 +10705,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2FrictionJoint_GetReactionForce(vo
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2FrictionJoint_GetReactionTorque(void * jarg1, float jarg2) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2FrictionJoint_GetReactionTorque(void * jarg1, float jarg2) {
   float jresult ;
   b2FrictionJoint *arg1 = (b2FrictionJoint *) 0 ;
   float arg2 ;
@@ -10719,7 +10719,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2FrictionJoint_GetReactionTorque(vo
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2FrictionJoint_GetLocalAnchorA(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2FrictionJoint_GetLocalAnchorA(void * jarg1) {
   void * jresult ;
   b2FrictionJoint *arg1 = (b2FrictionJoint *) 0 ;
   b2Vec2 *result = 0 ;
@@ -10731,7 +10731,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2FrictionJoint_GetLocalAnchorA(voi
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2FrictionJoint_GetLocalAnchorB(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2FrictionJoint_GetLocalAnchorB(void * jarg1) {
   void * jresult ;
   b2FrictionJoint *arg1 = (b2FrictionJoint *) 0 ;
   b2Vec2 *result = 0 ;
@@ -10743,7 +10743,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2FrictionJoint_GetLocalAnchorB(voi
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2FrictionJoint_SetMaxForce(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2FrictionJoint_SetMaxForce(void * jarg1, float jarg2) {
   b2FrictionJoint *arg1 = (b2FrictionJoint *) 0 ;
   float arg2 ;
   
@@ -10753,7 +10753,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2FrictionJoint_SetMaxForce(void * ja
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2FrictionJoint_GetMaxForce(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2FrictionJoint_GetMaxForce(void * jarg1) {
   float jresult ;
   b2FrictionJoint *arg1 = (b2FrictionJoint *) 0 ;
   float result;
@@ -10765,7 +10765,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2FrictionJoint_GetMaxForce(void * j
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2FrictionJoint_SetMaxTorque(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2FrictionJoint_SetMaxTorque(void * jarg1, float jarg2) {
   b2FrictionJoint *arg1 = (b2FrictionJoint *) 0 ;
   float arg2 ;
   
@@ -10775,7 +10775,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2FrictionJoint_SetMaxTorque(void * j
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2FrictionJoint_GetMaxTorque(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2FrictionJoint_GetMaxTorque(void * jarg1) {
   float jresult ;
   b2FrictionJoint *arg1 = (b2FrictionJoint *) 0 ;
   float result;
@@ -10787,7 +10787,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2FrictionJoint_GetMaxTorque(void * 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2FrictionJoint_Dump(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2FrictionJoint_Dump(void * jarg1) {
   b2FrictionJoint *arg1 = (b2FrictionJoint *) 0 ;
   
   arg1 = (b2FrictionJoint *)jarg1; 
@@ -10795,7 +10795,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2FrictionJoint_Dump(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2FrictionJoint(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2FrictionJoint(void * jarg1) {
   b2FrictionJoint *arg1 = (b2FrictionJoint *) 0 ;
   
   arg1 = (b2FrictionJoint *)jarg1; 
@@ -10803,7 +10803,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2FrictionJoint(void * jarg1) 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2GearJointDef() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2GearJointDef() {
   void * jresult ;
   b2GearJointDef *result = 0 ;
   
@@ -10813,7 +10813,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2GearJointDef() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2GearJointDef_joint1_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2GearJointDef_joint1_set(void * jarg1, void * jarg2) {
   b2GearJointDef *arg1 = (b2GearJointDef *) 0 ;
   b2Joint *arg2 = (b2Joint *) 0 ;
   
@@ -10823,7 +10823,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2GearJointDef_joint1_set(void * jarg
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2GearJointDef_joint1_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2GearJointDef_joint1_get(void * jarg1) {
   void * jresult ;
   b2GearJointDef *arg1 = (b2GearJointDef *) 0 ;
   b2Joint *result = 0 ;
@@ -10835,7 +10835,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2GearJointDef_joint1_get(void * ja
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2GearJointDef_joint2_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2GearJointDef_joint2_set(void * jarg1, void * jarg2) {
   b2GearJointDef *arg1 = (b2GearJointDef *) 0 ;
   b2Joint *arg2 = (b2Joint *) 0 ;
   
@@ -10845,7 +10845,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2GearJointDef_joint2_set(void * jarg
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2GearJointDef_joint2_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2GearJointDef_joint2_get(void * jarg1) {
   void * jresult ;
   b2GearJointDef *arg1 = (b2GearJointDef *) 0 ;
   b2Joint *result = 0 ;
@@ -10857,7 +10857,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2GearJointDef_joint2_get(void * ja
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2GearJointDef_ratio_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2GearJointDef_ratio_set(void * jarg1, float jarg2) {
   b2GearJointDef *arg1 = (b2GearJointDef *) 0 ;
   float arg2 ;
   
@@ -10867,7 +10867,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2GearJointDef_ratio_set(void * jarg1
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2GearJointDef_ratio_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2GearJointDef_ratio_get(void * jarg1) {
   float jresult ;
   b2GearJointDef *arg1 = (b2GearJointDef *) 0 ;
   float result;
@@ -10879,7 +10879,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2GearJointDef_ratio_get(void * jarg
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2GearJointDef(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2GearJointDef(void * jarg1) {
   b2GearJointDef *arg1 = (b2GearJointDef *) 0 ;
   
   arg1 = (b2GearJointDef *)jarg1; 
@@ -10887,7 +10887,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2GearJointDef(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2GearJoint_GetAnchorA(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2GearJoint_GetAnchorA(void * jarg1) {
   void * jresult ;
   b2GearJoint *arg1 = (b2GearJoint *) 0 ;
   b2Vec2 result;
@@ -10899,7 +10899,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2GearJoint_GetAnchorA(void * jarg1
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2GearJoint_GetAnchorB(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2GearJoint_GetAnchorB(void * jarg1) {
   void * jresult ;
   b2GearJoint *arg1 = (b2GearJoint *) 0 ;
   b2Vec2 result;
@@ -10911,7 +10911,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2GearJoint_GetAnchorB(void * jarg1
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2GearJoint_GetReactionForce(void * jarg1, float jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2GearJoint_GetReactionForce(void * jarg1, float jarg2) {
   void * jresult ;
   b2GearJoint *arg1 = (b2GearJoint *) 0 ;
   float arg2 ;
@@ -10925,7 +10925,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2GearJoint_GetReactionForce(void *
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2GearJoint_GetReactionTorque(void * jarg1, float jarg2) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2GearJoint_GetReactionTorque(void * jarg1, float jarg2) {
   float jresult ;
   b2GearJoint *arg1 = (b2GearJoint *) 0 ;
   float arg2 ;
@@ -10939,7 +10939,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2GearJoint_GetReactionTorque(void *
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2GearJoint_GetJoint1(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2GearJoint_GetJoint1(void * jarg1) {
   void * jresult ;
   b2GearJoint *arg1 = (b2GearJoint *) 0 ;
   b2Joint *result = 0 ;
@@ -10951,7 +10951,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2GearJoint_GetJoint1(void * jarg1)
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2GearJoint_GetJoint2(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2GearJoint_GetJoint2(void * jarg1) {
   void * jresult ;
   b2GearJoint *arg1 = (b2GearJoint *) 0 ;
   b2Joint *result = 0 ;
@@ -10963,7 +10963,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2GearJoint_GetJoint2(void * jarg1)
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2GearJoint_SetRatio(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2GearJoint_SetRatio(void * jarg1, float jarg2) {
   b2GearJoint *arg1 = (b2GearJoint *) 0 ;
   float arg2 ;
   
@@ -10973,7 +10973,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2GearJoint_SetRatio(void * jarg1, fl
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2GearJoint_GetRatio(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2GearJoint_GetRatio(void * jarg1) {
   float jresult ;
   b2GearJoint *arg1 = (b2GearJoint *) 0 ;
   float result;
@@ -10985,7 +10985,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2GearJoint_GetRatio(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2GearJoint_Dump(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2GearJoint_Dump(void * jarg1) {
   b2GearJoint *arg1 = (b2GearJoint *) 0 ;
   
   arg1 = (b2GearJoint *)jarg1; 
@@ -10993,7 +10993,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2GearJoint_Dump(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2GearJoint(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2GearJoint(void * jarg1) {
   b2GearJoint *arg1 = (b2GearJoint *) 0 ;
   
   arg1 = (b2GearJoint *)jarg1; 
@@ -11001,7 +11001,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2GearJoint(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2MotorJointDef() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2MotorJointDef() {
   void * jresult ;
   b2MotorJointDef *result = 0 ;
   
@@ -11011,7 +11011,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2MotorJointDef() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MotorJointDef_Initialize(void * jarg1, void * jarg2, void * jarg3) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2MotorJointDef_Initialize(void * jarg1, void * jarg2, void * jarg3) {
   b2MotorJointDef *arg1 = (b2MotorJointDef *) 0 ;
   b2Body *arg2 = (b2Body *) 0 ;
   b2Body *arg3 = (b2Body *) 0 ;
@@ -11023,7 +11023,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MotorJointDef_Initialize(void * jar
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MotorJointDef_linearOffset_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2MotorJointDef_linearOffset_set(void * jarg1, void * jarg2) {
   b2MotorJointDef *arg1 = (b2MotorJointDef *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -11033,7 +11033,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MotorJointDef_linearOffset_set(void
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2MotorJointDef_linearOffset_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2MotorJointDef_linearOffset_get(void * jarg1) {
   void * jresult ;
   b2MotorJointDef *arg1 = (b2MotorJointDef *) 0 ;
   b2Vec2 *result = 0 ;
@@ -11045,7 +11045,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2MotorJointDef_linearOffset_get(vo
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MotorJointDef_angularOffset_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2MotorJointDef_angularOffset_set(void * jarg1, float jarg2) {
   b2MotorJointDef *arg1 = (b2MotorJointDef *) 0 ;
   float arg2 ;
   
@@ -11055,7 +11055,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MotorJointDef_angularOffset_set(voi
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MotorJointDef_angularOffset_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2MotorJointDef_angularOffset_get(void * jarg1) {
   float jresult ;
   b2MotorJointDef *arg1 = (b2MotorJointDef *) 0 ;
   float result;
@@ -11067,7 +11067,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MotorJointDef_angularOffset_get(vo
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MotorJointDef_maxForce_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2MotorJointDef_maxForce_set(void * jarg1, float jarg2) {
   b2MotorJointDef *arg1 = (b2MotorJointDef *) 0 ;
   float arg2 ;
   
@@ -11077,7 +11077,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MotorJointDef_maxForce_set(void * j
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MotorJointDef_maxForce_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2MotorJointDef_maxForce_get(void * jarg1) {
   float jresult ;
   b2MotorJointDef *arg1 = (b2MotorJointDef *) 0 ;
   float result;
@@ -11089,7 +11089,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MotorJointDef_maxForce_get(void * 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MotorJointDef_maxTorque_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2MotorJointDef_maxTorque_set(void * jarg1, float jarg2) {
   b2MotorJointDef *arg1 = (b2MotorJointDef *) 0 ;
   float arg2 ;
   
@@ -11099,7 +11099,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MotorJointDef_maxTorque_set(void * 
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MotorJointDef_maxTorque_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2MotorJointDef_maxTorque_get(void * jarg1) {
   float jresult ;
   b2MotorJointDef *arg1 = (b2MotorJointDef *) 0 ;
   float result;
@@ -11111,7 +11111,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MotorJointDef_maxTorque_get(void *
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MotorJointDef_correctionFactor_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2MotorJointDef_correctionFactor_set(void * jarg1, float jarg2) {
   b2MotorJointDef *arg1 = (b2MotorJointDef *) 0 ;
   float arg2 ;
   
@@ -11121,7 +11121,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MotorJointDef_correctionFactor_set(
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MotorJointDef_correctionFactor_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2MotorJointDef_correctionFactor_get(void * jarg1) {
   float jresult ;
   b2MotorJointDef *arg1 = (b2MotorJointDef *) 0 ;
   float result;
@@ -11133,7 +11133,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MotorJointDef_correctionFactor_get
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2MotorJointDef(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2MotorJointDef(void * jarg1) {
   b2MotorJointDef *arg1 = (b2MotorJointDef *) 0 ;
   
   arg1 = (b2MotorJointDef *)jarg1; 
@@ -11141,7 +11141,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2MotorJointDef(void * jarg1) 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2MotorJoint_GetAnchorA(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2MotorJoint_GetAnchorA(void * jarg1) {
   void * jresult ;
   b2MotorJoint *arg1 = (b2MotorJoint *) 0 ;
   b2Vec2 result;
@@ -11153,7 +11153,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2MotorJoint_GetAnchorA(void * jarg
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2MotorJoint_GetAnchorB(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2MotorJoint_GetAnchorB(void * jarg1) {
   void * jresult ;
   b2MotorJoint *arg1 = (b2MotorJoint *) 0 ;
   b2Vec2 result;
@@ -11165,7 +11165,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2MotorJoint_GetAnchorB(void * jarg
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2MotorJoint_GetReactionForce(void * jarg1, float jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2MotorJoint_GetReactionForce(void * jarg1, float jarg2) {
   void * jresult ;
   b2MotorJoint *arg1 = (b2MotorJoint *) 0 ;
   float arg2 ;
@@ -11179,7 +11179,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2MotorJoint_GetReactionForce(void 
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MotorJoint_GetReactionTorque(void * jarg1, float jarg2) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2MotorJoint_GetReactionTorque(void * jarg1, float jarg2) {
   float jresult ;
   b2MotorJoint *arg1 = (b2MotorJoint *) 0 ;
   float arg2 ;
@@ -11193,7 +11193,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MotorJoint_GetReactionTorque(void 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MotorJoint_SetLinearOffset(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2MotorJoint_SetLinearOffset(void * jarg1, void * jarg2) {
   b2MotorJoint *arg1 = (b2MotorJoint *) 0 ;
   b2Vec2 *arg2 = 0 ;
   
@@ -11207,7 +11207,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MotorJoint_SetLinearOffset(void * j
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2MotorJoint_GetLinearOffset(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2MotorJoint_GetLinearOffset(void * jarg1) {
   void * jresult ;
   b2MotorJoint *arg1 = (b2MotorJoint *) 0 ;
   b2Vec2 *result = 0 ;
@@ -11219,7 +11219,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2MotorJoint_GetLinearOffset(void *
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MotorJoint_SetAngularOffset(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2MotorJoint_SetAngularOffset(void * jarg1, float jarg2) {
   b2MotorJoint *arg1 = (b2MotorJoint *) 0 ;
   float arg2 ;
   
@@ -11229,7 +11229,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MotorJoint_SetAngularOffset(void * 
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MotorJoint_GetAngularOffset(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2MotorJoint_GetAngularOffset(void * jarg1) {
   float jresult ;
   b2MotorJoint *arg1 = (b2MotorJoint *) 0 ;
   float result;
@@ -11241,7 +11241,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MotorJoint_GetAngularOffset(void *
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MotorJoint_SetMaxForce(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2MotorJoint_SetMaxForce(void * jarg1, float jarg2) {
   b2MotorJoint *arg1 = (b2MotorJoint *) 0 ;
   float arg2 ;
   
@@ -11251,7 +11251,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MotorJoint_SetMaxForce(void * jarg1
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MotorJoint_GetMaxForce(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2MotorJoint_GetMaxForce(void * jarg1) {
   float jresult ;
   b2MotorJoint *arg1 = (b2MotorJoint *) 0 ;
   float result;
@@ -11263,7 +11263,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MotorJoint_GetMaxForce(void * jarg
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MotorJoint_SetMaxTorque(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2MotorJoint_SetMaxTorque(void * jarg1, float jarg2) {
   b2MotorJoint *arg1 = (b2MotorJoint *) 0 ;
   float arg2 ;
   
@@ -11273,7 +11273,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MotorJoint_SetMaxTorque(void * jarg
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MotorJoint_GetMaxTorque(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2MotorJoint_GetMaxTorque(void * jarg1) {
   float jresult ;
   b2MotorJoint *arg1 = (b2MotorJoint *) 0 ;
   float result;
@@ -11285,7 +11285,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MotorJoint_GetMaxTorque(void * jar
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MotorJoint_SetCorrectionFactor(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2MotorJoint_SetCorrectionFactor(void * jarg1, float jarg2) {
   b2MotorJoint *arg1 = (b2MotorJoint *) 0 ;
   float arg2 ;
   
@@ -11295,7 +11295,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MotorJoint_SetCorrectionFactor(void
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MotorJoint_GetCorrectionFactor(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2MotorJoint_GetCorrectionFactor(void * jarg1) {
   float jresult ;
   b2MotorJoint *arg1 = (b2MotorJoint *) 0 ;
   float result;
@@ -11307,7 +11307,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MotorJoint_GetCorrectionFactor(voi
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MotorJoint_Dump(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2MotorJoint_Dump(void * jarg1) {
   b2MotorJoint *arg1 = (b2MotorJoint *) 0 ;
   
   arg1 = (b2MotorJoint *)jarg1; 
@@ -11315,7 +11315,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MotorJoint_Dump(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2MotorJoint(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2MotorJoint(void * jarg1) {
   b2MotorJoint *arg1 = (b2MotorJoint *) 0 ;
   
   arg1 = (b2MotorJoint *)jarg1; 
@@ -11323,7 +11323,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2MotorJoint(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2MouseJointDef() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2MouseJointDef() {
   void * jresult ;
   b2MouseJointDef *result = 0 ;
   
@@ -11333,7 +11333,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2MouseJointDef() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MouseJointDef_target_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2MouseJointDef_target_set(void * jarg1, void * jarg2) {
   b2MouseJointDef *arg1 = (b2MouseJointDef *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -11343,7 +11343,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MouseJointDef_target_set(void * jar
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2MouseJointDef_target_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2MouseJointDef_target_get(void * jarg1) {
   void * jresult ;
   b2MouseJointDef *arg1 = (b2MouseJointDef *) 0 ;
   b2Vec2 *result = 0 ;
@@ -11355,7 +11355,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2MouseJointDef_target_get(void * j
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MouseJointDef_maxForce_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2MouseJointDef_maxForce_set(void * jarg1, float jarg2) {
   b2MouseJointDef *arg1 = (b2MouseJointDef *) 0 ;
   float arg2 ;
   
@@ -11365,7 +11365,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MouseJointDef_maxForce_set(void * j
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MouseJointDef_maxForce_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2MouseJointDef_maxForce_get(void * jarg1) {
   float jresult ;
   b2MouseJointDef *arg1 = (b2MouseJointDef *) 0 ;
   float result;
@@ -11377,7 +11377,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MouseJointDef_maxForce_get(void * 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MouseJointDef_frequencyHz_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2MouseJointDef_frequencyHz_set(void * jarg1, float jarg2) {
   b2MouseJointDef *arg1 = (b2MouseJointDef *) 0 ;
   float arg2 ;
   
@@ -11387,7 +11387,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MouseJointDef_frequencyHz_set(void 
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MouseJointDef_frequencyHz_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2MouseJointDef_frequencyHz_get(void * jarg1) {
   float jresult ;
   b2MouseJointDef *arg1 = (b2MouseJointDef *) 0 ;
   float result;
@@ -11399,7 +11399,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MouseJointDef_frequencyHz_get(void
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MouseJointDef_dampingRatio_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2MouseJointDef_dampingRatio_set(void * jarg1, float jarg2) {
   b2MouseJointDef *arg1 = (b2MouseJointDef *) 0 ;
   float arg2 ;
   
@@ -11409,7 +11409,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MouseJointDef_dampingRatio_set(void
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MouseJointDef_dampingRatio_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2MouseJointDef_dampingRatio_get(void * jarg1) {
   float jresult ;
   b2MouseJointDef *arg1 = (b2MouseJointDef *) 0 ;
   float result;
@@ -11421,7 +11421,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MouseJointDef_dampingRatio_get(voi
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2MouseJointDef(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2MouseJointDef(void * jarg1) {
   b2MouseJointDef *arg1 = (b2MouseJointDef *) 0 ;
   
   arg1 = (b2MouseJointDef *)jarg1; 
@@ -11429,7 +11429,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2MouseJointDef(void * jarg1) 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2MouseJoint_GetAnchorA(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2MouseJoint_GetAnchorA(void * jarg1) {
   void * jresult ;
   b2MouseJoint *arg1 = (b2MouseJoint *) 0 ;
   b2Vec2 result;
@@ -11441,7 +11441,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2MouseJoint_GetAnchorA(void * jarg
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2MouseJoint_GetAnchorB(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2MouseJoint_GetAnchorB(void * jarg1) {
   void * jresult ;
   b2MouseJoint *arg1 = (b2MouseJoint *) 0 ;
   b2Vec2 result;
@@ -11453,7 +11453,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2MouseJoint_GetAnchorB(void * jarg
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2MouseJoint_GetReactionForce(void * jarg1, float jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2MouseJoint_GetReactionForce(void * jarg1, float jarg2) {
   void * jresult ;
   b2MouseJoint *arg1 = (b2MouseJoint *) 0 ;
   float arg2 ;
@@ -11467,7 +11467,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2MouseJoint_GetReactionForce(void 
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MouseJoint_GetReactionTorque(void * jarg1, float jarg2) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2MouseJoint_GetReactionTorque(void * jarg1, float jarg2) {
   float jresult ;
   b2MouseJoint *arg1 = (b2MouseJoint *) 0 ;
   float arg2 ;
@@ -11481,7 +11481,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MouseJoint_GetReactionTorque(void 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MouseJoint_SetTarget(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2MouseJoint_SetTarget(void * jarg1, void * jarg2) {
   b2MouseJoint *arg1 = (b2MouseJoint *) 0 ;
   b2Vec2 *arg2 = 0 ;
   
@@ -11495,7 +11495,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MouseJoint_SetTarget(void * jarg1, 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2MouseJoint_GetTarget(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2MouseJoint_GetTarget(void * jarg1) {
   void * jresult ;
   b2MouseJoint *arg1 = (b2MouseJoint *) 0 ;
   b2Vec2 *result = 0 ;
@@ -11507,7 +11507,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2MouseJoint_GetTarget(void * jarg1
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MouseJoint_SetMaxForce(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2MouseJoint_SetMaxForce(void * jarg1, float jarg2) {
   b2MouseJoint *arg1 = (b2MouseJoint *) 0 ;
   float arg2 ;
   
@@ -11517,7 +11517,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MouseJoint_SetMaxForce(void * jarg1
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MouseJoint_GetMaxForce(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2MouseJoint_GetMaxForce(void * jarg1) {
   float jresult ;
   b2MouseJoint *arg1 = (b2MouseJoint *) 0 ;
   float result;
@@ -11529,7 +11529,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MouseJoint_GetMaxForce(void * jarg
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MouseJoint_SetFrequency(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2MouseJoint_SetFrequency(void * jarg1, float jarg2) {
   b2MouseJoint *arg1 = (b2MouseJoint *) 0 ;
   float arg2 ;
   
@@ -11539,7 +11539,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MouseJoint_SetFrequency(void * jarg
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MouseJoint_GetFrequency(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2MouseJoint_GetFrequency(void * jarg1) {
   float jresult ;
   b2MouseJoint *arg1 = (b2MouseJoint *) 0 ;
   float result;
@@ -11551,7 +11551,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MouseJoint_GetFrequency(void * jar
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MouseJoint_SetDampingRatio(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2MouseJoint_SetDampingRatio(void * jarg1, float jarg2) {
   b2MouseJoint *arg1 = (b2MouseJoint *) 0 ;
   float arg2 ;
   
@@ -11561,7 +11561,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MouseJoint_SetDampingRatio(void * j
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MouseJoint_GetDampingRatio(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2MouseJoint_GetDampingRatio(void * jarg1) {
   float jresult ;
   b2MouseJoint *arg1 = (b2MouseJoint *) 0 ;
   float result;
@@ -11573,7 +11573,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2MouseJoint_GetDampingRatio(void * 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MouseJoint_Dump(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2MouseJoint_Dump(void * jarg1) {
   b2MouseJoint *arg1 = (b2MouseJoint *) 0 ;
   
   arg1 = (b2MouseJoint *)jarg1; 
@@ -11581,7 +11581,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MouseJoint_Dump(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MouseJoint_ShiftOrigin(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2MouseJoint_ShiftOrigin(void * jarg1, void * jarg2) {
   b2MouseJoint *arg1 = (b2MouseJoint *) 0 ;
   b2Vec2 *arg2 = 0 ;
   
@@ -11595,7 +11595,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2MouseJoint_ShiftOrigin(void * jarg1
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2MouseJoint(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2MouseJoint(void * jarg1) {
   b2MouseJoint *arg1 = (b2MouseJoint *) 0 ;
   
   arg1 = (b2MouseJoint *)jarg1; 
@@ -11603,7 +11603,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2MouseJoint(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2PrismaticJointDef() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2PrismaticJointDef() {
   void * jresult ;
   b2PrismaticJointDef *result = 0 ;
   
@@ -11613,7 +11613,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2PrismaticJointDef() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_Initialize(void * jarg1, void * jarg2, void * jarg3, void * jarg4, void * jarg5) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJointDef_Initialize(void * jarg1, void * jarg2, void * jarg3, void * jarg4, void * jarg5) {
   b2PrismaticJointDef *arg1 = (b2PrismaticJointDef *) 0 ;
   b2Body *arg2 = (b2Body *) 0 ;
   b2Body *arg3 = (b2Body *) 0 ;
@@ -11637,7 +11637,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_Initialize(void *
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_localAnchorA_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJointDef_localAnchorA_set(void * jarg1, void * jarg2) {
   b2PrismaticJointDef *arg1 = (b2PrismaticJointDef *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -11647,7 +11647,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_localAnchorA_set(
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_localAnchorA_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJointDef_localAnchorA_get(void * jarg1) {
   void * jresult ;
   b2PrismaticJointDef *arg1 = (b2PrismaticJointDef *) 0 ;
   b2Vec2 *result = 0 ;
@@ -11659,7 +11659,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_localAnchorA_ge
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_localAnchorB_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJointDef_localAnchorB_set(void * jarg1, void * jarg2) {
   b2PrismaticJointDef *arg1 = (b2PrismaticJointDef *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -11669,7 +11669,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_localAnchorB_set(
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_localAnchorB_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJointDef_localAnchorB_get(void * jarg1) {
   void * jresult ;
   b2PrismaticJointDef *arg1 = (b2PrismaticJointDef *) 0 ;
   b2Vec2 *result = 0 ;
@@ -11681,7 +11681,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_localAnchorB_ge
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_localAxisA_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJointDef_localAxisA_set(void * jarg1, void * jarg2) {
   b2PrismaticJointDef *arg1 = (b2PrismaticJointDef *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -11691,7 +11691,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_localAxisA_set(vo
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_localAxisA_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJointDef_localAxisA_get(void * jarg1) {
   void * jresult ;
   b2PrismaticJointDef *arg1 = (b2PrismaticJointDef *) 0 ;
   b2Vec2 *result = 0 ;
@@ -11703,7 +11703,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_localAxisA_get(
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_referenceAngle_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJointDef_referenceAngle_set(void * jarg1, float jarg2) {
   b2PrismaticJointDef *arg1 = (b2PrismaticJointDef *) 0 ;
   float arg2 ;
   
@@ -11713,7 +11713,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_referenceAngle_se
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_referenceAngle_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJointDef_referenceAngle_get(void * jarg1) {
   float jresult ;
   b2PrismaticJointDef *arg1 = (b2PrismaticJointDef *) 0 ;
   float result;
@@ -11725,7 +11725,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_referenceAngle_g
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_enableLimit_set(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJointDef_enableLimit_set(void * jarg1, unsigned int jarg2) {
   b2PrismaticJointDef *arg1 = (b2PrismaticJointDef *) 0 ;
   bool arg2 ;
   
@@ -11735,7 +11735,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_enableLimit_set(v
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_enableLimit_get(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJointDef_enableLimit_get(void * jarg1) {
   unsigned int jresult ;
   b2PrismaticJointDef *arg1 = (b2PrismaticJointDef *) 0 ;
   bool result;
@@ -11747,7 +11747,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_enableLim
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_lowerTranslation_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJointDef_lowerTranslation_set(void * jarg1, float jarg2) {
   b2PrismaticJointDef *arg1 = (b2PrismaticJointDef *) 0 ;
   float arg2 ;
   
@@ -11757,7 +11757,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_lowerTranslation_
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_lowerTranslation_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJointDef_lowerTranslation_get(void * jarg1) {
   float jresult ;
   b2PrismaticJointDef *arg1 = (b2PrismaticJointDef *) 0 ;
   float result;
@@ -11769,7 +11769,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_lowerTranslation
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_upperTranslation_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJointDef_upperTranslation_set(void * jarg1, float jarg2) {
   b2PrismaticJointDef *arg1 = (b2PrismaticJointDef *) 0 ;
   float arg2 ;
   
@@ -11779,7 +11779,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_upperTranslation_
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_upperTranslation_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJointDef_upperTranslation_get(void * jarg1) {
   float jresult ;
   b2PrismaticJointDef *arg1 = (b2PrismaticJointDef *) 0 ;
   float result;
@@ -11791,7 +11791,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_upperTranslation
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_enableMotor_set(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJointDef_enableMotor_set(void * jarg1, unsigned int jarg2) {
   b2PrismaticJointDef *arg1 = (b2PrismaticJointDef *) 0 ;
   bool arg2 ;
   
@@ -11801,7 +11801,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_enableMotor_set(v
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_enableMotor_get(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJointDef_enableMotor_get(void * jarg1) {
   unsigned int jresult ;
   b2PrismaticJointDef *arg1 = (b2PrismaticJointDef *) 0 ;
   bool result;
@@ -11813,7 +11813,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_enableMot
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_maxMotorForce_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJointDef_maxMotorForce_set(void * jarg1, float jarg2) {
   b2PrismaticJointDef *arg1 = (b2PrismaticJointDef *) 0 ;
   float arg2 ;
   
@@ -11823,7 +11823,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_maxMotorForce_set
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_maxMotorForce_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJointDef_maxMotorForce_get(void * jarg1) {
   float jresult ;
   b2PrismaticJointDef *arg1 = (b2PrismaticJointDef *) 0 ;
   float result;
@@ -11835,7 +11835,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_maxMotorForce_ge
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_motorSpeed_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJointDef_motorSpeed_set(void * jarg1, float jarg2) {
   b2PrismaticJointDef *arg1 = (b2PrismaticJointDef *) 0 ;
   float arg2 ;
   
@@ -11845,7 +11845,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_motorSpeed_set(vo
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_motorSpeed_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJointDef_motorSpeed_get(void * jarg1) {
   float jresult ;
   b2PrismaticJointDef *arg1 = (b2PrismaticJointDef *) 0 ;
   float result;
@@ -11857,7 +11857,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_motorSpeed_get(v
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2PrismaticJointDef(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2PrismaticJointDef(void * jarg1) {
   b2PrismaticJointDef *arg1 = (b2PrismaticJointDef *) 0 ;
   
   arg1 = (b2PrismaticJointDef *)jarg1; 
@@ -11865,7 +11865,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2PrismaticJointDef(void * jar
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_GetAnchorA(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJoint_GetAnchorA(void * jarg1) {
   void * jresult ;
   b2PrismaticJoint *arg1 = (b2PrismaticJoint *) 0 ;
   b2Vec2 result;
@@ -11877,7 +11877,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_GetAnchorA(void * 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_GetAnchorB(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJoint_GetAnchorB(void * jarg1) {
   void * jresult ;
   b2PrismaticJoint *arg1 = (b2PrismaticJoint *) 0 ;
   b2Vec2 result;
@@ -11889,7 +11889,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_GetAnchorB(void * 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_GetReactionForce(void * jarg1, float jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJoint_GetReactionForce(void * jarg1, float jarg2) {
   void * jresult ;
   b2PrismaticJoint *arg1 = (b2PrismaticJoint *) 0 ;
   float arg2 ;
@@ -11903,7 +11903,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_GetReactionForce(v
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_GetReactionTorque(void * jarg1, float jarg2) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJoint_GetReactionTorque(void * jarg1, float jarg2) {
   float jresult ;
   b2PrismaticJoint *arg1 = (b2PrismaticJoint *) 0 ;
   float arg2 ;
@@ -11917,7 +11917,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_GetReactionTorque(v
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_GetLocalAnchorA(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJoint_GetLocalAnchorA(void * jarg1) {
   void * jresult ;
   b2PrismaticJoint *arg1 = (b2PrismaticJoint *) 0 ;
   b2Vec2 *result = 0 ;
@@ -11929,7 +11929,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_GetLocalAnchorA(vo
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_GetLocalAnchorB(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJoint_GetLocalAnchorB(void * jarg1) {
   void * jresult ;
   b2PrismaticJoint *arg1 = (b2PrismaticJoint *) 0 ;
   b2Vec2 *result = 0 ;
@@ -11941,7 +11941,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_GetLocalAnchorB(vo
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_GetLocalAxisA(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJoint_GetLocalAxisA(void * jarg1) {
   void * jresult ;
   b2PrismaticJoint *arg1 = (b2PrismaticJoint *) 0 ;
   b2Vec2 *result = 0 ;
@@ -11953,7 +11953,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_GetLocalAxisA(void
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_GetReferenceAngle(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJoint_GetReferenceAngle(void * jarg1) {
   float jresult ;
   b2PrismaticJoint *arg1 = (b2PrismaticJoint *) 0 ;
   float result;
@@ -11965,7 +11965,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_GetReferenceAngle(v
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_GetJointTranslation(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJoint_GetJointTranslation(void * jarg1) {
   float jresult ;
   b2PrismaticJoint *arg1 = (b2PrismaticJoint *) 0 ;
   float result;
@@ -11977,7 +11977,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_GetJointTranslation
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_GetJointSpeed(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJoint_GetJointSpeed(void * jarg1) {
   float jresult ;
   b2PrismaticJoint *arg1 = (b2PrismaticJoint *) 0 ;
   float result;
@@ -11989,7 +11989,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_GetJointSpeed(void 
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_IsLimitEnabled(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJoint_IsLimitEnabled(void * jarg1) {
   unsigned int jresult ;
   b2PrismaticJoint *arg1 = (b2PrismaticJoint *) 0 ;
   bool result;
@@ -12001,7 +12001,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_IsLimitEnabl
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_EnableLimit(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJoint_EnableLimit(void * jarg1, unsigned int jarg2) {
   b2PrismaticJoint *arg1 = (b2PrismaticJoint *) 0 ;
   bool arg2 ;
   
@@ -12011,7 +12011,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_EnableLimit(void * j
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_GetLowerLimit(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJoint_GetLowerLimit(void * jarg1) {
   float jresult ;
   b2PrismaticJoint *arg1 = (b2PrismaticJoint *) 0 ;
   float result;
@@ -12023,7 +12023,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_GetLowerLimit(void 
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_GetUpperLimit(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJoint_GetUpperLimit(void * jarg1) {
   float jresult ;
   b2PrismaticJoint *arg1 = (b2PrismaticJoint *) 0 ;
   float result;
@@ -12035,7 +12035,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_GetUpperLimit(void 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_SetLimits(void * jarg1, float jarg2, float jarg3) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJoint_SetLimits(void * jarg1, float jarg2, float jarg3) {
   b2PrismaticJoint *arg1 = (b2PrismaticJoint *) 0 ;
   float arg2 ;
   float arg3 ;
@@ -12047,7 +12047,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_SetLimits(void * jar
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_IsMotorEnabled(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJoint_IsMotorEnabled(void * jarg1) {
   unsigned int jresult ;
   b2PrismaticJoint *arg1 = (b2PrismaticJoint *) 0 ;
   bool result;
@@ -12059,7 +12059,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_IsMotorEnabl
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_EnableMotor(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJoint_EnableMotor(void * jarg1, unsigned int jarg2) {
   b2PrismaticJoint *arg1 = (b2PrismaticJoint *) 0 ;
   bool arg2 ;
   
@@ -12069,7 +12069,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_EnableMotor(void * j
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_SetMotorSpeed(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJoint_SetMotorSpeed(void * jarg1, float jarg2) {
   b2PrismaticJoint *arg1 = (b2PrismaticJoint *) 0 ;
   float arg2 ;
   
@@ -12079,7 +12079,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_SetMotorSpeed(void *
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_GetMotorSpeed(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJoint_GetMotorSpeed(void * jarg1) {
   float jresult ;
   b2PrismaticJoint *arg1 = (b2PrismaticJoint *) 0 ;
   float result;
@@ -12091,7 +12091,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_GetMotorSpeed(void 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_SetMaxMotorForce(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJoint_SetMaxMotorForce(void * jarg1, float jarg2) {
   b2PrismaticJoint *arg1 = (b2PrismaticJoint *) 0 ;
   float arg2 ;
   
@@ -12101,7 +12101,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_SetMaxMotorForce(voi
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_GetMaxMotorForce(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJoint_GetMaxMotorForce(void * jarg1) {
   float jresult ;
   b2PrismaticJoint *arg1 = (b2PrismaticJoint *) 0 ;
   float result;
@@ -12113,7 +12113,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_GetMaxMotorForce(vo
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_GetMotorForce(void * jarg1, float jarg2) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJoint_GetMotorForce(void * jarg1, float jarg2) {
   float jresult ;
   b2PrismaticJoint *arg1 = (b2PrismaticJoint *) 0 ;
   float arg2 ;
@@ -12127,7 +12127,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_GetMotorForce(void 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_Dump(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJoint_Dump(void * jarg1) {
   b2PrismaticJoint *arg1 = (b2PrismaticJoint *) 0 ;
   
   arg1 = (b2PrismaticJoint *)jarg1; 
@@ -12135,7 +12135,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_Dump(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_Draw(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJoint_Draw(void * jarg1, void * jarg2) {
   b2PrismaticJoint *arg1 = (b2PrismaticJoint *) 0 ;
   b2Draw *arg2 = (b2Draw *) 0 ;
   
@@ -12145,7 +12145,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_Draw(void * jarg1, v
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2PrismaticJoint(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2PrismaticJoint(void * jarg1) {
   b2PrismaticJoint *arg1 = (b2PrismaticJoint *) 0 ;
   
   arg1 = (b2PrismaticJoint *)jarg1; 
@@ -12153,7 +12153,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2PrismaticJoint(void * jarg1)
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2_minPulleyLength_get() {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2_minPulleyLength_get() {
   float jresult ;
   float result;
   
@@ -12163,7 +12163,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2_minPulleyLength_get() {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2PulleyJointDef() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2PulleyJointDef() {
   void * jresult ;
   b2PulleyJointDef *result = 0 ;
   
@@ -12173,7 +12173,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2PulleyJointDef() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PulleyJointDef_Initialize(void * jarg1, void * jarg2, void * jarg3, void * jarg4, void * jarg5, void * jarg6, void * jarg7, float jarg8) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2PulleyJointDef_Initialize(void * jarg1, void * jarg2, void * jarg3, void * jarg4, void * jarg5, void * jarg6, void * jarg7, float jarg8) {
   b2PulleyJointDef *arg1 = (b2PulleyJointDef *) 0 ;
   b2Body *arg2 = (b2Body *) 0 ;
   b2Body *arg3 = (b2Body *) 0 ;
@@ -12211,7 +12211,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PulleyJointDef_Initialize(void * ja
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PulleyJointDef_groundAnchorA_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2PulleyJointDef_groundAnchorA_set(void * jarg1, void * jarg2) {
   b2PulleyJointDef *arg1 = (b2PulleyJointDef *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -12221,7 +12221,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PulleyJointDef_groundAnchorA_set(vo
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PulleyJointDef_groundAnchorA_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2PulleyJointDef_groundAnchorA_get(void * jarg1) {
   void * jresult ;
   b2PulleyJointDef *arg1 = (b2PulleyJointDef *) 0 ;
   b2Vec2 *result = 0 ;
@@ -12233,7 +12233,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PulleyJointDef_groundAnchorA_get(
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PulleyJointDef_groundAnchorB_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2PulleyJointDef_groundAnchorB_set(void * jarg1, void * jarg2) {
   b2PulleyJointDef *arg1 = (b2PulleyJointDef *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -12243,7 +12243,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PulleyJointDef_groundAnchorB_set(vo
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PulleyJointDef_groundAnchorB_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2PulleyJointDef_groundAnchorB_get(void * jarg1) {
   void * jresult ;
   b2PulleyJointDef *arg1 = (b2PulleyJointDef *) 0 ;
   b2Vec2 *result = 0 ;
@@ -12255,7 +12255,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PulleyJointDef_groundAnchorB_get(
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PulleyJointDef_localAnchorA_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2PulleyJointDef_localAnchorA_set(void * jarg1, void * jarg2) {
   b2PulleyJointDef *arg1 = (b2PulleyJointDef *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -12265,7 +12265,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PulleyJointDef_localAnchorA_set(voi
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PulleyJointDef_localAnchorA_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2PulleyJointDef_localAnchorA_get(void * jarg1) {
   void * jresult ;
   b2PulleyJointDef *arg1 = (b2PulleyJointDef *) 0 ;
   b2Vec2 *result = 0 ;
@@ -12277,7 +12277,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PulleyJointDef_localAnchorA_get(v
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PulleyJointDef_localAnchorB_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2PulleyJointDef_localAnchorB_set(void * jarg1, void * jarg2) {
   b2PulleyJointDef *arg1 = (b2PulleyJointDef *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -12287,7 +12287,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PulleyJointDef_localAnchorB_set(voi
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PulleyJointDef_localAnchorB_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2PulleyJointDef_localAnchorB_get(void * jarg1) {
   void * jresult ;
   b2PulleyJointDef *arg1 = (b2PulleyJointDef *) 0 ;
   b2Vec2 *result = 0 ;
@@ -12299,7 +12299,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PulleyJointDef_localAnchorB_get(v
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PulleyJointDef_lengthA_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2PulleyJointDef_lengthA_set(void * jarg1, float jarg2) {
   b2PulleyJointDef *arg1 = (b2PulleyJointDef *) 0 ;
   float arg2 ;
   
@@ -12309,7 +12309,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PulleyJointDef_lengthA_set(void * j
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PulleyJointDef_lengthA_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2PulleyJointDef_lengthA_get(void * jarg1) {
   float jresult ;
   b2PulleyJointDef *arg1 = (b2PulleyJointDef *) 0 ;
   float result;
@@ -12321,7 +12321,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PulleyJointDef_lengthA_get(void * 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PulleyJointDef_lengthB_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2PulleyJointDef_lengthB_set(void * jarg1, float jarg2) {
   b2PulleyJointDef *arg1 = (b2PulleyJointDef *) 0 ;
   float arg2 ;
   
@@ -12331,7 +12331,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PulleyJointDef_lengthB_set(void * j
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PulleyJointDef_lengthB_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2PulleyJointDef_lengthB_get(void * jarg1) {
   float jresult ;
   b2PulleyJointDef *arg1 = (b2PulleyJointDef *) 0 ;
   float result;
@@ -12343,7 +12343,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PulleyJointDef_lengthB_get(void * 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PulleyJointDef_ratio_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2PulleyJointDef_ratio_set(void * jarg1, float jarg2) {
   b2PulleyJointDef *arg1 = (b2PulleyJointDef *) 0 ;
   float arg2 ;
   
@@ -12353,7 +12353,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PulleyJointDef_ratio_set(void * jar
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PulleyJointDef_ratio_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2PulleyJointDef_ratio_get(void * jarg1) {
   float jresult ;
   b2PulleyJointDef *arg1 = (b2PulleyJointDef *) 0 ;
   float result;
@@ -12365,7 +12365,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PulleyJointDef_ratio_get(void * ja
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2PulleyJointDef(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2PulleyJointDef(void * jarg1) {
   b2PulleyJointDef *arg1 = (b2PulleyJointDef *) 0 ;
   
   arg1 = (b2PulleyJointDef *)jarg1; 
@@ -12373,7 +12373,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2PulleyJointDef(void * jarg1)
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PulleyJoint_GetAnchorA(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2PulleyJoint_GetAnchorA(void * jarg1) {
   void * jresult ;
   b2PulleyJoint *arg1 = (b2PulleyJoint *) 0 ;
   b2Vec2 result;
@@ -12385,7 +12385,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PulleyJoint_GetAnchorA(void * jar
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PulleyJoint_GetAnchorB(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2PulleyJoint_GetAnchorB(void * jarg1) {
   void * jresult ;
   b2PulleyJoint *arg1 = (b2PulleyJoint *) 0 ;
   b2Vec2 result;
@@ -12397,7 +12397,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PulleyJoint_GetAnchorB(void * jar
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PulleyJoint_GetReactionForce(void * jarg1, float jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2PulleyJoint_GetReactionForce(void * jarg1, float jarg2) {
   void * jresult ;
   b2PulleyJoint *arg1 = (b2PulleyJoint *) 0 ;
   float arg2 ;
@@ -12411,7 +12411,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PulleyJoint_GetReactionForce(void
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PulleyJoint_GetReactionTorque(void * jarg1, float jarg2) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2PulleyJoint_GetReactionTorque(void * jarg1, float jarg2) {
   float jresult ;
   b2PulleyJoint *arg1 = (b2PulleyJoint *) 0 ;
   float arg2 ;
@@ -12425,7 +12425,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PulleyJoint_GetReactionTorque(void
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PulleyJoint_GetGroundAnchorA(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2PulleyJoint_GetGroundAnchorA(void * jarg1) {
   void * jresult ;
   b2PulleyJoint *arg1 = (b2PulleyJoint *) 0 ;
   b2Vec2 result;
@@ -12437,7 +12437,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PulleyJoint_GetGroundAnchorA(void
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PulleyJoint_GetGroundAnchorB(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2PulleyJoint_GetGroundAnchorB(void * jarg1) {
   void * jresult ;
   b2PulleyJoint *arg1 = (b2PulleyJoint *) 0 ;
   b2Vec2 result;
@@ -12449,7 +12449,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2PulleyJoint_GetGroundAnchorB(void
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PulleyJoint_GetLengthA(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2PulleyJoint_GetLengthA(void * jarg1) {
   float jresult ;
   b2PulleyJoint *arg1 = (b2PulleyJoint *) 0 ;
   float result;
@@ -12461,7 +12461,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PulleyJoint_GetLengthA(void * jarg
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PulleyJoint_GetLengthB(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2PulleyJoint_GetLengthB(void * jarg1) {
   float jresult ;
   b2PulleyJoint *arg1 = (b2PulleyJoint *) 0 ;
   float result;
@@ -12473,7 +12473,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PulleyJoint_GetLengthB(void * jarg
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PulleyJoint_GetRatio(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2PulleyJoint_GetRatio(void * jarg1) {
   float jresult ;
   b2PulleyJoint *arg1 = (b2PulleyJoint *) 0 ;
   float result;
@@ -12485,7 +12485,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PulleyJoint_GetRatio(void * jarg1)
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PulleyJoint_GetCurrentLengthA(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2PulleyJoint_GetCurrentLengthA(void * jarg1) {
   float jresult ;
   b2PulleyJoint *arg1 = (b2PulleyJoint *) 0 ;
   float result;
@@ -12497,7 +12497,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PulleyJoint_GetCurrentLengthA(void
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PulleyJoint_GetCurrentLengthB(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2PulleyJoint_GetCurrentLengthB(void * jarg1) {
   float jresult ;
   b2PulleyJoint *arg1 = (b2PulleyJoint *) 0 ;
   float result;
@@ -12509,7 +12509,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2PulleyJoint_GetCurrentLengthB(void
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PulleyJoint_Dump(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2PulleyJoint_Dump(void * jarg1) {
   b2PulleyJoint *arg1 = (b2PulleyJoint *) 0 ;
   
   arg1 = (b2PulleyJoint *)jarg1; 
@@ -12517,7 +12517,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PulleyJoint_Dump(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PulleyJoint_ShiftOrigin(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2PulleyJoint_ShiftOrigin(void * jarg1, void * jarg2) {
   b2PulleyJoint *arg1 = (b2PulleyJoint *) 0 ;
   b2Vec2 *arg2 = 0 ;
   
@@ -12531,7 +12531,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2PulleyJoint_ShiftOrigin(void * jarg
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2PulleyJoint(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2PulleyJoint(void * jarg1) {
   b2PulleyJoint *arg1 = (b2PulleyJoint *) 0 ;
   
   arg1 = (b2PulleyJoint *)jarg1; 
@@ -12539,7 +12539,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2PulleyJoint(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2RevoluteJointDef() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2RevoluteJointDef() {
   void * jresult ;
   b2RevoluteJointDef *result = 0 ;
   
@@ -12549,7 +12549,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2RevoluteJointDef() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_Initialize(void * jarg1, void * jarg2, void * jarg3, void * jarg4) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJointDef_Initialize(void * jarg1, void * jarg2, void * jarg3, void * jarg4) {
   b2RevoluteJointDef *arg1 = (b2RevoluteJointDef *) 0 ;
   b2Body *arg2 = (b2Body *) 0 ;
   b2Body *arg3 = (b2Body *) 0 ;
@@ -12567,7 +12567,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_Initialize(void * 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_localAnchorA_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJointDef_localAnchorA_set(void * jarg1, void * jarg2) {
   b2RevoluteJointDef *arg1 = (b2RevoluteJointDef *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -12577,7 +12577,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_localAnchorA_set(v
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_localAnchorA_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJointDef_localAnchorA_get(void * jarg1) {
   void * jresult ;
   b2RevoluteJointDef *arg1 = (b2RevoluteJointDef *) 0 ;
   b2Vec2 *result = 0 ;
@@ -12589,7 +12589,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_localAnchorA_get
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_localAnchorB_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJointDef_localAnchorB_set(void * jarg1, void * jarg2) {
   b2RevoluteJointDef *arg1 = (b2RevoluteJointDef *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -12599,7 +12599,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_localAnchorB_set(v
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_localAnchorB_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJointDef_localAnchorB_get(void * jarg1) {
   void * jresult ;
   b2RevoluteJointDef *arg1 = (b2RevoluteJointDef *) 0 ;
   b2Vec2 *result = 0 ;
@@ -12611,7 +12611,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_localAnchorB_get
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_referenceAngle_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJointDef_referenceAngle_set(void * jarg1, float jarg2) {
   b2RevoluteJointDef *arg1 = (b2RevoluteJointDef *) 0 ;
   float arg2 ;
   
@@ -12621,7 +12621,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_referenceAngle_set
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_referenceAngle_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJointDef_referenceAngle_get(void * jarg1) {
   float jresult ;
   b2RevoluteJointDef *arg1 = (b2RevoluteJointDef *) 0 ;
   float result;
@@ -12633,7 +12633,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_referenceAngle_ge
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_enableLimit_set(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJointDef_enableLimit_set(void * jarg1, unsigned int jarg2) {
   b2RevoluteJointDef *arg1 = (b2RevoluteJointDef *) 0 ;
   bool arg2 ;
   
@@ -12643,7 +12643,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_enableLimit_set(vo
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_enableLimit_get(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJointDef_enableLimit_get(void * jarg1) {
   unsigned int jresult ;
   b2RevoluteJointDef *arg1 = (b2RevoluteJointDef *) 0 ;
   bool result;
@@ -12655,7 +12655,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_enableLimi
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_lowerAngle_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJointDef_lowerAngle_set(void * jarg1, float jarg2) {
   b2RevoluteJointDef *arg1 = (b2RevoluteJointDef *) 0 ;
   float arg2 ;
   
@@ -12665,7 +12665,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_lowerAngle_set(voi
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_lowerAngle_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJointDef_lowerAngle_get(void * jarg1) {
   float jresult ;
   b2RevoluteJointDef *arg1 = (b2RevoluteJointDef *) 0 ;
   float result;
@@ -12677,7 +12677,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_lowerAngle_get(vo
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_upperAngle_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJointDef_upperAngle_set(void * jarg1, float jarg2) {
   b2RevoluteJointDef *arg1 = (b2RevoluteJointDef *) 0 ;
   float arg2 ;
   
@@ -12687,7 +12687,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_upperAngle_set(voi
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_upperAngle_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJointDef_upperAngle_get(void * jarg1) {
   float jresult ;
   b2RevoluteJointDef *arg1 = (b2RevoluteJointDef *) 0 ;
   float result;
@@ -12699,7 +12699,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_upperAngle_get(vo
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_enableMotor_set(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJointDef_enableMotor_set(void * jarg1, unsigned int jarg2) {
   b2RevoluteJointDef *arg1 = (b2RevoluteJointDef *) 0 ;
   bool arg2 ;
   
@@ -12709,7 +12709,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_enableMotor_set(vo
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_enableMotor_get(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJointDef_enableMotor_get(void * jarg1) {
   unsigned int jresult ;
   b2RevoluteJointDef *arg1 = (b2RevoluteJointDef *) 0 ;
   bool result;
@@ -12721,7 +12721,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_enableMoto
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_motorSpeed_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJointDef_motorSpeed_set(void * jarg1, float jarg2) {
   b2RevoluteJointDef *arg1 = (b2RevoluteJointDef *) 0 ;
   float arg2 ;
   
@@ -12731,7 +12731,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_motorSpeed_set(voi
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_motorSpeed_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJointDef_motorSpeed_get(void * jarg1) {
   float jresult ;
   b2RevoluteJointDef *arg1 = (b2RevoluteJointDef *) 0 ;
   float result;
@@ -12743,7 +12743,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_motorSpeed_get(vo
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_maxMotorTorque_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJointDef_maxMotorTorque_set(void * jarg1, float jarg2) {
   b2RevoluteJointDef *arg1 = (b2RevoluteJointDef *) 0 ;
   float arg2 ;
   
@@ -12753,7 +12753,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_maxMotorTorque_set
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_maxMotorTorque_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJointDef_maxMotorTorque_get(void * jarg1) {
   float jresult ;
   b2RevoluteJointDef *arg1 = (b2RevoluteJointDef *) 0 ;
   float result;
@@ -12765,7 +12765,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_maxMotorTorque_ge
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2RevoluteJointDef(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2RevoluteJointDef(void * jarg1) {
   b2RevoluteJointDef *arg1 = (b2RevoluteJointDef *) 0 ;
   
   arg1 = (b2RevoluteJointDef *)jarg1; 
@@ -12773,7 +12773,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2RevoluteJointDef(void * jarg
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_GetAnchorA(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJoint_GetAnchorA(void * jarg1) {
   void * jresult ;
   b2RevoluteJoint *arg1 = (b2RevoluteJoint *) 0 ;
   b2Vec2 result;
@@ -12785,7 +12785,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_GetAnchorA(void * j
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_GetAnchorB(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJoint_GetAnchorB(void * jarg1) {
   void * jresult ;
   b2RevoluteJoint *arg1 = (b2RevoluteJoint *) 0 ;
   b2Vec2 result;
@@ -12797,7 +12797,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_GetAnchorB(void * j
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_GetLocalAnchorA(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJoint_GetLocalAnchorA(void * jarg1) {
   void * jresult ;
   b2RevoluteJoint *arg1 = (b2RevoluteJoint *) 0 ;
   b2Vec2 *result = 0 ;
@@ -12809,7 +12809,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_GetLocalAnchorA(voi
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_GetLocalAnchorB(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJoint_GetLocalAnchorB(void * jarg1) {
   void * jresult ;
   b2RevoluteJoint *arg1 = (b2RevoluteJoint *) 0 ;
   b2Vec2 *result = 0 ;
@@ -12821,7 +12821,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_GetLocalAnchorB(voi
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_GetReferenceAngle(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJoint_GetReferenceAngle(void * jarg1) {
   float jresult ;
   b2RevoluteJoint *arg1 = (b2RevoluteJoint *) 0 ;
   float result;
@@ -12833,7 +12833,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_GetReferenceAngle(vo
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_GetJointAngle(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJoint_GetJointAngle(void * jarg1) {
   float jresult ;
   b2RevoluteJoint *arg1 = (b2RevoluteJoint *) 0 ;
   float result;
@@ -12845,7 +12845,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_GetJointAngle(void *
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_GetJointSpeed(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJoint_GetJointSpeed(void * jarg1) {
   float jresult ;
   b2RevoluteJoint *arg1 = (b2RevoluteJoint *) 0 ;
   float result;
@@ -12857,7 +12857,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_GetJointSpeed(void *
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_IsLimitEnabled(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJoint_IsLimitEnabled(void * jarg1) {
   unsigned int jresult ;
   b2RevoluteJoint *arg1 = (b2RevoluteJoint *) 0 ;
   bool result;
@@ -12869,7 +12869,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_IsLimitEnable
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_EnableLimit(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJoint_EnableLimit(void * jarg1, unsigned int jarg2) {
   b2RevoluteJoint *arg1 = (b2RevoluteJoint *) 0 ;
   bool arg2 ;
   
@@ -12879,7 +12879,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_EnableLimit(void * ja
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_GetLowerLimit(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJoint_GetLowerLimit(void * jarg1) {
   float jresult ;
   b2RevoluteJoint *arg1 = (b2RevoluteJoint *) 0 ;
   float result;
@@ -12891,7 +12891,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_GetLowerLimit(void *
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_GetUpperLimit(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJoint_GetUpperLimit(void * jarg1) {
   float jresult ;
   b2RevoluteJoint *arg1 = (b2RevoluteJoint *) 0 ;
   float result;
@@ -12903,7 +12903,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_GetUpperLimit(void *
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_SetLimits(void * jarg1, float jarg2, float jarg3) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJoint_SetLimits(void * jarg1, float jarg2, float jarg3) {
   b2RevoluteJoint *arg1 = (b2RevoluteJoint *) 0 ;
   float arg2 ;
   float arg3 ;
@@ -12915,7 +12915,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_SetLimits(void * jarg
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_IsMotorEnabled(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJoint_IsMotorEnabled(void * jarg1) {
   unsigned int jresult ;
   b2RevoluteJoint *arg1 = (b2RevoluteJoint *) 0 ;
   bool result;
@@ -12927,7 +12927,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_IsMotorEnable
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_EnableMotor(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJoint_EnableMotor(void * jarg1, unsigned int jarg2) {
   b2RevoluteJoint *arg1 = (b2RevoluteJoint *) 0 ;
   bool arg2 ;
   
@@ -12937,7 +12937,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_EnableMotor(void * ja
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_SetMotorSpeed(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJoint_SetMotorSpeed(void * jarg1, float jarg2) {
   b2RevoluteJoint *arg1 = (b2RevoluteJoint *) 0 ;
   float arg2 ;
   
@@ -12947,7 +12947,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_SetMotorSpeed(void * 
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_GetMotorSpeed(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJoint_GetMotorSpeed(void * jarg1) {
   float jresult ;
   b2RevoluteJoint *arg1 = (b2RevoluteJoint *) 0 ;
   float result;
@@ -12959,7 +12959,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_GetMotorSpeed(void *
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_SetMaxMotorTorque(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJoint_SetMaxMotorTorque(void * jarg1, float jarg2) {
   b2RevoluteJoint *arg1 = (b2RevoluteJoint *) 0 ;
   float arg2 ;
   
@@ -12969,7 +12969,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_SetMaxMotorTorque(voi
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_GetMaxMotorTorque(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJoint_GetMaxMotorTorque(void * jarg1) {
   float jresult ;
   b2RevoluteJoint *arg1 = (b2RevoluteJoint *) 0 ;
   float result;
@@ -12981,7 +12981,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_GetMaxMotorTorque(vo
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_GetReactionForce(void * jarg1, float jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJoint_GetReactionForce(void * jarg1, float jarg2) {
   void * jresult ;
   b2RevoluteJoint *arg1 = (b2RevoluteJoint *) 0 ;
   float arg2 ;
@@ -12995,7 +12995,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_GetReactionForce(vo
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_GetReactionTorque(void * jarg1, float jarg2) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJoint_GetReactionTorque(void * jarg1, float jarg2) {
   float jresult ;
   b2RevoluteJoint *arg1 = (b2RevoluteJoint *) 0 ;
   float arg2 ;
@@ -13009,7 +13009,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_GetReactionTorque(vo
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_GetMotorTorque(void * jarg1, float jarg2) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJoint_GetMotorTorque(void * jarg1, float jarg2) {
   float jresult ;
   b2RevoluteJoint *arg1 = (b2RevoluteJoint *) 0 ;
   float arg2 ;
@@ -13023,7 +13023,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_GetMotorTorque(void 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_Dump(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJoint_Dump(void * jarg1) {
   b2RevoluteJoint *arg1 = (b2RevoluteJoint *) 0 ;
   
   arg1 = (b2RevoluteJoint *)jarg1; 
@@ -13031,7 +13031,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_Dump(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2RevoluteJoint(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2RevoluteJoint(void * jarg1) {
   b2RevoluteJoint *arg1 = (b2RevoluteJoint *) 0 ;
   
   arg1 = (b2RevoluteJoint *)jarg1; 
@@ -13039,7 +13039,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2RevoluteJoint(void * jarg1) 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2RopeJointDef() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2RopeJointDef() {
   void * jresult ;
   b2RopeJointDef *result = 0 ;
   
@@ -13049,7 +13049,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2RopeJointDef() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RopeJointDef_localAnchorA_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2RopeJointDef_localAnchorA_set(void * jarg1, void * jarg2) {
   b2RopeJointDef *arg1 = (b2RopeJointDef *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -13059,7 +13059,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RopeJointDef_localAnchorA_set(void 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2RopeJointDef_localAnchorA_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2RopeJointDef_localAnchorA_get(void * jarg1) {
   void * jresult ;
   b2RopeJointDef *arg1 = (b2RopeJointDef *) 0 ;
   b2Vec2 *result = 0 ;
@@ -13071,7 +13071,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2RopeJointDef_localAnchorA_get(voi
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RopeJointDef_localAnchorB_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2RopeJointDef_localAnchorB_set(void * jarg1, void * jarg2) {
   b2RopeJointDef *arg1 = (b2RopeJointDef *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -13081,7 +13081,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RopeJointDef_localAnchorB_set(void 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2RopeJointDef_localAnchorB_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2RopeJointDef_localAnchorB_get(void * jarg1) {
   void * jresult ;
   b2RopeJointDef *arg1 = (b2RopeJointDef *) 0 ;
   b2Vec2 *result = 0 ;
@@ -13093,7 +13093,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2RopeJointDef_localAnchorB_get(voi
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RopeJointDef_maxLength_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2RopeJointDef_maxLength_set(void * jarg1, float jarg2) {
   b2RopeJointDef *arg1 = (b2RopeJointDef *) 0 ;
   float arg2 ;
   
@@ -13103,7 +13103,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RopeJointDef_maxLength_set(void * j
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RopeJointDef_maxLength_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2RopeJointDef_maxLength_get(void * jarg1) {
   float jresult ;
   b2RopeJointDef *arg1 = (b2RopeJointDef *) 0 ;
   float result;
@@ -13115,7 +13115,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RopeJointDef_maxLength_get(void * 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2RopeJointDef(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2RopeJointDef(void * jarg1) {
   b2RopeJointDef *arg1 = (b2RopeJointDef *) 0 ;
   
   arg1 = (b2RopeJointDef *)jarg1; 
@@ -13123,7 +13123,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2RopeJointDef(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2RopeJoint_GetAnchorA(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2RopeJoint_GetAnchorA(void * jarg1) {
   void * jresult ;
   b2RopeJoint *arg1 = (b2RopeJoint *) 0 ;
   b2Vec2 result;
@@ -13135,7 +13135,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2RopeJoint_GetAnchorA(void * jarg1
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2RopeJoint_GetAnchorB(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2RopeJoint_GetAnchorB(void * jarg1) {
   void * jresult ;
   b2RopeJoint *arg1 = (b2RopeJoint *) 0 ;
   b2Vec2 result;
@@ -13147,7 +13147,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2RopeJoint_GetAnchorB(void * jarg1
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2RopeJoint_GetReactionForce(void * jarg1, float jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2RopeJoint_GetReactionForce(void * jarg1, float jarg2) {
   void * jresult ;
   b2RopeJoint *arg1 = (b2RopeJoint *) 0 ;
   float arg2 ;
@@ -13161,7 +13161,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2RopeJoint_GetReactionForce(void *
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RopeJoint_GetReactionTorque(void * jarg1, float jarg2) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2RopeJoint_GetReactionTorque(void * jarg1, float jarg2) {
   float jresult ;
   b2RopeJoint *arg1 = (b2RopeJoint *) 0 ;
   float arg2 ;
@@ -13175,7 +13175,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RopeJoint_GetReactionTorque(void *
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2RopeJoint_GetLocalAnchorA(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2RopeJoint_GetLocalAnchorA(void * jarg1) {
   void * jresult ;
   b2RopeJoint *arg1 = (b2RopeJoint *) 0 ;
   b2Vec2 *result = 0 ;
@@ -13187,7 +13187,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2RopeJoint_GetLocalAnchorA(void * 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2RopeJoint_GetLocalAnchorB(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2RopeJoint_GetLocalAnchorB(void * jarg1) {
   void * jresult ;
   b2RopeJoint *arg1 = (b2RopeJoint *) 0 ;
   b2Vec2 *result = 0 ;
@@ -13199,7 +13199,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2RopeJoint_GetLocalAnchorB(void * 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RopeJoint_SetMaxLength(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2RopeJoint_SetMaxLength(void * jarg1, float jarg2) {
   b2RopeJoint *arg1 = (b2RopeJoint *) 0 ;
   float arg2 ;
   
@@ -13209,7 +13209,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RopeJoint_SetMaxLength(void * jarg1
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RopeJoint_GetMaxLength(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2RopeJoint_GetMaxLength(void * jarg1) {
   float jresult ;
   b2RopeJoint *arg1 = (b2RopeJoint *) 0 ;
   float result;
@@ -13221,7 +13221,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RopeJoint_GetMaxLength(void * jarg
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RopeJoint_GetLength(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2RopeJoint_GetLength(void * jarg1) {
   float jresult ;
   b2RopeJoint *arg1 = (b2RopeJoint *) 0 ;
   float result;
@@ -13233,7 +13233,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2RopeJoint_GetLength(void * jarg1) 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RopeJoint_Dump(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2RopeJoint_Dump(void * jarg1) {
   b2RopeJoint *arg1 = (b2RopeJoint *) 0 ;
   
   arg1 = (b2RopeJoint *)jarg1; 
@@ -13241,7 +13241,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2RopeJoint_Dump(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2RopeJoint(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2RopeJoint(void * jarg1) {
   b2RopeJoint *arg1 = (b2RopeJoint *) 0 ;
   
   arg1 = (b2RopeJoint *)jarg1; 
@@ -13249,7 +13249,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2RopeJoint(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2WeldJointDef() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2WeldJointDef() {
   void * jresult ;
   b2WeldJointDef *result = 0 ;
   
@@ -13259,7 +13259,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2WeldJointDef() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WeldJointDef_Initialize(void * jarg1, void * jarg2, void * jarg3, void * jarg4) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2WeldJointDef_Initialize(void * jarg1, void * jarg2, void * jarg3, void * jarg4) {
   b2WeldJointDef *arg1 = (b2WeldJointDef *) 0 ;
   b2Body *arg2 = (b2Body *) 0 ;
   b2Body *arg3 = (b2Body *) 0 ;
@@ -13277,7 +13277,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WeldJointDef_Initialize(void * jarg
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WeldJointDef_localAnchorA_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2WeldJointDef_localAnchorA_set(void * jarg1, void * jarg2) {
   b2WeldJointDef *arg1 = (b2WeldJointDef *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -13287,7 +13287,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WeldJointDef_localAnchorA_set(void 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2WeldJointDef_localAnchorA_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2WeldJointDef_localAnchorA_get(void * jarg1) {
   void * jresult ;
   b2WeldJointDef *arg1 = (b2WeldJointDef *) 0 ;
   b2Vec2 *result = 0 ;
@@ -13299,7 +13299,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2WeldJointDef_localAnchorA_get(voi
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WeldJointDef_localAnchorB_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2WeldJointDef_localAnchorB_set(void * jarg1, void * jarg2) {
   b2WeldJointDef *arg1 = (b2WeldJointDef *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -13309,7 +13309,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WeldJointDef_localAnchorB_set(void 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2WeldJointDef_localAnchorB_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2WeldJointDef_localAnchorB_get(void * jarg1) {
   void * jresult ;
   b2WeldJointDef *arg1 = (b2WeldJointDef *) 0 ;
   b2Vec2 *result = 0 ;
@@ -13321,7 +13321,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2WeldJointDef_localAnchorB_get(voi
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WeldJointDef_referenceAngle_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2WeldJointDef_referenceAngle_set(void * jarg1, float jarg2) {
   b2WeldJointDef *arg1 = (b2WeldJointDef *) 0 ;
   float arg2 ;
   
@@ -13331,7 +13331,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WeldJointDef_referenceAngle_set(voi
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WeldJointDef_referenceAngle_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2WeldJointDef_referenceAngle_get(void * jarg1) {
   float jresult ;
   b2WeldJointDef *arg1 = (b2WeldJointDef *) 0 ;
   float result;
@@ -13343,7 +13343,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WeldJointDef_referenceAngle_get(vo
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WeldJointDef_frequencyHz_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2WeldJointDef_frequencyHz_set(void * jarg1, float jarg2) {
   b2WeldJointDef *arg1 = (b2WeldJointDef *) 0 ;
   float arg2 ;
   
@@ -13353,7 +13353,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WeldJointDef_frequencyHz_set(void *
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WeldJointDef_frequencyHz_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2WeldJointDef_frequencyHz_get(void * jarg1) {
   float jresult ;
   b2WeldJointDef *arg1 = (b2WeldJointDef *) 0 ;
   float result;
@@ -13365,7 +13365,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WeldJointDef_frequencyHz_get(void 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WeldJointDef_dampingRatio_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2WeldJointDef_dampingRatio_set(void * jarg1, float jarg2) {
   b2WeldJointDef *arg1 = (b2WeldJointDef *) 0 ;
   float arg2 ;
   
@@ -13375,7 +13375,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WeldJointDef_dampingRatio_set(void 
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WeldJointDef_dampingRatio_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2WeldJointDef_dampingRatio_get(void * jarg1) {
   float jresult ;
   b2WeldJointDef *arg1 = (b2WeldJointDef *) 0 ;
   float result;
@@ -13387,7 +13387,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WeldJointDef_dampingRatio_get(void
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2WeldJointDef(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2WeldJointDef(void * jarg1) {
   b2WeldJointDef *arg1 = (b2WeldJointDef *) 0 ;
   
   arg1 = (b2WeldJointDef *)jarg1; 
@@ -13395,7 +13395,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2WeldJointDef(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2WeldJoint_GetAnchorA(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2WeldJoint_GetAnchorA(void * jarg1) {
   void * jresult ;
   b2WeldJoint *arg1 = (b2WeldJoint *) 0 ;
   b2Vec2 result;
@@ -13407,7 +13407,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2WeldJoint_GetAnchorA(void * jarg1
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2WeldJoint_GetAnchorB(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2WeldJoint_GetAnchorB(void * jarg1) {
   void * jresult ;
   b2WeldJoint *arg1 = (b2WeldJoint *) 0 ;
   b2Vec2 result;
@@ -13419,7 +13419,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2WeldJoint_GetAnchorB(void * jarg1
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2WeldJoint_GetReactionForce(void * jarg1, float jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2WeldJoint_GetReactionForce(void * jarg1, float jarg2) {
   void * jresult ;
   b2WeldJoint *arg1 = (b2WeldJoint *) 0 ;
   float arg2 ;
@@ -13433,7 +13433,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2WeldJoint_GetReactionForce(void *
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WeldJoint_GetReactionTorque(void * jarg1, float jarg2) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2WeldJoint_GetReactionTorque(void * jarg1, float jarg2) {
   float jresult ;
   b2WeldJoint *arg1 = (b2WeldJoint *) 0 ;
   float arg2 ;
@@ -13447,7 +13447,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WeldJoint_GetReactionTorque(void *
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2WeldJoint_GetLocalAnchorA(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2WeldJoint_GetLocalAnchorA(void * jarg1) {
   void * jresult ;
   b2WeldJoint *arg1 = (b2WeldJoint *) 0 ;
   b2Vec2 *result = 0 ;
@@ -13459,7 +13459,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2WeldJoint_GetLocalAnchorA(void * 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2WeldJoint_GetLocalAnchorB(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2WeldJoint_GetLocalAnchorB(void * jarg1) {
   void * jresult ;
   b2WeldJoint *arg1 = (b2WeldJoint *) 0 ;
   b2Vec2 *result = 0 ;
@@ -13471,7 +13471,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2WeldJoint_GetLocalAnchorB(void * 
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WeldJoint_GetReferenceAngle(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2WeldJoint_GetReferenceAngle(void * jarg1) {
   float jresult ;
   b2WeldJoint *arg1 = (b2WeldJoint *) 0 ;
   float result;
@@ -13483,7 +13483,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WeldJoint_GetReferenceAngle(void *
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WeldJoint_SetFrequency(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2WeldJoint_SetFrequency(void * jarg1, float jarg2) {
   b2WeldJoint *arg1 = (b2WeldJoint *) 0 ;
   float arg2 ;
   
@@ -13493,7 +13493,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WeldJoint_SetFrequency(void * jarg1
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WeldJoint_GetFrequency(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2WeldJoint_GetFrequency(void * jarg1) {
   float jresult ;
   b2WeldJoint *arg1 = (b2WeldJoint *) 0 ;
   float result;
@@ -13505,7 +13505,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WeldJoint_GetFrequency(void * jarg
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WeldJoint_SetDampingRatio(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2WeldJoint_SetDampingRatio(void * jarg1, float jarg2) {
   b2WeldJoint *arg1 = (b2WeldJoint *) 0 ;
   float arg2 ;
   
@@ -13515,7 +13515,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WeldJoint_SetDampingRatio(void * ja
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WeldJoint_GetDampingRatio(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2WeldJoint_GetDampingRatio(void * jarg1) {
   float jresult ;
   b2WeldJoint *arg1 = (b2WeldJoint *) 0 ;
   float result;
@@ -13527,7 +13527,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WeldJoint_GetDampingRatio(void * j
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WeldJoint_Dump(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2WeldJoint_Dump(void * jarg1) {
   b2WeldJoint *arg1 = (b2WeldJoint *) 0 ;
   
   arg1 = (b2WeldJoint *)jarg1; 
@@ -13535,7 +13535,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WeldJoint_Dump(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2WeldJoint(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2WeldJoint(void * jarg1) {
   b2WeldJoint *arg1 = (b2WeldJoint *) 0 ;
   
   arg1 = (b2WeldJoint *)jarg1; 
@@ -13543,7 +13543,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2WeldJoint(void * jarg1) {
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2WheelJointDef() {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_new_b2WheelJointDef() {
   void * jresult ;
   b2WheelJointDef *result = 0 ;
   
@@ -13553,7 +13553,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_new_b2WheelJointDef() {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_Initialize(void * jarg1, void * jarg2, void * jarg3, void * jarg4, void * jarg5) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2WheelJointDef_Initialize(void * jarg1, void * jarg2, void * jarg3, void * jarg4, void * jarg5) {
   b2WheelJointDef *arg1 = (b2WheelJointDef *) 0 ;
   b2Body *arg2 = (b2Body *) 0 ;
   b2Body *arg3 = (b2Body *) 0 ;
@@ -13577,7 +13577,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_Initialize(void * jar
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_localAnchorA_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2WheelJointDef_localAnchorA_set(void * jarg1, void * jarg2) {
   b2WheelJointDef *arg1 = (b2WheelJointDef *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -13587,7 +13587,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_localAnchorA_set(void
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_localAnchorA_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2WheelJointDef_localAnchorA_get(void * jarg1) {
   void * jresult ;
   b2WheelJointDef *arg1 = (b2WheelJointDef *) 0 ;
   b2Vec2 *result = 0 ;
@@ -13599,7 +13599,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_localAnchorA_get(vo
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_localAnchorB_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2WheelJointDef_localAnchorB_set(void * jarg1, void * jarg2) {
   b2WheelJointDef *arg1 = (b2WheelJointDef *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -13609,7 +13609,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_localAnchorB_set(void
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_localAnchorB_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2WheelJointDef_localAnchorB_get(void * jarg1) {
   void * jresult ;
   b2WheelJointDef *arg1 = (b2WheelJointDef *) 0 ;
   b2Vec2 *result = 0 ;
@@ -13621,7 +13621,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_localAnchorB_get(vo
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_localAxisA_set(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2WheelJointDef_localAxisA_set(void * jarg1, void * jarg2) {
   b2WheelJointDef *arg1 = (b2WheelJointDef *) 0 ;
   b2Vec2 *arg2 = (b2Vec2 *) 0 ;
   
@@ -13631,7 +13631,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_localAxisA_set(void *
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_localAxisA_get(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2WheelJointDef_localAxisA_get(void * jarg1) {
   void * jresult ;
   b2WheelJointDef *arg1 = (b2WheelJointDef *) 0 ;
   b2Vec2 *result = 0 ;
@@ -13643,7 +13643,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_localAxisA_get(void
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_enableLimit_set(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2WheelJointDef_enableLimit_set(void * jarg1, unsigned int jarg2) {
   b2WheelJointDef *arg1 = (b2WheelJointDef *) 0 ;
   bool arg2 ;
   
@@ -13653,7 +13653,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_enableLimit_set(void 
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_enableLimit_get(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2WheelJointDef_enableLimit_get(void * jarg1) {
   unsigned int jresult ;
   b2WheelJointDef *arg1 = (b2WheelJointDef *) 0 ;
   bool result;
@@ -13665,7 +13665,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_enableLimit_g
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_lowerTranslation_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2WheelJointDef_lowerTranslation_set(void * jarg1, float jarg2) {
   b2WheelJointDef *arg1 = (b2WheelJointDef *) 0 ;
   float arg2 ;
   
@@ -13675,7 +13675,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_lowerTranslation_set(
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_lowerTranslation_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2WheelJointDef_lowerTranslation_get(void * jarg1) {
   float jresult ;
   b2WheelJointDef *arg1 = (b2WheelJointDef *) 0 ;
   float result;
@@ -13687,7 +13687,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_lowerTranslation_get
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_upperTranslation_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2WheelJointDef_upperTranslation_set(void * jarg1, float jarg2) {
   b2WheelJointDef *arg1 = (b2WheelJointDef *) 0 ;
   float arg2 ;
   
@@ -13697,7 +13697,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_upperTranslation_set(
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_upperTranslation_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2WheelJointDef_upperTranslation_get(void * jarg1) {
   float jresult ;
   b2WheelJointDef *arg1 = (b2WheelJointDef *) 0 ;
   float result;
@@ -13709,7 +13709,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_upperTranslation_get
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_enableMotor_set(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2WheelJointDef_enableMotor_set(void * jarg1, unsigned int jarg2) {
   b2WheelJointDef *arg1 = (b2WheelJointDef *) 0 ;
   bool arg2 ;
   
@@ -13719,7 +13719,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_enableMotor_set(void 
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_enableMotor_get(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2WheelJointDef_enableMotor_get(void * jarg1) {
   unsigned int jresult ;
   b2WheelJointDef *arg1 = (b2WheelJointDef *) 0 ;
   bool result;
@@ -13731,7 +13731,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_enableMotor_g
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_maxMotorTorque_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2WheelJointDef_maxMotorTorque_set(void * jarg1, float jarg2) {
   b2WheelJointDef *arg1 = (b2WheelJointDef *) 0 ;
   float arg2 ;
   
@@ -13741,7 +13741,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_maxMotorTorque_set(vo
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_maxMotorTorque_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2WheelJointDef_maxMotorTorque_get(void * jarg1) {
   float jresult ;
   b2WheelJointDef *arg1 = (b2WheelJointDef *) 0 ;
   float result;
@@ -13753,7 +13753,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_maxMotorTorque_get(v
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_motorSpeed_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2WheelJointDef_motorSpeed_set(void * jarg1, float jarg2) {
   b2WheelJointDef *arg1 = (b2WheelJointDef *) 0 ;
   float arg2 ;
   
@@ -13763,7 +13763,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_motorSpeed_set(void *
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_motorSpeed_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2WheelJointDef_motorSpeed_get(void * jarg1) {
   float jresult ;
   b2WheelJointDef *arg1 = (b2WheelJointDef *) 0 ;
   float result;
@@ -13775,7 +13775,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_motorSpeed_get(void 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_stiffness_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2WheelJointDef_stiffness_set(void * jarg1, float jarg2) {
   b2WheelJointDef *arg1 = (b2WheelJointDef *) 0 ;
   float arg2 ;
   
@@ -13785,7 +13785,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_stiffness_set(void * 
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_stiffness_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2WheelJointDef_stiffness_get(void * jarg1) {
   float jresult ;
   b2WheelJointDef *arg1 = (b2WheelJointDef *) 0 ;
   float result;
@@ -13797,7 +13797,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_stiffness_get(void *
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_damping_set(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2WheelJointDef_damping_set(void * jarg1, float jarg2) {
   b2WheelJointDef *arg1 = (b2WheelJointDef *) 0 ;
   float arg2 ;
   
@@ -13807,7 +13807,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_damping_set(void * ja
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_damping_get(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2WheelJointDef_damping_get(void * jarg1) {
   float jresult ;
   b2WheelJointDef *arg1 = (b2WheelJointDef *) 0 ;
   float result;
@@ -13819,7 +13819,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_damping_get(void * j
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2WheelJointDef(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2WheelJointDef(void * jarg1) {
   b2WheelJointDef *arg1 = (b2WheelJointDef *) 0 ;
   
   arg1 = (b2WheelJointDef *)jarg1; 
@@ -13827,7 +13827,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2WheelJointDef(void * jarg1) 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_GetAnchorA(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2WheelJoint_GetAnchorA(void * jarg1) {
   void * jresult ;
   b2WheelJoint *arg1 = (b2WheelJoint *) 0 ;
   b2Vec2 result;
@@ -13839,7 +13839,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_GetAnchorA(void * jarg
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_GetAnchorB(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2WheelJoint_GetAnchorB(void * jarg1) {
   void * jresult ;
   b2WheelJoint *arg1 = (b2WheelJoint *) 0 ;
   b2Vec2 result;
@@ -13851,7 +13851,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_GetAnchorB(void * jarg
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_GetReactionForce(void * jarg1, float jarg2) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2WheelJoint_GetReactionForce(void * jarg1, float jarg2) {
   void * jresult ;
   b2WheelJoint *arg1 = (b2WheelJoint *) 0 ;
   float arg2 ;
@@ -13865,7 +13865,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_GetReactionForce(void 
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_GetReactionTorque(void * jarg1, float jarg2) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2WheelJoint_GetReactionTorque(void * jarg1, float jarg2) {
   float jresult ;
   b2WheelJoint *arg1 = (b2WheelJoint *) 0 ;
   float arg2 ;
@@ -13879,7 +13879,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_GetReactionTorque(void 
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_GetLocalAnchorA(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2WheelJoint_GetLocalAnchorA(void * jarg1) {
   void * jresult ;
   b2WheelJoint *arg1 = (b2WheelJoint *) 0 ;
   b2Vec2 *result = 0 ;
@@ -13891,7 +13891,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_GetLocalAnchorA(void *
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_GetLocalAnchorB(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2WheelJoint_GetLocalAnchorB(void * jarg1) {
   void * jresult ;
   b2WheelJoint *arg1 = (b2WheelJoint *) 0 ;
   b2Vec2 *result = 0 ;
@@ -13903,7 +13903,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_GetLocalAnchorB(void *
 }
 
 
-SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_GetLocalAxisA(void * jarg1) {
+SWIGEXPORT void * SWIGSTDCALL CSharp_b2Sharp_b2WheelJoint_GetLocalAxisA(void * jarg1) {
   void * jresult ;
   b2WheelJoint *arg1 = (b2WheelJoint *) 0 ;
   b2Vec2 *result = 0 ;
@@ -13915,7 +13915,7 @@ SWIGEXPORT void * SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_GetLocalAxisA(void * j
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_GetJointTranslation(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2WheelJoint_GetJointTranslation(void * jarg1) {
   float jresult ;
   b2WheelJoint *arg1 = (b2WheelJoint *) 0 ;
   float result;
@@ -13927,7 +13927,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_GetJointTranslation(voi
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_GetJointLinearSpeed(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2WheelJoint_GetJointLinearSpeed(void * jarg1) {
   float jresult ;
   b2WheelJoint *arg1 = (b2WheelJoint *) 0 ;
   float result;
@@ -13939,7 +13939,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_GetJointLinearSpeed(voi
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_GetJointAngle(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2WheelJoint_GetJointAngle(void * jarg1) {
   float jresult ;
   b2WheelJoint *arg1 = (b2WheelJoint *) 0 ;
   float result;
@@ -13951,7 +13951,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_GetJointAngle(void * ja
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_GetJointAngularSpeed(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2WheelJoint_GetJointAngularSpeed(void * jarg1) {
   float jresult ;
   b2WheelJoint *arg1 = (b2WheelJoint *) 0 ;
   float result;
@@ -13963,7 +13963,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_GetJointAngularSpeed(vo
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_IsLimitEnabled(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2WheelJoint_IsLimitEnabled(void * jarg1) {
   unsigned int jresult ;
   b2WheelJoint *arg1 = (b2WheelJoint *) 0 ;
   bool result;
@@ -13975,7 +13975,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_IsLimitEnabled(v
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_EnableLimit(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2WheelJoint_EnableLimit(void * jarg1, unsigned int jarg2) {
   b2WheelJoint *arg1 = (b2WheelJoint *) 0 ;
   bool arg2 ;
   
@@ -13985,7 +13985,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_EnableLimit(void * jarg1
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_GetLowerLimit(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2WheelJoint_GetLowerLimit(void * jarg1) {
   float jresult ;
   b2WheelJoint *arg1 = (b2WheelJoint *) 0 ;
   float result;
@@ -13997,7 +13997,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_GetLowerLimit(void * ja
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_GetUpperLimit(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2WheelJoint_GetUpperLimit(void * jarg1) {
   float jresult ;
   b2WheelJoint *arg1 = (b2WheelJoint *) 0 ;
   float result;
@@ -14009,7 +14009,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_GetUpperLimit(void * ja
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_SetLimits(void * jarg1, float jarg2, float jarg3) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2WheelJoint_SetLimits(void * jarg1, float jarg2, float jarg3) {
   b2WheelJoint *arg1 = (b2WheelJoint *) 0 ;
   float arg2 ;
   float arg3 ;
@@ -14021,7 +14021,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_SetLimits(void * jarg1, 
 }
 
 
-SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_IsMotorEnabled(void * jarg1) {
+SWIGEXPORT unsigned int SWIGSTDCALL CSharp_b2Sharp_b2WheelJoint_IsMotorEnabled(void * jarg1) {
   unsigned int jresult ;
   b2WheelJoint *arg1 = (b2WheelJoint *) 0 ;
   bool result;
@@ -14033,7 +14033,7 @@ SWIGEXPORT unsigned int SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_IsMotorEnabled(v
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_EnableMotor(void * jarg1, unsigned int jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2WheelJoint_EnableMotor(void * jarg1, unsigned int jarg2) {
   b2WheelJoint *arg1 = (b2WheelJoint *) 0 ;
   bool arg2 ;
   
@@ -14043,7 +14043,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_EnableMotor(void * jarg1
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_SetMotorSpeed(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2WheelJoint_SetMotorSpeed(void * jarg1, float jarg2) {
   b2WheelJoint *arg1 = (b2WheelJoint *) 0 ;
   float arg2 ;
   
@@ -14053,7 +14053,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_SetMotorSpeed(void * jar
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_GetMotorSpeed(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2WheelJoint_GetMotorSpeed(void * jarg1) {
   float jresult ;
   b2WheelJoint *arg1 = (b2WheelJoint *) 0 ;
   float result;
@@ -14065,7 +14065,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_GetMotorSpeed(void * ja
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_SetMaxMotorTorque(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2WheelJoint_SetMaxMotorTorque(void * jarg1, float jarg2) {
   b2WheelJoint *arg1 = (b2WheelJoint *) 0 ;
   float arg2 ;
   
@@ -14075,7 +14075,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_SetMaxMotorTorque(void *
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_GetMaxMotorTorque(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2WheelJoint_GetMaxMotorTorque(void * jarg1) {
   float jresult ;
   b2WheelJoint *arg1 = (b2WheelJoint *) 0 ;
   float result;
@@ -14087,7 +14087,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_GetMaxMotorTorque(void 
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_GetMotorTorque(void * jarg1, float jarg2) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2WheelJoint_GetMotorTorque(void * jarg1, float jarg2) {
   float jresult ;
   b2WheelJoint *arg1 = (b2WheelJoint *) 0 ;
   float arg2 ;
@@ -14101,7 +14101,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_GetMotorTorque(void * j
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_SetStiffness(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2WheelJoint_SetStiffness(void * jarg1, float jarg2) {
   b2WheelJoint *arg1 = (b2WheelJoint *) 0 ;
   float arg2 ;
   
@@ -14111,7 +14111,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_SetStiffness(void * jarg
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_GetStiffness(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2WheelJoint_GetStiffness(void * jarg1) {
   float jresult ;
   b2WheelJoint *arg1 = (b2WheelJoint *) 0 ;
   float result;
@@ -14123,7 +14123,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_GetStiffness(void * jar
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_SetDamping(void * jarg1, float jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2WheelJoint_SetDamping(void * jarg1, float jarg2) {
   b2WheelJoint *arg1 = (b2WheelJoint *) 0 ;
   float arg2 ;
   
@@ -14133,7 +14133,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_SetDamping(void * jarg1,
 }
 
 
-SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_GetDamping(void * jarg1) {
+SWIGEXPORT float SWIGSTDCALL CSharp_b2Sharp_b2WheelJoint_GetDamping(void * jarg1) {
   float jresult ;
   b2WheelJoint *arg1 = (b2WheelJoint *) 0 ;
   float result;
@@ -14145,7 +14145,7 @@ SWIGEXPORT float SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_GetDamping(void * jarg1
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_Dump(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2WheelJoint_Dump(void * jarg1) {
   b2WheelJoint *arg1 = (b2WheelJoint *) 0 ;
   
   arg1 = (b2WheelJoint *)jarg1; 
@@ -14153,7 +14153,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_Dump(void * jarg1) {
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_Draw(void * jarg1, void * jarg2) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_b2WheelJoint_Draw(void * jarg1, void * jarg2) {
   b2WheelJoint *arg1 = (b2WheelJoint *) 0 ;
   b2Draw *arg2 = (b2Draw *) 0 ;
   
@@ -14163,7 +14163,7 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_Draw(void * jarg1, void 
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2WheelJoint(void * jarg1) {
+SWIGEXPORT void SWIGSTDCALL CSharp_b2Sharp_delete_b2WheelJoint(void * jarg1) {
   b2WheelJoint *arg1 = (b2WheelJoint *) 0 ;
   
   arg1 = (b2WheelJoint *)jarg1; 
@@ -14171,107 +14171,107 @@ SWIGEXPORT void SWIGSTDCALL CSharp_Box2DCS_delete_b2WheelJoint(void * jarg1) {
 }
 
 
-SWIGEXPORT b2Shape * SWIGSTDCALL CSharp_Box2DCS_b2ChainShape_SWIGUpcast(b2ChainShape *jarg1) {
+SWIGEXPORT b2Shape * SWIGSTDCALL CSharp_b2Sharp_b2ChainShape_SWIGUpcast(b2ChainShape *jarg1) {
     return (b2Shape *)jarg1;
 }
 
-SWIGEXPORT b2Shape * SWIGSTDCALL CSharp_Box2DCS_b2CircleShape_SWIGUpcast(b2CircleShape *jarg1) {
+SWIGEXPORT b2Shape * SWIGSTDCALL CSharp_b2Sharp_b2CircleShape_SWIGUpcast(b2CircleShape *jarg1) {
     return (b2Shape *)jarg1;
 }
 
-SWIGEXPORT b2Shape * SWIGSTDCALL CSharp_Box2DCS_b2EdgeShape_SWIGUpcast(b2EdgeShape *jarg1) {
+SWIGEXPORT b2Shape * SWIGSTDCALL CSharp_b2Sharp_b2EdgeShape_SWIGUpcast(b2EdgeShape *jarg1) {
     return (b2Shape *)jarg1;
 }
 
-SWIGEXPORT b2Shape * SWIGSTDCALL CSharp_Box2DCS_b2PolygonShape_SWIGUpcast(b2PolygonShape *jarg1) {
+SWIGEXPORT b2Shape * SWIGSTDCALL CSharp_b2Sharp_b2PolygonShape_SWIGUpcast(b2PolygonShape *jarg1) {
     return (b2Shape *)jarg1;
 }
 
-SWIGEXPORT b2JointDef * SWIGSTDCALL CSharp_Box2DCS_b2DistanceJointDef_SWIGUpcast(b2DistanceJointDef *jarg1) {
+SWIGEXPORT b2JointDef * SWIGSTDCALL CSharp_b2Sharp_b2DistanceJointDef_SWIGUpcast(b2DistanceJointDef *jarg1) {
     return (b2JointDef *)jarg1;
 }
 
-SWIGEXPORT b2Joint * SWIGSTDCALL CSharp_Box2DCS_b2DistanceJoint_SWIGUpcast(b2DistanceJoint *jarg1) {
+SWIGEXPORT b2Joint * SWIGSTDCALL CSharp_b2Sharp_b2DistanceJoint_SWIGUpcast(b2DistanceJoint *jarg1) {
     return (b2Joint *)jarg1;
 }
 
-SWIGEXPORT b2JointDef * SWIGSTDCALL CSharp_Box2DCS_b2FrictionJointDef_SWIGUpcast(b2FrictionJointDef *jarg1) {
+SWIGEXPORT b2JointDef * SWIGSTDCALL CSharp_b2Sharp_b2FrictionJointDef_SWIGUpcast(b2FrictionJointDef *jarg1) {
     return (b2JointDef *)jarg1;
 }
 
-SWIGEXPORT b2Joint * SWIGSTDCALL CSharp_Box2DCS_b2FrictionJoint_SWIGUpcast(b2FrictionJoint *jarg1) {
+SWIGEXPORT b2Joint * SWIGSTDCALL CSharp_b2Sharp_b2FrictionJoint_SWIGUpcast(b2FrictionJoint *jarg1) {
     return (b2Joint *)jarg1;
 }
 
-SWIGEXPORT b2JointDef * SWIGSTDCALL CSharp_Box2DCS_b2GearJointDef_SWIGUpcast(b2GearJointDef *jarg1) {
+SWIGEXPORT b2JointDef * SWIGSTDCALL CSharp_b2Sharp_b2GearJointDef_SWIGUpcast(b2GearJointDef *jarg1) {
     return (b2JointDef *)jarg1;
 }
 
-SWIGEXPORT b2Joint * SWIGSTDCALL CSharp_Box2DCS_b2GearJoint_SWIGUpcast(b2GearJoint *jarg1) {
+SWIGEXPORT b2Joint * SWIGSTDCALL CSharp_b2Sharp_b2GearJoint_SWIGUpcast(b2GearJoint *jarg1) {
     return (b2Joint *)jarg1;
 }
 
-SWIGEXPORT b2JointDef * SWIGSTDCALL CSharp_Box2DCS_b2MotorJointDef_SWIGUpcast(b2MotorJointDef *jarg1) {
+SWIGEXPORT b2JointDef * SWIGSTDCALL CSharp_b2Sharp_b2MotorJointDef_SWIGUpcast(b2MotorJointDef *jarg1) {
     return (b2JointDef *)jarg1;
 }
 
-SWIGEXPORT b2Joint * SWIGSTDCALL CSharp_Box2DCS_b2MotorJoint_SWIGUpcast(b2MotorJoint *jarg1) {
+SWIGEXPORT b2Joint * SWIGSTDCALL CSharp_b2Sharp_b2MotorJoint_SWIGUpcast(b2MotorJoint *jarg1) {
     return (b2Joint *)jarg1;
 }
 
-SWIGEXPORT b2JointDef * SWIGSTDCALL CSharp_Box2DCS_b2MouseJointDef_SWIGUpcast(b2MouseJointDef *jarg1) {
+SWIGEXPORT b2JointDef * SWIGSTDCALL CSharp_b2Sharp_b2MouseJointDef_SWIGUpcast(b2MouseJointDef *jarg1) {
     return (b2JointDef *)jarg1;
 }
 
-SWIGEXPORT b2Joint * SWIGSTDCALL CSharp_Box2DCS_b2MouseJoint_SWIGUpcast(b2MouseJoint *jarg1) {
+SWIGEXPORT b2Joint * SWIGSTDCALL CSharp_b2Sharp_b2MouseJoint_SWIGUpcast(b2MouseJoint *jarg1) {
     return (b2Joint *)jarg1;
 }
 
-SWIGEXPORT b2JointDef * SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJointDef_SWIGUpcast(b2PrismaticJointDef *jarg1) {
+SWIGEXPORT b2JointDef * SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJointDef_SWIGUpcast(b2PrismaticJointDef *jarg1) {
     return (b2JointDef *)jarg1;
 }
 
-SWIGEXPORT b2Joint * SWIGSTDCALL CSharp_Box2DCS_b2PrismaticJoint_SWIGUpcast(b2PrismaticJoint *jarg1) {
+SWIGEXPORT b2Joint * SWIGSTDCALL CSharp_b2Sharp_b2PrismaticJoint_SWIGUpcast(b2PrismaticJoint *jarg1) {
     return (b2Joint *)jarg1;
 }
 
-SWIGEXPORT b2JointDef * SWIGSTDCALL CSharp_Box2DCS_b2PulleyJointDef_SWIGUpcast(b2PulleyJointDef *jarg1) {
+SWIGEXPORT b2JointDef * SWIGSTDCALL CSharp_b2Sharp_b2PulleyJointDef_SWIGUpcast(b2PulleyJointDef *jarg1) {
     return (b2JointDef *)jarg1;
 }
 
-SWIGEXPORT b2Joint * SWIGSTDCALL CSharp_Box2DCS_b2PulleyJoint_SWIGUpcast(b2PulleyJoint *jarg1) {
+SWIGEXPORT b2Joint * SWIGSTDCALL CSharp_b2Sharp_b2PulleyJoint_SWIGUpcast(b2PulleyJoint *jarg1) {
     return (b2Joint *)jarg1;
 }
 
-SWIGEXPORT b2JointDef * SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJointDef_SWIGUpcast(b2RevoluteJointDef *jarg1) {
+SWIGEXPORT b2JointDef * SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJointDef_SWIGUpcast(b2RevoluteJointDef *jarg1) {
     return (b2JointDef *)jarg1;
 }
 
-SWIGEXPORT b2Joint * SWIGSTDCALL CSharp_Box2DCS_b2RevoluteJoint_SWIGUpcast(b2RevoluteJoint *jarg1) {
+SWIGEXPORT b2Joint * SWIGSTDCALL CSharp_b2Sharp_b2RevoluteJoint_SWIGUpcast(b2RevoluteJoint *jarg1) {
     return (b2Joint *)jarg1;
 }
 
-SWIGEXPORT b2JointDef * SWIGSTDCALL CSharp_Box2DCS_b2RopeJointDef_SWIGUpcast(b2RopeJointDef *jarg1) {
+SWIGEXPORT b2JointDef * SWIGSTDCALL CSharp_b2Sharp_b2RopeJointDef_SWIGUpcast(b2RopeJointDef *jarg1) {
     return (b2JointDef *)jarg1;
 }
 
-SWIGEXPORT b2Joint * SWIGSTDCALL CSharp_Box2DCS_b2RopeJoint_SWIGUpcast(b2RopeJoint *jarg1) {
+SWIGEXPORT b2Joint * SWIGSTDCALL CSharp_b2Sharp_b2RopeJoint_SWIGUpcast(b2RopeJoint *jarg1) {
     return (b2Joint *)jarg1;
 }
 
-SWIGEXPORT b2JointDef * SWIGSTDCALL CSharp_Box2DCS_b2WeldJointDef_SWIGUpcast(b2WeldJointDef *jarg1) {
+SWIGEXPORT b2JointDef * SWIGSTDCALL CSharp_b2Sharp_b2WeldJointDef_SWIGUpcast(b2WeldJointDef *jarg1) {
     return (b2JointDef *)jarg1;
 }
 
-SWIGEXPORT b2Joint * SWIGSTDCALL CSharp_Box2DCS_b2WeldJoint_SWIGUpcast(b2WeldJoint *jarg1) {
+SWIGEXPORT b2Joint * SWIGSTDCALL CSharp_b2Sharp_b2WeldJoint_SWIGUpcast(b2WeldJoint *jarg1) {
     return (b2Joint *)jarg1;
 }
 
-SWIGEXPORT b2JointDef * SWIGSTDCALL CSharp_Box2DCS_b2WheelJointDef_SWIGUpcast(b2WheelJointDef *jarg1) {
+SWIGEXPORT b2JointDef * SWIGSTDCALL CSharp_b2Sharp_b2WheelJointDef_SWIGUpcast(b2WheelJointDef *jarg1) {
     return (b2JointDef *)jarg1;
 }
 
-SWIGEXPORT b2Joint * SWIGSTDCALL CSharp_Box2DCS_b2WheelJoint_SWIGUpcast(b2WheelJoint *jarg1) {
+SWIGEXPORT b2Joint * SWIGSTDCALL CSharp_b2Sharp_b2WheelJoint_SWIGUpcast(b2WheelJoint *jarg1) {
     return (b2Joint *)jarg1;
 }
 

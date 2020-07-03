@@ -8,7 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
-namespace Box2DCS {
+namespace b2Sharp {
 
 public enum b2JointType {
   e_unknownJoint,

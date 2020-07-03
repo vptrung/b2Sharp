@@ -8,7 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
-namespace Box2DCS {
+namespace b2Sharp {
 
 class Box2DPINVOKE {
 
@@ -193,3586 +193,3586 @@ class Box2DPINVOKE {
   }
 
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2_pi_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2_pi_get")]
   public static extern double b2_pi_get();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2_maxManifoldPoints_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2_maxManifoldPoints_get")]
   public static extern int b2_maxManifoldPoints_get();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2_maxPolygonVertices_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2_maxPolygonVertices_get")]
   public static extern int b2_maxPolygonVertices_get();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2_aabbExtension_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2_aabbExtension_get")]
   public static extern double b2_aabbExtension_get();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2_aabbMultiplier_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2_aabbMultiplier_get")]
   public static extern double b2_aabbMultiplier_get();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2_linearSlop_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2_linearSlop_get")]
   public static extern double b2_linearSlop_get();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2_angularSlop_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2_angularSlop_get")]
   public static extern double b2_angularSlop_get();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2_polygonRadius_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2_polygonRadius_get")]
   public static extern double b2_polygonRadius_get();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2_maxSubSteps_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2_maxSubSteps_get")]
   public static extern int b2_maxSubSteps_get();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2_maxTOIContacts_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2_maxTOIContacts_get")]
   public static extern int b2_maxTOIContacts_get();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2_velocityThreshold_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2_velocityThreshold_get")]
   public static extern double b2_velocityThreshold_get();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2_maxLinearCorrection_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2_maxLinearCorrection_get")]
   public static extern double b2_maxLinearCorrection_get();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2_maxAngularCorrection_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2_maxAngularCorrection_get")]
   public static extern double b2_maxAngularCorrection_get();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2_maxTranslation_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2_maxTranslation_get")]
   public static extern double b2_maxTranslation_get();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2_maxTranslationSquared_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2_maxTranslationSquared_get")]
   public static extern double b2_maxTranslationSquared_get();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2_maxRotation_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2_maxRotation_get")]
   public static extern double b2_maxRotation_get();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2_maxRotationSquared_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2_maxRotationSquared_get")]
   public static extern double b2_maxRotationSquared_get();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2_baumgarte_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2_baumgarte_get")]
   public static extern double b2_baumgarte_get();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2_toiBaumgarte_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2_toiBaumgarte_get")]
   public static extern double b2_toiBaumgarte_get();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2_timeToSleep_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2_timeToSleep_get")]
   public static extern double b2_timeToSleep_get();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2_linearSleepTolerance_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2_linearSleepTolerance_get")]
   public static extern double b2_linearSleepTolerance_get();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2_angularSleepTolerance_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2_angularSleepTolerance_get")]
   public static extern double b2_angularSleepTolerance_get();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Alloc")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Alloc")]
   public static extern global::System.IntPtr b2Alloc(int jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Free")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Free")]
   public static extern void b2Free(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Log")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Log")]
   public static extern void b2Log(string jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2OpenDump")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2OpenDump")]
   public static extern void b2OpenDump(string jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Dump")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Dump")]
   public static extern void b2Dump(string jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2CloseDump")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2CloseDump")]
   public static extern void b2CloseDump();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Version_major_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Version_major_set")]
   public static extern void b2Version_major_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Version_major_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Version_major_get")]
   public static extern int b2Version_major_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Version_minor_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Version_minor_set")]
   public static extern void b2Version_minor_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Version_minor_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Version_minor_get")]
   public static extern int b2Version_minor_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Version_revision_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Version_revision_set")]
   public static extern void b2Version_revision_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Version_revision_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Version_revision_get")]
   public static extern int b2Version_revision_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2Version")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2Version")]
   public static extern global::System.IntPtr new_b2Version();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2Version")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2Version")]
   public static extern void delete_b2Version(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2_version_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2_version_set")]
   public static extern void b2_version_set(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2_version_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2_version_get")]
   public static extern global::System.IntPtr b2_version_get();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2IsValid")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2IsValid")]
   public static extern bool b2IsValid(float jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2Vec2__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2Vec2__SWIG_0")]
   public static extern global::System.IntPtr new_b2Vec2__SWIG_0();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2Vec2__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2Vec2__SWIG_1")]
   public static extern global::System.IntPtr new_b2Vec2__SWIG_1(float jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Vec2_SetZero")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Vec2_SetZero")]
   public static extern void b2Vec2_SetZero(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Vec2_Set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Vec2_Set")]
   public static extern void b2Vec2_Set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2, float jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Vec2_Length")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Vec2_Length")]
   public static extern float b2Vec2_Length(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Vec2_LengthSquared")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Vec2_LengthSquared")]
   public static extern float b2Vec2_LengthSquared(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Vec2_Normalize")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Vec2_Normalize")]
   public static extern float b2Vec2_Normalize(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Vec2_IsValid")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Vec2_IsValid")]
   public static extern bool b2Vec2_IsValid(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Vec2_Skew")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Vec2_Skew")]
   public static extern global::System.IntPtr b2Vec2_Skew(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Vec2_x_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Vec2_x_set")]
   public static extern void b2Vec2_x_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Vec2_x_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Vec2_x_get")]
   public static extern float b2Vec2_x_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Vec2_y_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Vec2_y_set")]
   public static extern void b2Vec2_y_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Vec2_y_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Vec2_y_get")]
   public static extern float b2Vec2_y_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2Vec2")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2Vec2")]
   public static extern void delete_b2Vec2(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2Vec3__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2Vec3__SWIG_0")]
   public static extern global::System.IntPtr new_b2Vec3__SWIG_0();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2Vec3__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2Vec3__SWIG_1")]
   public static extern global::System.IntPtr new_b2Vec3__SWIG_1(float jarg1, float jarg2, float jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Vec3_SetZero")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Vec3_SetZero")]
   public static extern void b2Vec3_SetZero(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Vec3_Set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Vec3_Set")]
   public static extern void b2Vec3_Set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2, float jarg3, float jarg4);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Vec3_x_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Vec3_x_set")]
   public static extern void b2Vec3_x_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Vec3_x_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Vec3_x_get")]
   public static extern float b2Vec3_x_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Vec3_y_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Vec3_y_set")]
   public static extern void b2Vec3_y_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Vec3_y_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Vec3_y_get")]
   public static extern float b2Vec3_y_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Vec3_z_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Vec3_z_set")]
   public static extern void b2Vec3_z_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Vec3_z_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Vec3_z_get")]
   public static extern float b2Vec3_z_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2Vec3")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2Vec3")]
   public static extern void delete_b2Vec3(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2Mat22__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2Mat22__SWIG_0")]
   public static extern global::System.IntPtr new_b2Mat22__SWIG_0();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2Mat22__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2Mat22__SWIG_1")]
   public static extern global::System.IntPtr new_b2Mat22__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2Mat22__SWIG_2")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2Mat22__SWIG_2")]
   public static extern global::System.IntPtr new_b2Mat22__SWIG_2(float jarg1, float jarg2, float jarg3, float jarg4);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Mat22_Set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Mat22_Set")]
   public static extern void b2Mat22_Set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Mat22_SetIdentity")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Mat22_SetIdentity")]
   public static extern void b2Mat22_SetIdentity(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Mat22_SetZero")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Mat22_SetZero")]
   public static extern void b2Mat22_SetZero(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Mat22_GetInverse")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Mat22_GetInverse")]
   public static extern global::System.IntPtr b2Mat22_GetInverse(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Mat22_Solve")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Mat22_Solve")]
   public static extern global::System.IntPtr b2Mat22_Solve(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Mat22_ex_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Mat22_ex_set")]
   public static extern void b2Mat22_ex_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Mat22_ex_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Mat22_ex_get")]
   public static extern global::System.IntPtr b2Mat22_ex_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Mat22_ey_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Mat22_ey_set")]
   public static extern void b2Mat22_ey_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Mat22_ey_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Mat22_ey_get")]
   public static extern global::System.IntPtr b2Mat22_ey_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2Mat22")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2Mat22")]
   public static extern void delete_b2Mat22(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2Mat33__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2Mat33__SWIG_0")]
   public static extern global::System.IntPtr new_b2Mat33__SWIG_0();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2Mat33__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2Mat33__SWIG_1")]
   public static extern global::System.IntPtr new_b2Mat33__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Mat33_SetZero")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Mat33_SetZero")]
   public static extern void b2Mat33_SetZero(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Mat33_Solve33")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Mat33_Solve33")]
   public static extern global::System.IntPtr b2Mat33_Solve33(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Mat33_Solve22")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Mat33_Solve22")]
   public static extern global::System.IntPtr b2Mat33_Solve22(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Mat33_GetInverse22")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Mat33_GetInverse22")]
   public static extern void b2Mat33_GetInverse22(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Mat33_GetSymInverse33")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Mat33_GetSymInverse33")]
   public static extern void b2Mat33_GetSymInverse33(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Mat33_ex_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Mat33_ex_set")]
   public static extern void b2Mat33_ex_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Mat33_ex_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Mat33_ex_get")]
   public static extern global::System.IntPtr b2Mat33_ex_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Mat33_ey_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Mat33_ey_set")]
   public static extern void b2Mat33_ey_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Mat33_ey_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Mat33_ey_get")]
   public static extern global::System.IntPtr b2Mat33_ey_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Mat33_ez_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Mat33_ez_set")]
   public static extern void b2Mat33_ez_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Mat33_ez_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Mat33_ez_get")]
   public static extern global::System.IntPtr b2Mat33_ez_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2Mat33")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2Mat33")]
   public static extern void delete_b2Mat33(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2Rot__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2Rot__SWIG_0")]
   public static extern global::System.IntPtr new_b2Rot__SWIG_0();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2Rot__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2Rot__SWIG_1")]
   public static extern global::System.IntPtr new_b2Rot__SWIG_1(float jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Rot_Set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Rot_Set")]
   public static extern void b2Rot_Set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Rot_SetIdentity")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Rot_SetIdentity")]
   public static extern void b2Rot_SetIdentity(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Rot_GetAngle")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Rot_GetAngle")]
   public static extern float b2Rot_GetAngle(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Rot_GetXAxis")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Rot_GetXAxis")]
   public static extern global::System.IntPtr b2Rot_GetXAxis(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Rot_GetYAxis")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Rot_GetYAxis")]
   public static extern global::System.IntPtr b2Rot_GetYAxis(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Rot_s_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Rot_s_set")]
   public static extern void b2Rot_s_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Rot_s_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Rot_s_get")]
   public static extern float b2Rot_s_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Rot_c_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Rot_c_set")]
   public static extern void b2Rot_c_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Rot_c_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Rot_c_get")]
   public static extern float b2Rot_c_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2Rot")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2Rot")]
   public static extern void delete_b2Rot(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2Transform__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2Transform__SWIG_0")]
   public static extern global::System.IntPtr new_b2Transform__SWIG_0();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2Transform__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2Transform__SWIG_1")]
   public static extern global::System.IntPtr new_b2Transform__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Transform_SetIdentity")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Transform_SetIdentity")]
   public static extern void b2Transform_SetIdentity(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Transform_Set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Transform_Set")]
   public static extern void b2Transform_Set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, float jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Transform_p_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Transform_p_set")]
   public static extern void b2Transform_p_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Transform_p_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Transform_p_get")]
   public static extern global::System.IntPtr b2Transform_p_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Transform_q_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Transform_q_set")]
   public static extern void b2Transform_q_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Transform_q_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Transform_q_get")]
   public static extern global::System.IntPtr b2Transform_q_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2Transform")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2Transform")]
   public static extern void delete_b2Transform(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Sweep_GetTransform")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Sweep_GetTransform")]
   public static extern void b2Sweep_GetTransform(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, float jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Sweep_Advance")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Sweep_Advance")]
   public static extern void b2Sweep_Advance(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Sweep_Normalize")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Sweep_Normalize")]
   public static extern void b2Sweep_Normalize(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Sweep_localCenter_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Sweep_localCenter_set")]
   public static extern void b2Sweep_localCenter_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Sweep_localCenter_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Sweep_localCenter_get")]
   public static extern global::System.IntPtr b2Sweep_localCenter_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Sweep_c0_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Sweep_c0_set")]
   public static extern void b2Sweep_c0_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Sweep_c0_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Sweep_c0_get")]
   public static extern global::System.IntPtr b2Sweep_c0_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Sweep_c_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Sweep_c_set")]
   public static extern void b2Sweep_c_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Sweep_c_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Sweep_c_get")]
   public static extern global::System.IntPtr b2Sweep_c_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Sweep_a0_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Sweep_a0_set")]
   public static extern void b2Sweep_a0_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Sweep_a0_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Sweep_a0_get")]
   public static extern float b2Sweep_a0_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Sweep_a_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Sweep_a_set")]
   public static extern void b2Sweep_a_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Sweep_a_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Sweep_a_get")]
   public static extern float b2Sweep_a_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Sweep_alpha0_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Sweep_alpha0_set")]
   public static extern void b2Sweep_alpha0_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Sweep_alpha0_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Sweep_alpha0_get")]
   public static extern float b2Sweep_alpha0_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2Sweep")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2Sweep")]
   public static extern global::System.IntPtr new_b2Sweep();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2Sweep")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2Sweep")]
   public static extern void delete_b2Sweep(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Vec2_zero_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Vec2_zero_get")]
   public static extern global::System.IntPtr b2Vec2_zero_get();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Dot__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Dot__SWIG_0")]
   public static extern float b2Dot__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Cross__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Cross__SWIG_0")]
   public static extern float b2Cross__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Cross__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Cross__SWIG_1")]
   public static extern global::System.IntPtr b2Cross__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Cross__SWIG_2")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Cross__SWIG_2")]
   public static extern global::System.IntPtr b2Cross__SWIG_2(float jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Mul__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Mul__SWIG_0")]
   public static extern global::System.IntPtr b2Mul__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MulT__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MulT__SWIG_0")]
   public static extern global::System.IntPtr b2MulT__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Distance")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Distance")]
   public static extern float b2Distance(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DistanceSquared")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DistanceSquared")]
   public static extern float b2DistanceSquared(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Dot__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Dot__SWIG_1")]
   public static extern float b2Dot__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Cross__SWIG_3")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Cross__SWIG_3")]
   public static extern global::System.IntPtr b2Cross__SWIG_3(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Mul__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Mul__SWIG_1")]
   public static extern global::System.IntPtr b2Mul__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MulT__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MulT__SWIG_1")]
   public static extern global::System.IntPtr b2MulT__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Mul__SWIG_2")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Mul__SWIG_2")]
   public static extern global::System.IntPtr b2Mul__SWIG_2(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Mul22")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Mul22")]
   public static extern global::System.IntPtr b2Mul22(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Mul__SWIG_3")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Mul__SWIG_3")]
   public static extern global::System.IntPtr b2Mul__SWIG_3(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MulT__SWIG_2")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MulT__SWIG_2")]
   public static extern global::System.IntPtr b2MulT__SWIG_2(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Mul__SWIG_4")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Mul__SWIG_4")]
   public static extern global::System.IntPtr b2Mul__SWIG_4(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MulT__SWIG_3")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MulT__SWIG_3")]
   public static extern global::System.IntPtr b2MulT__SWIG_3(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Mul__SWIG_5")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Mul__SWIG_5")]
   public static extern global::System.IntPtr b2Mul__SWIG_5(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MulT__SWIG_4")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MulT__SWIG_4")]
   public static extern global::System.IntPtr b2MulT__SWIG_4(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Mul__SWIG_6")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Mul__SWIG_6")]
   public static extern global::System.IntPtr b2Mul__SWIG_6(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MulT__SWIG_5")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MulT__SWIG_5")]
   public static extern global::System.IntPtr b2MulT__SWIG_5(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Abs__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Abs__SWIG_1")]
   public static extern global::System.IntPtr b2Abs__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Abs__SWIG_2")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Abs__SWIG_2")]
   public static extern global::System.IntPtr b2Abs__SWIG_2(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Min")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Min")]
   public static extern global::System.IntPtr b2Min(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Max")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Max")]
   public static extern global::System.IntPtr b2Max(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Clamp")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Clamp")]
   public static extern global::System.IntPtr b2Clamp(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2NextPowerOfTwo")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2NextPowerOfTwo")]
   public static extern uint b2NextPowerOfTwo(uint jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2IsPowerOfTwo")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2IsPowerOfTwo")]
   public static extern bool b2IsPowerOfTwo(uint jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2Color__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2Color__SWIG_0")]
   public static extern global::System.IntPtr new_b2Color__SWIG_0();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2Color__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2Color__SWIG_1")]
   public static extern global::System.IntPtr new_b2Color__SWIG_1(float jarg1, float jarg2, float jarg3, float jarg4);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2Color__SWIG_2")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2Color__SWIG_2")]
   public static extern global::System.IntPtr new_b2Color__SWIG_2(float jarg1, float jarg2, float jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Color_Set__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Color_Set__SWIG_0")]
   public static extern void b2Color_Set__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2, float jarg3, float jarg4, float jarg5);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Color_Set__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Color_Set__SWIG_1")]
   public static extern void b2Color_Set__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2, float jarg3, float jarg4);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Color_r_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Color_r_set")]
   public static extern void b2Color_r_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Color_r_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Color_r_get")]
   public static extern float b2Color_r_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Color_g_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Color_g_set")]
   public static extern void b2Color_g_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Color_g_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Color_g_get")]
   public static extern float b2Color_g_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Color_b_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Color_b_set")]
   public static extern void b2Color_b_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Color_b_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Color_b_get")]
   public static extern float b2Color_b_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Color_a_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Color_a_set")]
   public static extern void b2Color_a_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Color_a_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Color_a_get")]
   public static extern float b2Color_a_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2Color")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2Color")]
   public static extern void delete_b2Color(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2Draw")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2Draw")]
   public static extern void delete_b2Draw(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Draw_e_shapeBit_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Draw_e_shapeBit_get")]
   public static extern int b2Draw_e_shapeBit_get();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Draw_e_jointBit_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Draw_e_jointBit_get")]
   public static extern int b2Draw_e_jointBit_get();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Draw_e_aabbBit_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Draw_e_aabbBit_get")]
   public static extern int b2Draw_e_aabbBit_get();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Draw_e_pairBit_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Draw_e_pairBit_get")]
   public static extern int b2Draw_e_pairBit_get();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Draw_e_centerOfMassBit_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Draw_e_centerOfMassBit_get")]
   public static extern int b2Draw_e_centerOfMassBit_get();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Draw_SetFlags")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Draw_SetFlags")]
   public static extern void b2Draw_SetFlags(global::System.Runtime.InteropServices.HandleRef jarg1, uint jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Draw_GetFlags")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Draw_GetFlags")]
   public static extern uint b2Draw_GetFlags(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Draw_AppendFlags")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Draw_AppendFlags")]
   public static extern void b2Draw_AppendFlags(global::System.Runtime.InteropServices.HandleRef jarg1, uint jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Draw_ClearFlags")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Draw_ClearFlags")]
   public static extern void b2Draw_ClearFlags(global::System.Runtime.InteropServices.HandleRef jarg1, uint jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Draw_DrawPolygon")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Draw_DrawPolygon")]
   public static extern void b2Draw_DrawPolygon(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, int jarg3, global::System.Runtime.InteropServices.HandleRef jarg4);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Draw_DrawSolidPolygon")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Draw_DrawSolidPolygon")]
   public static extern void b2Draw_DrawSolidPolygon(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, int jarg3, global::System.Runtime.InteropServices.HandleRef jarg4);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Draw_DrawCircle")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Draw_DrawCircle")]
   public static extern void b2Draw_DrawCircle(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, float jarg3, global::System.Runtime.InteropServices.HandleRef jarg4);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Draw_DrawSolidCircle")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Draw_DrawSolidCircle")]
   public static extern void b2Draw_DrawSolidCircle(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, float jarg3, global::System.Runtime.InteropServices.HandleRef jarg4, global::System.Runtime.InteropServices.HandleRef jarg5);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Draw_DrawSegment")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Draw_DrawSegment")]
   public static extern void b2Draw_DrawSegment(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, global::System.Runtime.InteropServices.HandleRef jarg4);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Draw_DrawTransform")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Draw_DrawTransform")]
   public static extern void b2Draw_DrawTransform(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Draw_DrawPoint")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Draw_DrawPoint")]
   public static extern void b2Draw_DrawPoint(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, float jarg3, global::System.Runtime.InteropServices.HandleRef jarg4);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2Timer")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2Timer")]
   public static extern global::System.IntPtr new_b2Timer();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Timer_Reset")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Timer_Reset")]
   public static extern void b2Timer_Reset(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Timer_GetMilliseconds")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Timer_GetMilliseconds")]
   public static extern float b2Timer_GetMilliseconds(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2Timer")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2Timer")]
   public static extern void delete_b2Timer(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2_nullFeature_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2_nullFeature_get")]
   public static extern byte b2_nullFeature_get();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactFeature_indexA_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactFeature_indexA_set")]
   public static extern void b2ContactFeature_indexA_set(global::System.Runtime.InteropServices.HandleRef jarg1, byte jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactFeature_indexA_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactFeature_indexA_get")]
   public static extern byte b2ContactFeature_indexA_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactFeature_indexB_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactFeature_indexB_set")]
   public static extern void b2ContactFeature_indexB_set(global::System.Runtime.InteropServices.HandleRef jarg1, byte jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactFeature_indexB_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactFeature_indexB_get")]
   public static extern byte b2ContactFeature_indexB_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactFeature_typeA_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactFeature_typeA_set")]
   public static extern void b2ContactFeature_typeA_set(global::System.Runtime.InteropServices.HandleRef jarg1, byte jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactFeature_typeA_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactFeature_typeA_get")]
   public static extern byte b2ContactFeature_typeA_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactFeature_typeB_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactFeature_typeB_set")]
   public static extern void b2ContactFeature_typeB_set(global::System.Runtime.InteropServices.HandleRef jarg1, byte jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactFeature_typeB_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactFeature_typeB_get")]
   public static extern byte b2ContactFeature_typeB_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2ContactFeature")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2ContactFeature")]
   public static extern global::System.IntPtr new_b2ContactFeature();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2ContactFeature")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2ContactFeature")]
   public static extern void delete_b2ContactFeature(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactID_cf_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactID_cf_set")]
   public static extern void b2ContactID_cf_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactID_cf_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactID_cf_get")]
   public static extern global::System.IntPtr b2ContactID_cf_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactID_key_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactID_key_set")]
   public static extern void b2ContactID_key_set(global::System.Runtime.InteropServices.HandleRef jarg1, uint jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactID_key_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactID_key_get")]
   public static extern uint b2ContactID_key_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2ContactID")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2ContactID")]
   public static extern global::System.IntPtr new_b2ContactID();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2ContactID")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2ContactID")]
   public static extern void delete_b2ContactID(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ManifoldPoint_localPoint_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ManifoldPoint_localPoint_set")]
   public static extern void b2ManifoldPoint_localPoint_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ManifoldPoint_localPoint_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ManifoldPoint_localPoint_get")]
   public static extern global::System.IntPtr b2ManifoldPoint_localPoint_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ManifoldPoint_normalImpulse_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ManifoldPoint_normalImpulse_set")]
   public static extern void b2ManifoldPoint_normalImpulse_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ManifoldPoint_normalImpulse_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ManifoldPoint_normalImpulse_get")]
   public static extern float b2ManifoldPoint_normalImpulse_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ManifoldPoint_tangentImpulse_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ManifoldPoint_tangentImpulse_set")]
   public static extern void b2ManifoldPoint_tangentImpulse_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ManifoldPoint_tangentImpulse_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ManifoldPoint_tangentImpulse_get")]
   public static extern float b2ManifoldPoint_tangentImpulse_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ManifoldPoint_id_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ManifoldPoint_id_set")]
   public static extern void b2ManifoldPoint_id_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ManifoldPoint_id_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ManifoldPoint_id_get")]
   public static extern global::System.IntPtr b2ManifoldPoint_id_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2ManifoldPoint")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2ManifoldPoint")]
   public static extern global::System.IntPtr new_b2ManifoldPoint();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2ManifoldPoint")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2ManifoldPoint")]
   public static extern void delete_b2ManifoldPoint(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Manifold_points_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Manifold_points_set")]
   public static extern void b2Manifold_points_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Manifold_points_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Manifold_points_get")]
   public static extern global::System.IntPtr b2Manifold_points_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Manifold_localNormal_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Manifold_localNormal_set")]
   public static extern void b2Manifold_localNormal_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Manifold_localNormal_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Manifold_localNormal_get")]
   public static extern global::System.IntPtr b2Manifold_localNormal_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Manifold_localPoint_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Manifold_localPoint_set")]
   public static extern void b2Manifold_localPoint_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Manifold_localPoint_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Manifold_localPoint_get")]
   public static extern global::System.IntPtr b2Manifold_localPoint_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Manifold_type_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Manifold_type_set")]
   public static extern void b2Manifold_type_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Manifold_type_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Manifold_type_get")]
   public static extern int b2Manifold_type_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Manifold_pointCount_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Manifold_pointCount_set")]
   public static extern void b2Manifold_pointCount_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Manifold_pointCount_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Manifold_pointCount_get")]
   public static extern int b2Manifold_pointCount_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2Manifold")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2Manifold")]
   public static extern global::System.IntPtr new_b2Manifold();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2Manifold")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2Manifold")]
   public static extern void delete_b2Manifold(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WorldManifold_Initialize")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WorldManifold_Initialize")]
   public static extern void b2WorldManifold_Initialize(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, float jarg4, global::System.Runtime.InteropServices.HandleRef jarg5, float jarg6);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WorldManifold_normal_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WorldManifold_normal_set")]
   public static extern void b2WorldManifold_normal_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WorldManifold_normal_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WorldManifold_normal_get")]
   public static extern global::System.IntPtr b2WorldManifold_normal_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WorldManifold_points_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WorldManifold_points_set")]
   public static extern void b2WorldManifold_points_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WorldManifold_points_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WorldManifold_points_get")]
   public static extern global::System.IntPtr b2WorldManifold_points_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WorldManifold_separations_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WorldManifold_separations_set")]
   public static extern void b2WorldManifold_separations_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WorldManifold_separations_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WorldManifold_separations_get")]
   public static extern global::System.IntPtr b2WorldManifold_separations_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2WorldManifold")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2WorldManifold")]
   public static extern global::System.IntPtr new_b2WorldManifold();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2WorldManifold")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2WorldManifold")]
   public static extern void delete_b2WorldManifold(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2GetPointStates")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2GetPointStates")]
   public static extern void b2GetPointStates(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, global::System.Runtime.InteropServices.HandleRef jarg4);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ClipVertex_v_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ClipVertex_v_set")]
   public static extern void b2ClipVertex_v_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ClipVertex_v_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ClipVertex_v_get")]
   public static extern global::System.IntPtr b2ClipVertex_v_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ClipVertex_id_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ClipVertex_id_set")]
   public static extern void b2ClipVertex_id_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ClipVertex_id_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ClipVertex_id_get")]
   public static extern global::System.IntPtr b2ClipVertex_id_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2ClipVertex")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2ClipVertex")]
   public static extern global::System.IntPtr new_b2ClipVertex();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2ClipVertex")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2ClipVertex")]
   public static extern void delete_b2ClipVertex(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RayCastInput_p1_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RayCastInput_p1_set")]
   public static extern void b2RayCastInput_p1_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RayCastInput_p1_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RayCastInput_p1_get")]
   public static extern global::System.IntPtr b2RayCastInput_p1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RayCastInput_p2_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RayCastInput_p2_set")]
   public static extern void b2RayCastInput_p2_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RayCastInput_p2_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RayCastInput_p2_get")]
   public static extern global::System.IntPtr b2RayCastInput_p2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RayCastInput_maxFraction_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RayCastInput_maxFraction_set")]
   public static extern void b2RayCastInput_maxFraction_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RayCastInput_maxFraction_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RayCastInput_maxFraction_get")]
   public static extern float b2RayCastInput_maxFraction_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2RayCastInput")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2RayCastInput")]
   public static extern global::System.IntPtr new_b2RayCastInput();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2RayCastInput")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2RayCastInput")]
   public static extern void delete_b2RayCastInput(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RayCastOutput_normal_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RayCastOutput_normal_set")]
   public static extern void b2RayCastOutput_normal_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RayCastOutput_normal_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RayCastOutput_normal_get")]
   public static extern global::System.IntPtr b2RayCastOutput_normal_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RayCastOutput_fraction_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RayCastOutput_fraction_set")]
   public static extern void b2RayCastOutput_fraction_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RayCastOutput_fraction_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RayCastOutput_fraction_get")]
   public static extern float b2RayCastOutput_fraction_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2RayCastOutput")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2RayCastOutput")]
   public static extern global::System.IntPtr new_b2RayCastOutput();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2RayCastOutput")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2RayCastOutput")]
   public static extern void delete_b2RayCastOutput(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2AABB_IsValid")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2AABB_IsValid")]
   public static extern bool b2AABB_IsValid(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2AABB_GetCenter")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2AABB_GetCenter")]
   public static extern global::System.IntPtr b2AABB_GetCenter(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2AABB_GetExtents")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2AABB_GetExtents")]
   public static extern global::System.IntPtr b2AABB_GetExtents(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2AABB_GetPerimeter")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2AABB_GetPerimeter")]
   public static extern float b2AABB_GetPerimeter(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2AABB_Combine__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2AABB_Combine__SWIG_0")]
   public static extern void b2AABB_Combine__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2AABB_Combine__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2AABB_Combine__SWIG_1")]
   public static extern void b2AABB_Combine__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2AABB_Contains")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2AABB_Contains")]
   public static extern bool b2AABB_Contains(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2AABB_RayCast")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2AABB_RayCast")]
   public static extern bool b2AABB_RayCast(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2AABB_lowerBound_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2AABB_lowerBound_set")]
   public static extern void b2AABB_lowerBound_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2AABB_lowerBound_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2AABB_lowerBound_get")]
   public static extern global::System.IntPtr b2AABB_lowerBound_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2AABB_upperBound_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2AABB_upperBound_set")]
   public static extern void b2AABB_upperBound_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2AABB_upperBound_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2AABB_upperBound_get")]
   public static extern global::System.IntPtr b2AABB_upperBound_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2AABB")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2AABB")]
   public static extern global::System.IntPtr new_b2AABB();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2AABB")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2AABB")]
   public static extern void delete_b2AABB(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2CollideCircles")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2CollideCircles")]
   public static extern void b2CollideCircles(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, global::System.Runtime.InteropServices.HandleRef jarg4, global::System.Runtime.InteropServices.HandleRef jarg5);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2CollidePolygonAndCircle")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2CollidePolygonAndCircle")]
   public static extern void b2CollidePolygonAndCircle(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, global::System.Runtime.InteropServices.HandleRef jarg4, global::System.Runtime.InteropServices.HandleRef jarg5);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2CollidePolygons")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2CollidePolygons")]
   public static extern void b2CollidePolygons(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, global::System.Runtime.InteropServices.HandleRef jarg4, global::System.Runtime.InteropServices.HandleRef jarg5);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2CollideEdgeAndCircle")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2CollideEdgeAndCircle")]
   public static extern void b2CollideEdgeAndCircle(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, global::System.Runtime.InteropServices.HandleRef jarg4, global::System.Runtime.InteropServices.HandleRef jarg5);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2CollideEdgeAndPolygon")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2CollideEdgeAndPolygon")]
   public static extern void b2CollideEdgeAndPolygon(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, global::System.Runtime.InteropServices.HandleRef jarg4, global::System.Runtime.InteropServices.HandleRef jarg5);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ClipSegmentToLine")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ClipSegmentToLine")]
   public static extern int b2ClipSegmentToLine(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, float jarg4, int jarg5);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2TestOverlap__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2TestOverlap__SWIG_0")]
   public static extern bool b2TestOverlap__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, int jarg4, global::System.Runtime.InteropServices.HandleRef jarg5, global::System.Runtime.InteropServices.HandleRef jarg6);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2TestOverlap__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2TestOverlap__SWIG_1")]
   public static extern bool b2TestOverlap__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MassData_mass_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MassData_mass_set")]
   public static extern void b2MassData_mass_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MassData_mass_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MassData_mass_get")]
   public static extern float b2MassData_mass_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MassData_center_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MassData_center_set")]
   public static extern void b2MassData_center_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MassData_center_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MassData_center_get")]
   public static extern global::System.IntPtr b2MassData_center_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MassData_I_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MassData_I_set")]
   public static extern void b2MassData_I_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MassData_I_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MassData_I_get")]
   public static extern float b2MassData_I_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2MassData")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2MassData")]
   public static extern global::System.IntPtr new_b2MassData();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2MassData")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2MassData")]
   public static extern void delete_b2MassData(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2Shape")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2Shape")]
   public static extern void delete_b2Shape(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Shape_Clone")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Shape_Clone")]
   public static extern global::System.IntPtr b2Shape_Clone(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Shape_GetType")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Shape_GetType")]
   public static extern int b2Shape_GetType(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Shape_GetChildCount")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Shape_GetChildCount")]
   public static extern int b2Shape_GetChildCount(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Shape_TestPoint")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Shape_TestPoint")]
   public static extern bool b2Shape_TestPoint(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Shape_RayCast")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Shape_RayCast")]
   public static extern bool b2Shape_RayCast(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, global::System.Runtime.InteropServices.HandleRef jarg4, int jarg5);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Shape_ComputeAABB")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Shape_ComputeAABB")]
   public static extern void b2Shape_ComputeAABB(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, int jarg4);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Shape_ComputeMass")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Shape_ComputeMass")]
   public static extern void b2Shape_ComputeMass(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, float jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Shape_m_type_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Shape_m_type_set")]
   public static extern void b2Shape_m_type_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Shape_m_type_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Shape_m_type_get")]
   public static extern int b2Shape_m_type_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Shape_m_radius_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Shape_m_radius_set")]
   public static extern void b2Shape_m_radius_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Shape_m_radius_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Shape_m_radius_get")]
   public static extern float b2Shape_m_radius_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2ChainShape")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2ChainShape")]
   public static extern global::System.IntPtr new_b2ChainShape();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2ChainShape")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2ChainShape")]
   public static extern void delete_b2ChainShape(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ChainShape_Clear")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ChainShape_Clear")]
   public static extern void b2ChainShape_Clear(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ChainShape_CreateLoop")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ChainShape_CreateLoop")]
   public static extern void b2ChainShape_CreateLoop(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ChainShape_CreateChain")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ChainShape_CreateChain")]
   public static extern void b2ChainShape_CreateChain(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ChainShape_SetPrevVertex")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ChainShape_SetPrevVertex")]
   public static extern void b2ChainShape_SetPrevVertex(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ChainShape_SetNextVertex")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ChainShape_SetNextVertex")]
   public static extern void b2ChainShape_SetNextVertex(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ChainShape_Clone")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ChainShape_Clone")]
   public static extern global::System.IntPtr b2ChainShape_Clone(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ChainShape_GetChildCount")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ChainShape_GetChildCount")]
   public static extern int b2ChainShape_GetChildCount(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ChainShape_GetChildEdge")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ChainShape_GetChildEdge")]
   public static extern void b2ChainShape_GetChildEdge(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ChainShape_TestPoint")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ChainShape_TestPoint")]
   public static extern bool b2ChainShape_TestPoint(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ChainShape_RayCast")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ChainShape_RayCast")]
   public static extern bool b2ChainShape_RayCast(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, global::System.Runtime.InteropServices.HandleRef jarg4, int jarg5);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ChainShape_ComputeAABB")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ChainShape_ComputeAABB")]
   public static extern void b2ChainShape_ComputeAABB(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, int jarg4);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ChainShape_ComputeMass")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ChainShape_ComputeMass")]
   public static extern void b2ChainShape_ComputeMass(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, float jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ChainShape_m_vertices_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ChainShape_m_vertices_set")]
   public static extern void b2ChainShape_m_vertices_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ChainShape_m_vertices_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ChainShape_m_vertices_get")]
   public static extern global::System.IntPtr b2ChainShape_m_vertices_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ChainShape_m_count_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ChainShape_m_count_set")]
   public static extern void b2ChainShape_m_count_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ChainShape_m_count_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ChainShape_m_count_get")]
   public static extern int b2ChainShape_m_count_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ChainShape_m_prevVertex_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ChainShape_m_prevVertex_set")]
   public static extern void b2ChainShape_m_prevVertex_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ChainShape_m_prevVertex_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ChainShape_m_prevVertex_get")]
   public static extern global::System.IntPtr b2ChainShape_m_prevVertex_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ChainShape_m_nextVertex_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ChainShape_m_nextVertex_set")]
   public static extern void b2ChainShape_m_nextVertex_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ChainShape_m_nextVertex_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ChainShape_m_nextVertex_get")]
   public static extern global::System.IntPtr b2ChainShape_m_nextVertex_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ChainShape_m_hasPrevVertex_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ChainShape_m_hasPrevVertex_set")]
   public static extern void b2ChainShape_m_hasPrevVertex_set(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ChainShape_m_hasPrevVertex_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ChainShape_m_hasPrevVertex_get")]
   public static extern bool b2ChainShape_m_hasPrevVertex_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ChainShape_m_hasNextVertex_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ChainShape_m_hasNextVertex_set")]
   public static extern void b2ChainShape_m_hasNextVertex_set(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ChainShape_m_hasNextVertex_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ChainShape_m_hasNextVertex_get")]
   public static extern bool b2ChainShape_m_hasNextVertex_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2CircleShape")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2CircleShape")]
   public static extern global::System.IntPtr new_b2CircleShape();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2CircleShape_Clone")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2CircleShape_Clone")]
   public static extern global::System.IntPtr b2CircleShape_Clone(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2CircleShape_GetChildCount")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2CircleShape_GetChildCount")]
   public static extern int b2CircleShape_GetChildCount(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2CircleShape_TestPoint")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2CircleShape_TestPoint")]
   public static extern bool b2CircleShape_TestPoint(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2CircleShape_RayCast")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2CircleShape_RayCast")]
   public static extern bool b2CircleShape_RayCast(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, global::System.Runtime.InteropServices.HandleRef jarg4, int jarg5);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2CircleShape_ComputeAABB")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2CircleShape_ComputeAABB")]
   public static extern void b2CircleShape_ComputeAABB(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, int jarg4);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2CircleShape_ComputeMass")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2CircleShape_ComputeMass")]
   public static extern void b2CircleShape_ComputeMass(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, float jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2CircleShape_m_p_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2CircleShape_m_p_set")]
   public static extern void b2CircleShape_m_p_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2CircleShape_m_p_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2CircleShape_m_p_get")]
   public static extern global::System.IntPtr b2CircleShape_m_p_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2CircleShape")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2CircleShape")]
   public static extern void delete_b2CircleShape(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2EdgeShape")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2EdgeShape")]
   public static extern global::System.IntPtr new_b2EdgeShape();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2EdgeShape_Set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2EdgeShape_Set")]
   public static extern void b2EdgeShape_Set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2EdgeShape_Clone")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2EdgeShape_Clone")]
   public static extern global::System.IntPtr b2EdgeShape_Clone(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2EdgeShape_GetChildCount")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2EdgeShape_GetChildCount")]
   public static extern int b2EdgeShape_GetChildCount(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2EdgeShape_TestPoint")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2EdgeShape_TestPoint")]
   public static extern bool b2EdgeShape_TestPoint(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2EdgeShape_RayCast")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2EdgeShape_RayCast")]
   public static extern bool b2EdgeShape_RayCast(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, global::System.Runtime.InteropServices.HandleRef jarg4, int jarg5);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2EdgeShape_ComputeAABB")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2EdgeShape_ComputeAABB")]
   public static extern void b2EdgeShape_ComputeAABB(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, int jarg4);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2EdgeShape_ComputeMass")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2EdgeShape_ComputeMass")]
   public static extern void b2EdgeShape_ComputeMass(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, float jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2EdgeShape_m_vertex1_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2EdgeShape_m_vertex1_set")]
   public static extern void b2EdgeShape_m_vertex1_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2EdgeShape_m_vertex1_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2EdgeShape_m_vertex1_get")]
   public static extern global::System.IntPtr b2EdgeShape_m_vertex1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2EdgeShape_m_vertex2_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2EdgeShape_m_vertex2_set")]
   public static extern void b2EdgeShape_m_vertex2_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2EdgeShape_m_vertex2_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2EdgeShape_m_vertex2_get")]
   public static extern global::System.IntPtr b2EdgeShape_m_vertex2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2EdgeShape_m_vertex0_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2EdgeShape_m_vertex0_set")]
   public static extern void b2EdgeShape_m_vertex0_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2EdgeShape_m_vertex0_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2EdgeShape_m_vertex0_get")]
   public static extern global::System.IntPtr b2EdgeShape_m_vertex0_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2EdgeShape_m_vertex3_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2EdgeShape_m_vertex3_set")]
   public static extern void b2EdgeShape_m_vertex3_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2EdgeShape_m_vertex3_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2EdgeShape_m_vertex3_get")]
   public static extern global::System.IntPtr b2EdgeShape_m_vertex3_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2EdgeShape_m_hasVertex0_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2EdgeShape_m_hasVertex0_set")]
   public static extern void b2EdgeShape_m_hasVertex0_set(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2EdgeShape_m_hasVertex0_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2EdgeShape_m_hasVertex0_get")]
   public static extern bool b2EdgeShape_m_hasVertex0_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2EdgeShape_m_hasVertex3_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2EdgeShape_m_hasVertex3_set")]
   public static extern void b2EdgeShape_m_hasVertex3_set(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2EdgeShape_m_hasVertex3_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2EdgeShape_m_hasVertex3_get")]
   public static extern bool b2EdgeShape_m_hasVertex3_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2EdgeShape")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2EdgeShape")]
   public static extern void delete_b2EdgeShape(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2PolygonShape")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2PolygonShape")]
   public static extern global::System.IntPtr new_b2PolygonShape();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PolygonShape_Clone")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PolygonShape_Clone")]
   public static extern global::System.IntPtr b2PolygonShape_Clone(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PolygonShape_GetChildCount")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PolygonShape_GetChildCount")]
   public static extern int b2PolygonShape_GetChildCount(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PolygonShape_Set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PolygonShape_Set")]
   public static extern void b2PolygonShape_Set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PolygonShape_SetAsBox__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PolygonShape_SetAsBox__SWIG_0")]
   public static extern void b2PolygonShape_SetAsBox__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2, float jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PolygonShape_SetAsBox__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PolygonShape_SetAsBox__SWIG_1")]
   public static extern void b2PolygonShape_SetAsBox__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2, float jarg3, global::System.Runtime.InteropServices.HandleRef jarg4, float jarg5);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PolygonShape_TestPoint")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PolygonShape_TestPoint")]
   public static extern bool b2PolygonShape_TestPoint(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PolygonShape_RayCast")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PolygonShape_RayCast")]
   public static extern bool b2PolygonShape_RayCast(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, global::System.Runtime.InteropServices.HandleRef jarg4, int jarg5);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PolygonShape_ComputeAABB")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PolygonShape_ComputeAABB")]
   public static extern void b2PolygonShape_ComputeAABB(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, int jarg4);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PolygonShape_ComputeMass")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PolygonShape_ComputeMass")]
   public static extern void b2PolygonShape_ComputeMass(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, float jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PolygonShape_Validate")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PolygonShape_Validate")]
   public static extern bool b2PolygonShape_Validate(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PolygonShape_m_centroid_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PolygonShape_m_centroid_set")]
   public static extern void b2PolygonShape_m_centroid_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PolygonShape_m_centroid_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PolygonShape_m_centroid_get")]
   public static extern global::System.IntPtr b2PolygonShape_m_centroid_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PolygonShape_m_vertices_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PolygonShape_m_vertices_set")]
   public static extern void b2PolygonShape_m_vertices_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PolygonShape_m_vertices_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PolygonShape_m_vertices_get")]
   public static extern global::System.IntPtr b2PolygonShape_m_vertices_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PolygonShape_m_normals_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PolygonShape_m_normals_set")]
   public static extern void b2PolygonShape_m_normals_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PolygonShape_m_normals_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PolygonShape_m_normals_get")]
   public static extern global::System.IntPtr b2PolygonShape_m_normals_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PolygonShape_m_count_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PolygonShape_m_count_set")]
   public static extern void b2PolygonShape_m_count_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PolygonShape_m_count_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PolygonShape_m_count_get")]
   public static extern int b2PolygonShape_m_count_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2PolygonShape")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2PolygonShape")]
   public static extern void delete_b2PolygonShape(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2_nullNode_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2_nullNode_get")]
   public static extern int b2_nullNode_get();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2TreeNode_IsLeaf")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2TreeNode_IsLeaf")]
   public static extern bool b2TreeNode_IsLeaf(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2TreeNode_aabb_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2TreeNode_aabb_set")]
   public static extern void b2TreeNode_aabb_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2TreeNode_aabb_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2TreeNode_aabb_get")]
   public static extern global::System.IntPtr b2TreeNode_aabb_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2TreeNode_userData_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2TreeNode_userData_set")]
   public static extern void b2TreeNode_userData_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2TreeNode_userData_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2TreeNode_userData_get")]
   public static extern global::System.IntPtr b2TreeNode_userData_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2TreeNode_parent_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2TreeNode_parent_set")]
   public static extern void b2TreeNode_parent_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2TreeNode_parent_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2TreeNode_parent_get")]
   public static extern int b2TreeNode_parent_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2TreeNode_next_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2TreeNode_next_set")]
   public static extern void b2TreeNode_next_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2TreeNode_next_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2TreeNode_next_get")]
   public static extern int b2TreeNode_next_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2TreeNode_child1_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2TreeNode_child1_set")]
   public static extern void b2TreeNode_child1_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2TreeNode_child1_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2TreeNode_child1_get")]
   public static extern int b2TreeNode_child1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2TreeNode_child2_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2TreeNode_child2_set")]
   public static extern void b2TreeNode_child2_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2TreeNode_child2_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2TreeNode_child2_get")]
   public static extern int b2TreeNode_child2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2TreeNode_height_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2TreeNode_height_set")]
   public static extern void b2TreeNode_height_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2TreeNode_height_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2TreeNode_height_get")]
   public static extern int b2TreeNode_height_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2TreeNode_moved_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2TreeNode_moved_set")]
   public static extern void b2TreeNode_moved_set(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2TreeNode_moved_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2TreeNode_moved_get")]
   public static extern bool b2TreeNode_moved_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2TreeNode")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2TreeNode")]
   public static extern global::System.IntPtr new_b2TreeNode();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2TreeNode")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2TreeNode")]
   public static extern void delete_b2TreeNode(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2DynamicTree")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2DynamicTree")]
   public static extern global::System.IntPtr new_b2DynamicTree();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2DynamicTree")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2DynamicTree")]
   public static extern void delete_b2DynamicTree(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DynamicTree_CreateProxy")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DynamicTree_CreateProxy")]
   public static extern int b2DynamicTree_CreateProxy(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DynamicTree_DestroyProxy")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DynamicTree_DestroyProxy")]
   public static extern void b2DynamicTree_DestroyProxy(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DynamicTree_MoveProxy")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DynamicTree_MoveProxy")]
   public static extern bool b2DynamicTree_MoveProxy(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, global::System.Runtime.InteropServices.HandleRef jarg4);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DynamicTree_GetUserData")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DynamicTree_GetUserData")]
   public static extern global::System.IntPtr b2DynamicTree_GetUserData(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DynamicTree_WasMoved")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DynamicTree_WasMoved")]
   public static extern bool b2DynamicTree_WasMoved(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DynamicTree_ClearMoved")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DynamicTree_ClearMoved")]
   public static extern void b2DynamicTree_ClearMoved(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DynamicTree_GetFatAABB")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DynamicTree_GetFatAABB")]
   public static extern global::System.IntPtr b2DynamicTree_GetFatAABB(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DynamicTree_Validate")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DynamicTree_Validate")]
   public static extern void b2DynamicTree_Validate(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DynamicTree_GetHeight")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DynamicTree_GetHeight")]
   public static extern int b2DynamicTree_GetHeight(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DynamicTree_GetMaxBalance")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DynamicTree_GetMaxBalance")]
   public static extern int b2DynamicTree_GetMaxBalance(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DynamicTree_GetAreaRatio")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DynamicTree_GetAreaRatio")]
   public static extern float b2DynamicTree_GetAreaRatio(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DynamicTree_RebuildBottomUp")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DynamicTree_RebuildBottomUp")]
   public static extern void b2DynamicTree_RebuildBottomUp(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DynamicTree_ShiftOrigin")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DynamicTree_ShiftOrigin")]
   public static extern void b2DynamicTree_ShiftOrigin(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Pair_proxyIdA_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Pair_proxyIdA_set")]
   public static extern void b2Pair_proxyIdA_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Pair_proxyIdA_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Pair_proxyIdA_get")]
   public static extern int b2Pair_proxyIdA_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Pair_proxyIdB_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Pair_proxyIdB_set")]
   public static extern void b2Pair_proxyIdB_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Pair_proxyIdB_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Pair_proxyIdB_get")]
   public static extern int b2Pair_proxyIdB_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2Pair")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2Pair")]
   public static extern global::System.IntPtr new_b2Pair();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2Pair")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2Pair")]
   public static extern void delete_b2Pair(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BroadPhase_e_nullProxy_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BroadPhase_e_nullProxy_get")]
   public static extern int b2BroadPhase_e_nullProxy_get();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2BroadPhase")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2BroadPhase")]
   public static extern global::System.IntPtr new_b2BroadPhase();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2BroadPhase")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2BroadPhase")]
   public static extern void delete_b2BroadPhase(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BroadPhase_CreateProxy")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BroadPhase_CreateProxy")]
   public static extern int b2BroadPhase_CreateProxy(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BroadPhase_DestroyProxy")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BroadPhase_DestroyProxy")]
   public static extern void b2BroadPhase_DestroyProxy(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BroadPhase_MoveProxy")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BroadPhase_MoveProxy")]
   public static extern void b2BroadPhase_MoveProxy(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, global::System.Runtime.InteropServices.HandleRef jarg4);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BroadPhase_TouchProxy")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BroadPhase_TouchProxy")]
   public static extern void b2BroadPhase_TouchProxy(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BroadPhase_GetFatAABB")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BroadPhase_GetFatAABB")]
   public static extern global::System.IntPtr b2BroadPhase_GetFatAABB(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BroadPhase_GetUserData")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BroadPhase_GetUserData")]
   public static extern global::System.IntPtr b2BroadPhase_GetUserData(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BroadPhase_TestOverlap")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BroadPhase_TestOverlap")]
   public static extern bool b2BroadPhase_TestOverlap(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BroadPhase_GetProxyCount")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BroadPhase_GetProxyCount")]
   public static extern int b2BroadPhase_GetProxyCount(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BroadPhase_GetTreeHeight")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BroadPhase_GetTreeHeight")]
   public static extern int b2BroadPhase_GetTreeHeight(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BroadPhase_GetTreeBalance")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BroadPhase_GetTreeBalance")]
   public static extern int b2BroadPhase_GetTreeBalance(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BroadPhase_GetTreeQuality")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BroadPhase_GetTreeQuality")]
   public static extern float b2BroadPhase_GetTreeQuality(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BroadPhase_ShiftOrigin")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BroadPhase_ShiftOrigin")]
   public static extern void b2BroadPhase_ShiftOrigin(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2BodyDef")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2BodyDef")]
   public static extern global::System.IntPtr new_b2BodyDef();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BodyDef_type_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BodyDef_type_set")]
   public static extern void b2BodyDef_type_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BodyDef_type_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BodyDef_type_get")]
   public static extern int b2BodyDef_type_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BodyDef_position_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BodyDef_position_set")]
   public static extern void b2BodyDef_position_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BodyDef_position_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BodyDef_position_get")]
   public static extern global::System.IntPtr b2BodyDef_position_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BodyDef_angle_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BodyDef_angle_set")]
   public static extern void b2BodyDef_angle_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BodyDef_angle_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BodyDef_angle_get")]
   public static extern float b2BodyDef_angle_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BodyDef_linearVelocity_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BodyDef_linearVelocity_set")]
   public static extern void b2BodyDef_linearVelocity_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BodyDef_linearVelocity_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BodyDef_linearVelocity_get")]
   public static extern global::System.IntPtr b2BodyDef_linearVelocity_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BodyDef_angularVelocity_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BodyDef_angularVelocity_set")]
   public static extern void b2BodyDef_angularVelocity_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BodyDef_angularVelocity_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BodyDef_angularVelocity_get")]
   public static extern float b2BodyDef_angularVelocity_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BodyDef_linearDamping_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BodyDef_linearDamping_set")]
   public static extern void b2BodyDef_linearDamping_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BodyDef_linearDamping_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BodyDef_linearDamping_get")]
   public static extern float b2BodyDef_linearDamping_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BodyDef_angularDamping_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BodyDef_angularDamping_set")]
   public static extern void b2BodyDef_angularDamping_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BodyDef_angularDamping_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BodyDef_angularDamping_get")]
   public static extern float b2BodyDef_angularDamping_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BodyDef_allowSleep_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BodyDef_allowSleep_set")]
   public static extern void b2BodyDef_allowSleep_set(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BodyDef_allowSleep_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BodyDef_allowSleep_get")]
   public static extern bool b2BodyDef_allowSleep_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BodyDef_awake_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BodyDef_awake_set")]
   public static extern void b2BodyDef_awake_set(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BodyDef_awake_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BodyDef_awake_get")]
   public static extern bool b2BodyDef_awake_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BodyDef_fixedRotation_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BodyDef_fixedRotation_set")]
   public static extern void b2BodyDef_fixedRotation_set(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BodyDef_fixedRotation_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BodyDef_fixedRotation_get")]
   public static extern bool b2BodyDef_fixedRotation_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BodyDef_bullet_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BodyDef_bullet_set")]
   public static extern void b2BodyDef_bullet_set(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BodyDef_bullet_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BodyDef_bullet_get")]
   public static extern bool b2BodyDef_bullet_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BodyDef_enabled_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BodyDef_enabled_set")]
   public static extern void b2BodyDef_enabled_set(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BodyDef_enabled_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BodyDef_enabled_get")]
   public static extern bool b2BodyDef_enabled_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BodyDef_userData_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BodyDef_userData_set")]
   public static extern void b2BodyDef_userData_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BodyDef_userData_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BodyDef_userData_get")]
   public static extern global::System.IntPtr b2BodyDef_userData_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BodyDef_gravityScale_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BodyDef_gravityScale_set")]
   public static extern void b2BodyDef_gravityScale_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BodyDef_gravityScale_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BodyDef_gravityScale_get")]
   public static extern float b2BodyDef_gravityScale_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2BodyDef")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2BodyDef")]
   public static extern void delete_b2BodyDef(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_CreateFixture__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_CreateFixture__SWIG_0")]
   public static extern global::System.IntPtr b2Body_CreateFixture__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_CreateFixture__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_CreateFixture__SWIG_1")]
   public static extern global::System.IntPtr b2Body_CreateFixture__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, float jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_DestroyFixture")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_DestroyFixture")]
   public static extern void b2Body_DestroyFixture(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_SetTransform")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_SetTransform")]
   public static extern void b2Body_SetTransform(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, float jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_GetTransform")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_GetTransform")]
   public static extern global::System.IntPtr b2Body_GetTransform(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_GetPosition")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_GetPosition")]
   public static extern global::System.IntPtr b2Body_GetPosition(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_GetAngle")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_GetAngle")]
   public static extern float b2Body_GetAngle(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_GetWorldCenter")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_GetWorldCenter")]
   public static extern global::System.IntPtr b2Body_GetWorldCenter(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_GetLocalCenter")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_GetLocalCenter")]
   public static extern global::System.IntPtr b2Body_GetLocalCenter(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_SetLinearVelocity")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_SetLinearVelocity")]
   public static extern void b2Body_SetLinearVelocity(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_GetLinearVelocity")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_GetLinearVelocity")]
   public static extern global::System.IntPtr b2Body_GetLinearVelocity(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_SetAngularVelocity")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_SetAngularVelocity")]
   public static extern void b2Body_SetAngularVelocity(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_GetAngularVelocity")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_GetAngularVelocity")]
   public static extern float b2Body_GetAngularVelocity(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_ApplyForce")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_ApplyForce")]
   public static extern void b2Body_ApplyForce(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, bool jarg4);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_ApplyForceToCenter")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_ApplyForceToCenter")]
   public static extern void b2Body_ApplyForceToCenter(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, bool jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_ApplyTorque")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_ApplyTorque")]
   public static extern void b2Body_ApplyTorque(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2, bool jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_ApplyLinearImpulse")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_ApplyLinearImpulse")]
   public static extern void b2Body_ApplyLinearImpulse(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, bool jarg4);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_ApplyLinearImpulseToCenter")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_ApplyLinearImpulseToCenter")]
   public static extern void b2Body_ApplyLinearImpulseToCenter(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, bool jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_ApplyAngularImpulse")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_ApplyAngularImpulse")]
   public static extern void b2Body_ApplyAngularImpulse(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2, bool jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_GetMass")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_GetMass")]
   public static extern float b2Body_GetMass(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_GetInertia")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_GetInertia")]
   public static extern float b2Body_GetInertia(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_GetMassData")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_GetMassData")]
   public static extern void b2Body_GetMassData(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_SetMassData")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_SetMassData")]
   public static extern void b2Body_SetMassData(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_ResetMassData")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_ResetMassData")]
   public static extern void b2Body_ResetMassData(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_GetWorldPoint")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_GetWorldPoint")]
   public static extern global::System.IntPtr b2Body_GetWorldPoint(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_GetWorldVector")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_GetWorldVector")]
   public static extern global::System.IntPtr b2Body_GetWorldVector(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_GetLocalPoint")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_GetLocalPoint")]
   public static extern global::System.IntPtr b2Body_GetLocalPoint(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_GetLocalVector")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_GetLocalVector")]
   public static extern global::System.IntPtr b2Body_GetLocalVector(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_GetLinearVelocityFromWorldPoint")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_GetLinearVelocityFromWorldPoint")]
   public static extern global::System.IntPtr b2Body_GetLinearVelocityFromWorldPoint(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_GetLinearVelocityFromLocalPoint")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_GetLinearVelocityFromLocalPoint")]
   public static extern global::System.IntPtr b2Body_GetLinearVelocityFromLocalPoint(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_GetLinearDamping")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_GetLinearDamping")]
   public static extern float b2Body_GetLinearDamping(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_SetLinearDamping")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_SetLinearDamping")]
   public static extern void b2Body_SetLinearDamping(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_GetAngularDamping")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_GetAngularDamping")]
   public static extern float b2Body_GetAngularDamping(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_SetAngularDamping")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_SetAngularDamping")]
   public static extern void b2Body_SetAngularDamping(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_GetGravityScale")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_GetGravityScale")]
   public static extern float b2Body_GetGravityScale(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_SetGravityScale")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_SetGravityScale")]
   public static extern void b2Body_SetGravityScale(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_SetType")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_SetType")]
   public static extern void b2Body_SetType(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_GetType")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_GetType")]
   public static extern int b2Body_GetType(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_SetBullet")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_SetBullet")]
   public static extern void b2Body_SetBullet(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_IsBullet")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_IsBullet")]
   public static extern bool b2Body_IsBullet(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_SetSleepingAllowed")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_SetSleepingAllowed")]
   public static extern void b2Body_SetSleepingAllowed(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_IsSleepingAllowed")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_IsSleepingAllowed")]
   public static extern bool b2Body_IsSleepingAllowed(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_SetAwake")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_SetAwake")]
   public static extern void b2Body_SetAwake(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_IsAwake")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_IsAwake")]
   public static extern bool b2Body_IsAwake(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_SetEnabled")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_SetEnabled")]
   public static extern void b2Body_SetEnabled(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_IsEnabled")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_IsEnabled")]
   public static extern bool b2Body_IsEnabled(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_SetFixedRotation")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_SetFixedRotation")]
   public static extern void b2Body_SetFixedRotation(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_IsFixedRotation")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_IsFixedRotation")]
   public static extern bool b2Body_IsFixedRotation(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_GetFixtureList__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_GetFixtureList__SWIG_0")]
   public static extern global::System.IntPtr b2Body_GetFixtureList__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_GetJointList__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_GetJointList__SWIG_0")]
   public static extern global::System.IntPtr b2Body_GetJointList__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_GetContactList__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_GetContactList__SWIG_0")]
   public static extern global::System.IntPtr b2Body_GetContactList__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_GetNext__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_GetNext__SWIG_0")]
   public static extern global::System.IntPtr b2Body_GetNext__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_GetUserData")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_GetUserData")]
   public static extern global::System.IntPtr b2Body_GetUserData(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_SetUserData")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_SetUserData")]
   public static extern void b2Body_SetUserData(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_GetWorld__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_GetWorld__SWIG_0")]
   public static extern global::System.IntPtr b2Body_GetWorld__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Body_Dump")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Body_Dump")]
   public static extern void b2Body_Dump(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2Filter")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2Filter")]
   public static extern global::System.IntPtr new_b2Filter();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Filter_categoryBits_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Filter_categoryBits_set")]
   public static extern void b2Filter_categoryBits_set(global::System.Runtime.InteropServices.HandleRef jarg1, ushort jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Filter_categoryBits_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Filter_categoryBits_get")]
   public static extern ushort b2Filter_categoryBits_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Filter_maskBits_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Filter_maskBits_set")]
   public static extern void b2Filter_maskBits_set(global::System.Runtime.InteropServices.HandleRef jarg1, ushort jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Filter_maskBits_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Filter_maskBits_get")]
   public static extern ushort b2Filter_maskBits_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Filter_groupIndex_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Filter_groupIndex_set")]
   public static extern void b2Filter_groupIndex_set(global::System.Runtime.InteropServices.HandleRef jarg1, short jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Filter_groupIndex_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Filter_groupIndex_get")]
   public static extern short b2Filter_groupIndex_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2Filter")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2Filter")]
   public static extern void delete_b2Filter(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2FixtureDef")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2FixtureDef")]
   public static extern global::System.IntPtr new_b2FixtureDef();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FixtureDef_shape_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FixtureDef_shape_set")]
   public static extern void b2FixtureDef_shape_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FixtureDef_shape_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FixtureDef_shape_get")]
   public static extern global::System.IntPtr b2FixtureDef_shape_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FixtureDef_userData_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FixtureDef_userData_set")]
   public static extern void b2FixtureDef_userData_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FixtureDef_userData_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FixtureDef_userData_get")]
   public static extern global::System.IntPtr b2FixtureDef_userData_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FixtureDef_friction_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FixtureDef_friction_set")]
   public static extern void b2FixtureDef_friction_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FixtureDef_friction_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FixtureDef_friction_get")]
   public static extern float b2FixtureDef_friction_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FixtureDef_restitution_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FixtureDef_restitution_set")]
   public static extern void b2FixtureDef_restitution_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FixtureDef_restitution_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FixtureDef_restitution_get")]
   public static extern float b2FixtureDef_restitution_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FixtureDef_density_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FixtureDef_density_set")]
   public static extern void b2FixtureDef_density_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FixtureDef_density_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FixtureDef_density_get")]
   public static extern float b2FixtureDef_density_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FixtureDef_isSensor_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FixtureDef_isSensor_set")]
   public static extern void b2FixtureDef_isSensor_set(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FixtureDef_isSensor_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FixtureDef_isSensor_get")]
   public static extern bool b2FixtureDef_isSensor_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FixtureDef_filter_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FixtureDef_filter_set")]
   public static extern void b2FixtureDef_filter_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FixtureDef_filter_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FixtureDef_filter_get")]
   public static extern global::System.IntPtr b2FixtureDef_filter_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2FixtureDef")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2FixtureDef")]
   public static extern void delete_b2FixtureDef(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FixtureProxy_aabb_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FixtureProxy_aabb_set")]
   public static extern void b2FixtureProxy_aabb_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FixtureProxy_aabb_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FixtureProxy_aabb_get")]
   public static extern global::System.IntPtr b2FixtureProxy_aabb_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FixtureProxy_fixture_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FixtureProxy_fixture_set")]
   public static extern void b2FixtureProxy_fixture_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FixtureProxy_fixture_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FixtureProxy_fixture_get")]
   public static extern global::System.IntPtr b2FixtureProxy_fixture_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FixtureProxy_childIndex_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FixtureProxy_childIndex_set")]
   public static extern void b2FixtureProxy_childIndex_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FixtureProxy_childIndex_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FixtureProxy_childIndex_get")]
   public static extern int b2FixtureProxy_childIndex_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FixtureProxy_proxyId_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FixtureProxy_proxyId_set")]
   public static extern void b2FixtureProxy_proxyId_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FixtureProxy_proxyId_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FixtureProxy_proxyId_get")]
   public static extern int b2FixtureProxy_proxyId_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2FixtureProxy")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2FixtureProxy")]
   public static extern global::System.IntPtr new_b2FixtureProxy();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2FixtureProxy")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2FixtureProxy")]
   public static extern void delete_b2FixtureProxy(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Fixture_GetType")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Fixture_GetType")]
   public static extern int b2Fixture_GetType(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Fixture_GetShape__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Fixture_GetShape__SWIG_0")]
   public static extern global::System.IntPtr b2Fixture_GetShape__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Fixture_SetSensor")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Fixture_SetSensor")]
   public static extern void b2Fixture_SetSensor(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Fixture_IsSensor")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Fixture_IsSensor")]
   public static extern bool b2Fixture_IsSensor(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Fixture_SetFilterData")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Fixture_SetFilterData")]
   public static extern void b2Fixture_SetFilterData(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Fixture_GetFilterData")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Fixture_GetFilterData")]
   public static extern global::System.IntPtr b2Fixture_GetFilterData(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Fixture_Refilter")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Fixture_Refilter")]
   public static extern void b2Fixture_Refilter(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Fixture_GetBody__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Fixture_GetBody__SWIG_0")]
   public static extern global::System.IntPtr b2Fixture_GetBody__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Fixture_GetNext__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Fixture_GetNext__SWIG_0")]
   public static extern global::System.IntPtr b2Fixture_GetNext__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Fixture_GetUserData")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Fixture_GetUserData")]
   public static extern global::System.IntPtr b2Fixture_GetUserData(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Fixture_SetUserData")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Fixture_SetUserData")]
   public static extern void b2Fixture_SetUserData(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Fixture_TestPoint")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Fixture_TestPoint")]
   public static extern bool b2Fixture_TestPoint(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Fixture_RayCast")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Fixture_RayCast")]
   public static extern bool b2Fixture_RayCast(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, int jarg4);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Fixture_GetMassData")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Fixture_GetMassData")]
   public static extern void b2Fixture_GetMassData(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Fixture_SetDensity")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Fixture_SetDensity")]
   public static extern void b2Fixture_SetDensity(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Fixture_GetDensity")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Fixture_GetDensity")]
   public static extern float b2Fixture_GetDensity(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Fixture_GetFriction")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Fixture_GetFriction")]
   public static extern float b2Fixture_GetFriction(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Fixture_SetFriction")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Fixture_SetFriction")]
   public static extern void b2Fixture_SetFriction(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Fixture_GetRestitution")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Fixture_GetRestitution")]
   public static extern float b2Fixture_GetRestitution(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Fixture_SetRestitution")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Fixture_SetRestitution")]
   public static extern void b2Fixture_SetRestitution(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Fixture_GetAABB")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Fixture_GetAABB")]
   public static extern global::System.IntPtr b2Fixture_GetAABB(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Fixture_Dump")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Fixture_Dump")]
   public static extern void b2Fixture_Dump(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2Fixture")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2Fixture")]
   public static extern void delete_b2Fixture(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MixFriction")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MixFriction")]
   public static extern float b2MixFriction(float jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MixRestitution")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MixRestitution")]
   public static extern float b2MixRestitution(float jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactRegister_createFcn_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactRegister_createFcn_set")]
   public static extern void b2ContactRegister_createFcn_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactRegister_createFcn_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactRegister_createFcn_get")]
   public static extern global::System.IntPtr b2ContactRegister_createFcn_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactRegister_destroyFcn_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactRegister_destroyFcn_set")]
   public static extern void b2ContactRegister_destroyFcn_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactRegister_destroyFcn_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactRegister_destroyFcn_get")]
   public static extern global::System.IntPtr b2ContactRegister_destroyFcn_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactRegister_primary_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactRegister_primary_set")]
   public static extern void b2ContactRegister_primary_set(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactRegister_primary_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactRegister_primary_get")]
   public static extern bool b2ContactRegister_primary_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2ContactRegister")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2ContactRegister")]
   public static extern global::System.IntPtr new_b2ContactRegister();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2ContactRegister")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2ContactRegister")]
   public static extern void delete_b2ContactRegister(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactEdge_other_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactEdge_other_set")]
   public static extern void b2ContactEdge_other_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactEdge_other_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactEdge_other_get")]
   public static extern global::System.IntPtr b2ContactEdge_other_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactEdge_contact_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactEdge_contact_set")]
   public static extern void b2ContactEdge_contact_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactEdge_contact_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactEdge_contact_get")]
   public static extern global::System.IntPtr b2ContactEdge_contact_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactEdge_prev_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactEdge_prev_set")]
   public static extern void b2ContactEdge_prev_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactEdge_prev_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactEdge_prev_get")]
   public static extern global::System.IntPtr b2ContactEdge_prev_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactEdge_next_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactEdge_next_set")]
   public static extern void b2ContactEdge_next_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactEdge_next_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactEdge_next_get")]
   public static extern global::System.IntPtr b2ContactEdge_next_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2ContactEdge")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2ContactEdge")]
   public static extern global::System.IntPtr new_b2ContactEdge();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2ContactEdge")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2ContactEdge")]
   public static extern void delete_b2ContactEdge(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Contact_GetManifold__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Contact_GetManifold__SWIG_0")]
   public static extern global::System.IntPtr b2Contact_GetManifold__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Contact_GetWorldManifold")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Contact_GetWorldManifold")]
   public static extern void b2Contact_GetWorldManifold(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Contact_IsTouching")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Contact_IsTouching")]
   public static extern bool b2Contact_IsTouching(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Contact_SetEnabled")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Contact_SetEnabled")]
   public static extern void b2Contact_SetEnabled(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Contact_IsEnabled")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Contact_IsEnabled")]
   public static extern bool b2Contact_IsEnabled(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Contact_GetNext__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Contact_GetNext__SWIG_0")]
   public static extern global::System.IntPtr b2Contact_GetNext__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Contact_GetFixtureA__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Contact_GetFixtureA__SWIG_0")]
   public static extern global::System.IntPtr b2Contact_GetFixtureA__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Contact_GetChildIndexA")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Contact_GetChildIndexA")]
   public static extern int b2Contact_GetChildIndexA(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Contact_GetFixtureB__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Contact_GetFixtureB__SWIG_0")]
   public static extern global::System.IntPtr b2Contact_GetFixtureB__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Contact_GetChildIndexB")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Contact_GetChildIndexB")]
   public static extern int b2Contact_GetChildIndexB(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Contact_SetFriction")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Contact_SetFriction")]
   public static extern void b2Contact_SetFriction(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Contact_GetFriction")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Contact_GetFriction")]
   public static extern float b2Contact_GetFriction(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Contact_ResetFriction")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Contact_ResetFriction")]
   public static extern void b2Contact_ResetFriction(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Contact_SetRestitution")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Contact_SetRestitution")]
   public static extern void b2Contact_SetRestitution(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Contact_GetRestitution")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Contact_GetRestitution")]
   public static extern float b2Contact_GetRestitution(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Contact_ResetRestitution")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Contact_ResetRestitution")]
   public static extern void b2Contact_ResetRestitution(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Contact_SetTangentSpeed")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Contact_SetTangentSpeed")]
   public static extern void b2Contact_SetTangentSpeed(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Contact_GetTangentSpeed")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Contact_GetTangentSpeed")]
   public static extern float b2Contact_GetTangentSpeed(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Contact_Evaluate")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Contact_Evaluate")]
   public static extern void b2Contact_Evaluate(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, global::System.Runtime.InteropServices.HandleRef jarg4);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Profile_step_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Profile_step_set")]
   public static extern void b2Profile_step_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Profile_step_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Profile_step_get")]
   public static extern float b2Profile_step_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Profile_collide_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Profile_collide_set")]
   public static extern void b2Profile_collide_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Profile_collide_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Profile_collide_get")]
   public static extern float b2Profile_collide_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Profile_solve_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Profile_solve_set")]
   public static extern void b2Profile_solve_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Profile_solve_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Profile_solve_get")]
   public static extern float b2Profile_solve_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Profile_solveInit_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Profile_solveInit_set")]
   public static extern void b2Profile_solveInit_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Profile_solveInit_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Profile_solveInit_get")]
   public static extern float b2Profile_solveInit_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Profile_solveVelocity_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Profile_solveVelocity_set")]
   public static extern void b2Profile_solveVelocity_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Profile_solveVelocity_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Profile_solveVelocity_get")]
   public static extern float b2Profile_solveVelocity_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Profile_solvePosition_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Profile_solvePosition_set")]
   public static extern void b2Profile_solvePosition_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Profile_solvePosition_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Profile_solvePosition_get")]
   public static extern float b2Profile_solvePosition_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Profile_broadphase_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Profile_broadphase_set")]
   public static extern void b2Profile_broadphase_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Profile_broadphase_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Profile_broadphase_get")]
   public static extern float b2Profile_broadphase_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Profile_solveTOI_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Profile_solveTOI_set")]
   public static extern void b2Profile_solveTOI_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Profile_solveTOI_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Profile_solveTOI_get")]
   public static extern float b2Profile_solveTOI_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2Profile")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2Profile")]
   public static extern global::System.IntPtr new_b2Profile();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2Profile")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2Profile")]
   public static extern void delete_b2Profile(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2TimeStep_dt_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2TimeStep_dt_set")]
   public static extern void b2TimeStep_dt_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2TimeStep_dt_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2TimeStep_dt_get")]
   public static extern float b2TimeStep_dt_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2TimeStep_inv_dt_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2TimeStep_inv_dt_set")]
   public static extern void b2TimeStep_inv_dt_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2TimeStep_inv_dt_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2TimeStep_inv_dt_get")]
   public static extern float b2TimeStep_inv_dt_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2TimeStep_dtRatio_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2TimeStep_dtRatio_set")]
   public static extern void b2TimeStep_dtRatio_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2TimeStep_dtRatio_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2TimeStep_dtRatio_get")]
   public static extern float b2TimeStep_dtRatio_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2TimeStep_velocityIterations_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2TimeStep_velocityIterations_set")]
   public static extern void b2TimeStep_velocityIterations_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2TimeStep_velocityIterations_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2TimeStep_velocityIterations_get")]
   public static extern int b2TimeStep_velocityIterations_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2TimeStep_positionIterations_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2TimeStep_positionIterations_set")]
   public static extern void b2TimeStep_positionIterations_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2TimeStep_positionIterations_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2TimeStep_positionIterations_get")]
   public static extern int b2TimeStep_positionIterations_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2TimeStep_warmStarting_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2TimeStep_warmStarting_set")]
   public static extern void b2TimeStep_warmStarting_set(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2TimeStep_warmStarting_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2TimeStep_warmStarting_get")]
   public static extern bool b2TimeStep_warmStarting_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2TimeStep")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2TimeStep")]
   public static extern global::System.IntPtr new_b2TimeStep();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2TimeStep")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2TimeStep")]
   public static extern void delete_b2TimeStep(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Position_c_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Position_c_set")]
   public static extern void b2Position_c_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Position_c_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Position_c_get")]
   public static extern global::System.IntPtr b2Position_c_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Position_a_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Position_a_set")]
   public static extern void b2Position_a_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Position_a_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Position_a_get")]
   public static extern float b2Position_a_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2Position")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2Position")]
   public static extern global::System.IntPtr new_b2Position();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2Position")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2Position")]
   public static extern void delete_b2Position(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Velocity_v_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Velocity_v_set")]
   public static extern void b2Velocity_v_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Velocity_v_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Velocity_v_get")]
   public static extern global::System.IntPtr b2Velocity_v_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Velocity_w_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Velocity_w_set")]
   public static extern void b2Velocity_w_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Velocity_w_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Velocity_w_get")]
   public static extern float b2Velocity_w_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2Velocity")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2Velocity")]
   public static extern global::System.IntPtr new_b2Velocity();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2Velocity")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2Velocity")]
   public static extern void delete_b2Velocity(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2SolverData_step_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2SolverData_step_set")]
   public static extern void b2SolverData_step_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2SolverData_step_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2SolverData_step_get")]
   public static extern global::System.IntPtr b2SolverData_step_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2SolverData_positions_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2SolverData_positions_set")]
   public static extern void b2SolverData_positions_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2SolverData_positions_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2SolverData_positions_get")]
   public static extern global::System.IntPtr b2SolverData_positions_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2SolverData_velocities_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2SolverData_velocities_set")]
   public static extern void b2SolverData_velocities_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2SolverData_velocities_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2SolverData_velocities_get")]
   public static extern global::System.IntPtr b2SolverData_velocities_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2SolverData")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2SolverData")]
   public static extern global::System.IntPtr new_b2SolverData();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2SolverData")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2SolverData")]
   public static extern void delete_b2SolverData(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2_blockSizeCount_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2_blockSizeCount_get")]
   public static extern int b2_blockSizeCount_get();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2BlockAllocator")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2BlockAllocator")]
   public static extern global::System.IntPtr new_b2BlockAllocator();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2BlockAllocator")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2BlockAllocator")]
   public static extern void delete_b2BlockAllocator(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BlockAllocator_Allocate")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BlockAllocator_Allocate")]
   public static extern global::System.IntPtr b2BlockAllocator_Allocate(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BlockAllocator_Free")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BlockAllocator_Free")]
   public static extern void b2BlockAllocator_Free(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2BlockAllocator_Clear")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2BlockAllocator_Clear")]
   public static extern void b2BlockAllocator_Clear(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2ContactManager")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2ContactManager")]
   public static extern global::System.IntPtr new_b2ContactManager();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactManager_AddPair")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactManager_AddPair")]
   public static extern void b2ContactManager_AddPair(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactManager_FindNewContacts")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactManager_FindNewContacts")]
   public static extern void b2ContactManager_FindNewContacts(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactManager_Destroy")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactManager_Destroy")]
   public static extern void b2ContactManager_Destroy(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactManager_Collide")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactManager_Collide")]
   public static extern void b2ContactManager_Collide(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactManager_m_broadPhase_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactManager_m_broadPhase_set")]
   public static extern void b2ContactManager_m_broadPhase_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactManager_m_broadPhase_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactManager_m_broadPhase_get")]
   public static extern global::System.IntPtr b2ContactManager_m_broadPhase_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactManager_m_contactList_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactManager_m_contactList_set")]
   public static extern void b2ContactManager_m_contactList_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactManager_m_contactList_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactManager_m_contactList_get")]
   public static extern global::System.IntPtr b2ContactManager_m_contactList_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactManager_m_contactCount_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactManager_m_contactCount_set")]
   public static extern void b2ContactManager_m_contactCount_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactManager_m_contactCount_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactManager_m_contactCount_get")]
   public static extern int b2ContactManager_m_contactCount_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactManager_m_contactFilter_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactManager_m_contactFilter_set")]
   public static extern void b2ContactManager_m_contactFilter_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactManager_m_contactFilter_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactManager_m_contactFilter_get")]
   public static extern global::System.IntPtr b2ContactManager_m_contactFilter_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactManager_m_contactListener_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactManager_m_contactListener_set")]
   public static extern void b2ContactManager_m_contactListener_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactManager_m_contactListener_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactManager_m_contactListener_get")]
   public static extern global::System.IntPtr b2ContactManager_m_contactListener_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactManager_m_allocator_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactManager_m_allocator_set")]
   public static extern void b2ContactManager_m_allocator_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactManager_m_allocator_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactManager_m_allocator_get")]
   public static extern global::System.IntPtr b2ContactManager_m_allocator_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2ContactManager")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2ContactManager")]
   public static extern void delete_b2ContactManager(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2_stackSize_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2_stackSize_get")]
   public static extern int b2_stackSize_get();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2_maxStackEntries_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2_maxStackEntries_get")]
   public static extern int b2_maxStackEntries_get();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2StackEntry_data_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2StackEntry_data_set")]
   public static extern void b2StackEntry_data_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2StackEntry_data_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2StackEntry_data_get")]
   public static extern string b2StackEntry_data_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2StackEntry_size_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2StackEntry_size_set")]
   public static extern void b2StackEntry_size_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2StackEntry_size_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2StackEntry_size_get")]
   public static extern int b2StackEntry_size_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2StackEntry_usedMalloc_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2StackEntry_usedMalloc_set")]
   public static extern void b2StackEntry_usedMalloc_set(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2StackEntry_usedMalloc_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2StackEntry_usedMalloc_get")]
   public static extern bool b2StackEntry_usedMalloc_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2StackEntry")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2StackEntry")]
   public static extern global::System.IntPtr new_b2StackEntry();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2StackEntry")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2StackEntry")]
   public static extern void delete_b2StackEntry(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2StackAllocator")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2StackAllocator")]
   public static extern global::System.IntPtr new_b2StackAllocator();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2StackAllocator")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2StackAllocator")]
   public static extern void delete_b2StackAllocator(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2StackAllocator_Allocate")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2StackAllocator_Allocate")]
   public static extern global::System.IntPtr b2StackAllocator_Allocate(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2StackAllocator_Free")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2StackAllocator_Free")]
   public static extern void b2StackAllocator_Free(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2StackAllocator_GetMaxAllocation")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2StackAllocator_GetMaxAllocation")]
   public static extern int b2StackAllocator_GetMaxAllocation(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2DestructionListener")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2DestructionListener")]
   public static extern void delete_b2DestructionListener(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DestructionListener_SayGoodbye__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DestructionListener_SayGoodbye__SWIG_0")]
   public static extern void b2DestructionListener_SayGoodbye__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DestructionListener_SayGoodbye__SWIG_1")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DestructionListener_SayGoodbye__SWIG_1")]
   public static extern void b2DestructionListener_SayGoodbye__SWIG_1(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2ContactFilter")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2ContactFilter")]
   public static extern void delete_b2ContactFilter(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactFilter_ShouldCollide")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactFilter_ShouldCollide")]
   public static extern bool b2ContactFilter_ShouldCollide(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2ContactFilter")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2ContactFilter")]
   public static extern global::System.IntPtr new_b2ContactFilter();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactImpulse_normalImpulses_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactImpulse_normalImpulses_set")]
   public static extern void b2ContactImpulse_normalImpulses_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactImpulse_normalImpulses_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactImpulse_normalImpulses_get")]
   public static extern global::System.IntPtr b2ContactImpulse_normalImpulses_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactImpulse_tangentImpulses_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactImpulse_tangentImpulses_set")]
   public static extern void b2ContactImpulse_tangentImpulses_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactImpulse_tangentImpulses_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactImpulse_tangentImpulses_get")]
   public static extern global::System.IntPtr b2ContactImpulse_tangentImpulses_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactImpulse_count_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactImpulse_count_set")]
   public static extern void b2ContactImpulse_count_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactImpulse_count_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactImpulse_count_get")]
   public static extern int b2ContactImpulse_count_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2ContactImpulse")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2ContactImpulse")]
   public static extern global::System.IntPtr new_b2ContactImpulse();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2ContactImpulse")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2ContactImpulse")]
   public static extern void delete_b2ContactImpulse(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2ContactListener")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2ContactListener")]
   public static extern void delete_b2ContactListener(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactListener_BeginContact")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactListener_BeginContact")]
   public static extern void b2ContactListener_BeginContact(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactListener_EndContact")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactListener_EndContact")]
   public static extern void b2ContactListener_EndContact(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactListener_PreSolve")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactListener_PreSolve")]
   public static extern void b2ContactListener_PreSolve(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ContactListener_PostSolve")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ContactListener_PostSolve")]
   public static extern void b2ContactListener_PostSolve(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2ContactListener")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2ContactListener")]
   public static extern global::System.IntPtr new_b2ContactListener();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2QueryCallback")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2QueryCallback")]
   public static extern void delete_b2QueryCallback(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2QueryCallback_ReportFixture")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2QueryCallback_ReportFixture")]
   public static extern bool b2QueryCallback_ReportFixture(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2RayCastCallback")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2RayCastCallback")]
   public static extern void delete_b2RayCastCallback(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RayCastCallback_ReportFixture")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RayCastCallback_ReportFixture")]
   public static extern float b2RayCastCallback_ReportFixture(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, global::System.Runtime.InteropServices.HandleRef jarg4, float jarg5);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2World")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2World")]
   public static extern global::System.IntPtr new_b2World(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2World")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2World")]
   public static extern void delete_b2World(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_SetDestructionListener")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_SetDestructionListener")]
   public static extern void b2World_SetDestructionListener(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_SetContactFilter")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_SetContactFilter")]
   public static extern void b2World_SetContactFilter(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_SetContactListener")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_SetContactListener")]
   public static extern void b2World_SetContactListener(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_SetDebugDraw")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_SetDebugDraw")]
   public static extern void b2World_SetDebugDraw(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_CreateBody")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_CreateBody")]
   public static extern global::System.IntPtr b2World_CreateBody(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_DestroyBody")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_DestroyBody")]
   public static extern void b2World_DestroyBody(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_CreateJoint")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_CreateJoint")]
   public static extern global::System.IntPtr b2World_CreateJoint(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_DestroyJoint")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_DestroyJoint")]
   public static extern void b2World_DestroyJoint(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_Step")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_Step")]
   public static extern void b2World_Step(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2, int jarg3, int jarg4);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_ClearForces")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_ClearForces")]
   public static extern void b2World_ClearForces(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_DebugDraw")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_DebugDraw")]
   public static extern void b2World_DebugDraw(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_QueryAABB")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_QueryAABB")]
   public static extern void b2World_QueryAABB(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_RayCast")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_RayCast")]
   public static extern void b2World_RayCast(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, global::System.Runtime.InteropServices.HandleRef jarg4);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_GetBodyList__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_GetBodyList__SWIG_0")]
   public static extern global::System.IntPtr b2World_GetBodyList__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_GetJointList__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_GetJointList__SWIG_0")]
   public static extern global::System.IntPtr b2World_GetJointList__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_GetContactList__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_GetContactList__SWIG_0")]
   public static extern global::System.IntPtr b2World_GetContactList__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_SetAllowSleeping")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_SetAllowSleeping")]
   public static extern void b2World_SetAllowSleeping(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_GetAllowSleeping")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_GetAllowSleeping")]
   public static extern bool b2World_GetAllowSleeping(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_SetWarmStarting")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_SetWarmStarting")]
   public static extern void b2World_SetWarmStarting(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_GetWarmStarting")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_GetWarmStarting")]
   public static extern bool b2World_GetWarmStarting(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_SetContinuousPhysics")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_SetContinuousPhysics")]
   public static extern void b2World_SetContinuousPhysics(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_GetContinuousPhysics")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_GetContinuousPhysics")]
   public static extern bool b2World_GetContinuousPhysics(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_SetSubStepping")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_SetSubStepping")]
   public static extern void b2World_SetSubStepping(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_GetSubStepping")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_GetSubStepping")]
   public static extern bool b2World_GetSubStepping(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_GetProxyCount")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_GetProxyCount")]
   public static extern int b2World_GetProxyCount(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_GetBodyCount")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_GetBodyCount")]
   public static extern int b2World_GetBodyCount(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_GetJointCount")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_GetJointCount")]
   public static extern int b2World_GetJointCount(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_GetContactCount")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_GetContactCount")]
   public static extern int b2World_GetContactCount(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_GetTreeHeight")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_GetTreeHeight")]
   public static extern int b2World_GetTreeHeight(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_GetTreeBalance")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_GetTreeBalance")]
   public static extern int b2World_GetTreeBalance(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_GetTreeQuality")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_GetTreeQuality")]
   public static extern float b2World_GetTreeQuality(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_SetGravity")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_SetGravity")]
   public static extern void b2World_SetGravity(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_GetGravity")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_GetGravity")]
   public static extern global::System.IntPtr b2World_GetGravity(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_IsLocked")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_IsLocked")]
   public static extern bool b2World_IsLocked(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_SetAutoClearForces")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_SetAutoClearForces")]
   public static extern void b2World_SetAutoClearForces(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_GetAutoClearForces")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_GetAutoClearForces")]
   public static extern bool b2World_GetAutoClearForces(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_ShiftOrigin")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_ShiftOrigin")]
   public static extern void b2World_ShiftOrigin(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_GetContactManager")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_GetContactManager")]
   public static extern global::System.IntPtr b2World_GetContactManager(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_GetProfile")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_GetProfile")]
   public static extern global::System.IntPtr b2World_GetProfile(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2World_Dump")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2World_Dump")]
   public static extern void b2World_Dump(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Jacobian_linear_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Jacobian_linear_set")]
   public static extern void b2Jacobian_linear_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Jacobian_linear_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Jacobian_linear_get")]
   public static extern global::System.IntPtr b2Jacobian_linear_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Jacobian_angularA_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Jacobian_angularA_set")]
   public static extern void b2Jacobian_angularA_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Jacobian_angularA_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Jacobian_angularA_get")]
   public static extern float b2Jacobian_angularA_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Jacobian_angularB_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Jacobian_angularB_set")]
   public static extern void b2Jacobian_angularB_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Jacobian_angularB_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Jacobian_angularB_get")]
   public static extern float b2Jacobian_angularB_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2Jacobian")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2Jacobian")]
   public static extern global::System.IntPtr new_b2Jacobian();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2Jacobian")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2Jacobian")]
   public static extern void delete_b2Jacobian(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2JointEdge_other_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2JointEdge_other_set")]
   public static extern void b2JointEdge_other_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2JointEdge_other_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2JointEdge_other_get")]
   public static extern global::System.IntPtr b2JointEdge_other_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2JointEdge_joint_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2JointEdge_joint_set")]
   public static extern void b2JointEdge_joint_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2JointEdge_joint_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2JointEdge_joint_get")]
   public static extern global::System.IntPtr b2JointEdge_joint_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2JointEdge_prev_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2JointEdge_prev_set")]
   public static extern void b2JointEdge_prev_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2JointEdge_prev_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2JointEdge_prev_get")]
   public static extern global::System.IntPtr b2JointEdge_prev_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2JointEdge_next_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2JointEdge_next_set")]
   public static extern void b2JointEdge_next_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2JointEdge_next_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2JointEdge_next_get")]
   public static extern global::System.IntPtr b2JointEdge_next_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2JointEdge")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2JointEdge")]
   public static extern global::System.IntPtr new_b2JointEdge();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2JointEdge")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2JointEdge")]
   public static extern void delete_b2JointEdge(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2JointDef")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2JointDef")]
   public static extern global::System.IntPtr new_b2JointDef();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2JointDef_type_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2JointDef_type_set")]
   public static extern void b2JointDef_type_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2JointDef_type_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2JointDef_type_get")]
   public static extern int b2JointDef_type_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2JointDef_userData_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2JointDef_userData_set")]
   public static extern void b2JointDef_userData_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2JointDef_userData_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2JointDef_userData_get")]
   public static extern global::System.IntPtr b2JointDef_userData_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2JointDef_bodyA_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2JointDef_bodyA_set")]
   public static extern void b2JointDef_bodyA_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2JointDef_bodyA_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2JointDef_bodyA_get")]
   public static extern global::System.IntPtr b2JointDef_bodyA_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2JointDef_bodyB_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2JointDef_bodyB_set")]
   public static extern void b2JointDef_bodyB_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2JointDef_bodyB_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2JointDef_bodyB_get")]
   public static extern global::System.IntPtr b2JointDef_bodyB_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2JointDef_collideConnected_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2JointDef_collideConnected_set")]
   public static extern void b2JointDef_collideConnected_set(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2JointDef_collideConnected_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2JointDef_collideConnected_get")]
   public static extern bool b2JointDef_collideConnected_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2JointDef")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2JointDef")]
   public static extern void delete_b2JointDef(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Joint_GetType")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Joint_GetType")]
   public static extern int b2Joint_GetType(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Joint_GetBodyA")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Joint_GetBodyA")]
   public static extern global::System.IntPtr b2Joint_GetBodyA(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Joint_GetBodyB")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Joint_GetBodyB")]
   public static extern global::System.IntPtr b2Joint_GetBodyB(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Joint_GetAnchorA")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Joint_GetAnchorA")]
   public static extern global::System.IntPtr b2Joint_GetAnchorA(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Joint_GetAnchorB")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Joint_GetAnchorB")]
   public static extern global::System.IntPtr b2Joint_GetAnchorB(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Joint_GetReactionForce")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Joint_GetReactionForce")]
   public static extern global::System.IntPtr b2Joint_GetReactionForce(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Joint_GetReactionTorque")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Joint_GetReactionTorque")]
   public static extern float b2Joint_GetReactionTorque(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Joint_GetNext__SWIG_0")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Joint_GetNext__SWIG_0")]
   public static extern global::System.IntPtr b2Joint_GetNext__SWIG_0(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Joint_GetUserData")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Joint_GetUserData")]
   public static extern global::System.IntPtr b2Joint_GetUserData(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Joint_SetUserData")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Joint_SetUserData")]
   public static extern void b2Joint_SetUserData(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Joint_IsEnabled")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Joint_IsEnabled")]
   public static extern bool b2Joint_IsEnabled(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Joint_GetCollideConnected")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Joint_GetCollideConnected")]
   public static extern bool b2Joint_GetCollideConnected(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Joint_Dump")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Joint_Dump")]
   public static extern void b2Joint_Dump(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Joint_ShiftOrigin")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Joint_ShiftOrigin")]
   public static extern void b2Joint_ShiftOrigin(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2Joint_Draw")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2Joint_Draw")]
   public static extern void b2Joint_Draw(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2DistanceJointDef")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2DistanceJointDef")]
   public static extern global::System.IntPtr new_b2DistanceJointDef();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DistanceJointDef_Initialize")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DistanceJointDef_Initialize")]
   public static extern void b2DistanceJointDef_Initialize(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, global::System.Runtime.InteropServices.HandleRef jarg4, global::System.Runtime.InteropServices.HandleRef jarg5);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DistanceJointDef_localAnchorA_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DistanceJointDef_localAnchorA_set")]
   public static extern void b2DistanceJointDef_localAnchorA_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DistanceJointDef_localAnchorA_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DistanceJointDef_localAnchorA_get")]
   public static extern global::System.IntPtr b2DistanceJointDef_localAnchorA_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DistanceJointDef_localAnchorB_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DistanceJointDef_localAnchorB_set")]
   public static extern void b2DistanceJointDef_localAnchorB_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DistanceJointDef_localAnchorB_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DistanceJointDef_localAnchorB_get")]
   public static extern global::System.IntPtr b2DistanceJointDef_localAnchorB_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DistanceJointDef_length_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DistanceJointDef_length_set")]
   public static extern void b2DistanceJointDef_length_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DistanceJointDef_length_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DistanceJointDef_length_get")]
   public static extern float b2DistanceJointDef_length_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DistanceJointDef_frequencyHz_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DistanceJointDef_frequencyHz_set")]
   public static extern void b2DistanceJointDef_frequencyHz_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DistanceJointDef_frequencyHz_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DistanceJointDef_frequencyHz_get")]
   public static extern float b2DistanceJointDef_frequencyHz_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DistanceJointDef_dampingRatio_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DistanceJointDef_dampingRatio_set")]
   public static extern void b2DistanceJointDef_dampingRatio_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DistanceJointDef_dampingRatio_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DistanceJointDef_dampingRatio_get")]
   public static extern float b2DistanceJointDef_dampingRatio_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2DistanceJointDef")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2DistanceJointDef")]
   public static extern void delete_b2DistanceJointDef(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DistanceJoint_GetAnchorA")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DistanceJoint_GetAnchorA")]
   public static extern global::System.IntPtr b2DistanceJoint_GetAnchorA(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DistanceJoint_GetAnchorB")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DistanceJoint_GetAnchorB")]
   public static extern global::System.IntPtr b2DistanceJoint_GetAnchorB(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DistanceJoint_GetReactionForce")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DistanceJoint_GetReactionForce")]
   public static extern global::System.IntPtr b2DistanceJoint_GetReactionForce(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DistanceJoint_GetReactionTorque")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DistanceJoint_GetReactionTorque")]
   public static extern float b2DistanceJoint_GetReactionTorque(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DistanceJoint_GetLocalAnchorA")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DistanceJoint_GetLocalAnchorA")]
   public static extern global::System.IntPtr b2DistanceJoint_GetLocalAnchorA(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DistanceJoint_GetLocalAnchorB")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DistanceJoint_GetLocalAnchorB")]
   public static extern global::System.IntPtr b2DistanceJoint_GetLocalAnchorB(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DistanceJoint_SetLength")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DistanceJoint_SetLength")]
   public static extern void b2DistanceJoint_SetLength(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DistanceJoint_GetLength")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DistanceJoint_GetLength")]
   public static extern float b2DistanceJoint_GetLength(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DistanceJoint_SetFrequency")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DistanceJoint_SetFrequency")]
   public static extern void b2DistanceJoint_SetFrequency(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DistanceJoint_GetFrequency")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DistanceJoint_GetFrequency")]
   public static extern float b2DistanceJoint_GetFrequency(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DistanceJoint_SetDampingRatio")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DistanceJoint_SetDampingRatio")]
   public static extern void b2DistanceJoint_SetDampingRatio(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DistanceJoint_GetDampingRatio")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DistanceJoint_GetDampingRatio")]
   public static extern float b2DistanceJoint_GetDampingRatio(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DistanceJoint_Dump")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DistanceJoint_Dump")]
   public static extern void b2DistanceJoint_Dump(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2DistanceJoint")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2DistanceJoint")]
   public static extern void delete_b2DistanceJoint(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2FrictionJointDef")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2FrictionJointDef")]
   public static extern global::System.IntPtr new_b2FrictionJointDef();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FrictionJointDef_Initialize")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FrictionJointDef_Initialize")]
   public static extern void b2FrictionJointDef_Initialize(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, global::System.Runtime.InteropServices.HandleRef jarg4);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FrictionJointDef_localAnchorA_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FrictionJointDef_localAnchorA_set")]
   public static extern void b2FrictionJointDef_localAnchorA_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FrictionJointDef_localAnchorA_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FrictionJointDef_localAnchorA_get")]
   public static extern global::System.IntPtr b2FrictionJointDef_localAnchorA_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FrictionJointDef_localAnchorB_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FrictionJointDef_localAnchorB_set")]
   public static extern void b2FrictionJointDef_localAnchorB_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FrictionJointDef_localAnchorB_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FrictionJointDef_localAnchorB_get")]
   public static extern global::System.IntPtr b2FrictionJointDef_localAnchorB_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FrictionJointDef_maxForce_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FrictionJointDef_maxForce_set")]
   public static extern void b2FrictionJointDef_maxForce_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FrictionJointDef_maxForce_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FrictionJointDef_maxForce_get")]
   public static extern float b2FrictionJointDef_maxForce_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FrictionJointDef_maxTorque_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FrictionJointDef_maxTorque_set")]
   public static extern void b2FrictionJointDef_maxTorque_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FrictionJointDef_maxTorque_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FrictionJointDef_maxTorque_get")]
   public static extern float b2FrictionJointDef_maxTorque_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2FrictionJointDef")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2FrictionJointDef")]
   public static extern void delete_b2FrictionJointDef(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FrictionJoint_GetAnchorA")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FrictionJoint_GetAnchorA")]
   public static extern global::System.IntPtr b2FrictionJoint_GetAnchorA(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FrictionJoint_GetAnchorB")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FrictionJoint_GetAnchorB")]
   public static extern global::System.IntPtr b2FrictionJoint_GetAnchorB(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FrictionJoint_GetReactionForce")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FrictionJoint_GetReactionForce")]
   public static extern global::System.IntPtr b2FrictionJoint_GetReactionForce(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FrictionJoint_GetReactionTorque")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FrictionJoint_GetReactionTorque")]
   public static extern float b2FrictionJoint_GetReactionTorque(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FrictionJoint_GetLocalAnchorA")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FrictionJoint_GetLocalAnchorA")]
   public static extern global::System.IntPtr b2FrictionJoint_GetLocalAnchorA(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FrictionJoint_GetLocalAnchorB")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FrictionJoint_GetLocalAnchorB")]
   public static extern global::System.IntPtr b2FrictionJoint_GetLocalAnchorB(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FrictionJoint_SetMaxForce")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FrictionJoint_SetMaxForce")]
   public static extern void b2FrictionJoint_SetMaxForce(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FrictionJoint_GetMaxForce")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FrictionJoint_GetMaxForce")]
   public static extern float b2FrictionJoint_GetMaxForce(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FrictionJoint_SetMaxTorque")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FrictionJoint_SetMaxTorque")]
   public static extern void b2FrictionJoint_SetMaxTorque(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FrictionJoint_GetMaxTorque")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FrictionJoint_GetMaxTorque")]
   public static extern float b2FrictionJoint_GetMaxTorque(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FrictionJoint_Dump")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FrictionJoint_Dump")]
   public static extern void b2FrictionJoint_Dump(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2FrictionJoint")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2FrictionJoint")]
   public static extern void delete_b2FrictionJoint(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2GearJointDef")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2GearJointDef")]
   public static extern global::System.IntPtr new_b2GearJointDef();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2GearJointDef_joint1_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2GearJointDef_joint1_set")]
   public static extern void b2GearJointDef_joint1_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2GearJointDef_joint1_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2GearJointDef_joint1_get")]
   public static extern global::System.IntPtr b2GearJointDef_joint1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2GearJointDef_joint2_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2GearJointDef_joint2_set")]
   public static extern void b2GearJointDef_joint2_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2GearJointDef_joint2_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2GearJointDef_joint2_get")]
   public static extern global::System.IntPtr b2GearJointDef_joint2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2GearJointDef_ratio_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2GearJointDef_ratio_set")]
   public static extern void b2GearJointDef_ratio_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2GearJointDef_ratio_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2GearJointDef_ratio_get")]
   public static extern float b2GearJointDef_ratio_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2GearJointDef")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2GearJointDef")]
   public static extern void delete_b2GearJointDef(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2GearJoint_GetAnchorA")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2GearJoint_GetAnchorA")]
   public static extern global::System.IntPtr b2GearJoint_GetAnchorA(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2GearJoint_GetAnchorB")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2GearJoint_GetAnchorB")]
   public static extern global::System.IntPtr b2GearJoint_GetAnchorB(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2GearJoint_GetReactionForce")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2GearJoint_GetReactionForce")]
   public static extern global::System.IntPtr b2GearJoint_GetReactionForce(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2GearJoint_GetReactionTorque")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2GearJoint_GetReactionTorque")]
   public static extern float b2GearJoint_GetReactionTorque(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2GearJoint_GetJoint1")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2GearJoint_GetJoint1")]
   public static extern global::System.IntPtr b2GearJoint_GetJoint1(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2GearJoint_GetJoint2")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2GearJoint_GetJoint2")]
   public static extern global::System.IntPtr b2GearJoint_GetJoint2(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2GearJoint_SetRatio")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2GearJoint_SetRatio")]
   public static extern void b2GearJoint_SetRatio(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2GearJoint_GetRatio")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2GearJoint_GetRatio")]
   public static extern float b2GearJoint_GetRatio(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2GearJoint_Dump")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2GearJoint_Dump")]
   public static extern void b2GearJoint_Dump(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2GearJoint")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2GearJoint")]
   public static extern void delete_b2GearJoint(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2MotorJointDef")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2MotorJointDef")]
   public static extern global::System.IntPtr new_b2MotorJointDef();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MotorJointDef_Initialize")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MotorJointDef_Initialize")]
   public static extern void b2MotorJointDef_Initialize(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MotorJointDef_linearOffset_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MotorJointDef_linearOffset_set")]
   public static extern void b2MotorJointDef_linearOffset_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MotorJointDef_linearOffset_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MotorJointDef_linearOffset_get")]
   public static extern global::System.IntPtr b2MotorJointDef_linearOffset_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MotorJointDef_angularOffset_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MotorJointDef_angularOffset_set")]
   public static extern void b2MotorJointDef_angularOffset_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MotorJointDef_angularOffset_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MotorJointDef_angularOffset_get")]
   public static extern float b2MotorJointDef_angularOffset_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MotorJointDef_maxForce_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MotorJointDef_maxForce_set")]
   public static extern void b2MotorJointDef_maxForce_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MotorJointDef_maxForce_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MotorJointDef_maxForce_get")]
   public static extern float b2MotorJointDef_maxForce_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MotorJointDef_maxTorque_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MotorJointDef_maxTorque_set")]
   public static extern void b2MotorJointDef_maxTorque_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MotorJointDef_maxTorque_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MotorJointDef_maxTorque_get")]
   public static extern float b2MotorJointDef_maxTorque_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MotorJointDef_correctionFactor_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MotorJointDef_correctionFactor_set")]
   public static extern void b2MotorJointDef_correctionFactor_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MotorJointDef_correctionFactor_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MotorJointDef_correctionFactor_get")]
   public static extern float b2MotorJointDef_correctionFactor_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2MotorJointDef")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2MotorJointDef")]
   public static extern void delete_b2MotorJointDef(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MotorJoint_GetAnchorA")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MotorJoint_GetAnchorA")]
   public static extern global::System.IntPtr b2MotorJoint_GetAnchorA(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MotorJoint_GetAnchorB")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MotorJoint_GetAnchorB")]
   public static extern global::System.IntPtr b2MotorJoint_GetAnchorB(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MotorJoint_GetReactionForce")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MotorJoint_GetReactionForce")]
   public static extern global::System.IntPtr b2MotorJoint_GetReactionForce(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MotorJoint_GetReactionTorque")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MotorJoint_GetReactionTorque")]
   public static extern float b2MotorJoint_GetReactionTorque(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MotorJoint_SetLinearOffset")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MotorJoint_SetLinearOffset")]
   public static extern void b2MotorJoint_SetLinearOffset(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MotorJoint_GetLinearOffset")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MotorJoint_GetLinearOffset")]
   public static extern global::System.IntPtr b2MotorJoint_GetLinearOffset(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MotorJoint_SetAngularOffset")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MotorJoint_SetAngularOffset")]
   public static extern void b2MotorJoint_SetAngularOffset(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MotorJoint_GetAngularOffset")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MotorJoint_GetAngularOffset")]
   public static extern float b2MotorJoint_GetAngularOffset(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MotorJoint_SetMaxForce")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MotorJoint_SetMaxForce")]
   public static extern void b2MotorJoint_SetMaxForce(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MotorJoint_GetMaxForce")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MotorJoint_GetMaxForce")]
   public static extern float b2MotorJoint_GetMaxForce(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MotorJoint_SetMaxTorque")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MotorJoint_SetMaxTorque")]
   public static extern void b2MotorJoint_SetMaxTorque(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MotorJoint_GetMaxTorque")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MotorJoint_GetMaxTorque")]
   public static extern float b2MotorJoint_GetMaxTorque(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MotorJoint_SetCorrectionFactor")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MotorJoint_SetCorrectionFactor")]
   public static extern void b2MotorJoint_SetCorrectionFactor(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MotorJoint_GetCorrectionFactor")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MotorJoint_GetCorrectionFactor")]
   public static extern float b2MotorJoint_GetCorrectionFactor(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MotorJoint_Dump")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MotorJoint_Dump")]
   public static extern void b2MotorJoint_Dump(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2MotorJoint")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2MotorJoint")]
   public static extern void delete_b2MotorJoint(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2MouseJointDef")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2MouseJointDef")]
   public static extern global::System.IntPtr new_b2MouseJointDef();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MouseJointDef_target_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MouseJointDef_target_set")]
   public static extern void b2MouseJointDef_target_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MouseJointDef_target_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MouseJointDef_target_get")]
   public static extern global::System.IntPtr b2MouseJointDef_target_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MouseJointDef_maxForce_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MouseJointDef_maxForce_set")]
   public static extern void b2MouseJointDef_maxForce_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MouseJointDef_maxForce_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MouseJointDef_maxForce_get")]
   public static extern float b2MouseJointDef_maxForce_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MouseJointDef_frequencyHz_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MouseJointDef_frequencyHz_set")]
   public static extern void b2MouseJointDef_frequencyHz_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MouseJointDef_frequencyHz_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MouseJointDef_frequencyHz_get")]
   public static extern float b2MouseJointDef_frequencyHz_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MouseJointDef_dampingRatio_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MouseJointDef_dampingRatio_set")]
   public static extern void b2MouseJointDef_dampingRatio_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MouseJointDef_dampingRatio_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MouseJointDef_dampingRatio_get")]
   public static extern float b2MouseJointDef_dampingRatio_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2MouseJointDef")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2MouseJointDef")]
   public static extern void delete_b2MouseJointDef(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MouseJoint_GetAnchorA")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MouseJoint_GetAnchorA")]
   public static extern global::System.IntPtr b2MouseJoint_GetAnchorA(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MouseJoint_GetAnchorB")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MouseJoint_GetAnchorB")]
   public static extern global::System.IntPtr b2MouseJoint_GetAnchorB(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MouseJoint_GetReactionForce")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MouseJoint_GetReactionForce")]
   public static extern global::System.IntPtr b2MouseJoint_GetReactionForce(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MouseJoint_GetReactionTorque")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MouseJoint_GetReactionTorque")]
   public static extern float b2MouseJoint_GetReactionTorque(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MouseJoint_SetTarget")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MouseJoint_SetTarget")]
   public static extern void b2MouseJoint_SetTarget(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MouseJoint_GetTarget")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MouseJoint_GetTarget")]
   public static extern global::System.IntPtr b2MouseJoint_GetTarget(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MouseJoint_SetMaxForce")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MouseJoint_SetMaxForce")]
   public static extern void b2MouseJoint_SetMaxForce(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MouseJoint_GetMaxForce")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MouseJoint_GetMaxForce")]
   public static extern float b2MouseJoint_GetMaxForce(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MouseJoint_SetFrequency")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MouseJoint_SetFrequency")]
   public static extern void b2MouseJoint_SetFrequency(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MouseJoint_GetFrequency")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MouseJoint_GetFrequency")]
   public static extern float b2MouseJoint_GetFrequency(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MouseJoint_SetDampingRatio")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MouseJoint_SetDampingRatio")]
   public static extern void b2MouseJoint_SetDampingRatio(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MouseJoint_GetDampingRatio")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MouseJoint_GetDampingRatio")]
   public static extern float b2MouseJoint_GetDampingRatio(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MouseJoint_Dump")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MouseJoint_Dump")]
   public static extern void b2MouseJoint_Dump(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MouseJoint_ShiftOrigin")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MouseJoint_ShiftOrigin")]
   public static extern void b2MouseJoint_ShiftOrigin(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2MouseJoint")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2MouseJoint")]
   public static extern void delete_b2MouseJoint(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2PrismaticJointDef")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2PrismaticJointDef")]
   public static extern global::System.IntPtr new_b2PrismaticJointDef();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJointDef_Initialize")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJointDef_Initialize")]
   public static extern void b2PrismaticJointDef_Initialize(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, global::System.Runtime.InteropServices.HandleRef jarg4, global::System.Runtime.InteropServices.HandleRef jarg5);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJointDef_localAnchorA_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJointDef_localAnchorA_set")]
   public static extern void b2PrismaticJointDef_localAnchorA_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJointDef_localAnchorA_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJointDef_localAnchorA_get")]
   public static extern global::System.IntPtr b2PrismaticJointDef_localAnchorA_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJointDef_localAnchorB_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJointDef_localAnchorB_set")]
   public static extern void b2PrismaticJointDef_localAnchorB_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJointDef_localAnchorB_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJointDef_localAnchorB_get")]
   public static extern global::System.IntPtr b2PrismaticJointDef_localAnchorB_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJointDef_localAxisA_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJointDef_localAxisA_set")]
   public static extern void b2PrismaticJointDef_localAxisA_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJointDef_localAxisA_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJointDef_localAxisA_get")]
   public static extern global::System.IntPtr b2PrismaticJointDef_localAxisA_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJointDef_referenceAngle_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJointDef_referenceAngle_set")]
   public static extern void b2PrismaticJointDef_referenceAngle_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJointDef_referenceAngle_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJointDef_referenceAngle_get")]
   public static extern float b2PrismaticJointDef_referenceAngle_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJointDef_enableLimit_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJointDef_enableLimit_set")]
   public static extern void b2PrismaticJointDef_enableLimit_set(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJointDef_enableLimit_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJointDef_enableLimit_get")]
   public static extern bool b2PrismaticJointDef_enableLimit_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJointDef_lowerTranslation_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJointDef_lowerTranslation_set")]
   public static extern void b2PrismaticJointDef_lowerTranslation_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJointDef_lowerTranslation_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJointDef_lowerTranslation_get")]
   public static extern float b2PrismaticJointDef_lowerTranslation_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJointDef_upperTranslation_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJointDef_upperTranslation_set")]
   public static extern void b2PrismaticJointDef_upperTranslation_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJointDef_upperTranslation_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJointDef_upperTranslation_get")]
   public static extern float b2PrismaticJointDef_upperTranslation_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJointDef_enableMotor_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJointDef_enableMotor_set")]
   public static extern void b2PrismaticJointDef_enableMotor_set(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJointDef_enableMotor_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJointDef_enableMotor_get")]
   public static extern bool b2PrismaticJointDef_enableMotor_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJointDef_maxMotorForce_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJointDef_maxMotorForce_set")]
   public static extern void b2PrismaticJointDef_maxMotorForce_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJointDef_maxMotorForce_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJointDef_maxMotorForce_get")]
   public static extern float b2PrismaticJointDef_maxMotorForce_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJointDef_motorSpeed_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJointDef_motorSpeed_set")]
   public static extern void b2PrismaticJointDef_motorSpeed_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJointDef_motorSpeed_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJointDef_motorSpeed_get")]
   public static extern float b2PrismaticJointDef_motorSpeed_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2PrismaticJointDef")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2PrismaticJointDef")]
   public static extern void delete_b2PrismaticJointDef(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJoint_GetAnchorA")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJoint_GetAnchorA")]
   public static extern global::System.IntPtr b2PrismaticJoint_GetAnchorA(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJoint_GetAnchorB")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJoint_GetAnchorB")]
   public static extern global::System.IntPtr b2PrismaticJoint_GetAnchorB(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJoint_GetReactionForce")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJoint_GetReactionForce")]
   public static extern global::System.IntPtr b2PrismaticJoint_GetReactionForce(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJoint_GetReactionTorque")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJoint_GetReactionTorque")]
   public static extern float b2PrismaticJoint_GetReactionTorque(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJoint_GetLocalAnchorA")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJoint_GetLocalAnchorA")]
   public static extern global::System.IntPtr b2PrismaticJoint_GetLocalAnchorA(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJoint_GetLocalAnchorB")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJoint_GetLocalAnchorB")]
   public static extern global::System.IntPtr b2PrismaticJoint_GetLocalAnchorB(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJoint_GetLocalAxisA")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJoint_GetLocalAxisA")]
   public static extern global::System.IntPtr b2PrismaticJoint_GetLocalAxisA(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJoint_GetReferenceAngle")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJoint_GetReferenceAngle")]
   public static extern float b2PrismaticJoint_GetReferenceAngle(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJoint_GetJointTranslation")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJoint_GetJointTranslation")]
   public static extern float b2PrismaticJoint_GetJointTranslation(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJoint_GetJointSpeed")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJoint_GetJointSpeed")]
   public static extern float b2PrismaticJoint_GetJointSpeed(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJoint_IsLimitEnabled")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJoint_IsLimitEnabled")]
   public static extern bool b2PrismaticJoint_IsLimitEnabled(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJoint_EnableLimit")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJoint_EnableLimit")]
   public static extern void b2PrismaticJoint_EnableLimit(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJoint_GetLowerLimit")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJoint_GetLowerLimit")]
   public static extern float b2PrismaticJoint_GetLowerLimit(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJoint_GetUpperLimit")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJoint_GetUpperLimit")]
   public static extern float b2PrismaticJoint_GetUpperLimit(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJoint_SetLimits")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJoint_SetLimits")]
   public static extern void b2PrismaticJoint_SetLimits(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2, float jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJoint_IsMotorEnabled")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJoint_IsMotorEnabled")]
   public static extern bool b2PrismaticJoint_IsMotorEnabled(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJoint_EnableMotor")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJoint_EnableMotor")]
   public static extern void b2PrismaticJoint_EnableMotor(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJoint_SetMotorSpeed")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJoint_SetMotorSpeed")]
   public static extern void b2PrismaticJoint_SetMotorSpeed(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJoint_GetMotorSpeed")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJoint_GetMotorSpeed")]
   public static extern float b2PrismaticJoint_GetMotorSpeed(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJoint_SetMaxMotorForce")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJoint_SetMaxMotorForce")]
   public static extern void b2PrismaticJoint_SetMaxMotorForce(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJoint_GetMaxMotorForce")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJoint_GetMaxMotorForce")]
   public static extern float b2PrismaticJoint_GetMaxMotorForce(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJoint_GetMotorForce")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJoint_GetMotorForce")]
   public static extern float b2PrismaticJoint_GetMotorForce(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJoint_Dump")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJoint_Dump")]
   public static extern void b2PrismaticJoint_Dump(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJoint_Draw")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJoint_Draw")]
   public static extern void b2PrismaticJoint_Draw(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2PrismaticJoint")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2PrismaticJoint")]
   public static extern void delete_b2PrismaticJoint(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2_minPulleyLength_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2_minPulleyLength_get")]
   public static extern float b2_minPulleyLength_get();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2PulleyJointDef")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2PulleyJointDef")]
   public static extern global::System.IntPtr new_b2PulleyJointDef();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PulleyJointDef_Initialize")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PulleyJointDef_Initialize")]
   public static extern void b2PulleyJointDef_Initialize(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, global::System.Runtime.InteropServices.HandleRef jarg4, global::System.Runtime.InteropServices.HandleRef jarg5, global::System.Runtime.InteropServices.HandleRef jarg6, global::System.Runtime.InteropServices.HandleRef jarg7, float jarg8);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PulleyJointDef_groundAnchorA_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PulleyJointDef_groundAnchorA_set")]
   public static extern void b2PulleyJointDef_groundAnchorA_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PulleyJointDef_groundAnchorA_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PulleyJointDef_groundAnchorA_get")]
   public static extern global::System.IntPtr b2PulleyJointDef_groundAnchorA_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PulleyJointDef_groundAnchorB_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PulleyJointDef_groundAnchorB_set")]
   public static extern void b2PulleyJointDef_groundAnchorB_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PulleyJointDef_groundAnchorB_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PulleyJointDef_groundAnchorB_get")]
   public static extern global::System.IntPtr b2PulleyJointDef_groundAnchorB_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PulleyJointDef_localAnchorA_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PulleyJointDef_localAnchorA_set")]
   public static extern void b2PulleyJointDef_localAnchorA_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PulleyJointDef_localAnchorA_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PulleyJointDef_localAnchorA_get")]
   public static extern global::System.IntPtr b2PulleyJointDef_localAnchorA_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PulleyJointDef_localAnchorB_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PulleyJointDef_localAnchorB_set")]
   public static extern void b2PulleyJointDef_localAnchorB_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PulleyJointDef_localAnchorB_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PulleyJointDef_localAnchorB_get")]
   public static extern global::System.IntPtr b2PulleyJointDef_localAnchorB_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PulleyJointDef_lengthA_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PulleyJointDef_lengthA_set")]
   public static extern void b2PulleyJointDef_lengthA_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PulleyJointDef_lengthA_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PulleyJointDef_lengthA_get")]
   public static extern float b2PulleyJointDef_lengthA_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PulleyJointDef_lengthB_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PulleyJointDef_lengthB_set")]
   public static extern void b2PulleyJointDef_lengthB_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PulleyJointDef_lengthB_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PulleyJointDef_lengthB_get")]
   public static extern float b2PulleyJointDef_lengthB_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PulleyJointDef_ratio_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PulleyJointDef_ratio_set")]
   public static extern void b2PulleyJointDef_ratio_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PulleyJointDef_ratio_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PulleyJointDef_ratio_get")]
   public static extern float b2PulleyJointDef_ratio_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2PulleyJointDef")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2PulleyJointDef")]
   public static extern void delete_b2PulleyJointDef(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PulleyJoint_GetAnchorA")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PulleyJoint_GetAnchorA")]
   public static extern global::System.IntPtr b2PulleyJoint_GetAnchorA(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PulleyJoint_GetAnchorB")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PulleyJoint_GetAnchorB")]
   public static extern global::System.IntPtr b2PulleyJoint_GetAnchorB(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PulleyJoint_GetReactionForce")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PulleyJoint_GetReactionForce")]
   public static extern global::System.IntPtr b2PulleyJoint_GetReactionForce(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PulleyJoint_GetReactionTorque")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PulleyJoint_GetReactionTorque")]
   public static extern float b2PulleyJoint_GetReactionTorque(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PulleyJoint_GetGroundAnchorA")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PulleyJoint_GetGroundAnchorA")]
   public static extern global::System.IntPtr b2PulleyJoint_GetGroundAnchorA(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PulleyJoint_GetGroundAnchorB")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PulleyJoint_GetGroundAnchorB")]
   public static extern global::System.IntPtr b2PulleyJoint_GetGroundAnchorB(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PulleyJoint_GetLengthA")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PulleyJoint_GetLengthA")]
   public static extern float b2PulleyJoint_GetLengthA(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PulleyJoint_GetLengthB")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PulleyJoint_GetLengthB")]
   public static extern float b2PulleyJoint_GetLengthB(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PulleyJoint_GetRatio")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PulleyJoint_GetRatio")]
   public static extern float b2PulleyJoint_GetRatio(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PulleyJoint_GetCurrentLengthA")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PulleyJoint_GetCurrentLengthA")]
   public static extern float b2PulleyJoint_GetCurrentLengthA(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PulleyJoint_GetCurrentLengthB")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PulleyJoint_GetCurrentLengthB")]
   public static extern float b2PulleyJoint_GetCurrentLengthB(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PulleyJoint_Dump")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PulleyJoint_Dump")]
   public static extern void b2PulleyJoint_Dump(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PulleyJoint_ShiftOrigin")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PulleyJoint_ShiftOrigin")]
   public static extern void b2PulleyJoint_ShiftOrigin(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2PulleyJoint")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2PulleyJoint")]
   public static extern void delete_b2PulleyJoint(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2RevoluteJointDef")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2RevoluteJointDef")]
   public static extern global::System.IntPtr new_b2RevoluteJointDef();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJointDef_Initialize")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJointDef_Initialize")]
   public static extern void b2RevoluteJointDef_Initialize(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, global::System.Runtime.InteropServices.HandleRef jarg4);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJointDef_localAnchorA_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJointDef_localAnchorA_set")]
   public static extern void b2RevoluteJointDef_localAnchorA_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJointDef_localAnchorA_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJointDef_localAnchorA_get")]
   public static extern global::System.IntPtr b2RevoluteJointDef_localAnchorA_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJointDef_localAnchorB_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJointDef_localAnchorB_set")]
   public static extern void b2RevoluteJointDef_localAnchorB_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJointDef_localAnchorB_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJointDef_localAnchorB_get")]
   public static extern global::System.IntPtr b2RevoluteJointDef_localAnchorB_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJointDef_referenceAngle_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJointDef_referenceAngle_set")]
   public static extern void b2RevoluteJointDef_referenceAngle_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJointDef_referenceAngle_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJointDef_referenceAngle_get")]
   public static extern float b2RevoluteJointDef_referenceAngle_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJointDef_enableLimit_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJointDef_enableLimit_set")]
   public static extern void b2RevoluteJointDef_enableLimit_set(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJointDef_enableLimit_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJointDef_enableLimit_get")]
   public static extern bool b2RevoluteJointDef_enableLimit_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJointDef_lowerAngle_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJointDef_lowerAngle_set")]
   public static extern void b2RevoluteJointDef_lowerAngle_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJointDef_lowerAngle_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJointDef_lowerAngle_get")]
   public static extern float b2RevoluteJointDef_lowerAngle_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJointDef_upperAngle_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJointDef_upperAngle_set")]
   public static extern void b2RevoluteJointDef_upperAngle_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJointDef_upperAngle_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJointDef_upperAngle_get")]
   public static extern float b2RevoluteJointDef_upperAngle_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJointDef_enableMotor_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJointDef_enableMotor_set")]
   public static extern void b2RevoluteJointDef_enableMotor_set(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJointDef_enableMotor_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJointDef_enableMotor_get")]
   public static extern bool b2RevoluteJointDef_enableMotor_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJointDef_motorSpeed_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJointDef_motorSpeed_set")]
   public static extern void b2RevoluteJointDef_motorSpeed_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJointDef_motorSpeed_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJointDef_motorSpeed_get")]
   public static extern float b2RevoluteJointDef_motorSpeed_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJointDef_maxMotorTorque_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJointDef_maxMotorTorque_set")]
   public static extern void b2RevoluteJointDef_maxMotorTorque_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJointDef_maxMotorTorque_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJointDef_maxMotorTorque_get")]
   public static extern float b2RevoluteJointDef_maxMotorTorque_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2RevoluteJointDef")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2RevoluteJointDef")]
   public static extern void delete_b2RevoluteJointDef(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJoint_GetAnchorA")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJoint_GetAnchorA")]
   public static extern global::System.IntPtr b2RevoluteJoint_GetAnchorA(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJoint_GetAnchorB")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJoint_GetAnchorB")]
   public static extern global::System.IntPtr b2RevoluteJoint_GetAnchorB(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJoint_GetLocalAnchorA")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJoint_GetLocalAnchorA")]
   public static extern global::System.IntPtr b2RevoluteJoint_GetLocalAnchorA(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJoint_GetLocalAnchorB")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJoint_GetLocalAnchorB")]
   public static extern global::System.IntPtr b2RevoluteJoint_GetLocalAnchorB(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJoint_GetReferenceAngle")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJoint_GetReferenceAngle")]
   public static extern float b2RevoluteJoint_GetReferenceAngle(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJoint_GetJointAngle")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJoint_GetJointAngle")]
   public static extern float b2RevoluteJoint_GetJointAngle(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJoint_GetJointSpeed")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJoint_GetJointSpeed")]
   public static extern float b2RevoluteJoint_GetJointSpeed(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJoint_IsLimitEnabled")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJoint_IsLimitEnabled")]
   public static extern bool b2RevoluteJoint_IsLimitEnabled(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJoint_EnableLimit")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJoint_EnableLimit")]
   public static extern void b2RevoluteJoint_EnableLimit(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJoint_GetLowerLimit")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJoint_GetLowerLimit")]
   public static extern float b2RevoluteJoint_GetLowerLimit(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJoint_GetUpperLimit")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJoint_GetUpperLimit")]
   public static extern float b2RevoluteJoint_GetUpperLimit(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJoint_SetLimits")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJoint_SetLimits")]
   public static extern void b2RevoluteJoint_SetLimits(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2, float jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJoint_IsMotorEnabled")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJoint_IsMotorEnabled")]
   public static extern bool b2RevoluteJoint_IsMotorEnabled(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJoint_EnableMotor")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJoint_EnableMotor")]
   public static extern void b2RevoluteJoint_EnableMotor(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJoint_SetMotorSpeed")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJoint_SetMotorSpeed")]
   public static extern void b2RevoluteJoint_SetMotorSpeed(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJoint_GetMotorSpeed")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJoint_GetMotorSpeed")]
   public static extern float b2RevoluteJoint_GetMotorSpeed(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJoint_SetMaxMotorTorque")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJoint_SetMaxMotorTorque")]
   public static extern void b2RevoluteJoint_SetMaxMotorTorque(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJoint_GetMaxMotorTorque")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJoint_GetMaxMotorTorque")]
   public static extern float b2RevoluteJoint_GetMaxMotorTorque(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJoint_GetReactionForce")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJoint_GetReactionForce")]
   public static extern global::System.IntPtr b2RevoluteJoint_GetReactionForce(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJoint_GetReactionTorque")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJoint_GetReactionTorque")]
   public static extern float b2RevoluteJoint_GetReactionTorque(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJoint_GetMotorTorque")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJoint_GetMotorTorque")]
   public static extern float b2RevoluteJoint_GetMotorTorque(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJoint_Dump")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJoint_Dump")]
   public static extern void b2RevoluteJoint_Dump(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2RevoluteJoint")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2RevoluteJoint")]
   public static extern void delete_b2RevoluteJoint(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2RopeJointDef")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2RopeJointDef")]
   public static extern global::System.IntPtr new_b2RopeJointDef();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RopeJointDef_localAnchorA_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RopeJointDef_localAnchorA_set")]
   public static extern void b2RopeJointDef_localAnchorA_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RopeJointDef_localAnchorA_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RopeJointDef_localAnchorA_get")]
   public static extern global::System.IntPtr b2RopeJointDef_localAnchorA_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RopeJointDef_localAnchorB_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RopeJointDef_localAnchorB_set")]
   public static extern void b2RopeJointDef_localAnchorB_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RopeJointDef_localAnchorB_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RopeJointDef_localAnchorB_get")]
   public static extern global::System.IntPtr b2RopeJointDef_localAnchorB_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RopeJointDef_maxLength_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RopeJointDef_maxLength_set")]
   public static extern void b2RopeJointDef_maxLength_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RopeJointDef_maxLength_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RopeJointDef_maxLength_get")]
   public static extern float b2RopeJointDef_maxLength_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2RopeJointDef")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2RopeJointDef")]
   public static extern void delete_b2RopeJointDef(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RopeJoint_GetAnchorA")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RopeJoint_GetAnchorA")]
   public static extern global::System.IntPtr b2RopeJoint_GetAnchorA(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RopeJoint_GetAnchorB")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RopeJoint_GetAnchorB")]
   public static extern global::System.IntPtr b2RopeJoint_GetAnchorB(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RopeJoint_GetReactionForce")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RopeJoint_GetReactionForce")]
   public static extern global::System.IntPtr b2RopeJoint_GetReactionForce(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RopeJoint_GetReactionTorque")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RopeJoint_GetReactionTorque")]
   public static extern float b2RopeJoint_GetReactionTorque(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RopeJoint_GetLocalAnchorA")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RopeJoint_GetLocalAnchorA")]
   public static extern global::System.IntPtr b2RopeJoint_GetLocalAnchorA(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RopeJoint_GetLocalAnchorB")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RopeJoint_GetLocalAnchorB")]
   public static extern global::System.IntPtr b2RopeJoint_GetLocalAnchorB(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RopeJoint_SetMaxLength")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RopeJoint_SetMaxLength")]
   public static extern void b2RopeJoint_SetMaxLength(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RopeJoint_GetMaxLength")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RopeJoint_GetMaxLength")]
   public static extern float b2RopeJoint_GetMaxLength(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RopeJoint_GetLength")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RopeJoint_GetLength")]
   public static extern float b2RopeJoint_GetLength(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RopeJoint_Dump")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RopeJoint_Dump")]
   public static extern void b2RopeJoint_Dump(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2RopeJoint")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2RopeJoint")]
   public static extern void delete_b2RopeJoint(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2WeldJointDef")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2WeldJointDef")]
   public static extern global::System.IntPtr new_b2WeldJointDef();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WeldJointDef_Initialize")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WeldJointDef_Initialize")]
   public static extern void b2WeldJointDef_Initialize(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, global::System.Runtime.InteropServices.HandleRef jarg4);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WeldJointDef_localAnchorA_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WeldJointDef_localAnchorA_set")]
   public static extern void b2WeldJointDef_localAnchorA_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WeldJointDef_localAnchorA_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WeldJointDef_localAnchorA_get")]
   public static extern global::System.IntPtr b2WeldJointDef_localAnchorA_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WeldJointDef_localAnchorB_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WeldJointDef_localAnchorB_set")]
   public static extern void b2WeldJointDef_localAnchorB_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WeldJointDef_localAnchorB_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WeldJointDef_localAnchorB_get")]
   public static extern global::System.IntPtr b2WeldJointDef_localAnchorB_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WeldJointDef_referenceAngle_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WeldJointDef_referenceAngle_set")]
   public static extern void b2WeldJointDef_referenceAngle_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WeldJointDef_referenceAngle_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WeldJointDef_referenceAngle_get")]
   public static extern float b2WeldJointDef_referenceAngle_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WeldJointDef_frequencyHz_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WeldJointDef_frequencyHz_set")]
   public static extern void b2WeldJointDef_frequencyHz_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WeldJointDef_frequencyHz_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WeldJointDef_frequencyHz_get")]
   public static extern float b2WeldJointDef_frequencyHz_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WeldJointDef_dampingRatio_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WeldJointDef_dampingRatio_set")]
   public static extern void b2WeldJointDef_dampingRatio_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WeldJointDef_dampingRatio_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WeldJointDef_dampingRatio_get")]
   public static extern float b2WeldJointDef_dampingRatio_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2WeldJointDef")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2WeldJointDef")]
   public static extern void delete_b2WeldJointDef(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WeldJoint_GetAnchorA")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WeldJoint_GetAnchorA")]
   public static extern global::System.IntPtr b2WeldJoint_GetAnchorA(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WeldJoint_GetAnchorB")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WeldJoint_GetAnchorB")]
   public static extern global::System.IntPtr b2WeldJoint_GetAnchorB(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WeldJoint_GetReactionForce")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WeldJoint_GetReactionForce")]
   public static extern global::System.IntPtr b2WeldJoint_GetReactionForce(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WeldJoint_GetReactionTorque")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WeldJoint_GetReactionTorque")]
   public static extern float b2WeldJoint_GetReactionTorque(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WeldJoint_GetLocalAnchorA")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WeldJoint_GetLocalAnchorA")]
   public static extern global::System.IntPtr b2WeldJoint_GetLocalAnchorA(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WeldJoint_GetLocalAnchorB")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WeldJoint_GetLocalAnchorB")]
   public static extern global::System.IntPtr b2WeldJoint_GetLocalAnchorB(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WeldJoint_GetReferenceAngle")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WeldJoint_GetReferenceAngle")]
   public static extern float b2WeldJoint_GetReferenceAngle(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WeldJoint_SetFrequency")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WeldJoint_SetFrequency")]
   public static extern void b2WeldJoint_SetFrequency(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WeldJoint_GetFrequency")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WeldJoint_GetFrequency")]
   public static extern float b2WeldJoint_GetFrequency(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WeldJoint_SetDampingRatio")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WeldJoint_SetDampingRatio")]
   public static extern void b2WeldJoint_SetDampingRatio(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WeldJoint_GetDampingRatio")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WeldJoint_GetDampingRatio")]
   public static extern float b2WeldJoint_GetDampingRatio(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WeldJoint_Dump")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WeldJoint_Dump")]
   public static extern void b2WeldJoint_Dump(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2WeldJoint")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2WeldJoint")]
   public static extern void delete_b2WeldJoint(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_new_b2WheelJointDef")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_new_b2WheelJointDef")]
   public static extern global::System.IntPtr new_b2WheelJointDef();
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJointDef_Initialize")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJointDef_Initialize")]
   public static extern void b2WheelJointDef_Initialize(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, global::System.Runtime.InteropServices.HandleRef jarg4, global::System.Runtime.InteropServices.HandleRef jarg5);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJointDef_localAnchorA_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJointDef_localAnchorA_set")]
   public static extern void b2WheelJointDef_localAnchorA_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJointDef_localAnchorA_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJointDef_localAnchorA_get")]
   public static extern global::System.IntPtr b2WheelJointDef_localAnchorA_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJointDef_localAnchorB_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJointDef_localAnchorB_set")]
   public static extern void b2WheelJointDef_localAnchorB_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJointDef_localAnchorB_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJointDef_localAnchorB_get")]
   public static extern global::System.IntPtr b2WheelJointDef_localAnchorB_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJointDef_localAxisA_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJointDef_localAxisA_set")]
   public static extern void b2WheelJointDef_localAxisA_set(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJointDef_localAxisA_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJointDef_localAxisA_get")]
   public static extern global::System.IntPtr b2WheelJointDef_localAxisA_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJointDef_enableLimit_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJointDef_enableLimit_set")]
   public static extern void b2WheelJointDef_enableLimit_set(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJointDef_enableLimit_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJointDef_enableLimit_get")]
   public static extern bool b2WheelJointDef_enableLimit_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJointDef_lowerTranslation_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJointDef_lowerTranslation_set")]
   public static extern void b2WheelJointDef_lowerTranslation_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJointDef_lowerTranslation_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJointDef_lowerTranslation_get")]
   public static extern float b2WheelJointDef_lowerTranslation_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJointDef_upperTranslation_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJointDef_upperTranslation_set")]
   public static extern void b2WheelJointDef_upperTranslation_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJointDef_upperTranslation_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJointDef_upperTranslation_get")]
   public static extern float b2WheelJointDef_upperTranslation_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJointDef_enableMotor_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJointDef_enableMotor_set")]
   public static extern void b2WheelJointDef_enableMotor_set(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJointDef_enableMotor_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJointDef_enableMotor_get")]
   public static extern bool b2WheelJointDef_enableMotor_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJointDef_maxMotorTorque_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJointDef_maxMotorTorque_set")]
   public static extern void b2WheelJointDef_maxMotorTorque_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJointDef_maxMotorTorque_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJointDef_maxMotorTorque_get")]
   public static extern float b2WheelJointDef_maxMotorTorque_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJointDef_motorSpeed_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJointDef_motorSpeed_set")]
   public static extern void b2WheelJointDef_motorSpeed_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJointDef_motorSpeed_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJointDef_motorSpeed_get")]
   public static extern float b2WheelJointDef_motorSpeed_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJointDef_stiffness_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJointDef_stiffness_set")]
   public static extern void b2WheelJointDef_stiffness_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJointDef_stiffness_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJointDef_stiffness_get")]
   public static extern float b2WheelJointDef_stiffness_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJointDef_damping_set")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJointDef_damping_set")]
   public static extern void b2WheelJointDef_damping_set(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJointDef_damping_get")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJointDef_damping_get")]
   public static extern float b2WheelJointDef_damping_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2WheelJointDef")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2WheelJointDef")]
   public static extern void delete_b2WheelJointDef(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJoint_GetAnchorA")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJoint_GetAnchorA")]
   public static extern global::System.IntPtr b2WheelJoint_GetAnchorA(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJoint_GetAnchorB")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJoint_GetAnchorB")]
   public static extern global::System.IntPtr b2WheelJoint_GetAnchorB(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJoint_GetReactionForce")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJoint_GetReactionForce")]
   public static extern global::System.IntPtr b2WheelJoint_GetReactionForce(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJoint_GetReactionTorque")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJoint_GetReactionTorque")]
   public static extern float b2WheelJoint_GetReactionTorque(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJoint_GetLocalAnchorA")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJoint_GetLocalAnchorA")]
   public static extern global::System.IntPtr b2WheelJoint_GetLocalAnchorA(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJoint_GetLocalAnchorB")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJoint_GetLocalAnchorB")]
   public static extern global::System.IntPtr b2WheelJoint_GetLocalAnchorB(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJoint_GetLocalAxisA")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJoint_GetLocalAxisA")]
   public static extern global::System.IntPtr b2WheelJoint_GetLocalAxisA(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJoint_GetJointTranslation")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJoint_GetJointTranslation")]
   public static extern float b2WheelJoint_GetJointTranslation(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJoint_GetJointLinearSpeed")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJoint_GetJointLinearSpeed")]
   public static extern float b2WheelJoint_GetJointLinearSpeed(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJoint_GetJointAngle")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJoint_GetJointAngle")]
   public static extern float b2WheelJoint_GetJointAngle(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJoint_GetJointAngularSpeed")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJoint_GetJointAngularSpeed")]
   public static extern float b2WheelJoint_GetJointAngularSpeed(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJoint_IsLimitEnabled")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJoint_IsLimitEnabled")]
   public static extern bool b2WheelJoint_IsLimitEnabled(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJoint_EnableLimit")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJoint_EnableLimit")]
   public static extern void b2WheelJoint_EnableLimit(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJoint_GetLowerLimit")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJoint_GetLowerLimit")]
   public static extern float b2WheelJoint_GetLowerLimit(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJoint_GetUpperLimit")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJoint_GetUpperLimit")]
   public static extern float b2WheelJoint_GetUpperLimit(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJoint_SetLimits")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJoint_SetLimits")]
   public static extern void b2WheelJoint_SetLimits(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2, float jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJoint_IsMotorEnabled")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJoint_IsMotorEnabled")]
   public static extern bool b2WheelJoint_IsMotorEnabled(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJoint_EnableMotor")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJoint_EnableMotor")]
   public static extern void b2WheelJoint_EnableMotor(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJoint_SetMotorSpeed")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJoint_SetMotorSpeed")]
   public static extern void b2WheelJoint_SetMotorSpeed(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJoint_GetMotorSpeed")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJoint_GetMotorSpeed")]
   public static extern float b2WheelJoint_GetMotorSpeed(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJoint_SetMaxMotorTorque")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJoint_SetMaxMotorTorque")]
   public static extern void b2WheelJoint_SetMaxMotorTorque(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJoint_GetMaxMotorTorque")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJoint_GetMaxMotorTorque")]
   public static extern float b2WheelJoint_GetMaxMotorTorque(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJoint_GetMotorTorque")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJoint_GetMotorTorque")]
   public static extern float b2WheelJoint_GetMotorTorque(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJoint_SetStiffness")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJoint_SetStiffness")]
   public static extern void b2WheelJoint_SetStiffness(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJoint_GetStiffness")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJoint_GetStiffness")]
   public static extern float b2WheelJoint_GetStiffness(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJoint_SetDamping")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJoint_SetDamping")]
   public static extern void b2WheelJoint_SetDamping(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJoint_GetDamping")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJoint_GetDamping")]
   public static extern float b2WheelJoint_GetDamping(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJoint_Dump")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJoint_Dump")]
   public static extern void b2WheelJoint_Dump(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJoint_Draw")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJoint_Draw")]
   public static extern void b2WheelJoint_Draw(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_delete_b2WheelJoint")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_delete_b2WheelJoint")]
   public static extern void delete_b2WheelJoint(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2ChainShape_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2ChainShape_SWIGUpcast")]
   public static extern global::System.IntPtr b2ChainShape_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2CircleShape_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2CircleShape_SWIGUpcast")]
   public static extern global::System.IntPtr b2CircleShape_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2EdgeShape_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2EdgeShape_SWIGUpcast")]
   public static extern global::System.IntPtr b2EdgeShape_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PolygonShape_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PolygonShape_SWIGUpcast")]
   public static extern global::System.IntPtr b2PolygonShape_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DistanceJointDef_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DistanceJointDef_SWIGUpcast")]
   public static extern global::System.IntPtr b2DistanceJointDef_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2DistanceJoint_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2DistanceJoint_SWIGUpcast")]
   public static extern global::System.IntPtr b2DistanceJoint_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FrictionJointDef_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FrictionJointDef_SWIGUpcast")]
   public static extern global::System.IntPtr b2FrictionJointDef_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2FrictionJoint_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2FrictionJoint_SWIGUpcast")]
   public static extern global::System.IntPtr b2FrictionJoint_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2GearJointDef_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2GearJointDef_SWIGUpcast")]
   public static extern global::System.IntPtr b2GearJointDef_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2GearJoint_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2GearJoint_SWIGUpcast")]
   public static extern global::System.IntPtr b2GearJoint_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MotorJointDef_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MotorJointDef_SWIGUpcast")]
   public static extern global::System.IntPtr b2MotorJointDef_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MotorJoint_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MotorJoint_SWIGUpcast")]
   public static extern global::System.IntPtr b2MotorJoint_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MouseJointDef_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MouseJointDef_SWIGUpcast")]
   public static extern global::System.IntPtr b2MouseJointDef_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2MouseJoint_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2MouseJoint_SWIGUpcast")]
   public static extern global::System.IntPtr b2MouseJoint_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJointDef_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJointDef_SWIGUpcast")]
   public static extern global::System.IntPtr b2PrismaticJointDef_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PrismaticJoint_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PrismaticJoint_SWIGUpcast")]
   public static extern global::System.IntPtr b2PrismaticJoint_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PulleyJointDef_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PulleyJointDef_SWIGUpcast")]
   public static extern global::System.IntPtr b2PulleyJointDef_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2PulleyJoint_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2PulleyJoint_SWIGUpcast")]
   public static extern global::System.IntPtr b2PulleyJoint_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJointDef_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJointDef_SWIGUpcast")]
   public static extern global::System.IntPtr b2RevoluteJointDef_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RevoluteJoint_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RevoluteJoint_SWIGUpcast")]
   public static extern global::System.IntPtr b2RevoluteJoint_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RopeJointDef_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RopeJointDef_SWIGUpcast")]
   public static extern global::System.IntPtr b2RopeJointDef_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2RopeJoint_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2RopeJoint_SWIGUpcast")]
   public static extern global::System.IntPtr b2RopeJoint_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WeldJointDef_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WeldJointDef_SWIGUpcast")]
   public static extern global::System.IntPtr b2WeldJointDef_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WeldJoint_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WeldJoint_SWIGUpcast")]
   public static extern global::System.IntPtr b2WeldJoint_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJointDef_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJointDef_SWIGUpcast")]
   public static extern global::System.IntPtr b2WheelJointDef_SWIGUpcast(global::System.IntPtr jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_Box2DCS_b2WheelJoint_SWIGUpcast")]
+  [global::System.Runtime.InteropServices.DllImport("Box2D", EntryPoint="CSharp_b2Sharp_b2WheelJoint_SWIGUpcast")]
   public static extern global::System.IntPtr b2WheelJoint_SWIGUpcast(global::System.IntPtr jarg1);
 }
 
